@@ -1,0 +1,70 @@
+.bg {
+  background: url(../../img/overview/bg.png) center top no-repeat;
+  background-size: 80% 100%;
+  padding: 3rem 0 0 0;
+  border: 0px solid red;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.content h1 {
+  font-size: 2.8rem;
+}
+.content h1 span {
+  font-size: 150%;
+}
+.progressbar {
+  width: 90%;
+  margin-bottom: -4rem;
+}
+
+.bubble {
+  background: url(../../img/overview/bubble-talk.png) center top no-repeat;
+  background-size: 100% 100%;
+  padding: 1rem 1.5rem 2.5rem 1.5rem;
+  text-align: center;
+  position: absolute;
+  top: -4.5rem;
+  right: -3%;
+  font-weight: bold;
+}
+.ladybird {
+  position: absolute;
+  top: -4.5rem;
+  left: -5%;
+  width: 429px;
+  height: 163px;
+  transform: translate(-50%, -50%);
+  background-image: url("../../img/overview/ladybird.png");
+  transform: scale(0.6);
+  animation: key 5s steps(10) infinite;
+  animation-delay: 5s;
+  border: 0px solid red;
+}
+
+@keyframes key {
+  0% {
+    background-position: 0px;
+  }
+  25% {
+    background-position: 4290px;
+  }
+  100% {
+    background-position: 4290px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .ladybird {
+    top: -9rem;
+    left: -16rem;
+    transform: scale(0.3);
+  }
+  .bubble {
+    padding: 1rem 1rem 2rem 1rem;
+    top: -4.7rem;
+    right: -3%;
+  }
+}

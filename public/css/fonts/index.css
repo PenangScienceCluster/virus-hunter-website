@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "tenbyfive";
+  src: url("./tenby-five/tenby-five.eot"); /* IE9 Compat Modes */
+  src: url("./tenby-five/tenby-five.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./tenby-five/tenby-five.otf") format("opentype"),
+    /* Open Type Font */ url("./tenby-five/tenby-five.svg") format("svg"),
+    /* Legacy iOS */ url("./tenby-five/tenby-five.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./tenby-five/tenby-five.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./tenby-five/tenby-five.woff2") format("woff2"); /* Modern Browsers */
+}
+
+.tenbyfive {
+  font-family: tenbyfive;
+}

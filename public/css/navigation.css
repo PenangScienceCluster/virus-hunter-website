@@ -1,0 +1,98 @@
+/* .navbar {
+  border: 1px solid red;
+  position: absolute;
+  z-index: 999;
+  width: 26%;
+  margin-left: -1rem;
+  top: 0%;
+  display: block;
+} */
+
+.logo-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 22vw;
+  border: 0px solid red;
+}
+
+.navbar-expand-lg .navbar-toggler {
+  display: block;
+}
+.navbar-toggler {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 5vw;
+  border: 0px solid red;
+  z-index: 100;
+  transition: all 0.1s ease;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+}
+
+.navbar-nav {
+  flex-direction: column !important;
+}
+.navbar-collapse {
+  position: absolute;
+  left: 101%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #000;
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  z-index: 101;
+  transition: left 0.3s ease;
+}
+
+.navbar-collapse.collapsing {
+  -webkit-transition: left 0.3s ease;
+  -o-transition: left 0.3s ease;
+  -moz-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+  left: -120%;
+}
+.navbar-collapse.show {
+  left: 0;
+  -webkit-transition: left 0.2s ease-in;
+  -o-transition: left 0.2s ease-in;
+  -moz-transition: left 0.2s ease-in;
+  transition: left 0.2s ease-in;
+}
+
+.nav-link {
+  font-size: 2.5vw;
+  color: #fff !important;
+  border: 0px solid red;
+  margin-bottom: 2vh;
+  font-family: tenbyfive;
+}
+.nav-link:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.nav-line {
+  width: 5vw;
+  border-top: 5px solid #99cc33;
+  margin: auto;
+}
+.navbar-collapse .btn-back {
+  background: transparent;
+  border: 0;
+  width: 4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 820px) {
+  .btn-back {
+    width: 3rem;
+  }
+}

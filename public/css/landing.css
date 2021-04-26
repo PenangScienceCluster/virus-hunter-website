@@ -1,0 +1,95 @@
+.bg-radar {
+  position: absolute;
+  background: url(../../img/landing/bg-radar.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 60%;
+}
+
+.footer {
+  position: absolute;
+  background: url(../../img/landing/sub-logos-bg.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  z-index: 0;
+  bottom: 0;
+  right: 2%;
+  padding: 2rem 2rem 1rem 2rem;
+  font-weight: bold;
+}
+
+.virus {
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+  width: 116px;
+  height: 116px;
+  transform: translate(-50%, -50%);
+  background-image: url("../../img/landing/moving-virus.png");
+  transform: scale(0.6);
+  animation: key-virus 1s steps(3) infinite;
+  border: 0px solid red;
+}
+
+.bat {
+  position: absolute;
+  top: -20%;
+  right: -5%;
+  width: 186px;
+  height: 132px;
+  transform: translate(-50%, -50%);
+  background-image: url("../../img/landing/moving-bat.png");
+  transform: scale(0.6);
+  animation: key-bat 1s steps(2) infinite;
+  border: 0px solid red;
+}
+
+.header {
+  margin: 0 0 0 0;
+}
+
+.main {
+  width: 60%;
+  margin-top: -8%;
+}
+
+.btn-ready {
+  margin-top: -8%;
+}
+
+@keyframes key-virus {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -348px;
+  }
+}
+
+@keyframes key-bat {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -372px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .bg-radar {
+    width: 50%;
+  }
+  .virus {
+    bottom: -30%;
+    right: -11%;
+    transform: scale(0.4);
+  }
+  .bat {
+    top: -54%;
+    right: -13%;
+    transform: scale(0.4);
+  }
+}
