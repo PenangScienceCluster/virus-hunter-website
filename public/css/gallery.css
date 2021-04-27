@@ -1,0 +1,103 @@
+.bg {
+  background: url(../../img/bg-brown.png) center top no-repeat;
+  background-size: 95% 100%;
+  border: 0px solid red;
+  height: 85vh;
+}
+.content {
+  width: 75%;
+}
+.desc {
+  margin: 3rem 0;
+}
+
+.gallery .nav-tabs {
+  border: 0;
+}
+
+.gallery .nav-link {
+  background-color: #fff;
+  color: #bcdbd3 !important;
+  border-radius: 20px 20px 0 0 !important;
+  margin-bottom: 0;
+  border: 0 !important;
+  transition: all 0.3s ease;
+}
+
+.gallery .nav-link.active {
+  background-color: #e7f3e9 !important;
+  color: #2b8a2b !important;
+}
+
+.gallery .nav-link:hover {
+  opacity: 1;
+  background-color: #e7f3e9 !important;
+  color: #2b8a2b !important;
+}
+
+.gallery .tab-content {
+  height: 70vh;
+  border: 0px solid red;
+  background-color: #e7f3e9 !important;
+  padding: 4rem;
+}
+
+/* slider css */
+.gallery .owl-prev {
+  position: absolute;
+  left: -15%;
+  top: 40%;
+  font-size: 20px;
+}
+
+.gallery .owl-next {
+  position: absolute;
+  right: -15%;
+  top: 40%;
+  font-size: 20px;
+}
+
+.gallery .owl-theme .owl-nav [class*="owl-"] {
+  background: transparent;
+  color: #000;
+  font-size: 2vw;
+}
+
+.gallery .maxh {
+  max-height: 100vh;
+}
+
+.gallery .owl-carousel .owl-video-tn {
+  position: relative;
+  height: 0;
+  background-size: cover;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+/* slider css */
+
+.gallery .row-odd {
+  background: #ded1c8;
+  padding: 1rem;
+  font-size: 1.3vw;
+}
+
+.gallery .row-odd:hover,
+.gallery .row-even:hover {
+  opacity: 0.5;
+}
+
+.gallery .row-even {
+  background: #fff;
+  padding: 1rem;
+  font-size: 1.3vw;
+}
+
+.gallery .fa-file-pdf {
+  color: #2b8a74;
+  font-size: 2vw;
+}
+
+@media only screen and (max-height: 480px) {
+}

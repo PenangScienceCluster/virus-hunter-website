@@ -16,11 +16,52 @@ class Index extends BaseController
           'css' => ['/css/landing.css?'.time()],
         ]);
     }
-    public function section($section)
+    public function section($section = null)
     {
+        $showLogo = true;
+        $js = $navSide = [];
+        $css = ['/css/'.$section.'.css?'.time()];
+        
+        switch ($section) {
+          case  'gallery':
+            $js = [
+              '/lib/owl-carousel/owl.carousel.min.js',
+              '/js/gallery.js'
+            ];
+            $css = [
+              '/lib/owl-carousel/assets/owl.carousel.min.css',
+              '/lib/owl-carousel/assets/owl.theme.default.css',
+              '/css/gallery.css'
+            ];
+            break;
+          case "pandemics":
+            $navSide = ['fact','virushunter','career','us'];
+            break;
+          case "zoonotic":
+            $navSide = ['fact','try','career'];
+            break;
+          case "nipah":
+            $navSide = ['fact','virushunter','career','try'];
+            break;
+          case "covid":
+            $navSide = ['fact','virushunter','us'];
+            break;
+          case "vaccines":
+            $navSide = ['fact','virushunter','try'];
+            break;
+          case "toolsandtechniques":
+            $navSide = ['fact','us','try'];
+            break;
+            
+            
+        };
+        
         echo view('/pages/'.$section, [
-          'showLogo' => true,
-          'css' => ['/css/'.$section.'.css?'.time()],
+          'showLogo' => $showLogo,
+          'navSide' => $navSide,
+          'section' => $section,
+          'js'=> $js,
+          'css'=> $css,
         ]);
     }
 }

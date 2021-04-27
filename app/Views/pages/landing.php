@@ -1,15 +1,11 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
-<style>
-
-</style>
-
 
 <div class="bg-radar h-100"></div>
 
 <div class="container h-100">
   <div class="row align-items-center h-100">
-    <div class="col-sm-7 col-lg-9 mx-auto">
+    <div class="col-7 col-sm-7 col-lg-9 mx-auto">
 
       <div class="position-relative w-100 header mx-auto">
         <div class="virus"></div>
@@ -49,12 +45,7 @@
         </div>
       </div>
     </div>
-
-
-
   </div>
-
-
 </div>
 
 <?= $this->endSection()  ?>

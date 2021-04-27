@@ -8,7 +8,7 @@
   display: block;
 } */
 
-.logo-top {
+.nav-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -22,8 +22,8 @@
 }
 .navbar-toggler {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 1.2rem;
+  right: 1rem;
   width: 5vw;
   border: 0px solid red;
   z-index: 100;
@@ -78,8 +78,8 @@
 
 .nav-line {
   width: 5vw;
-  border-top: 5px solid #99cc33;
-  margin: auto;
+  border-top: 3px solid #99cc33;
+  margin: 0 auto 2rem auto;
 }
 .navbar-collapse .btn-back {
   background: transparent;

@@ -1,0 +1,22 @@
+.bg {
+  background: url(../../img/bg-brown.png) center top no-repeat;
+  background-size: 95% 100%;
+  border: 0px solid red;
+  height: 85vh;
+}
+.content {
+  width: 75%;
+}
+.desc {
+  margin: 3rem 0;
+}
+.logo-base {
+  background: url(../../img/aboutus/bg-logo.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding: 2rem 3rem;
+  /* margin: 0 0 0 0; */
+  /* border: 1px solid red; */
+}
+
+@media only screen and (max-height: 480px) {
+}

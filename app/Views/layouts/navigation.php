@@ -1,8 +1,22 @@
 <?php if ($showLogo): ?>
-<div class="logo-top">
-  <img src="/img/logo-top.png" class="img-fluid" />
+<div class="nav-top">
+  <div class="logo-top">
+    <a href="<?= urlWithLocale('/'); ?>"><img src="/img/logo-top.png" class="img-fluid" /></a>
+  </div>
+  <?php if (!empty($navSide)): ?>
+  <div class="informations w-25 pl-3">
+    <?php
+    foreach ($navSide as $i=>$v) {
+        echo '<button class="btn btn-link btn-block p-0 m-0 btn-side" id="'.$v.'" data-img="btn-side-'.$v.'" data-toggle="modal" data-target="#'.$v.'_pop">
+              <img src="/img/btn-side-'.$v.'-off.png" class="img-fluid" />
+            </button>';
+    }
+    ?>
+  </div>
+  <?php endif ?>
 </div>
 <?php endif ?>
+
 
 <button class="navbar-toggler b-red" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

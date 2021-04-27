@@ -24,7 +24,11 @@ body {
   overflow-y: auto;
 }
 
+a {
+  color: #000;
+}
 a:hover {
+  color: #99cc33;
   text-decoration: none !important;
 }
 
@@ -56,6 +60,12 @@ a:hover {
   width: 90% !important;
 }
 
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
 h4 {
   font-size: 1.5vw;
 }
@@ -99,6 +109,29 @@ button:active {
   display: none;
 }
 
+/* custom */
+.progressbar {
+  position: absolute;
+  background: url(../img/progressbar/bg.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  right: 0;
+  border: 0px solid red;
+  padding: 0.1rem 7rem 5rem 2.2rem;
+}
+.progressbar .flex-row {
+  height: 5vh;
+}
+.progressbar .world {
+  border: 0px solid red;
+  width: 20%;
+}
+.progressbar .worldtitle {
+  position: absolute;
+  top: 30%;
+  left: -23%;
+  text-shadow: 5px 3px 3px #8ec63f;
+}
 @media only screen and (orientation: portrait) {
   body {
     background-size: cover;
