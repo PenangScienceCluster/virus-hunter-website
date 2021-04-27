@@ -6,9 +6,12 @@
 <?= view('layouts/progressbar', [
   'title' => 'tools & <Br>techniques'
 ]) ?>
-<!-- this one need start -->
-<input type="hidden" id="section" value="<?= $section ?>" />
-<!-- this one need end -->
+<?= view('layouts/bottom-nav', [
+  'nextLink' => '/completed',
+  'nextLinkName' => 'done',
+  'backLink' => '/vaccines',
+  'backLinkName' => 'vaccines'
+]) ?>
 
 <!-- Modal -->
 <div class="modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

@@ -38,6 +38,15 @@ class Index extends BaseController
             $navSide = ['fact','virushunter','career','us'];
             break;
           case "zoonotic":
+            $js = [
+              '/lib/touch/jquery-ui.min.js',
+              '/lib/touhc/jquery.ui.touch-punch.min.js',
+              '/js/zoonotic.js'
+            ];
+            $css = [
+              '/lib/touch/jquery-ui.min.css',
+              '/css/zoonotic.css'
+            ];
             $navSide = ['fact','try','career'];
             break;
           case "nipah":

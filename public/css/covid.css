@@ -1,7 +1,10 @@
 body {
-  background: url(../../img/nipah/bg.jpg) 0 0 no-repeat;
+  background: url(../../img/covid/bg.jpg) 0 0 no-repeat;
   background-size: 100% 100%;
 }
 
+.progressbar .worldtitle {
+  left: -18%;
+}
 @media only screen and (max-height: 480px) {
 }

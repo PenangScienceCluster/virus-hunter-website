@@ -4,11 +4,16 @@
 </style>
 
 <?= view('layouts/progressbar', [
-  'title' => 'zoonotic'
+  'title' => 'zoonotic <br>diseases'
 ]) ?>
-<!-- this one need start -->
-<input type="hidden" id="section" value="<?= $section ?>" />
-<!-- this one need end -->
+
+<?= view('layouts/bottom-nav', [
+  'nextLink' => '/nipah',
+  'nextLinkName' => 'nipah virus',
+  'backLink' => '/pandemics',
+  'backLinkName' => 'pandemics'
+]) ?>
+
 
 <!-- Modal -->
 <div class="modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

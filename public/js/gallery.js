@@ -1,14 +1,4 @@
 $(function () {
-  // var carousel = $(".owl-carousel").owlCarousel({
-  //   items: 1,
-  //   loop: 1,
-  //   dots: 1,
-  //   autoplay: 0,
-  // });
-  // window.owlTube = $(carousel).owlTube({
-  //   autoplay: 0,
-  // });
-
   $(".photos").owlCarousel({
     loop: true,
     margin: 10,

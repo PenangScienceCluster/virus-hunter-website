@@ -11,13 +11,19 @@
   right: -7%;
 }
 </style>
-<!-- this one need start -->
-<input type="hidden" id="section" value="<?= $section ?>" />
-<!-- this one need end -->
+
 
 <?= view('layouts/progressbar', [
   'title' => 'PANDEMICS'
 ]) ?>
+
+<?= view('layouts/bottom-nav', [
+  'nextLink' => '/zoonotic',
+  'nextLinkName' => 'zoonotic diseases',
+  'backLink' => '/overview',
+  'backLinkName' => 'overview'
+]) ?>
+
 
 <!-- Modal -->
 <div class="modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

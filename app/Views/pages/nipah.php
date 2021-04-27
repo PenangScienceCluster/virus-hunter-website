@@ -7,8 +7,17 @@
 <!-- this one need end -->
 
 <?= view('layouts/progressbar', [
-  'title' => 'nipah'
+  'title' => 'nipah virus'
 ]) ?>
+
+
+<?= view('layouts/bottom-nav', [
+  'nextLink' => '/covid',
+  'nextLinkName' => 'covid-19',
+  'backLink' => '/zoonotic',
+  'backLinkName' => 'zoonotic diseases'
+]) ?>
+
 
 <!-- Modal -->
 <div class="modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -40,10 +49,6 @@
       <div class="modal-body">
         ...
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>
@@ -61,10 +66,6 @@
       <div class="modal-body">
         ...
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>
@@ -81,10 +82,6 @@
       </div>
       <div class="modal-body">
         ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -104,10 +101,6 @@
       </div>
       <div class="modal-body">
         ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

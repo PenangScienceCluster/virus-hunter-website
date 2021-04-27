@@ -131,7 +131,35 @@ button:active {
   top: 30%;
   left: -23%;
   text-shadow: 5px 3px 3px #8ec63f;
+  line-height: 1em;
 }
+
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+  font-size: 2vw;
+  z-index: 5;
+}
+.bottom-nav .back {
+  background: url(../img/btn-btm-back.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+.bottom-nav span {
+  opacity: 0.5;
+}
+.bottom-nav .back:hover span,
+.bottom-nav .next:hover span {
+  opacity: 1;
+}
+.bottom-nav .next {
+  background: url(../img/btn-btm-next.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-left: 3rem;
+  cursor: pointer;
+}
+
 @media only screen and (orientation: portrait) {
   body {
     background-size: cover;
