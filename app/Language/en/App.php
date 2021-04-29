@@ -14,6 +14,13 @@ return [
     'contactus' => 'Contact Us',
   ],
 
+  'subnav' => [
+    'pocket_fact' => 'Pocket Fact',
+    'virus_hunter' => 'Virus Hunter',
+    'career_pathway' => 'Career Pathway',
+    'us_anecdotes' => 'US Anecdotes',
+  ],
+
   'home'=>[
     'imready'=>'i\'m ready',
     'aprojectby' => 'A project by',
@@ -48,7 +55,22 @@ return [
     ]
   ],
 
+  'disease' => 'Disease',
+  'pathogen' => 'Pathogen',
+  'transmission' => 'Transmission',
+
   'pandemics'=>[
-    'talk' => ''
+    'dialog' => [
+      'girl' => 'In early 2020, my classmates and I had to suddenly attend school from home. It is the same for you too, isn’t it, Ilyas?',
+      'boy' => 'Yes! My mother told me that there was a pandemic and we had to take care of each other by staying at home.'
+    ],
+    'discover_outbreaks' => 'Discover Outbreaks',
+    'discover_outbreaks_in_history' => 'Discover Outbreaks in History',
+    "popup" => [
+        'pocket_fact' =>  'Pandemics are sudden disease outbreaks that spread to a large number of people across multiple countries.',
+        'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
+        'us_anecdotes' =>  '...',
+        'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
+    ]
   ]
 ];

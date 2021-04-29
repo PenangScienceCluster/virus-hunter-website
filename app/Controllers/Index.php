@@ -35,6 +35,9 @@ class Index extends BaseController
             ];
             break;
           case "pandemics":
+            $js = [
+              '/js/pandemics.js'
+            ];
             $navSide = ['fact','virushunter','career','us'];
             break;
           case "zoonotic":

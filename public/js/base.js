@@ -4,7 +4,7 @@ var preloadImg = [
   "/img/btn-side-fact-on.png",
   "/img/btn-side-try-on.png",
   "/img/btn-side-us-on.png",
-  "/img/btn-side-virus-hunter-on.png",
+  "/img/btn-side-virushunter-on.png",
 ];
 
 $(function () {
