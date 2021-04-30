@@ -26,7 +26,9 @@
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/pandemics/moving-pandemics-pocket-fact.gif" />
+          <div class="w-50">
+            <img src="/img/pandemics/moving-pandemics-pocket-fact.gif" class="img-fluid " />
+          </div>
           <div class="popup-text">
             <?= lang('App.pandemics.popup.pocket_fact') ?>
           </div>
@@ -361,7 +363,7 @@
 
   <div class="spotlight-btn" data-toggle="modal" data-target="#outbreak_pop">
     <?= lang('App.pandemics.discover_outbreaks') ?>
-    <img src="/img/pandemics/arrow.png" />
+    <div class="w-70 mt-1"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
   <div class="position-absolute gina animated fadeInLeft delay-2s ">

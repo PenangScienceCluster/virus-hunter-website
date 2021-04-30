@@ -215,6 +215,12 @@ button:active {
   background-image: url(../img/popup/btn-popup-close-off.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: all 0.3s ease;
+}
+.custom-modal .modal-header .close:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .custom-modal .modal-header .modal-title {
@@ -353,7 +359,7 @@ button:active {
   right: 0;
   top: 18vh;
   line-height: 1.3;
-  font-size: 50px;
+  font-size: 2.8vw;
   padding: 0 1.0417vw 0 2.0833vw;
   font-family: "tenbyfive";
   color: #fff;

@@ -19,7 +19,7 @@ return [
     'virus_hunter' => 'Virus Hunter',
     'career_pathway' => 'Career Pathway',
     'us_anecdotes' => 'US Anecdotes',
-    'try_out' => 'Try Out'
+    'try_out' => 'Try This'
   ],
 
   'home' => [
