@@ -96,9 +96,7 @@
                 <div class="transmission-desc">' . $d['desc'] . '</div>
               </div>';
           }
-
           ?>
-
         </div>
       </div>
     </div>
@@ -108,8 +106,7 @@
 
 <div class="pandemic h-100">
 
-
-  <div class="discover-outbreak" data-toggle="modal" data-target="#spotlight_pop"><?= lang('App.zoonotic.discover_outbreaks') ?>
+  <div class="spotlight-btn" data-toggle="modal" data-target="#spotlight_pop"><?= lang('App.zoonotic.discover_outbreaks') ?>
     <img src="/img/pandemics/arrow.png" />
   </div>
 

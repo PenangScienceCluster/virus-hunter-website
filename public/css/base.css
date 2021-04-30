@@ -345,8 +345,8 @@ button:active {
   top: -2.396vw;
 }
 
-/* discover outbreak / right button */
-.discover-outbreak {
+/* discover outbreak / right button / spotlight */
+.spotlight-btn {
   cursor: pointer;
   width: 17.5521vw;
   height: 19.2708vw;
@@ -358,8 +358,8 @@ button:active {
   right: 0;
   top: 18vh;
   line-height: 1.3;
-  font-size: 2.5vw;
-  padding: 0 1.0417vw;
+  font-size: 50px;
+  padding: 0 1.0417vw 0 2.0833vw;
   font-family: "tenbyfive";
   color: #fff;
   text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 4px 5px 0 #000;

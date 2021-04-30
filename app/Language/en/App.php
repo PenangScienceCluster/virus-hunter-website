@@ -111,5 +111,35 @@ return [
         ],
       ]
     ]
+  ],
+
+  'nipah' => [
+    'dialog' => [
+      'girl' => 'My elder brother mentioned another disease outbreak that happened here in Malaysia before we were born. Did you hear about it as well?',
+      'boy' => 'Yes! My mother told me about the Nipah Virus outbreak in Peninsular Malaysia.'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'During the outbreak in 1998, experts led communications on progress of the outbreak to encourage best health practice by health workers as well as the community.',
+      'career' =>  'Biochemists study chemical reactions in living things, including how virus takes over control of infected cells!',
+      'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak',
+    ],
+    'spotlight' => [
+      'btn' => 'Discover Virus Structure',
+      'title' => 'Virus Structure',
+      'content' => [
+        [
+          'title' => 'genetic material ',
+          'desc' => 'stores information for the virus to function and construct itself (may be in the form of DNA or RNA!)',
+        ],
+        [
+          'title' => 'viral envelope',
+          'desc' => 'protects genetic material (sometimes not present in a virus)',
+        ],
+        [
+          'title' => 'glycoprotein',
+          'desc' => 'helps the virus attach & infect cells',
+        ]
+      ]
+    ]
   ]
 ];

@@ -343,7 +343,7 @@
 
   <div class="tv"></div>
 
-  <div class="discover-outbreak" data-toggle="modal" data-target="#outbreak_pop"><?= lang('App.pandemics.discover_outbreaks') ?>
+  <div class="spotlight-btn" data-toggle="modal" data-target="#outbreak_pop"><?= lang('App.pandemics.discover_outbreaks') ?>
     <img src="/img/pandemics/arrow.png" />
   </div>
 
