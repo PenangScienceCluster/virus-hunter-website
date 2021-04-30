@@ -15,11 +15,13 @@
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -34,11 +36,13 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">><?= lang('App.subnav.try_out') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel">><?= lang('App.subnav.try_out') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -51,11 +55,13 @@
 </div>
 
 
-<div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.us_anecdotes') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.us_anecdotes') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -72,11 +78,13 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -93,11 +101,13 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -118,7 +128,8 @@
   <div class="modal-dialog " role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title"><?= lang('App.pandemics.discover_outbreaks_in_history') ?></h5>
+        <h5 class="modal-title"><?= lang('App.pandemics.discover_outbreaks_in_history') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         </button>
       </div>
@@ -138,7 +149,8 @@
                     <div class="outbreak-item-value pathogen">Yersinia pestis</div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-rat.png" />
@@ -172,7 +184,8 @@
                     <div class="outbreak-item-value pathogen">Nipah virus</div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
@@ -206,7 +219,8 @@
                     <div class="outbreak-item-value pathogen">SARS-CoV</div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
@@ -240,7 +254,8 @@
                     <div class="outbreak-item-value pathogen">Zika virus</div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-mosquito.png" />
@@ -269,7 +284,8 @@
                     <div class="outbreak-item-value pathogen">SARS-CoV-2</div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
@@ -343,18 +359,21 @@
 
   <div class="tv"></div>
 
-  <div class="discover-outbreak" data-toggle="modal" data-target="#outbreak_pop"><?= lang('App.pandemics.discover_outbreaks') ?>
+  <div class="discover-outbreak" data-toggle="modal" data-target="#outbreak_pop">
+    <?= lang('App.pandemics.discover_outbreaks') ?>
     <img src="/img/pandemics/arrow.png" />
   </div>
 
   <!-- animated fadeInLeft delay-3s -->
   <div class="position-absolute gina animated fadeInLeft delay-2s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?></div>
+    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?>
+    </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight delay-2s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.pandemics.dialog.boy') ?></div>
+    <div class="bubble bubble-top-right" contenteditable><?= lang('App.pandemics.dialog.boy') ?>
+    </div>
   </div>
 
 </div>

@@ -16,12 +16,12 @@
 .content h1 span {
   font-size: 150%;
 }
-.progressbar {
+.bar {
   width: 90%;
   margin-bottom: -4rem;
 }
 
-.bubble {
+.overview-bubble {
   background: url(../../img/overview/bubble-talk.png) center top no-repeat;
   background-size: 100% 100%;
   padding: 1rem 1.5rem 2.5rem 1.5rem;
@@ -70,7 +70,7 @@
     width: 60%;
     margin-top: 3rem;
   }
-  .progressbar {
+  .bar {
     width: 100%;
     margin-bottom: -3rem;
   }
@@ -80,7 +80,7 @@
     left: -19rem;
     transform: scale(0.3);
   }
-  .bubble {
+  .overview-bubble {
     padding: 1rem 1rem 2rem 1rem;
     top: -4.7rem;
     right: -3%;

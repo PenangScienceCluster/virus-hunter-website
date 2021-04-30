@@ -259,15 +259,12 @@ button:active {
   flex-direction: column;
 }
 
-
 .custom-modal .popup-content .popup-text {
-
   font-size: 38px;
   text-align: center;
   padding: 0 50px;
   font-weight: bold;
 }
-
 
 /* text bubble */
 
@@ -310,7 +307,6 @@ button:active {
   right: 3.125vw;
   bottom: -2.396vw;
 }
-
 
 .bubble-top-right:before {
   content: "";

@@ -1,7 +1,7 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
 
-<div class="container h-100">
+<div class="container h-100 overview">
   <div class="row align-items-center h-100">
     <div class="col-lg-12 col-10 mx-auto bg text-center animated fadeIn">
       <div class="content mx-auto">
@@ -12,16 +12,18 @@
           <?= lang('App.overview.pickupfacts') ?>
         </h4>
       </div>
-      <div class="position-relative progressbar mx-auto">
+      <div class="position-relative bar mx-auto">
         <div class="ladybird"></div>
-        <div class="bubble w-20 line-height animated bounceInDown delay-3s">
+        <div class="overview-bubble w-20 line-height animated bounceInDown delay-1s">
           <?= lang('App.overview.bubble_instruction') ?>
         </div>
         <img src="/img/overview/progress.png" class="img-fluid" />
       </div>
-      <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp delay-2s">
-        <?= lang('App.overview.letsbegin') ?>
-      </div>
+      <a href="<?= urlWithLocale('/pandemics') ?>">
+        <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp">
+          <?= lang('App.overview.letsbegin') ?>
+        </div>
+      </a>
 
     </div>
   </div>
