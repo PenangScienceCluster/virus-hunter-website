@@ -359,12 +359,11 @@
 
   <div class="tv"></div>
 
-  <div class="discover-outbreak" data-toggle="modal" data-target="#outbreak_pop">
+  <div class="spotlight-btn" data-toggle="modal" data-target="#outbreak_pop">
     <?= lang('App.pandemics.discover_outbreaks') ?>
     <img src="/img/pandemics/arrow.png" />
   </div>
 
-  <!-- animated fadeInLeft delay-3s -->
   <div class="position-absolute gina animated fadeInLeft delay-2s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?>
