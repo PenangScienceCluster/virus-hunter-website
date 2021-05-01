@@ -5,6 +5,16 @@ var preloadImg = [
   "/img/btn-side-try-on.png",
   "/img/btn-side-us-on.png",
   "/img/btn-side-virushunter-on.png",
+  "/img/progressbar/1-on-s.png",
+  "/img/progressbar/1-on.png",
+  "/img/progressbar/2-on-s.png",
+  "/img/progressbar/2-on.png",
+  "/img/progressbar/3-on-s.png",
+  "/img/progressbar/3-on.png",
+  "/img/progressbar/4-on.png",
+  "/img/progressbar/5-on-s.png",
+  "/img/progressbar/5-on.png",
+  "/img/progressbar/6-on-s.png",
 ];
 
 $(function () {
@@ -33,7 +43,59 @@ $(function () {
       }
     );
   }
+
+  if ($(".spotlight-btn")) {
+    $(".spotlight-btn").hover(
+      function () {
+        $(this)
+          .find("div")
+          .addClass("animated tada")
+          .one(
+            "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+            function () {
+              $(this).removeClass("animated tada");
+            }
+          );
+      },
+      function () {}
+    );
+  }
 });
+
+function markNav(currentSection) {
+  console.log("mark");
+  var section = getCookie();
+  var sections = section.split("|");
+  var nav = [
+    "pandemics",
+    "zoonotic",
+    "nipah",
+    "covid",
+    "vaccines",
+    "toolsandtechniques",
+  ];
+  var i;
+
+  for (i = 0; i < nav.length; i++) {
+    var id = nav[i];
+    var idStar = id + "-s";
+    var imgSrc = $("#" + id).data("src");
+
+    if (sections.indexOf(id) > -1) {
+      $("#" + id)
+        .find("img")
+        .attr("src", "/img/progressbar/" + imgSrc + "-on.png");
+    } else if (sections.indexOf(idStar) > -1) {
+      $("#" + id)
+        .find("img")
+        .attr("src", "/img/progressbar/" + imgSrc + "-on-s.png");
+    }
+
+    if (id == currentSection) {
+      break;
+    }
+  }
+}
 
 $.fn.preload = function () {
   this.each(function () {
@@ -41,3 +103,46 @@ $.fn.preload = function () {
   });
 };
 $(preloadImg).preload();
+
+function store(value, category) {
+  var existingValue = getCookie();
+  var cookiesValues = "";
+
+  if (category == "star") value += "-s";
+
+  if (existingValue != null) {
+    var idx = existingValue.indexOf(value);
+
+    if (idx == -1) {
+      cookiesValues = existingValue + "|" + value;
+    }
+  } else {
+    cookiesValues = value;
+  }
+  if (cookiesValues != "") {
+    setCookie(cookiesValues);
+  }
+  markNav(value);
+}
+
+function setCookie(value) {
+  var date = new Date();
+  date.setTime(date.getTime() + 1 * 24 * 60 * 60 * 1000);
+  var expires = "; expires=" + date.toUTCString();
+
+  document.cookie = "vh=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie() {
+  var nameEQ = "vh=";
+  var ca = document.cookie.split(";");
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == " ") c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+function eraseCookie() {
+  document.cookie = "vh=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+}

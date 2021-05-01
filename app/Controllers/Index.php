@@ -23,6 +23,11 @@ class Index extends BaseController
         $css = ['/css/'.$section.'.css?'.time()];
         
         switch ($section) {
+          case "overview":
+            $js = [
+              '/js/overview.js'
+            ];
+            break;
           case  'gallery':
             $js = [
               '/lib/owl-carousel/owl.carousel.min.js',
@@ -36,14 +41,12 @@ class Index extends BaseController
             break;
           case "pandemics":
             $navSide = ['fact','virushunter','career','us'];
-            $js = [
-              '/js/pandemics.js'
-            ];
+            $js = ['/js/pandemics.js'];
             break;
           case "zoonotic":
             $js = [
               '/lib/touch/jquery-ui.min.js',
-              '/lib/touhc/jquery.ui.touch-punch.min.js',
+              '/lib/touch/jquery.ui.touch-punch.min.js',
               '/js/zoonotic.js'
             ];
             $css = [
@@ -54,21 +57,21 @@ class Index extends BaseController
             break;
           case "nipah":
             $navSide = ['fact','virushunter','career','try'];
-            $js = [
-              '/js/nipah.js'
-            ];
+            $js = ['/js/nipah.js'];
             break;
           case "covid":
             $navSide = ['fact','virushunter','us'];
+            $js = ['/js/covid.js'];
             break;
           case "vaccines":
             $navSide = ['fact','virushunter','try'];
+            $js = ['/js/vaccines.js'];
             break;
           case "toolsandtechniques":
             $navSide = ['fact','us','try'];
+            $js = ['/js/toolsandtechniques.js'];
             break;
-            
-            
+          
         };
         
         echo view('/pages/'.$section, [
