@@ -20,11 +20,13 @@
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -39,11 +41,13 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -61,11 +65,13 @@
 </div>
 
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -82,11 +88,13 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.try_out') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.try_out') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -99,11 +107,13 @@
 </div>
 
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -124,9 +134,10 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title"><?= lang('App.nipah.spotlight.title') ?></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        </button>
+        <h5 class="modal-title">
+          <?= lang('App.nipah.spotlight.title') ?>
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="spotlight-modal-content">
@@ -154,17 +165,20 @@
 
 <div class="pandemic h-100">
 
-  <div class="spotlight-btn" data-toggle="modal" data-target="#spotlight_pop"><?= lang('App.nipah.spotlight.btn') ?>
-    <img src="/img/arrow.png" />
+  <div class="spotlight-btn" data-toggle="modal" data-target="#spotlight_pop">
+    <?= lang('App.nipah.spotlight.btn') ?>
+    <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
   <div class="position-absolute gina animated fadeInLeft delay-2s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.nipah.dialog.girl') ?></div>
+    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.nipah.dialog.girl') ?>
+    </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight delay-2s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.nipah.dialog.boy') ?></div>
+    <div class="bubble bubble-top-right" contenteditable><?= lang('App.nipah.dialog.boy') ?>
+    </div>
   </div>
 
 </div>

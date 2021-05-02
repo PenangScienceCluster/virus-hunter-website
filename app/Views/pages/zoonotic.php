@@ -120,12 +120,12 @@
     <div class="w-70 mt-1"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
-  <div class="position-absolute gina animated fadeInLeft delay-2s ">
+  <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.zoonotic.dialog.girl') ?>
     </div>
   </div>
-  <div class="position-absolute ilyas animated fadeInRight delay-2s ">
+  <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
     <div class="bubble bubble-top-right" contenteditable><?= lang('App.zoonotic.dialog.boy') ?>
     </div>

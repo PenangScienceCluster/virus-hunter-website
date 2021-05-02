@@ -19,11 +19,13 @@
         </div>
         <img src="/img/overview/progress.png" class="img-fluid" />
       </div>
-      <a href="<?= urlWithLocale('/pandemics') ?>">
-        <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp">
-          <?= lang('App.overview.letsbegin') ?>
-        </div>
-      </a>
+
+      <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp" data-lang="<?= locale() ?>">
+        <span id="text-begin" class="d-none"
+          data-href="<?= urlWithLocale('/pandemics') ?>"><?= lang('App.overview.letsbegin') ?></span>
+        <span id="text-continue" class="d-none"><?= lang('App.overview.continue') ?></span>
+      </div>
+
 
     </div>
   </div>

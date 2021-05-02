@@ -6,5 +6,67 @@ body {
   top: 10%;
 }
 
+.lab-furniture {
+  position: absolute;
+  width: 50vw;
+  height: 49.2vw;
+  background: url(../img/toolsandtechniques/moving-lab-table.png) 0px 0px;
+  background-size: 150vw;
+  animation: play 1s steps(3) infinite;
+  bottom: -1vw;
+  left: 25vw;
+  border: 0px solid red;
+}
+
+/* characters */
+.ilyas {
+  bottom: -0.1354vw;
+  left: 5vw;
+  z-index: 3;
+  width: 20vw;
+}
+
+.ilyas img {
+  position: relative;
+  z-index: 2;
+}
+
+.ilyas .bubble {
+  z-index: 1;
+  position: absolute;
+  top: -9.25vw;
+  left: 8.1875vw;
+}
+
+.gina {
+  width: 25vw;
+  bottom: 0;
+  right: 5vw;
+  z-index: 3;
+}
+
+.gina img {
+  position: relative;
+  z-index: 2;
+}
+
+.gina .bubble {
+  z-index: 1;
+  position: absolute;
+  top: 19.8438vw;
+  left: -22.7917vw;
+}
+/* characters */
+
+.spotlight-pop .close {
+  top: -8vw;
+}
+
+@keyframes play {
+  100% {
+    background-position: -150vw;
+  }
+}
+
 @media only screen and (max-height: 480px) {
 }

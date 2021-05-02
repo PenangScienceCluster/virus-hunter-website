@@ -7,4 +7,6 @@ $(document).ready(function () {
   $(".outbreak-modal").on("hidden.bs.modal", function () {
     $(".modal-backdrop").css("background", "#000");
   });
+
+  store("pandemics");
 });

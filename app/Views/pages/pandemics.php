@@ -363,7 +363,7 @@
 
   <div class="spotlight-btn" data-toggle="modal" data-target="#outbreak_pop">
     <?= lang('App.pandemics.discover_outbreaks') ?>
-    <div class="w-70 mt-1"><img src="/img/arrow.png" class="img-fluid" /></div>
+    <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
   <div class="position-absolute gina animated fadeInLeft delay-2s ">

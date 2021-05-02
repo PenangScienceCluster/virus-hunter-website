@@ -8,3 +8,6 @@ $(document).ready(function() {
     $('.modal-backdrop').css('background', '#000');
   });
 })
+$(function () {
+  store("vaccines");
+});
