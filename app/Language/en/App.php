@@ -7,6 +7,9 @@ return [
   'share_description' => '',
   'share_image' => '',
 
+  'correct'=> 'correct',
+  'try_again'=> 'try again',
+
   'nav' => [
     'home' => 'Home',
     'aboutus' => 'About Us',
@@ -141,6 +144,38 @@ return [
           'desc' => 'helps the virus attach & infect cells',
         ]
       ]
+    ]
+  ],
+  'toolsandtechniques' => [
+    'dialog' => [
+      'girl' => 'My too! This is the result of years of training, research and preparation long before the pandemic happened.',
+      'boy' => 'I admire our health workers and experts for repsonding so quickly to the outbreak and taking care of us to the best of their ability.'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'RT-PCR is currently used globally to detect COVID-19 infection.',
+      'us_anecdotes' =>  'PREDICT is a global program funded by USAID to study new and emerging zoonotic viruses and diseases, especially in Africa and Asia',
+      'try_out' => [
+        'title'=> 'Drag and drop to arrange the steps of COVID-19 testing based on the correct sequences.',
+        'items' => [
+          [
+            'id'=>1,
+            'src'=>'/img/toolsandtechniques/step1_en.png',
+          ],
+          [
+            'id'=> 2,
+            'src'=>'/img/toolsandtechniques/step2_en.png',
+          ],
+          [
+            'id' => 3,
+            'src'=>'/img/toolsandtechniques/step3_en.png'
+          ]
+        ]
+      ]
+    ],
+    'spotlight' => [
+      'btn' => 'Discover COVID-19 Testing',
+      'title' => 'COVID-19 Testing',
+      'contentImg' => '/img/toolsandtechniques/content.png'
     ]
   ]
 ];

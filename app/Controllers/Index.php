@@ -69,7 +69,11 @@ class Index extends BaseController
             break;
           case "toolsandtechniques":
             $navSide = ['fact','us','try'];
-            $js = ['/js/toolsandtechniques.js'];
+            $js = [
+              '/lib/touch/jquery-ui.min.js',
+              '/lib/touch/jquery.ui.touch-punch.min.js',
+              '/js/toolsandtechniques.js'
+            ];
             break;
           
         };

@@ -5,7 +5,6 @@ var preloadImg = [
   "/img/btn-side-try-on.png",
   "/img/btn-side-us-on.png",
   "/img/btn-side-virushunter-on.png",
-  "/img/progressbar/1-on-s.png",
   "/img/progressbar/1-on.png",
   "/img/progressbar/2-on-s.png",
   "/img/progressbar/2-on.png",
@@ -63,7 +62,7 @@ $(function () {
 });
 
 function markNav(currentSection) {
-  console.log("mark");
+  console.log("mark", currentSection);
   var section = getCookie();
   var sections = section.split("|");
   var nav = [
@@ -92,6 +91,11 @@ function markNav(currentSection) {
     }
 
     if (id == currentSection) {
+      if (sections.indexOf(idStar) > -1) {
+        $("#" + id)
+          .find("img")
+          .attr("src", "/img/progressbar/" + imgSrc + "-on-s.png");
+      }
       break;
     }
   }
