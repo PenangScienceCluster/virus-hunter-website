@@ -346,6 +346,20 @@ button:active {
   top: -2.396vw;
 }
 
+.bubble-bottom-center-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 2.604vw solid #fff;
+  border-right: 0px solid transparent;
+  border-top: 0px solid #fff;
+  border-bottom: 2.604vw solid transparent;
+  left: 17.125vw;
+  bottom: -2.396vw;
+}
+
+
 /* discover outbreak / right button / spotlight */
 .spotlight-btn {
   cursor: pointer;
@@ -359,7 +373,7 @@ button:active {
   right: 0;
   top: 18vh;
   line-height: 1.3;
-  font-size: 2.8vw;
+  font-size: 2.6vw;
   padding: 0 1.0417vw 0 2.0833vw;
   font-family: "tenbyfive";
   color: #fff;
@@ -370,4 +384,9 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 4
+}
+
+.spotlight-btn img {
+  max-width: 7.9688vw;
 }

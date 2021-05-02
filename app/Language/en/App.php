@@ -16,7 +16,7 @@ return [
 
   'subnav' => [
     'pocket_fact' => 'Pocket Fact',
-    'virus_hunter' => 'Virus Hunter',
+    'virus_hunter' => 'Virus Hunter Icon',
     'career_pathway' => 'Career Pathway',
     'us_anecdotes' => 'US Anecdotes',
     'try_out' => 'Try This'
@@ -141,5 +141,54 @@ return [
         ]
       ]
     ]
-  ]
+  ],
+
+  'covid' => [
+    'dialog' => [
+      'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
+      'boy' => 'During the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
+      'us_anecdotes' =>  'Operation Warp Speed in the US strives to accelerate the development, manufacturing and distribution of COVID-19 vaccines, therapeutics and diagnostics.',
+      'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',
+    ],
+    'spotlight' => [
+      'btn' => 'Watch<br>Video',
+      'title' => 'Prevent the Spread of Disease',
+      'desc' => 'With or without a pandemic, we should always do our part to protect ourselves and others around us from getting sick. Watch this video on how to prevent the spread of disease when we cough and sneeze!',
+    ]
+  ],
+
+  'vaccines' => [
+    'dialog' => [
+      'girl' => 'As vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
+      'boy' => 'Yes! We must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
+      'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of hepatitis B vaccine.',
+    ],
+    'spotlight' => [
+      'btn' => 'Vaccine Development Process',
+      'title' => 'Vaccine Development Process',
+    ],
+  ],
+
+  // 'toolsandtechniques' => [
+  //   'dialog' => [
+  //     'girl' => 'Me too! This is the result of years of training, research and preparation long before the pandemic happened.',
+  //     'boy' => 'I admire our health workers and experts for responding so quickly to the outbreak and taking care of us to the best of their ability.'
+  //   ],
+  //   "popup" => [
+  //     'pocket_fact' =>  'RT-PCR is currently in use globally to detect COVID-19 infection!',
+  //     'us_anecdotes' => 'PREDICT is a global program funded by USAID to study new and emerging zoonotic viruses and diseases, especially in Africa and Asia.',
+  //   ],
+  //   'spotlight' => [
+  //     'btn' => 'Discover COVID-19 Testing',
+  //     'title' => 'COVID-19 Testing',
+  //   ],
+  // ]
+
+
 ];

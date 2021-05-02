@@ -3,5 +3,117 @@ body {
   background-size: 100% 100%;
 }
 
+
+
+.gina {
+  bottom: 0.8646vw;
+  left: 3.0625vw;
+  z-index: 3;
+  width: 23.3333vw;
+}
+
+.gina img {
+  position: relative;
+  z-index: 2;
+}
+
+.gina .bubble {
+  z-index: 1;
+  position: absolute;
+  top: -12.25vw;
+  left: 4.1875vw;
+  min-width: 31.781vw;
+  font-size: 1.28vw;
+}
+
+.ilyas {
+  width: 19.2188vw;
+  bottom: 1.7708vw;
+  right: 25vw;
+  z-index: 3;
+}
+
+.ilyas img {
+  position: relative;
+  z-index: 2;
+}
+
+.ilyas .bubble {
+  z-index: 1;
+  position: absolute;
+  top: 18.8438vw;
+  left: -24.7917vw;
+  min-width: 31.781vw;
+  font-size: 1.28vw;
+}
+
+
+/* spotlight */
+
+.spotlight-modal .modal-dialog {
+  min-width: 1590px;
+}
+.spotlight-modal .modal-content {
+  min-height: 46.094vw;
+  background: unset;
+  border: 0px solid #000;
+  flex-direction: column;
+}
+
+.spotlight-modal .modal-body {
+  padding: 1.0417vw;
+  display: flex;
+}
+
+.spotlight-modal .modal-header {
+  border-bottom: 0px solid #000;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.spotlight-modal .modal-header .close {
+  background: #323334;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 3.3854vw;
+  width: 4.688vw;
+  height: 4.688vw;
+  opacity: 1;
+  color: #fff;
+  font-size: 4.167vw;
+  line-height: 1;
+  padding: 0;
+  background-image: url(../img/pandemics/btn-prev-off.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spotlight-modal .modal-header .modal-title {
+  padding: 2.0833vw 5.2083vw 2.0833vw 5.2083vw;
+  text-align: center;
+  background-image: url(../img/vaccines/vaccines-spotlight-title-base.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2.2917vw;
+  font-family: "tenbyfive";
+  color: #fff;
+  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 4px 5px 0 #000;
+  font-family: "tenbyfive";
+}
+
+.spotlight-modal-content {
+  position: relative;
+  flex-grow: 1;
+}
+
+
+.spotlight-modal-content img {
+  width: 100%;
+}
+
+
 @media only screen and (max-height: 480px) {
 }

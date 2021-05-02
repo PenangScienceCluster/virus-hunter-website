@@ -135,9 +135,9 @@
 
           $data = lang('App.nipah.spotlight.content');
 
-          foreach ($data as $k=>$d) {
+          foreach ($data as $k => $d) {
             echo '
-              <div class="structure-box pos-'.$k.'">
+              <div class="structure-box pos-' . $k . '">
                 <div class="structure-title">' . $d['title'] . '</div>
                 <div class="structure-desc">' . $d['desc'] . '</div>
               </div>';
@@ -155,7 +155,7 @@
 <div class="pandemic h-100">
 
   <div class="spotlight-btn" data-toggle="modal" data-target="#spotlight_pop"><?= lang('App.nipah.spotlight.btn') ?>
-    <img src="/img/pandemics/arrow.png" />
+    <img src="/img/arrow.png" />
   </div>
 
   <div class="position-absolute gina animated fadeInLeft delay-2s ">

@@ -21,7 +21,9 @@ class Index extends BaseController
         $showLogo = true;
         $js = $navSide = [];
         $css = ['/css/'.$section.'.css?'.time()];
-        
+
+        $locale =  $this->request->getLocale();
+
         switch ($section) {
           case  'gallery':
             $js = [
@@ -60,12 +62,21 @@ class Index extends BaseController
             break;
           case "covid":
             $navSide = ['fact','virushunter','us'];
+            $js = [
+              '/js/covid.js'
+            ];
             break;
           case "vaccines":
             $navSide = ['fact','virushunter','try'];
+            $js = [
+              '/js/vaccines.js'
+            ];
             break;
           case "toolsandtechniques":
             $navSide = ['fact','us','try'];
+            $js = [
+              '/js/toolsandtechniques.js'
+            ];
             break;
             
             
@@ -77,6 +88,7 @@ class Index extends BaseController
           'section' => $section,
           'js'=> $js,
           'css'=> $css,
+          'locale' => $locale
         ]);
     }
 }
