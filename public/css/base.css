@@ -21,7 +21,7 @@ body {
   border: 0px solid red;
 }
 .wrapper {
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 a {
@@ -168,7 +168,7 @@ button:active {
 }
 .custom-modal .modal-content {
   background-image: url(../img/popup/bg.png);
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-color: unset;
   min-height: 46.094vw;
   background-position: center;
@@ -301,6 +301,7 @@ button:active {
     4px 5px 0 #000;
   font-family: "tenbyfive";
   text-align: center;
+  width: 40%;
 }
 
 .spotlight-pop .close {
@@ -440,6 +441,40 @@ button:active {
 .spotlight-btn img {
   max-width: 7.9688vw;
   z-index: 4;
+}
+
+
+.btn-done {
+  background-image: url(../img/btn-bg-off.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  min-width: 400px;
+  min-height: 140px;
+  font-size: 50px;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "tenbyfive";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-done:active {
+  background-image: url(../img/btn-bg-on.png);
+  padding-top: 30px;
+}
+
+.try-footer {
+  font-family: "tenbyfive";
+  font-size: 2.5vw;
+}
+
+#correct img {
+  width: 8% !important;
+  max-width: 31.9271vw;
+  margin-bottom: 0.5208vw;
 }
 
 @media only screen and (orientation: portrait) {

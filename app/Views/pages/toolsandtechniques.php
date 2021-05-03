@@ -71,38 +71,6 @@ foreach ($steps as $i => $v) {
     </div>
   </div>
 </div>
-<style>
-.question {
-  position: relative;
-  border: 2px dotted #339966;
-  border-radius: 5px;
-
-}
-
-.question img {
-  opacity: 0;
-  margin-bottom: 0 !important;
-}
-
-
-.question .step {
-  width: 100%;
-  position: absolute;
-  top: 35%;
-  text-align: center;
-  color: #339966;
-  font-weight: bold;
-}
-
-.feedback {
-  font-family: tenbyfive;
-  font-size: 2.5vw;
-}
-
-.feedback .star {
-  width: 8% !important;
-}
-</style>
 <div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -143,7 +111,6 @@ foreach ($steps as $i => $v) {
 </div>
 
 
-
 <div class="modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -168,7 +135,7 @@ foreach ($steps as $i => $v) {
 <div class="spotlight-pop d-none" id="spotlight_pop">
   <div class="row h-100 justify-content-center align-items-center content">
     <div class="col-9">
-      <h5 class="title w-40 mx-auto">
+      <h5 class="title mx-auto">
         <?= lang('App.toolsandtechniques.spotlight.title') ?>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">

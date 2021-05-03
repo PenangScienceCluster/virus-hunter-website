@@ -126,16 +126,17 @@
   </div>
 </div>
 
-<div class="outbreak-modal modal fade" id="outbreak_pop" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog " role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title"><?= lang('App.pandemics.discover_outbreaks_in_history') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        </button>
-      </div>
-      <div class="modal-body">
+
+<div class="spotlight-pop d-none" id="spotlight_pop">
+  <div class="row h-100 justify-content-center align-items-center content">
+    <div class="col-9">
+      <h5 class="title mx-auto">
+        <?= lang('App.zoonotic.spotlight.title') ?>
+      </h5>
+      <div class="w-80 mx-auto mt-4 position-relative">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        
+
         <div class="outbreak-modal-content">
           <div class="tab-content">
             <div class="tab-pane fade show active" id="outbreak-1" role="tabpanel" aria-labelledby="home-tab">
@@ -175,7 +176,7 @@
             </div>
             <div class="tab-pane fade" id="outbreak-2" role="tabpanel" aria-labelledby="profile-tab">
               <div class="outbreak-box">
-                <div class="outbreak-header">1998</div>
+                <div class="outbreak-header">2002</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
@@ -210,7 +211,7 @@
             </div>
             <div class="tab-pane fade" id="outbreak-3" role="tabpanel" aria-labelledby="contact-tab">
               <div class="outbreak-box">
-                <div class="outbreak-header">2002</div>
+                <div class="outbreak-header">2005</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
@@ -355,17 +356,18 @@
       </div>
     </div>
   </div>
+  <div class="bg"></div>
 </div>
+
 
 <div class="pandemic h-100">
 
   <div class="tv"></div>
 
-  <div class="spotlight-btn" data-toggle="modal" data-target="#outbreak_pop">
-    <?= lang('App.pandemics.discover_outbreaks') ?>
+  <div class="spotlight-btn">
+    <?= lang('App.pandemics.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
-
   <div class="position-absolute gina animated fadeInLeft delay-2s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?>

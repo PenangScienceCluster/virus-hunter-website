@@ -3,32 +3,31 @@ var correctCount = 0;
 $(function () {
   store("toolsandtechniques");
 
-  // $("#spotlight_pop").modal("show");
-
+  // spotlight
   $(".spotlight-btn").click(function () {
     $(".spotlight-pop")
       .removeClass("d-none")
-      .addClass("animated fadeInRight")
+      .addClass("animated fadeInLeft")
       .one(
         "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
         function () {
-          $(this).removeClass("animated fadeInRight");
+          $(this).removeClass("animated fadeInLeft");
         }
       );
   });
 
   $(".close").click(function () {
     $(".spotlight-pop")
-      .addClass("animated fadeOutRight")
+      .addClass("animated fadeOutLeft")
       .one(
         "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
         function () {
-          $(this).removeClass("animated fadeOutRight").addClass("d-none");
+          $(this).removeClass("animated fadeOutLeft").addClass("d-none");
         }
       );
   });
+  // end of spotlight
 
-  // $("#try_pop").modal("show");
 
   $(".answer").draggable({
     containment: ".drag-area",

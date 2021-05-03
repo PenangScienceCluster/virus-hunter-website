@@ -53,51 +53,12 @@ body {
 
 /* spotlight */
 
-.spotlight-modal .modal-dialog {
-  min-width: 69.7917vw;
-}
-.spotlight-modal .modal-content {
-  min-height: 46.094vw;
-  background: unset;
-  border: 0px solid #000;
-  flex-direction: column;
-}
+.spotlight-pop .title {
 
-.spotlight-modal .modal-body {
-  padding: 1.0417vw;
-  display: flex;
-}
-
-.spotlight-modal .modal-header {
-  border-bottom: 0px solid #000;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.spotlight-modal .modal-header .close {
-  background: #323334;
-  border-radius: 50%;
-  position: absolute;
-  right: 0;
-  top: 3.3854vw;
-  width: 4.688vw;
-  height: 4.688vw;
-  opacity: 1;
-  color: #fff;
-  font-size: 4.167vw;
-  line-height: 1;
-  padding: 0;
-  background-image: url(../img/pandemics/btn-prev-off.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.spotlight-modal .modal-header .modal-title {
   padding: 2.0833vw 5.2083vw 2.0833vw 5.2083vw;
   text-align: center;
   background-image: url(../img/covid/covid19-spotlight-title-base.png);
-  background-size: 100%;
+  background-size: 69%;
   background-position: center;
   background-repeat: no-repeat;
   font-size: 2.2917vw;
@@ -105,14 +66,11 @@ body {
   color: #fff;
   text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 4px 5px 0 #000;
   font-family: "tenbyfive";
+  width: 100%;
 }
-
-.spotlight-modal-content {
-  position: relative;
-  flex-grow: 1;
-}
-
-.spotlight-modal .modal-desc {
+.spotlight-pop .modal-desc {
+  text-align: center;
+  margin: 0 auto;
   font-size: 1.3542vw;
   color: #000;
   text-shadow: none !important;
@@ -121,12 +79,17 @@ body {
   line-height: 1;
 }
 
+.spotlight-pop .close {
+  top: -8vw;
+}
+
 .spotlight-video {
   width: 1000px;
   height: 563px;
   border: 5px solid #8DC540;
   margin: 0 auto;
-}
+} 
+
 
 @media only screen and (max-height: 480px) {
 }

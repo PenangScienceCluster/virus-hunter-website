@@ -62,6 +62,39 @@ body {
   top: -8vw;
 }
 
+/* try out */
+
+.question {
+  position: relative;
+  border: 2px dotted #339966;
+  border-radius: 5px;
+
+}
+
+.question img {
+  opacity: 0;
+  margin-bottom: 0 !important;
+}
+
+
+.question .step {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  color: #339966;
+  font-weight: bold;
+}
+
+.feedback {
+  font-family: tenbyfive;
+  font-size: 2.5vw;
+}
+
+.feedback .star {
+  width: 8% !important;
+}
+
 @keyframes play {
   100% {
     background-position: -150vw;

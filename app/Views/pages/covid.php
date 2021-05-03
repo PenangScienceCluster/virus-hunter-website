@@ -93,15 +93,17 @@
   </div>
 </div>
 
-<div class="spotlight-modal modal fade" id="spotlight_pop" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title"><?= lang('App.covid.spotlight.title') ?> <div class="modal-desc"><?= lang('App.covid.spotlight.desc') ?></div>
-        </h5>
+
+<div class="spotlight-pop d-none" id="spotlight_pop">
+  <div class="row h-100 justify-content-center align-items-center content">
+    <div class="col-9">
+      <h5 class="title mx-auto">
+        <?= lang('App.vaccines.spotlight.title') ?>
+        <div class="modal-desc"><?= lang('App.covid.spotlight.desc') ?></div>
+      </h5>
+      <div class="w-80 mx-auto mt-4 position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+
         <div class="spotlight-modal-content">
           <div class="spotlight-video">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0ZabxXmH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -110,14 +112,17 @@
       </div>
     </div>
   </div>
+  <div class="bg"></div>
 </div>
-</div>
+
 
 
 <div class="pandemic h-100">
 
-  <div class="spotlight-btn" data-toggle="modal" data-target="#spotlight_pop"><?= lang('App.covid.spotlight.btn') ?>
-    <img src="/img/arrow.png" />
+
+  <div class="spotlight-btn">
+    <?= lang('App.covid.spotlight.btn') ?>
+    <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
   <div class="position-absolute gina animated fadeInLeft delay-2s ">

@@ -1,14 +1,28 @@
-$(document).ready(function() {
-  $(".spotlight-modal").on('shown.bs.modal', function() {
-    $('.modal-backdrop').css('background-color', 'white');
-    $('.modal-backdrop').css('opacity', '0.8');
-  });
-  
-  $(".spotlight-modal").on('hidden.bs.modal', function() {
-    $('.modal-backdrop').css('background', '#000');
-  });
-})
-
 $(function () {
   store("covid");
+
+    // spotlight
+    $(".spotlight-btn").click(function () {
+      $(".spotlight-pop")
+        .removeClass("d-none")
+        .addClass("animated fadeInLeft")
+        .one(
+          "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+          function () {
+            $(this).removeClass("animated fadeInLeft");
+          }
+        );
+    });
+  
+    $(".close").click(function () {
+      $(".spotlight-pop")
+        .addClass("animated fadeOutLeft")
+        .one(
+          "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+          function () {
+            $(this).removeClass("animated fadeOutLeft").addClass("d-none");
+          }
+        );
+    });
+    // end of spotlight
 });
