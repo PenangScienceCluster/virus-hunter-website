@@ -27,7 +27,8 @@ foreach ($steps as $i => $v) {
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -47,7 +48,8 @@ foreach ($steps as $i => $v) {
               <?= $selects ?>
             </div>
             <div class="try-footer mt-4 feedback text-center text-uppercase">
-              <div class="btn-done"><?= lang('App.done') ?></div>
+              <div class="btn-done"><?= lang('App.done') ?>
+              </div>
 
               <span class="text-success d-none" id="correct">
                 <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />
@@ -64,7 +66,8 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -84,7 +87,8 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -108,11 +112,11 @@ foreach ($steps as $i => $v) {
 
 <div class="spotlight-pop d-none" id="spotlight_pop">
   <div class="row h-100 justify-content-center align-items-center content">
-    <div class="col-9">
-      <h5 class="title mx-auto">
+    <div class="col-12">
+      <h5 class="title mx-auto mt-4">
         <?= lang('App.zoonotic.spotlight.title') ?>
       </h5>
-      <div class="w-80 mx-auto mt-4 position-relative">
+      <div class="w-80 mx-auto position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
         <img src="<?= lang('App.zoonotic.spotlight.contentImg') ?>" class="img-fluid" />
       </div>
@@ -125,11 +129,10 @@ foreach ($steps as $i => $v) {
 <div class="pandemic h-100">
 
 
-<div class="spotlight-btn">
+  <div class="spotlight-btn">
     <?= lang('App.zoonotic.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
-
 
   <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
