@@ -84,7 +84,7 @@ foreach ($steps as $i => $v) {
       <div class="modal-body">
         <div class="popup-content">
           <div class="w-80 mx-auto mt-4 drag-area">
-            <h4 class="text-center">
+            <h4 class="try-title text-center">
               <?= lang('App.toolsandtechniques.popup.try_out.title') ?>
             </h4>
             <div class="questions d-flex mt-4">

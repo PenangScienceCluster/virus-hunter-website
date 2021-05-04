@@ -119,7 +119,7 @@ foreach ($steps as $i => $v) {
       <h5 class="title mx-auto">
         <?= lang('App.vaccines.spotlight.title') ?>
       </h5>
-      <div class="w-80 mx-auto mt-4 position-relative">
+      <div class=" mx-auto mt-4 position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
         <img src="<?= lang('App.vaccines.spotlight.contentImg') ?>" class="img-fluid" />
       </div>
@@ -132,17 +132,20 @@ foreach ($steps as $i => $v) {
 
 <div class="pandemic h-100">
 
+<div class="doctor"></div>
+<div class="boy"></div>
+
   <div class="spotlight-btn">
     <?= lang('App.vaccines.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
 
-  <div class="position-absolute gina animated fadeInLeft delay-2s ">
+  <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-center-left" contenteditable><?= lang('App.vaccines.dialog.girl') ?></div>
   </div>
-  <div class="position-absolute ilyas animated fadeInRight delay-2s ">
+  <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
     <div class="bubble bubble-top-right" contenteditable><?= lang('App.vaccines.dialog.boy') ?></div>
   </div>

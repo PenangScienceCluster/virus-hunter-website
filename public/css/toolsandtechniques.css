@@ -20,7 +20,7 @@ body {
 
 /* characters */
 .ilyas {
-  bottom: -0.1354vw;
+  bottom: -2.1354vw;
   left: 5vw;
   z-index: 3;
   width: 20vw;
@@ -34,8 +34,9 @@ body {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: -9.25vw;
-  left: 8.1875vw;
+  top: -8.25vw;
+  left: 11.1875vw;
+  min-width: 30.4375vw;
 }
 
 .gina {
@@ -63,6 +64,11 @@ body {
 }
 
 /* try out */
+
+.try-title {
+  font-size: 1.6667vw;
+    font-weight: 600;
+}
 
 .question {
   position: relative;

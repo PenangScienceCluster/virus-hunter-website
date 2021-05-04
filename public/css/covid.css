@@ -23,9 +23,9 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -12.25vw;
-  left: 4.1875vw;
-  min-width: 31.781vw;
+  top: -9.25vw;
+  left: 5.1875vw;
+  min-width: 34.781vw;
   font-size: 1.28vw;
 }
 
@@ -52,6 +52,10 @@ body {
 
 
 /* spotlight */
+
+.spotlight-pop {
+  top: 2.3438vw;
+}
 
 .spotlight-pop .title {
 
@@ -84,12 +88,28 @@ body {
 }
 
 .spotlight-video {
-  width: 1000px;
-  height: 563px;
+  width: 52.0833vw;
+  height: 29.3229vw;
   border: 5px solid #8DC540;
   margin: 0 auto;
 } 
 
+.man {
+  position: absolute;
+  width: 18.125vw;
+  height: 30.3125vw;
+  background: url(../img/covid/moving-shopping-man.png) 0px 0px;
+  background-size: 72.5vw;
+  animation: play 0.3s steps(4) infinite;
+  bottom: 18vh;
+  right: 31.594vw;
+}
+
+@keyframes play {
+  100% {
+    background-position: -72.5vw;
+  }
+}
 
 @media only screen and (max-height: 480px) {
 }

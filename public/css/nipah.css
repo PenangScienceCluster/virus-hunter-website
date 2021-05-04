@@ -19,8 +19,8 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -12.25vw;
-  left: 17.1875vw;
+  top: -7.25vw;
+  left: 16.1875vw;
 }
 
 .ilyas {
@@ -38,8 +38,8 @@ body {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 14.8438vw;
-  left: -19.7917vw;
+  top: 15.8438vw;
+  left: -18.7917vw;
 }
 
 
@@ -51,12 +51,16 @@ body {
 
 
 /* tryout */
+
+#try_pop .modal-body {
+  padding: 0px 6.25vw 5.0417vw;
+}
 #try_pop .modal-content {
   background-image: url(../img/popup/bg-lg.png);
 }
 
 #try_pop .modal-dialog {
-  min-width: 90vw;
+  min-width: 80vw;
 }
 
 #try_pop .popup-content {
@@ -64,7 +68,7 @@ body {
 }
 
 .try-title {
-  font-size: 1.9792vw;
+  font-size: 1.6667vw;
   font-weight: 600;
   padding: 0 10.4167vw;
 }
@@ -75,7 +79,7 @@ body {
 
 .answers {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .answer {
@@ -158,9 +162,25 @@ body {
 
 .try-footer {
   margin-top: -0.5208vw;
+  min-height: 6vw;
 }
 
+.cows {
+  position: absolute;
+  width: 87.5vw;
+  height: 22.0313vw;
+  background: url(../img/nipah/moving-cows-pigs.png) 0px 0px;
+  background-size: 262.5vw;
+  animation: play 0.3s steps(3) infinite;
+  bottom: 6.2083vw;
+  left: 6.594vw;
+}
 
+@keyframes play {
+  100% {
+    background-position: -262.5vw;
+  }
+}
 
 @media only screen and (max-height: 480px) {
 }

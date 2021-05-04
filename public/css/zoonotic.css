@@ -22,8 +22,8 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -12.25vw;
-  left: 17.1875vw;
+  top: -7.25vw;
+  left: 16.1875vw;
 }
 
 .ilyas {
@@ -41,19 +41,20 @@ body {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 11.4583vw;
+  top: 13.4583vw;
   left: -21.875vw;
 }
 
 /* spotlight */
 .spotlight-pop .close {
-  top: -4vw;
+  top: -7vw;
 }
 .spotlight-pop .title {
-  background: url(/img/zoonotic/title-base.png) center center no-repeat;
-  background-size: 100% 100%;
-  width: 60%;
-  padding: 1.5vw 0;
+  /* background: url(/img/zoonotic/title-base.png) center center no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 35px 0; */
 }
 
 /* tryout */
@@ -77,7 +78,7 @@ body {
 }
 
 #try_pop .modal-dialog {
-  min-width: 90vw;
+  min-width: 80vw;
 }
 
 .try-title {
@@ -90,6 +91,135 @@ body {
   justify-content: space-between;
   padding: 0 3.125vw;
 }
+
+
+.bat-1 {
+  position: absolute;
+  width: 9.6354vw;
+  height: 4.0104vw;
+  background: url(../img/zoonotic/moving-bat1.png) 0px 0px;
+  background-size: 19.2708vw;
+  animation: playBat1 0.3s steps(2) infinite;
+  top: 16.2083vw;
+  left: 13.594vw;
+}
+
+
+.bat-2 {
+  position: absolute;
+  width: 7.5vw;
+  height: 4.375vw;
+  background: url(../img/zoonotic/moving-bat2.png) 0px 0px;
+  background-size: 15vw;
+  animation: playBat2 0.3s steps(2) infinite;
+  top: 7.2083vw;
+  left: 27.594vw;
+}
+
+
+.bat-3 {
+  position: absolute;
+  width: 8.8021vw;
+  height: 4.7396vw;
+  background: url(../img/zoonotic/moving-bat3.png) 0px 0px;
+  background-size: 17.6042vw;
+  animation: playBat3 0.3s steps(2) infinite;
+  top: 8.2083vw;
+  left: 43.594vw;
+}
+
+
+.bat-4 {
+  position: absolute;
+  width: 7.1354vw;
+  height: 4.375vw;
+  background: url(../img/zoonotic/moving-bat4.png) 0px 0px;
+  background-size: 14.2708vw;
+  animation: playBat4 0.3s steps(2) infinite;
+  top: 25.2083vw;
+  left: 37.594vw;
+}
+
+
+.bat-5 {
+  position: absolute;
+  width: 9.8438vw;
+  height: 3.4896vw;
+  background: url(../img/zoonotic/moving-bat5.png) 0px 0px;
+  background-size: 19.6875vw;
+  animation: playBat5 0.3s steps(2) infinite;
+  top: 23.2083vw;
+  left: 51.594vw;
+}
+
+.bird-1 {
+  position: absolute;
+  width: 7.1354vw;
+  height: 6.875vw;
+  background: url(../img/zoonotic/moving-bird1.png) 0px 0px;
+  background-size: 14.2708vw;
+  animation: playBird1 0.3s steps(2) infinite;
+  top: 23.2083vw;
+  right: 18.594vw;
+}
+
+.bird-2 {
+  position: absolute;
+  width: 8.2813vw;
+  height: 6.6667vw;
+  background: url(../img/zoonotic/moving-bird2.png) 0px 0px;
+  background-size: 16.5625vw;
+  animation: playBird2 0.3s steps(2) infinite;
+  top: 10.2083vw;
+  right: 19.594vw;
+}
+
+@keyframes playBat1 {
+  100% {
+    background-position: -19.2708vw;
+  }
+}
+
+@keyframes playBat2 {
+  100% {
+    background-position: -15vw;
+  }
+}
+
+
+@keyframes playBat3 {
+  100% {
+    background-position: -17.6042vw;
+  }
+}
+
+
+@keyframes playBat4 {
+  100% {
+    background-position: -14.2708vw;
+  }
+}
+
+@keyframes playBat5 {
+  100% {
+    background-position: -19.6875vw;
+  }
+}
+
+@keyframes playBird1 {
+  100% {
+    background-position: -14.2708vw;
+  }
+}
+
+@keyframes playBird2 {
+  100% {
+    background-position: -16.5625vw;
+  }
+}
+
+
+
 
 @media only screen and (max-height: 480px) {
 }

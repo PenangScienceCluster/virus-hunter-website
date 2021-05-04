@@ -79,7 +79,7 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Discover Outbreaks',
-      'title' => 'Discover Outbreaks in History',
+      'title' => 'Discover Outbreaks<br>in History',
     ]
   ],
 
@@ -119,7 +119,7 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Discover Transmission of Disease',
-      'title' => 'Transmission of Disease from Animals to Humans',
+      'title' => 'Transmission of Disease<br>from Animals to Humans',
       'contentImg' => '/img/zoonotic/content.png'
     ]
   ],
@@ -226,7 +226,7 @@ return [
 
   'toolsandtechniques' => [
     'dialog' => [
-      'girl' => 'My too! This is the result of years of training, research and preparation long before the pandemic happened.',
+      'girl' => 'Me too! This is the result of years of training, research and preparation long before the pandemic happened.',
       'boy' => 'I admire our health workers and experts for repsonding so quickly to the outbreak and taking care of us to the best of their ability.'
     ],
     "popup" => [

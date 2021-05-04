@@ -98,7 +98,7 @@
   <div class="row h-100 justify-content-center align-items-center content">
     <div class="col-9">
       <h5 class="title mx-auto">
-        <?= lang('App.vaccines.spotlight.title') ?>
+        <?= lang('App.covid.spotlight.title') ?>
         <div class="modal-desc"><?= lang('App.covid.spotlight.desc') ?></div>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
@@ -119,17 +119,19 @@
 
 <div class="pandemic h-100">
 
+<div class="man"></div>
+
 
   <div class="spotlight-btn">
     <?= lang('App.covid.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
-  <div class="position-absolute gina animated fadeInLeft delay-2s ">
+  <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-center-left" contenteditable><?= lang('App.covid.dialog.girl') ?></div>
   </div>
-  <div class="position-absolute ilyas animated fadeInRight delay-2s ">
+  <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
     <div class="bubble bubble-top-right" contenteditable><?= lang('App.covid.dialog.boy') ?></div>
   </div>

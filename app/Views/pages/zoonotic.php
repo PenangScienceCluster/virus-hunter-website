@@ -128,6 +128,14 @@ foreach ($steps as $i => $v) {
 
 <div class="pandemic h-100">
 
+  <div class="bat-1"></div>
+  <div class="bat-2"></div>
+  <div class="bat-3"></div>
+  <div class="bat-4"></div>
+  <div class="bat-5"></div>
+  <div class="bird-1"></div>
+  <div class="bird-2"></div>
+
 
   <div class="spotlight-btn">
     <?= lang('App.zoonotic.spotlight.btn') ?>

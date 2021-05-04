@@ -48,7 +48,7 @@ body {
   background: url(../img/pandemics/moving-tv.png) 0px 0px;
   background-size: 197.3958vw;
   animation: play 0.9s steps(10) infinite;
-  bottom: 22.0833vw;
+  bottom: 39vh;
   left: 8.594vw;
 }
 
@@ -61,6 +61,26 @@ body {
 
 
 /* popup */
+
+.spotlight-pop .title {
+  position: relative;
+}
+
+.spotlight-title-img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.pos-1 {
+  top: 0px;
+  left: -2.8646vw;
+}
+
+.pos-2 {
+  right: 0;
+  bottom: -0.5208vw;
+}
+
 .spotlight-pop .close {
   top: -8vw;
 }
@@ -72,7 +92,10 @@ body {
 
 .outbreak-modal-content {
   display: flex;
-  color: #000
+  color: #000;
+  min-height: 32.8125vw;
+  max-width: 900px;
+  margin: 2.0833vw auto 0;
 }
 
 .outbreak-modal-content .tab-content {
@@ -86,11 +109,25 @@ body {
 
 .outbreak-modal-content .nav {
   width: 16.3021vw;
+  position: relative;
+  z-index: 2;
+}
+
+.line {
+  position: absolute;
+  left: 5vw;
+  height: 100%;
+  width: 3px;
+  background: #278A73;
+  top: -1.0417vw;
+  z-index: 1;
 }
 
 .outbreak-modal-content .nav-link {
   font-size: 1.6667vw;
   line-height: 1;
+  z-index: 2;
+  position: relative;
 }
 
 .outbreak-nav-title {
@@ -122,8 +159,9 @@ body {
 }
 
 .outbreak-nav-title-name {
+  font-family: Arial, Helvetica, sans-serif;
   flex-grow: 1;
-  font-size: 1.4583vw;
+  font-size: 1.1458vw;
   font-weight: bold;
 }
 

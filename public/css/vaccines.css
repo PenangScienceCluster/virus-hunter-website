@@ -19,7 +19,7 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -12.25vw;
+  top: -10.25vw;
   left: 4.1875vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
@@ -55,12 +55,15 @@ body {
 
 
 /* tryout */
+#try_pop .modal-body {
+  padding: 0px 6.25vw 5.0417vw;
+}
 #try_pop .modal-content {
   background-image: url(../img/popup/bg-lg.png);
 }
 
 #try_pop .modal-dialog {
-  min-width: 90vw;
+  min-width: 70vw;
 }
 
 #try_pop .popup-content {
@@ -131,6 +134,45 @@ body {
   max-width: 48.8646vw;
   margin: 0 auto;
 }
+
+.feedback {
+  min-height: 5vw;
+}
+
+.boy {
+  position: absolute;
+  width: 142px;
+  height: 282px;
+  background: url(../img/vaccines/moving-boy.png) 0px 0px;
+  background-size: 284px;
+  animation: play 0.3s steps(2) infinite;
+  bottom: 20vh;
+  right: 13.594vw;
+}
+
+.doctor {
+  position: absolute;
+  width: 834px;
+  height: 570px;
+  background: url(../img/vaccines/moving-doctor-boy.png) 0px 0px;
+  background-size: 3336px;
+  animation: play2 0.3s steps(4) infinite;
+  bottom: 14vh;
+  left: 0;
+}
+
+@keyframes play {
+  100% {
+    background-position: -284px;
+  }
+}
+
+@keyframes play2 {
+  100% {
+    background-position: -3336px;
+  }
+}
+
 
 @media only screen and (max-height: 480px) {
 }

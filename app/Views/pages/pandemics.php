@@ -131,11 +131,12 @@
   <div class="row h-100 justify-content-center align-items-center content">
     <div class="col-9">
       <h5 class="title mx-auto">
-        <?= lang('App.zoonotic.spotlight.title') ?>
+        <img class="spotlight-title-img pos-2" src="/img/pandemics/pandemics-spotlight-virus.png"/>
+        <img class="spotlight-title-img pos-1" src="/img/pandemics/pandemics-spotlight-ebola.png"/>
+        <?= lang('App.pandemics.spotlight.title') ?>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-        
 
         <div class="outbreak-modal-content">
           <div class="tab-content">
@@ -176,7 +177,7 @@
             </div>
             <div class="tab-pane fade" id="outbreak-2" role="tabpanel" aria-labelledby="profile-tab">
               <div class="outbreak-box">
-                <div class="outbreak-header">2002</div>
+                <div class="outbreak-header">1998</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
@@ -211,7 +212,7 @@
             </div>
             <div class="tab-pane fade" id="outbreak-3" role="tabpanel" aria-labelledby="contact-tab">
               <div class="outbreak-box">
-                <div class="outbreak-header">2005</div>
+                <div class="outbreak-header">2002</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
@@ -322,7 +323,7 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-toggle="tab" href="#outbreak-2" role="tab">
                 <div class="outbreak-nav-title">
-                  <div class="outbreak-nav-title-year">2002</div>
+                  <div class="outbreak-nav-title-year">1998</div>
                   <div class="outbreak-nav-title-name">Nipah virus</div>
                 </div>
               </a>
@@ -330,7 +331,7 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link" data-toggle="tab" href="#outbreak-3" role="tab">
                 <div class="outbreak-nav-title">
-                  <div class="outbreak-nav-title-year">2005</div>
+                  <div class="outbreak-nav-title-year">2002</div>
                   <div class="outbreak-nav-title-name">SARS</div>
                 </div>
               </a>
@@ -351,6 +352,7 @@
                 </div>
               </a>
             </li>
+            <div class="line"></div>
           </ul>
         </div>
       </div>
@@ -368,12 +370,12 @@
     <?= lang('App.pandemics.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
-  <div class="position-absolute gina animated fadeInLeft delay-2s ">
+  <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?>
     </div>
   </div>
-  <div class="position-absolute ilyas animated fadeInRight delay-2s ">
+  <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
     <div class="bubble bubble-top-right" contenteditable><?= lang('App.pandemics.dialog.boy') ?>
     </div>
