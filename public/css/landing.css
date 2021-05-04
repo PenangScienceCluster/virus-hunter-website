@@ -10,17 +10,6 @@
   width: 60%;
 }
 
-.footer {
-  position: absolute;
-  background: url(../../img/landing/sub-logos-bg.png) 0 0 no-repeat;
-  background-size: 100% 100%;
-  z-index: 0;
-  bottom: 0;
-  right: 2%;
-  padding: 2rem 2rem 1rem 2rem;
-  font-weight: bold;
-}
-
 .virus {
   position: absolute;
   bottom: 0;

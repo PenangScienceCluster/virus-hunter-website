@@ -45,7 +45,7 @@
 </div>
 
 
-<div class="footer w-30 animated fadeInUp slow delay-3s">
+<div class="footer w-30 animated fadeInUp slow delay-2s">
   <div class="row">
     <div class="col-6">
       <div>

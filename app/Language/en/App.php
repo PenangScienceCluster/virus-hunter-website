@@ -9,6 +9,7 @@ return [
 
   'correct'=> 'correct',
   'try_again'=> 'try again',
+  'btn_share' => 'Share',
 
   'nav' => [
     'home' => 'Home',
@@ -176,6 +177,17 @@ return [
       'btn' => 'Discover COVID-19 Testing',
       'title' => 'COVID-19 Testing',
       'contentImg' => '/img/toolsandtechniques/content.png'
+    ]
+  ],
+
+  'completed'=>[
+    'title'=> 'Well done on completing the challenges!',
+    'desc'=> 'Claim your medal of honor, Virus Hunter!',
+    'join'=>'Join our STEM activities <br>- available both virtually and in person at:',
+    'dialog'=>[
+      '<br>Learn more about the Virus Hunter project <a href="{0}">here</a>.',
+      'Find out about the role of US in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
+      'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
     ]
   ]
 ];

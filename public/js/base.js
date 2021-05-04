@@ -14,6 +14,9 @@ var preloadImg = [
   "/img/progressbar/5-on-s.png",
   "/img/progressbar/5-on.png",
   "/img/progressbar/6-on-s.png",
+  "/img/completed/btn-website-on.png",
+  "/img/completed/btn-fb-on.png",
+  "/img/completed/btn-instagram-on.png",
 ];
 
 $(function () {

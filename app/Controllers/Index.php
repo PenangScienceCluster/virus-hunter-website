@@ -39,6 +39,17 @@ class Index extends BaseController
               '/css/gallery.css'
             ];
             break;
+          case  'completed':
+            $js = [
+              '/lib/owl-carousel/owl.carousel.min.js',
+              '/js/completed.js'
+            ];
+            $css = [
+              '/lib/owl-carousel/assets/owl.carousel.min.css',
+              '/lib/owl-carousel/assets/owl.theme.default.css',
+              '/css/completed.css'
+            ];
+            break;
           case "pandemics":
             $navSide = ['fact','virushunter','career','us'];
             $js = ['/js/pandemics.js'];
