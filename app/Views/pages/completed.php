@@ -50,9 +50,9 @@
   </div>
 </div>
 
-<div class="position-absolute gina">
+<div class="position-absolute gina animated fadeInLeft delay-2s">
   <img src="/img/characters/gina-1.png" class="img-fluid" />
-  <div class="bubble bubble-left ">
+  <div class="bubble bubble-left animated bounceInLeft delay-3s">
     <div class="owl-carousel owl-theme photos">
       <div class="item small align-middle">
         <?= lang('App.completed.dialog.0', ['https://www.cdc.gov/']) ?>

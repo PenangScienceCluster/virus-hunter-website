@@ -7,6 +7,7 @@ return [
   'share_description' => '',
   'share_image' => '',
 
+  'done'=> 'Done',
   'correct'=> 'correct',
   'try_again'=> 'try again',
   'btn_share' => 'Share',
@@ -20,7 +21,7 @@ return [
 
   'subnav' => [
     'pocket_fact' => 'Pocket Fact',
-    'virus_hunter' => 'Virus Hunter',
+    'virus_hunter' => 'Virus Hunter Icon',
     'career_pathway' => 'Career Pathway',
     'us_anecdotes' => 'US Anecdotes',
     'try_out' => 'Try This'
@@ -70,13 +71,15 @@ return [
       'girl' => 'In early 2020, my classmates and I had to suddenly attend school from home. It is the same for you too, isn’t it, Ilyas?',
       'boy' => 'Yes! My mother told me that there was a pandemic and we had to take care of each other by staying at home.'
     ],
-    'discover_outbreaks' => 'Discover Outbreaks',
-    'discover_outbreaks_in_history' => 'Discover Outbreaks in History',
     "popup" => [
       'pocket_fact' =>  'Pandemics are sudden disease outbreaks that spread to a large number of people across multiple countries.',
       'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
       'us_anecdotes' =>  '...',
       'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
+    ],
+    'spotlight' => [
+      'btn' => 'Discover Outbreaks',
+      'title' => 'Discover Outbreaks in History',
     ]
   ],
 
@@ -85,36 +88,39 @@ return [
       'girl' => 'That is true! I try to bring a hand sanitizer with me when I have to go outside. Did you know that COVID-19 is a zoonotic disease?',
       'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
     ],
-    'discover_outbreaks' => 'Discover Transmission of Disease',
     "popup" => [
       'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food or environment.',
       'career' =>  'As animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreak.',
+      'try_out' => [
+        'title'=> 'Select ALL factors that contribute to emergence of zoonotic diseases.',
+        'items' => [
+          [
+            'id'=>1,
+            'src'=>'/img/zoonotic/zoonotic-try-01-en.png',
+          ],
+          [
+            'id'=> 2,
+            'src'=>'/img/zoonotic/zoonotic-try-02-en.png',
+          ],
+          [
+            'id' => 3,
+            'src'=>'/img/zoonotic/zoonotic-try-03-en.png'
+          ],
+          [
+            'id' => 4,
+            'src'=>'/img/zoonotic/zoonotic-try-04-en.png'
+          ],
+          [
+            'id' => 5,
+            'src'=>'/img/zoonotic/zoonotic-try-05-en.png'
+          ]
+        ]
+      ]
     ],
     'spotlight' => [
+      'btn' => 'Discover Transmission of Disease',
       'title' => 'Transmission of Disease from Animals to Humans',
-      'content' => [
-        [
-          'title' => 'Population Growth & Urbanization',
-          'desc' => 'Denser cities make disease transmission easier! Clearing lands and developing industries close to natural environments increase the possibilities of wildlife and human interaction.',
-          'img' => '/img/zoonotic/zoonotic-spotlight-01.png'
-        ], [
-          'title' => 'Deforestation & Creation of Dams & Reservoirs',
-          'desc' => 'These activities fragment habitats and displace species, forcing closer contact between wildlife and humans, either directly or through another animal.',
-          'img' => '/img/zoonotic/zoonotic-spotlight-02.png'
-        ], [
-          'title' => 'Climate Change',
-          'desc' => 'Global heating changes the behaviour of many species. Species that thrive in tropical settings now can also be found in regions where temperature used to be low!',
-          'img' => '/img/zoonotic/zoonotic-spotlight-03.png'
-        ], [
-          'title' => 'Transportation & Travel',
-          'desc' => 'Millions of people travel—and millions of animals are transported— annually, increasing possibility of spreading emerging viruses into new regions.',
-          'img' => '/img/zoonotic/zoonotic-spotlight-04.png'
-        ], [
-          'title' => 'Illegal Wildlife Trafficking & Trading',
-          'desc' => 'Unlawful trade of animals, both living and in parts, brings animals to close proximity to humans. These animals include species of different origins, which may increase possibility of contact between natural reservoir and intermediate host!',
-          'img' => '/img/zoonotic/zoonotic-spotlight-05.png'
-        ],
-      ]
+      'contentImg' => '/img/zoonotic/content.png'
     ]
   ],
 
@@ -127,26 +133,97 @@ return [
       'pocket_fact' =>  'During the outbreak in 1998, experts led communications on progress of the outbreak to encourage best health practice by health workers as well as the community.',
       'career' =>  'Biochemists study chemical reactions in living things, including how virus takes over control of infected cells!',
       'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak',
+      'try_out' => [
+        'title'=> 'Drag and drop the correct name and function of the virus structure to the label.',
+        'items' => [
+          [
+            'id' => 1,
+            'title' => 'genetic material ',
+            'desc' => 'stores information for the virus to function and construct itself (may be in the form of DNA or RNA!)',
+          ],
+          [
+            'id' => 2,
+            'title' => 'viral envelope',
+            'desc' => 'protects genetic material (sometimes not present in a virus)',
+          ],
+          [
+            'id' => 3,
+            'title' => 'glycoprotein',
+            'desc' => 'helps the virus attach & infect cells',
+          ]
+        ]
+      ]
     ],
     'spotlight' => [
       'btn' => 'Discover Virus Structure',
       'title' => 'Virus Structure',
-      'content' => [
-        [
-          'title' => 'genetic material ',
-          'desc' => 'stores information for the virus to function and construct itself (may be in the form of DNA or RNA!)',
-        ],
-        [
-          'title' => 'viral envelope',
-          'desc' => 'protects genetic material (sometimes not present in a virus)',
-        ],
-        [
-          'title' => 'glycoprotein',
-          'desc' => 'helps the virus attach & infect cells',
-        ]
-      ]
+      'contentImg' => '/img/nipah/content.png'
     ]
   ],
+
+  'covid' => [
+    'dialog' => [
+      'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
+      'boy' => 'During the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
+      'us_anecdotes' =>  'Operation Warp Speed in the US strives to accelerate the development, manufacturing and distribution of COVID-19 vaccines, therapeutics and diagnostics.',
+      'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',
+    ],
+    'spotlight' => [
+      'btn' => 'Watch<br>Video',
+      'title' => 'Prevent the Spread of Disease',
+      'desc' => 'With or without a pandemic, we should always do our part to protect ourselves and others around us from getting sick. Watch this video on how to prevent the spread of disease when we cough and sneeze!',
+    ]
+  ],
+
+  'vaccines' => [
+    'dialog' => [
+      'girl' => 'As vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
+      'boy' => 'Yes! We must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
+    ],
+    "popup" => [
+      'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
+      'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of hepatitis B vaccine.',
+      'try_out' => [
+        'title'=> 'Drag and drop the description to the correct phase.',
+        'items' => [
+          [
+            'id' => 1,
+            'src'=>'/img/vaccines/vaccines-try-step1.png',
+            'step' => 'Preclinical'
+          ],
+          [
+            'id' => 2,
+            'src'=>'/img/vaccines/vaccines-try-step2.png',
+            'step' => 'Phase I'
+          ],
+          [
+            'id' => 3,
+            'src'=>'/img/vaccines/vaccines-try-step3.png',
+            'step' => 'Phase II'
+          ],
+          [
+            'id' => 4,
+            'src'=>'/img/vaccines/vaccines-try-step4.png',
+            'step' => 'Phase III'
+          ],
+          [
+            'id' => 5,
+            'src'=>'/img/vaccines/vaccines-try-step5.png',
+            'step' => 'Approval'
+          ]
+        ]
+      ]
+    ],
+    'spotlight' => [
+      'btn' => 'Vaccine Development Process',
+      'title' => 'Vaccine Development Process',
+      'contentImg' => '/img/vaccines/content.png'
+    ],
+  ],
+
   'toolsandtechniques' => [
     'dialog' => [
       'girl' => 'My too! This is the result of years of training, research and preparation long before the pandemic happened.',

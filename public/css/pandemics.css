@@ -61,58 +61,14 @@ body {
 
 
 /* popup */
-
-.outbreak-modal .modal-dialog {
-  min-width: 43.2292vw;
-  margin-top: 4.1667vw;
-}
-.outbreak-modal .modal-content {
-  min-height: 46.094vw;
-  background: unset;
-  border: 0px solid #000;
+.spotlight-pop .close {
+  top: -8vw;
 }
 
-.outbreak-modal .modal-body {
-  padding: 1.0417vw;
+.spotlight-pop .content {
+  margin-top: 2.6042vw;
 }
 
-.outbreak-modal .modal-header {
-  border-bottom: 0px solid #000;
-}
-
-.outbreak-modal .modal-header .close {
-  background: #323334;
-  border-radius: 50%;
-  position: absolute;
-  right: 0;
-  top: 2.604vw;
-  width: 4.688vw;
-  height: 4.688vw;
-  opacity: 1;
-  color: #fff;
-  font-size: 4.167vw;
-  line-height: 1;
-  padding: 0;
-  background-image: url(../img/pandemics/btn-prev-off.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.outbreak-modal .modal-header .modal-title {
-  padding: 2.4479vw 5.2083vw 3.6458vw 8.8542vw;
-  margin: -3.125vw 0 0 0;
-  text-align: center;
-  width: 32.7083vw;
-  background-image: url(../img/pandemics/pandemics-spotlight-title-empty.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-size: 2.2917vw;
-  font-family: "tenbyfive";
-  color: #fff;
-  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000, 4px 5px 0 #000;
-  font-family: "tenbyfive";
-}
 
 .outbreak-modal-content {
   display: flex;
@@ -174,7 +130,7 @@ body {
 .outbreak-box {
   width: 100%;
   border-radius: 1.5625vw;
-  border: 0.1563vw solid #278A73;
+  border: 2px solid #278A73;
   background: #E7F2E9;
   overflow: hidden;
   display: flex;
@@ -186,7 +142,7 @@ body {
 .outbreak-header {
   background-color: #278A73;
   color: #fff;
-  font-size: 2.6042vw;
+  font-size: 2.3vw;
   line-height: 1;
   font-family: "tenbyfive";
   padding: 1.0417vw 2.0833vw 0.5208vw;
