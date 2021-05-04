@@ -11,4 +11,6 @@ $(function () {
       "<div class='owl-next'><i class='fas fa-chevron-right'></i></div>",
     ],
   });
+
+  eraseCookie();
 });
