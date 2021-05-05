@@ -1,7 +1,7 @@
 .bg-radar {
   position: absolute;
   background: url(../../img/landing/bg-radar.png) 0 0 no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   z-index: 0;
   top: 0;
   left: 0;

@@ -62,6 +62,11 @@ $(function () {
       function () {}
     );
   }
+
+  //set body height
+
+  var h = $("body").height();
+  $(".wrapper").height(h);
 });
 
 function markNav(currentSection) {
