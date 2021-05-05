@@ -49,12 +49,12 @@ foreach ($steps as $i => $v) {
               <?= lang('App.vaccines.popup.try_out.title') ?>
             </h4>
             <div class="try-body">
-            <div class="questions d-flex mt-4">
-              <?= $drop ?>
-            </div>
-            <div class="answers d-flex">
-              <?= $drag ?>
-            </div>
+              <div class="questions d-flex mt-4">
+                <?= $drop ?>
+              </div>
+              <div class="answers d-flex">
+                <?= $drag ?>
+              </div>
             </div>
             <div class="mt-2 feedback text-center text-uppercase">
 
@@ -73,11 +73,13 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -92,11 +94,13 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
+        </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
         </button>
@@ -132,22 +136,23 @@ foreach ($steps as $i => $v) {
 
 <div class="pandemic h-100">
 
-<div class="doctor"></div>
-<div class="boy"></div>
+  <div class="doctor"></div>
+  <div class="boy"></div>
 
   <div class="spotlight-btn">
     <?= lang('App.vaccines.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
-
   <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-center-left" contenteditable><?= lang('App.vaccines.dialog.girl') ?></div>
+    <div class="bubble bubble-bottom-center-left"><?= lang('App.vaccines.dialog.girl') ?>
+    </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.vaccines.dialog.boy') ?></div>
+    <div class="bubble bubble-top-right"><?= lang('App.vaccines.dialog.boy') ?>
+    </div>
   </div>
 
 </div>

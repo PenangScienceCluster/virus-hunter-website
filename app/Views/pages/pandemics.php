@@ -38,24 +38,6 @@
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">><?= lang('App.subnav.try_out') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-    </div>
-  </div>
-</div>
-
 
 <div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
@@ -70,8 +52,8 @@
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/pandemics/moving-pandemics-us-anecdotes.gif" />
-          <div class="popup-text">
+          <div class="w-60 mx-auto my-4"><img src="/img/pandemics/moving-pandemics-us-anecdotes.gif" /></div>
+          <div class="popup-tex mt-4">
             <?= lang('App.pandemics.popup.us_anecdotes') ?>
           </div>
         </div>
@@ -85,16 +67,16 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
+        <h5 class="modal-title" id="exampleModalLabel">
+          <?= lang('App.subnav.virus_hunter') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="popup-content">
-          <img src="/img/pandemics/moving-pandemics-virus-hunter.gif" />
-          <div class="popup-text">
+        <div class="popup-content my-4">
+          <div class="w-60 mx-auto"><img src="/img/pandemics/moving-pandemics-virus-hunter.gif" class="img-fluid" />
+          </div>
+          <div class="popup-text mt-4">
             <?= lang('App.pandemics.popup.virus_hunter') ?>
           </div>
         </div>
@@ -108,16 +90,15 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
+        <h5 class="modal-title" id="exampleModalLabel">
+          <?= lang('App.subnav.career_pathway') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/pandemics/moving-pandemics-career.gif" />
-          <div class="popup-text">
+          <div class="w-60 mx-auto my-4"><img src="/img/pandemics/moving-pandemics-career.gif" /></div>
+          <div class="popup-text mt-4">
             <?= lang('App.pandemics.popup.career') ?>
           </div>
         </div>
@@ -131,8 +112,12 @@
   <div class="row h-100 justify-content-center align-items-center content">
     <div class="col-9">
       <h5 class="title mx-auto">
-        <img class="spotlight-title-img pos-2" src="/img/pandemics/pandemics-spotlight-virus.png"/>
-        <img class="spotlight-title-img pos-1" src="/img/pandemics/pandemics-spotlight-ebola.png"/>
+        <div class="spotlight-title-img pos-2">
+          <img src="/img/pandemics/pandemics-spotlight-virus.png" class="img-fluid" />
+        </div>
+        <div class="spotlight-title-img pos-1">
+          <img class="img-fluid" src="/img/pandemics/pandemics-spotlight-ebola.png" />
+        </div>
         <?= lang('App.pandemics.spotlight.title') ?>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
@@ -370,14 +355,14 @@
     <?= lang('App.pandemics.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
-  <div class="position-absolute gina animated fadeInLeft delay-1s ">
+  <div class="position-absolute gina animated fadeInLeft delay-1s">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.pandemics.dialog.girl') ?>
+    <div class="bubble bubble-bottom-left"><?= lang('App.pandemics.dialog.girl') ?>
     </div>
   </div>
-  <div class="position-absolute ilyas animated fadeInRight delay-1s ">
+  <div class="position-absolute ilyas animated fadeInRight delay-1s">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.pandemics.dialog.boy') ?>
+    <div class="bubble bubble-top-right"><?= lang('App.pandemics.dialog.boy') ?>
     </div>
   </div>
 

@@ -50,11 +50,12 @@ body {
   top: -7vw;
 }
 .spotlight-pop .title {
-  /* background: url(/img/zoonotic/title-base.png) center center no-repeat;
+  background: url(/img/zoonotic/title-base.png) center center no-repeat;
   background-size: 100% auto;
-  width: 100%;
-  max-width: 600px;
-  padding: 35px 0; */
+  /* width: 100%; */
+  /* max-width: 600px; */
+  /* padding: 35px 0; */
+  width: 60vw;
 }
 
 /* tryout */
@@ -92,7 +93,6 @@ body {
   padding: 0 3.125vw;
 }
 
-
 .bat-1 {
   position: absolute;
   width: 9.6354vw;
@@ -103,7 +103,6 @@ body {
   top: 16.2083vw;
   left: 13.594vw;
 }
-
 
 .bat-2 {
   position: absolute;
@@ -116,7 +115,6 @@ body {
   left: 27.594vw;
 }
 
-
 .bat-3 {
   position: absolute;
   width: 8.8021vw;
@@ -128,7 +126,6 @@ body {
   left: 43.594vw;
 }
 
-
 .bat-4 {
   position: absolute;
   width: 7.1354vw;
@@ -139,7 +136,6 @@ body {
   top: 25.2083vw;
   left: 37.594vw;
 }
-
 
 .bat-5 {
   position: absolute;
@@ -186,13 +182,11 @@ body {
   }
 }
 
-
 @keyframes playBat3 {
   100% {
     background-position: -17.6042vw;
   }
 }
-
 
 @keyframes playBat4 {
   100% {
@@ -217,9 +211,6 @@ body {
     background-position: -16.5625vw;
   }
 }
-
-
-
 
 @media only screen and (max-height: 480px) {
 }

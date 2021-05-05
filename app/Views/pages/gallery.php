@@ -44,12 +44,12 @@
           <div class="owl-carousel owl-theme videos w-70 mx-auto">
             <div class="item-video" data-merge="1">
               <div class="maxh">
-                <a class="owl-video" href="https://www.youtube.com/watch?v=_VQ9t_9LNP4"></a>
+                <a class="owl-video" href="https://www.youtube.com/watch?v=i0ZabxXmH4Y"></a>
               </div>
             </div>
             <div class="item-video" data-merge="2">
               <div class="maxh">
-                <a class="owl-video" href="https://www.youtube.com/watch?v=yfn8sE9obWU"></a>
+                <a class="owl-video" href="https://www.youtube.com/watch?v=i0ZabxXmH4Y"></a>
               </div>
             </div>
           </div>

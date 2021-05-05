@@ -35,7 +35,9 @@
                 <div class="text-left">
                   <?= lang('App.aboutus.organizedby') ?>
                 </div>
-                <img src="/img/aboutus/about-logo-PSC.png" class="img-fluid" />
+                <a href="https://www.pscpen.com" target="_blank">
+                  <img src="/img/aboutus/about-logo-PSC.png" class="img-fluid" />
+                </a>
               </div>
               <div class="col-6">
                 <div class="text-left">
@@ -43,10 +45,15 @@
                 </div>
                 <div class="row mt-1">
                   <div class="col-6 p-0 text-center">
-                    <img src="/img/aboutus/about-logo-usekl.png" class="w-70" />
+                    <a href="https://my.usembassy.gov/" target="_blank">
+                      <img src="/img/aboutus/about-logo-usekl.png" class="w-70" />
+                    </a>
                   </div>
                   <div class="col-6 p-0">
-                    <img src="/img/aboutus/about-logo-ATP.png" class="w-70" />
+                    <a href="https://my.usembassy.gov/education-culture/american-spaces/american-tech-corner-psc/"
+                      target="_blank">
+                      <img src="/img/aboutus/about-logo-ATP.png" class="w-70" />
+                    </a>
                   </div>
                 </div>
               </div>

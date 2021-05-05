@@ -11,7 +11,7 @@ $steps = lang('App.nipah.popup.try_out.items');
 $drop = $drag = '';
 
 foreach ($steps as $i => $v) {
-  $drop .= '<div class="question " id="q' . $v['id'] . '" data-id="' . $v['id'] . '">
+    $drop .= '<div class="question " id="q' . $v['id'] . '" data-id="' . $v['id'] . '">
     <div class="question-box">
       <div class="answer-title">' . $v['title'] . '</div>
       <div class="answer-desc">' . $v['desc'] . '</div>
@@ -21,7 +21,7 @@ foreach ($steps as $i => $v) {
 
 shuffle($steps);
 foreach ($steps as $i => $v) {
-  $drag .= '<div class="answer " id="a' . $v['id'] . '" data-id="' . $v['id'] . '">
+    $drag .= '<div class="answer " id="a' . $v['id'] . '" data-id="' . $v['id'] . '">
         <div class="answer-title">' . $v['title'] . '</div>
         <div class="answer-desc">' . $v['desc'] . '</div>
     </div>';
@@ -43,7 +43,8 @@ foreach ($steps as $i => $v) {
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -86,7 +87,8 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -96,8 +98,8 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/nipah/moving-nipah-pocket-fact.gif" />
-          <div class="popup-text">
+          <div class="w-60 mx-auto my-4"><img src="/img/nipah/moving-nipah-pocket-fact.gif" class="img-fluid" /></div>
+          <div class="popup-text mt-4">
             <?= lang('App.nipah.popup.pocket_fact') ?>
           </div>
         </div>
@@ -106,7 +108,8 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -118,7 +121,7 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/nipah/moving-nipah-career.gif" />
+          <div class="w-60 mx-auto my-4"><img src="/img/nipah/moving-nipah-career.gif" class="img-fluid" /></div>
           <div class="popup-text">
             <?= lang('App.nipah.popup.career') ?>
           </div>
@@ -128,19 +131,19 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
+        <h5 class="modal-title" id="exampleModalLabel">
+          <?= lang('App.subnav.virus_hunter') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/nipah/moving-nipah-virus-hunter.gif" />
+          <div class="w-60 mx-auto my-4"><img src="/img/nipah/moving-nipah-virus-hunter.gif" class="img-fluid" /></div>
           <div class="popup-text">
             <?= lang('App.nipah.popup.virus_hunter') ?>
           </div>
@@ -150,7 +153,8 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -193,7 +197,7 @@ foreach ($steps as $i => $v) {
 
 <div class="pandemic h-100">
 
-<div class="cows"></div>
+  <div class="cows"></div>
 
   <div class="spotlight-btn">
     <?= lang('App.nipah.spotlight.btn') ?>
@@ -202,12 +206,12 @@ foreach ($steps as $i => $v) {
 
   <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.nipah.dialog.girl') ?>
+    <div class="bubble bubble-bottom-left"><?= lang('App.nipah.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.nipah.dialog.boy') ?>
+    <div class="bubble bubble-top-right"><?= lang('App.nipah.dialog.boy') ?>
     </div>
   </div>
 

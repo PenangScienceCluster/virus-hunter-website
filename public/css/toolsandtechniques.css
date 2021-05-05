@@ -41,8 +41,8 @@ body {
 
 .gina {
   width: 25vw;
-  bottom: 0;
-  right: 5vw;
+  bottom: -3vw;
+  right: 11vw;
   z-index: 3;
 }
 
@@ -67,21 +67,19 @@ body {
 
 .try-title {
   font-size: 1.6667vw;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .question {
   position: relative;
   border: 2px dotted #339966;
   border-radius: 5px;
-
 }
 
 .question img {
   opacity: 0;
   margin-bottom: 0 !important;
 }
-
 
 .question .step {
   width: 100%;

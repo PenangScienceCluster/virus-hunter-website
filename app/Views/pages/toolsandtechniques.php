@@ -157,13 +157,13 @@ foreach ($steps as $i => $v) {
 
   <div class="position-absolute gina">
     <img src="/img/characters/gina-2.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable>
+    <div class="bubble bubble-top-right">
       <?= lang('App.toolsandtechniques.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas">
     <img src="/img/characters/ilyas-2.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-middle" contenteditable>
+    <div class="bubble bubble-bottom-middle">
       <?= lang('App.toolsandtechniques.dialog.boy') ?>
     </div>
   </div>

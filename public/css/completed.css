@@ -1,8 +1,8 @@
 .board {
   background: url(../../img/completed/board.png) center 3vw no-repeat;
-  background-size: 100% 92%;
+  background-size: 90% 90%;
   padding: 0 2vw 2vw 2vw;
-  margin-top: 5vw;
+  margin-top: 7vw;
   position: relative;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .medal {
-  margin-top: -4vw;
+  margin-top: -5vw;
   border: 0px solid red;
 }
 

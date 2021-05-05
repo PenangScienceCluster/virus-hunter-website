@@ -31,14 +31,14 @@ $(function () {
     $(this).toggleClass("selected");
   });
 
-  $(".btn-done").on("click", function () {
+  $(".btn-theme").on("click", function () {
     var selected = $(".selected").length;
     $(".btn-done").addClass("d-none");
 
-    if(selected == 5) {
-      correct = true
+    if (selected == 5) {
+      correct = true;
     } else {
-      correct = false
+      correct = false;
     }
 
     if (correct) {
@@ -53,8 +53,8 @@ $(function () {
             $(this).removeClass("animated tada");
           }
         );
-        
-        store("zoonotic", "star");
+
+      store("zoonotic", "star");
     } else {
       $("#correct").addClass("d-none");
       $("#wrong")

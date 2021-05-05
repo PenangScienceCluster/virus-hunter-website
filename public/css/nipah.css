@@ -3,7 +3,6 @@ body {
   background-size: 100% 100%;
 }
 
-
 .gina {
   bottom: 2.8646vw;
   left: 14.0625vw;
@@ -42,13 +41,11 @@ body {
   left: -18.7917vw;
 }
 
-
 /* spotlight */
 
 .spotlight-pop .close {
   top: -6vw;
 }
-
 
 /* tryout */
 
@@ -84,7 +81,7 @@ body {
 
 .answer {
   position: relative;
-  background:#E7F2E9;
+  background: #e7f2e9;
   border-radius: 0.5208vw;
   width: 20.5729vw;
   padding: 0.7813vw 1.0417vw;
@@ -114,7 +111,6 @@ body {
   max-width: 25vw !important;
 }
 
-
 .question {
   position: absolute;
   border: 3px dotted #339966;
@@ -124,7 +120,7 @@ body {
 }
 
 .question-box {
-  background:#E7F2E9;
+  background: #e7f2e9;
   border-radius: 0.5208vw;
   padding: 0.7813vw 1.0417vw;
   min-height: 7.8125vw;
@@ -133,7 +129,6 @@ body {
   justify-content: center;
   opacity: 0;
 }
-
 
 .question-title {
   font-weight: bold;
@@ -150,12 +145,12 @@ body {
   left: 1.0938vw;
 }
 
-#q2  {
+#q2 {
   top: -1.3542vw;
   right: 1.0938vw;
 }
 
-#q1  {
+#q1 {
   bottom: 1.3021vw;
   right: 1.0938vw;
 }
@@ -171,7 +166,7 @@ body {
   height: 22.0313vw;
   background: url(../img/nipah/moving-cows-pigs.png) 0px 0px;
   background-size: 262.5vw;
-  animation: play 0.3s steps(3) infinite;
+  animation: play 1.3s steps(3) infinite;
   bottom: 6.2083vw;
   left: 6.594vw;
 }

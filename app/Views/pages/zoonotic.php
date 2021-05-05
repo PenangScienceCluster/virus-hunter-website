@@ -47,9 +47,11 @@ foreach ($steps as $i => $v) {
             <div class="try-body selectable-case d-flex mt-4">
               <?= $selects ?>
             </div>
-            <div class="try-footer mt-4 feedback text-center text-uppercase">
-              <div class="btn-done"><?= lang('App.done') ?>
-              </div>
+            <div class="btn-theme w-30 mx-auto">
+              <?= lang('App.done') ?>
+            </div>
+            <div class="try-footer feedback text-center text-uppercase">
+
 
               <span class="text-success d-none" id="correct">
                 <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />
@@ -100,8 +102,8 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <img src="/img/zoonotic/moving-zoonotic-career.gif" />
-          <div class="popup-text">
+          <div class="w-60 mx-auto my-4"><img src="/img/zoonotic/moving-zoonotic-career.gif" /></div>
+          <div class="popup-text mt-4">
             <?= lang('App.zoonotic.popup.career') ?>
           </div>
         </div>
@@ -144,12 +146,12 @@ foreach ($steps as $i => $v) {
 
   <div class="position-absolute gina animated fadeInLeft delay-1s ">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left" contenteditable><?= lang('App.zoonotic.dialog.girl') ?>
+    <div class="bubble bubble-bottom-left"><?= lang('App.zoonotic.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight delay-1s ">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right" contenteditable><?= lang('App.zoonotic.dialog.boy') ?>
+    <div class="bubble bubble-top-right"><?= lang('App.zoonotic.dialog.boy') ?>
     </div>
   </div>
 

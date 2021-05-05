@@ -31,6 +31,7 @@ return [
     'imready' => 'i\'m ready',
     'aprojectby' => 'A project by',
     'supportedby' => 'Supported by',
+    'title'=> '/img/landing/header_en.png'
   ],
   'overview' => [
     'letsbegin' => 'let\'s begin!',
@@ -119,7 +120,7 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Discover Transmission of Disease',
-      'title' => 'Transmission of Disease<br>from Animals to Humans',
+      'title' => 'Transmission of Disease from Animals to Humans',
       'contentImg' => '/img/zoonotic/content.png'
     ]
   ],

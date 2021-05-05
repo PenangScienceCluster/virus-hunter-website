@@ -52,13 +52,11 @@ body {
   left: 8.594vw;
 }
 
-
 @keyframes play {
   100% {
     background-position: -197.3958vw;
   }
 }
-
 
 /* popup */
 
@@ -68,17 +66,18 @@ body {
 
 .spotlight-title-img {
   position: absolute;
-  max-width: 100%;
 }
 
 .pos-1 {
   top: 0px;
   left: -2.8646vw;
+  width: 8vw;
 }
 
 .pos-2 {
   right: 0;
   bottom: -0.5208vw;
+  width: 5vw;
 }
 
 .spotlight-pop .close {
@@ -89,12 +88,12 @@ body {
   margin-top: 2.6042vw;
 }
 
-
 .outbreak-modal-content {
   display: flex;
   color: #000;
-  min-height: 32.8125vw;
-  max-width: 900px;
+  min-height: 34vw;
+  /* max-width: 900px; */
+  width: 39vw;
   margin: 2.0833vw auto 0;
 }
 
@@ -118,7 +117,7 @@ body {
   left: 5vw;
   height: 100%;
   width: 3px;
-  background: #278A73;
+  background: #278a73;
   top: -1.0417vw;
   z-index: 1;
 }
@@ -133,14 +132,14 @@ body {
 .outbreak-nav-title {
   display: flex;
   flex-direction: row;
-  color: #278A73;
+  color: #278a73;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.outbreak-modal-content .nav-link .outbreak-nav-title .outbreak-nav-title-year{
-  background: #278A73;
+.outbreak-modal-content .nav-link .outbreak-nav-title .outbreak-nav-title-year {
+  background: #278a73;
   color: #fff;
   text-align: center;
   border-radius: 1.5625vw;
@@ -150,11 +149,14 @@ body {
   margin-right: 0.5208vw;
 }
 
-.outbreak-modal-content .nav-link.active  {
+.outbreak-modal-content .nav-link.active {
   opacity: 1;
 }
 
-.outbreak-modal-content .nav-link.active .outbreak-nav-title .outbreak-nav-title-year {
+.outbreak-modal-content
+  .nav-link.active
+  .outbreak-nav-title
+  .outbreak-nav-title-year {
   background-color: #000;
 }
 
@@ -168,17 +170,17 @@ body {
 .outbreak-box {
   width: 100%;
   border-radius: 1.5625vw;
-  border: 2px solid #278A73;
-  background: #E7F2E9;
+  border: 2px solid #278a73;
+  background: #e7f2e9;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   height: 100%;
-    align-items: stretch;
+  align-items: stretch;
 }
 
 .outbreak-header {
-  background-color: #278A73;
+  background-color: #278a73;
   color: #fff;
   font-size: 2.3vw;
   line-height: 1;
@@ -191,21 +193,20 @@ body {
 }
 
 .outbreak-item {
-  padding: 1.0417vw 2.0833vw ;
+  padding: 1.0417vw 2.0833vw;
   font-size: 1.3021vw;
 }
 
 .outbreak-item.highlight {
-  background: #DED1C8;
+  background: #ded1c8;
 }
 
 .outbreak-item-value.disease {
   font-weight: bolder;
   font-size: 1.9792vw;
   line-height: 1;
-  color:#278A73;
+  color: #278a73;
 }
-
 
 .outbreak-item-value.pathogen {
   font-size: 1.875vw;
@@ -234,7 +235,6 @@ body {
   display: block;
   margin: 0.4167vw 0.4167vw 0.4167vw 0.9375vw;
 }
-
 
 @media only screen and (max-height: 480px) {
 }
