@@ -155,13 +155,13 @@ foreach ($steps as $i => $v) {
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
   </div>
 
-  <div class="position-absolute gina animated fadeInRight  delay-1s ">
+  <div class="position-absolute gina animated fadeInRight">
     <img src="/img/characters/gina-2.png" class="img-fluid" />
     <div class="bubble bubble-top-right">
       <?= lang('App.toolsandtechniques.dialog.girl') ?>
     </div>
   </div>
-  <div class="position-absolute ilyas animated fadeInLeft delay-1s ">
+  <div class="position-absolute ilyas animated fadeInLeft">
     <img src="/img/characters/ilyas-2.png" class="img-fluid" />
     <div class="bubble bubble-bottom-middle">
       <?= lang('App.toolsandtechniques.dialog.boy') ?>
