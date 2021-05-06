@@ -64,10 +64,12 @@ $(function () {
   }
 
   //set body height
-
-  var h = $("body").height();
-  $(".wrapper").height(h);
+  setBodyHeight();
+  $(window).on("resize", setBodyHeight);
 });
+function setBodyHeight() {
+  $(".wrapper").height($("body").height());
+}
 
 function markNav(currentSection) {
   var section = getCookie();
