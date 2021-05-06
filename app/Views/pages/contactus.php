@@ -17,7 +17,7 @@
             <?= lang('App.contactus.desc') ?>
           </h4>
 
-          <div class="logo-base w-60 mx-auto animated fadeIn delay-2s">
+          <div class="logo-base w-60 mx-auto animated fadeIn delay-1s">
             <div class="row">
               <div class="col-4">
                 <img src="/img/contactus/icon-website-off.png" class="img-fluid" />

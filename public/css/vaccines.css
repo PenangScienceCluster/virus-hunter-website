@@ -3,7 +3,6 @@ body {
   background-size: 100% 100%;
 }
 
-
 .gina {
   bottom: 0.8646vw;
   left: 3.0625vw;
@@ -46,13 +45,11 @@ body {
   font-size: 1.28vw;
 }
 
-
 /* spotlight */
 
 .spotlight-pop .close {
   top: -6.5104vw;
 }
-
 
 /* tryout */
 #try_pop .modal-body {
@@ -91,17 +88,15 @@ body {
 }
 
 .question {
-  max-width:10.4167vw;
+  max-width: 10.4167vw;
   margin: 5px;
   position: relative;
-
 }
 
 .question-box {
   position: relative;
   border: 2px dotted #339966;
   border-radius: 10px;
-
 }
 
 .question img {
@@ -109,12 +104,11 @@ body {
   margin-bottom: 0 !important;
 }
 
-
 .question .step {
   width: 100%;
   text-align: center;
   color: #fff;
-  background: #278A73;
+  background: #278a73;
   font-weight: bold;
   border-radius: 10px;
   padding: 5px 0;
@@ -141,38 +135,43 @@ body {
 
 .boy {
   position: absolute;
-  width: 142px;
-  height: 282px;
+  width: 7vw;
+  height: 14.3vw;
   background: url(../img/vaccines/moving-boy.png) 0px 0px;
-  background-size: 284px;
-  animation: play 0.3s steps(2) infinite;
+  background-size: 14vw;
+  animation: play 3s steps(2) infinite;
   bottom: 20vh;
-  right: 13.594vw;
-}
-
-.doctor {
-  position: absolute;
-  width: 834px;
-  height: 570px;
-  background: url(../img/vaccines/moving-doctor-boy.png) 0px 0px;
-  background-size: 3336px;
-  animation: play2 0.3s steps(4) infinite;
-  bottom: 14vh;
-  left: 0;
+  right: 14vw;
+  border: 0px solid red;
 }
 
 @keyframes play {
   100% {
-    background-position: -284px;
+    background-position: -14vw;
   }
 }
 
-@keyframes play2 {
+.doctor {
+  position: absolute;
+  width: 40vw;
+  height: 27.3vw;
+  background: url(../img/vaccines/moving-doctor-boy.png) 0px 0px;
+  background-size: 160vw;
+  animation: play-doctor 4s steps(4) infinite;
+  bottom: 16vh;
+  left: 0;
+  border: 0px solid red;
+}
+
+@keyframes play-doctor {
+  0% {
+    background-position: -160vw;
+  }
+
   100% {
-    background-position: -3336px;
+    background-position: 0;
   }
 }
-
 
 @media only screen and (max-height: 480px) {
 }

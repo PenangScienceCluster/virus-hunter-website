@@ -62,10 +62,16 @@ $(function () {
       function () {}
     );
   }
+
+  //set body height
+  setBodyHeight();
+  $(window).on("resize", setBodyHeight);
 });
+function setBodyHeight() {
+  $(".wrapper").height($("body").height());
+}
 
 function markNav(currentSection) {
-  console.log("mark", currentSection);
   var section = getCookie();
   var sections = section.split("|");
   var nav = [
@@ -83,22 +89,17 @@ function markNav(currentSection) {
     var idStar = id + "-s";
     var imgSrc = $("#" + id).data("src");
 
-    if (sections.indexOf(id) > -1) {
-      $("#" + id)
-        .find("img")
-        .attr("src", "/img/progressbar/" + imgSrc + "-on.png");
-    } else if (sections.indexOf(idStar) > -1) {
+    if (sections.indexOf(idStar) > -1) {
       $("#" + id)
         .find("img")
         .attr("src", "/img/progressbar/" + imgSrc + "-on-s.png");
+    } else if (sections.indexOf(id) > -1) {
+      $("#" + id)
+        .find("img")
+        .attr("src", "/img/progressbar/" + imgSrc + "-on.png");
     }
 
     if (id == currentSection) {
-      if (sections.indexOf(idStar) > -1) {
-        $("#" + id)
-          .find("img")
-          .attr("src", "/img/progressbar/" + imgSrc + "-on-s.png");
-      }
       break;
     }
   }
@@ -126,6 +127,7 @@ function store(value, category) {
   } else {
     cookiesValues = value;
   }
+
   if (cookiesValues != "") {
     setCookie(cookiesValues);
   }

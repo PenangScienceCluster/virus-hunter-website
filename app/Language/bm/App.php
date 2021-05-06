@@ -7,265 +7,274 @@ return [
   'share_description' => '',
   'share_image' => '',
 
-  'done'=> 'Done',
-  'correct'=> 'correct',
-  'try_again'=> 'try again',
-  'btn_share' => 'Share',
+  'done'=> 'Selesai',
+  'correct'=> 'betul',
+  'try_again'=> 'cuba lagi',
+  'btn_share' => 'Kongsi',
+  'next' => 'Seterusnya',
+  'back' => 'Kembali',
+  'done' => 'tamat',
 
   'nav' => [
-    'home' => 'Home',
-    'aboutus' => 'About Us',
-    'gallery' => 'Gallery',
-    'contactus' => 'Contact Us',
+    'home' => 'Halaman Utama',
+    'aboutus' => 'Tentang Kami',
+    'gallery' => 'Galeri',
+    'contactus' => 'Hubungi Kami',
   ],
 
   'subnav' => [
-    'pocket_fact' => 'Pocket Fact',
-    'virus_hunter' => 'Virus Hunter Icon',
-    'career_pathway' => 'Career Pathway',
-    'us_anecdotes' => 'US Anecdotes',
-    'try_out' => 'Try This'
+    'pocket_fact' => 'Fakta Poket',
+    'virus_hunter' => 'Ikon Virus Hunter',
+    'career_pathway' => 'Laluan Kerjaya',
+    'us_anecdotes' => 'Anekdot US',
+    'try_out' => 'Cuba Ini'
   ],
 
   'home' => [
-    'imready' => 'i\'m ready',
-    'aprojectby' => 'A project by',
-    'supportedby' => 'Supported by',
+    'imready' => 'saya dah sedia',
+    'aprojectby' => 'Sebuah projek oleh',
+    'supportedby' => 'Disokong oleh',
+    'title'=> '/img/landing/header_en.png'
   ],
   'overview' => [
-    'letsbegin' => 'MARI MULAKAN!',
-    'continue' => 'continue',
+    'letsbegin' => 'Mula',
+    'continue' => 'teruskan',
     'joingina' => 'Sertai Gina dan Ilyas dalam usaha mereka untuk menjadi seorang <span class="text-white">Virus Hunter</span><span>!</span>',
     'pickupfacts' => 'Dapatkan fakta pantas sambil belajar mengenai virus, pandemik dan vaksin di dunia sebenar.',
     'bubble_instruction' => 'Lengkapkan aktiviti-aktiviti untuk mengumpul bintang dan memperoleh pingat Virus Hunter!'
   ],
 
   'aboutus' => [
-    'title' => 'About Us',
-    'desc' => 'Virus Hunter is a project organized by Penang Science Cluster and supported by US Embassy and American Tech Corner Penang.<br><br>Our goal is to edicate students about viruses, pandemics abd vaccines.<br><br>
-    We also hope to expose students to study and career pathways in life sciences!',
-    'organizedby' => 'Organized By',
+    'title' => 'Tentang Kami',
+    'desc' => 'Virus Hunter adalah suatu projek anjuran Penang Science Cluster dan disokong oleh US Embassy dan American Tech Corner Penang.<br><br>Misi kami adalah untuk mendidik pelajar tentang virus, pandemik dan vaksin.<br><br>
+    Kami juga berharap untuk mendedahkan pelajar kepada laluan pendidikan dan kerjaya dalam sains hayat!',
+    'organizedby' => 'Dianjurkan oleh',
   ],
 
   'contactus' => [
-    'title' => 'Contact Us',
-    'desc' => 'Join STEM activities by Penang Science Cluster <br>- available both virtually and in person at:',
-    'visit_enquiry' => 'Visit us <a href="{0}" target="_blank">here</a> for enquiries!'
+    'title' => 'Hubungi Kami',
+    'desc' => 'Sertai aktiviti STEM di Penang Science Cluster - tersedia secara maya dan bersemuka di:',
+    'visit_enquiry' => 'Kunjungi <a href="{0}" target="_blank">sini</a> untuk maklumat lanjut!'
   ],
 
   'gallery' => [
-    'title' => 'Gallery',
+    'title' => 'Galeri',
     'tabs' => [
-      'View Photos',
-      'Watch Videos',
-      'Downloads'
+      'Lihat Foto',
+      'Tonton Video',
+      'Muat Turun'
     ]
   ],
 
-  'disease' => 'Disease',
-  'pathogen' => 'Pathogen',
-  'transmission' => 'Transmission',
+  'disease' => 'Penyakit',
+  'pathogen' => 'Patogen',
+  'transmission' => 'Penularan',
 
   'pandemics' => [
+    'title'=> 'Pandemik',
     'dialog' => [
-      'girl' => 'In early 2020, my classmates and I had to suddenly attend school from home. It is the same for you too, isn’t it, Ilyas?',
-      'boy' => 'Yes! My mother told me that there was a pandemic and we had to take care of each other by staying at home.'
+      'girl' => 'Pada awal tahun 2020, saya dan rakan sekelas saya tiba-tiba perlu bersekolah dari rumah. Awak menghadapi situasi yang sama juga, Ilyas?',
+      'boy' => 'Ya! Ibu saya memberitahu ada wabak penyakit dan kita perlu saling jaga diri kita dengan duduk di rumah.'
     ],
     "popup" => [
-      'pocket_fact' =>  'Pandemics are sudden disease outbreaks that spread to a large number of people across multiple countries.',
-      'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
+      'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
+      'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'us_anecdotes' =>  '...',
-      'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
+      'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk tereka bentuk dan mencegah wabak di masa hadapan.',
     ],
     'spotlight' => [
-      'btn' => 'Discover Outbreaks',
-      'title' => 'Discover Outbreaks<br>in History',
+      'btn' => 'Ketahui Wabak',
+      'title' => 'Wabak Penyakit<br>Dalam Sejarah',
     ]
   ],
 
   'zoonotic' => [
+    'title'=> 'Penyakit<br>Zoonotik',
     'dialog' => [
-      'girl' => 'That is true! I try to bring a hand sanitizer with me when I have to go outside. Did you know that COVID-19 is a zoonotic disease?',
-      'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
+      'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah kamu bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
+      'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan elak pergi ke tempat yang sesak.'
     ],
     "popup" => [
-      'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food or environment.',
-      'career' =>  'As animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreak.',
+      'pocket_fact' =>  'Penyakit zoonotik ditransmisikan daripada haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
+      'career' =>  'Memandangkan pemerdagangan haiwan merupakan salah satu faktor yang mendorong kepada kemunculan penyakit zoonotik, ahli biologi pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
       'try_out' => [
-        'title'=> 'Select ALL factors that contribute to emergence of zoonotic diseases.',
+        'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit zoonotik.',
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/zoonotic/zoonotic-try-01-bm.png',
+            'src'=>'/img/zoonotic/zoonotic-try-01-en.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/zoonotic/zoonotic-try-02-bm.png',
+            'src'=>'/img/zoonotic/zoonotic-try-02-en.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/zoonotic/zoonotic-try-03-bm.png'
+            'src'=>'/img/zoonotic/zoonotic-try-03-en.png'
           ],
           [
             'id' => 4,
-            'src'=>'/img/zoonotic/zoonotic-try-04-bm.png'
+            'src'=>'/img/zoonotic/zoonotic-try-04-en.png'
           ],
           [
             'id' => 5,
-            'src'=>'/img/zoonotic/zoonotic-try-05-bm.png'
+            'src'=>'/img/zoonotic/zoonotic-try-05-en.png'
           ]
         ]
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover Transmission of Disease',
-      'title' => 'Transmission of Disease<br>from Animals to Humans',
-      'contentImg' => '/img/zoonotic/content_bm.png'
+      'btn' => 'Ketahui Penyebaran Penyakit',
+      'title' => 'Penularan Penyakit dari Haiwan ke Manusia',
+      'contentImg' => '/img/zoonotic/content.png'
     ]
   ],
 
   'nipah' => [
+    'title'=> 'Virus Nipah',
     'dialog' => [
-      'girl' => 'My elder brother mentioned another disease outbreak that happened here in Malaysia before we were born. Did you hear about it as well?',
-      'boy' => 'Yes! My mother told me about the Nipah Virus outbreak in Peninsular Malaysia.'
+      'girl' => 'Abang saya ada beritahu saya bahawa Malaysia pernah menghadapi wabak penyakit sebelum ini, sebelum kita lahir lagi. Awak pernah dengar tentang itu?',
+      'boy' => 'Ya! Ibu saya pernah beritahu saya tentang wabak Virus Nipah yang merebak di semenanjung Malaysia.'
     ],
     "popup" => [
-      'pocket_fact' =>  'During the outbreak in 1998, experts led communications on progress of the outbreak to encourage best health practice by health workers as well as the community.',
-      'career' =>  'Biochemists study chemical reactions in living things, including how virus takes over control of infected cells!',
-      'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak',
+      'pocket_fact' =>  'Semasa wabak pada tahun 1998, para pakar yang mengetuai komunikasi berkenaan kemajuan wabak tersebut mengalakkan para pekerja kesihatan dan masyarakat untuk mempraktikkan amalan kesihatan yang baik.',
+      'career' =>  'Ahli biokimia mengkaji reaksi kimia pada benda-benda hidup, termasuk bagaimana virus dapat mengambil alih sel yang terjangkiti!',
+      'virus_hunter' => 'Kaw Bing Chua merupakan seorang pelajar virologi sewaktu beliau menemui Virus Nipah, dan akhirnya penyebaran wabak tersebut dapat dikawal.',
       'try_out' => [
-        'title'=> 'Drag and drop the correct name and function of the virus structure to the label.',
+        'title'=> 'Seret dan lepas nama dan fungsi struktur virus yang betul ke label. ',
         'items' => [
           [
             'id' => 1,
-            'title' => 'genetic material ',
-            'desc' => 'stores information for the virus to function and construct itself (may be in the form of DNA or RNA!)',
+            'title' => 'bahan genetik',
+            'desc' => 'menyimpan maklumat supaya virus dapat berfungsi dan menggandakan diri (terdapat dalam bentuk DNA atau RNA!)',
           ],
           [
             'id' => 2,
-            'title' => 'viral envelope',
-            'desc' => 'protects genetic material (sometimes not present in a virus)',
+            'title' => 'envelop virus',
+            'desc' => 'melindungi bahan genetik (kadangkala tidak terdapat di dalam virus)',
           ],
           [
             'id' => 3,
-            'title' => 'glycoprotein',
-            'desc' => 'helps the virus attach & infect cells',
+            'title' => 'glikoprotein',
+            'desc' => 'membantu virus melekap & menjangkiti sel',
           ]
         ]
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover Virus Structure',
-      'title' => 'Virus Structure',
-      'contentImg' => '/img/nipah/content_bm.png'
+      'btn' => 'Ketahui Struktur virus',
+      'title' => 'Struktur Virus',
+      'contentImg' => '/img/nipah/content.png'
     ]
   ],
 
   'covid' => [
+    'title'=> 'COVID-19',
     'dialog' => [
-      'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
-      'boy' => 'During the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
+      'girl' => 'Kita perlu memakai pelitup muka kerana COVID-19 ini merebak melalui titisan pernafasan. Hal ini sangat penting kerana ramai pesakit COVID-19 tidak menunjukkan sebarang simptom pun!',
+      'boy' => 'Sewaktu pandemik, kita mesti memakai pelitup muka apabila kita berada di luar dan ketika bertemu dengan orang. Kenapa memakai pelitup muka ini sangat penting,Gina?'
     ],
     "popup" => [
-      'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
-      'us_anecdotes' =>  'Operation Warp Speed in the US strives to accelerate the development, manufacturing and distribution of COVID-19 vaccines, therapeutics and diagnostics.',
-      'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',
+      'pocket_fact' =>  'Simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
+      'us_anecdotes' =>  'Operasi Warp Speed di Amerika Syarikat berusaha mempercepatkan proses pembangunan, pembuatan dan pengedaran vaksin, terapi dan diagnostik bagi wabak COVID-19.',
+      'virus_hunter' => 'Noor Hisham Abdullah, dikenali dalam menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
     ],
     'spotlight' => [
-      'btn' => 'Watch<br>Video',
-      'title' => 'Prevent the Spread of Disease',
-      'desc' => 'With or without a pandemic, we should always do our part to protect ourselves and others around us from getting sick. Watch this video on how to prevent the spread of disease when we cough and sneeze!',
+      'btn' => 'Tonton<br>Video',
+      'title' => 'Cegah Penyebaran Penyakit',
+      'desc' => 'Sama ada sewaktu pandemik ataupun tiada pandemik, kita mestilah sentiasa melindungi diri kita dan orang di sekeliling kita daripada mendapat penyakit. Tonton video ini dan lihat, bagaimana cara kita dapat menghalang penyebaran penyakit sewaktu kita batuk ataupun bersin!',
     ]
   ],
 
   'vaccines' => [
+    'title' => 'Vaksin',
     'dialog' => [
-      'girl' => 'As vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
-      'boy' => 'Yes! We must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
+      'girl' => 'Oleh kerana vaksin kini diedarkan ke seluruh dunia, masih ada harapan untuk kita menghentikan wabak ini kerana kita sudah mendapat kekebalan terhadap virus tersebut.',
+      'boy' => 'Ya! Kita haruslah tetap memakai pelitup muka, kerap membasuh tangan dan mempraktikkan penjarakan social untuk memperlahankan penyebaran wabak COVID-19 sehinggalah seluruh masyarakat kita divaksin.'
     ],
     "popup" => [
-      'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
-      'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of hepatitis B vaccine.',
+      'pocket_fact' =>  'Vaksin adalah satu bahan yang merangsang tubuh badan untuk menghasilkan keimunan aktif terhadap virus yang aktif dalam memlindungi tubuh badan daripada penyakit yang berkaitan.',
+      'virus_hunter' => 'Baruch Blumberg menemui molekul yang bertanggungjawab untuk tindak balas imun bagi penyakit Hepatitis B, membawa kepada kejayaan dalam penghasilan vaksin Hepatitis B.',
       'try_out' => [
-        'title'=> 'Drag and drop the description to the correct phase.',
+        'title'=> 'Seret dan lepas huraian ke fasa yang betul.',
         'items' => [
           [
             'id' => 1,
-            'src'=>'/img/vaccines/vaccines-try-step1-bm.png',
+            'src'=>'/img/vaccines/vaccines-try-step1.png',
             'step' => 'Praklinikal'
           ],
           [
             'id' => 2,
-            'src'=>'/img/vaccines/vaccines-try-step2-bm.png',
+            'src'=>'/img/vaccines/vaccines-try-step2.png',
             'step' => 'Fasa I'
           ],
           [
             'id' => 3,
-            'src'=>'/img/vaccines/vaccines-try-step3-bm.png',
+            'src'=>'/img/vaccines/vaccines-try-step3.png',
             'step' => 'Fasa II'
           ],
           [
             'id' => 4,
-            'src'=>'/img/vaccines/vaccines-try-step4-bm.png',
+            'src'=>'/img/vaccines/vaccines-try-step4.png',
             'step' => 'Fasa III'
           ],
           [
             'id' => 5,
-            'src'=>'/img/vaccines/vaccines-try-step5-bm.png',
+            'src'=>'/img/vaccines/vaccines-try-step5.png',
             'step' => 'Kelulusan'
           ]
         ]
       ]
     ],
     'spotlight' => [
-      'btn' => 'Vaccine Development Process',
-      'title' => 'Vaccine Development Process',
-      'contentImg' => '/img/vaccines/content_bm.png'
+      'btn' => 'Proses Kemajuan Vaksin',
+      'title' => 'Proses Kemajuan Vaksin',
+      'contentImg' => '/img/vaccines/content.png'
     ],
   ],
 
   'toolsandtechniques' => [
+    'title' => 'Peralatan & Teknik',
     'dialog' => [
-      'girl' => 'Me too! This is the result of years of training, research and preparation long before the pandemic happened.',
-      'boy' => 'I admire our health workers and experts for repsonding so quickly to the outbreak and taking care of us to the best of their ability.'
+      'girl' => 'Saya pun! Ini adalah hasil setelah beberapa tahun latihan, kajian dan persediaan sebelum pandemik ini berlaku.',
+      'boy' => 'Saya mengagumi petugas kesihatan dan pakar kesihatan kita kerana bertindak balas dengan cepat terhadap wabak penyakit dan merawat kita dengan sebaik mungkin.'
     ],
     "popup" => [
-      'pocket_fact' =>  'RT-PCR is currently used globally to detect COVID-19 infection.',
-      'us_anecdotes' =>  'PREDICT is a global program funded by USAID to study new and emerging zoonotic viruses and diseases, especially in Africa and Asia',
+      'pocket_fact' =>  'RT-PCR kini digunakan secara global untuk mengesan jangkitan COVID-19!',
+      'us_anecdotes' =>  'PREDICT adalah satu program global yang didana oleh USAID untuk mengkaji virus dan penyakit zoonotic yang baru muncul, terutamanya di Afrika dan Asia.',
       'try_out' => [
-        'title'=> 'Drag and drop to arrange the steps of COVID-19 testing based on the correct sequences.',
+        'title'=> 'Seret dan lepas untuk menyusun langkah-langkah ujian COVID-19 berdasarkan urutan yang betul.',
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/toolsandtechniques/step1_bm.png',
+            'src'=>'/img/toolsandtechniques/step1_en.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/toolsandtechniques/step2_bm.png',
+            'src'=>'/img/toolsandtechniques/step2_en.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/toolsandtechniques/step3_bm.png'
+            'src'=>'/img/toolsandtechniques/step3_en.png'
           ]
         ]
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover COVID-19 Testing',
-      'title' => 'COVID-19 Testing',
-      'contentImg' => '/img/toolsandtechniques/content_bm.png'
+      'btn' => 'Ketahui Ujian COVID-19',
+      'title' => 'Ujian COVID-19',
+      'contentImg' => '/img/toolsandtechniques/content.png'
     ]
   ],
 
   'completed'=>[
-    'title'=> 'Well done on completing the challenges!',
-    'desc'=> 'Claim your medal of honor, Virus Hunter!',
-    'join'=>'Join our STEM activities <br>- available both virtually and in person at:',
+    'title'=> 'Tahniah kerana anda telah menyelesaikan cabaran!',
+    'desc'=> 'Tuntut pingat kehormatan anda, Virus Hunter!',
+    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di:',
     'dialog'=>[
-      '<br>Learn more about the Virus Hunter project <a href="{0}">here</a>.',
-      'Find out about the role of US in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
-      'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
+      '<br>Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
+      'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
+      'Baca lebih lanjut berkenaan bagaimana untuk melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
     ]
   ]
-
 ];
