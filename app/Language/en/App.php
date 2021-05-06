@@ -2,7 +2,7 @@
 
 // override core en language system validation or define your own en language validation message
 return [
-  'share_desc' => 'and berpeluang memenangi hadiah-hadiah bernilai RM20,009',
+  'share_desc' => '',
   'share_title' => '',
   'share_description' => '',
   'share_image' => '',

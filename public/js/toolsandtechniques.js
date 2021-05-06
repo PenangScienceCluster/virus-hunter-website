@@ -50,6 +50,12 @@ $(function () {
         ele.find("img").animate({ opacity: 1 }, 1000);
         $("#a" + id).css("visibility", "hidden");
 
+        correctCount++;
+
+        if (correctCount == 3) {
+          store("toolsandtechniques", "star");
+
+          
         $("#wrong").addClass("d-none");
         $("#correct")
           .removeClass("d-none")
@@ -61,10 +67,6 @@ $(function () {
               $(this).removeClass("animated tada");
             }
           );
-        correctCount++;
-
-        if (correctCount == 3) {
-          store("toolsandtechniques", "star");
         }
       } else {
         $("#correct").addClass("d-none");
@@ -78,7 +80,17 @@ $(function () {
               $(this).removeClass("animated tada");
             }
           );
+
+
+        setTimeout(function () {
+          reset();
+        }, 2500);
       }
     },
   });
+
+  function reset() {
+    $("#wrong").addClass("d-none");
+    $("#correct").addClass("d-none");
+  }
 });

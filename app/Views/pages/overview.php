@@ -20,7 +20,7 @@
         <img src="/img/overview/progress.png" class="img-fluid" />
       </div>
 
-      <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp" data-lang="<?= locale() ?>">
+      <div class="position-relative btn-theme w-40 mx-auto btn-begin animated fadeInUp" data-lang="<?= locale() ?>">
         <span id="text-begin" class="d-none"
           data-href="<?= urlWithLocale('/pandemics') ?>"><?= lang('App.overview.letsbegin') ?></span>
         <span id="text-continue" class="d-none"><?= lang('App.overview.continue') ?></span>

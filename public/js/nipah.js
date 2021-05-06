@@ -51,21 +51,22 @@ $(function () {
         ele.find(".question-box").animate({ opacity: 1 }, 1000);
         $("#a" + id).css("visibility", "hidden");
 
-        $("#wrong").addClass("d-none");
-        $("#correct")
-          .removeClass("d-none")
-          .parent()
-          .addClass("animated tada")
-          .one(
-            "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
-            function () {
-              $(this).removeClass("animated tada");
-            }
-          );
         correctCount++;
 
         if (correctCount == 3) {
           store("nipah", "star");
+
+          $("#wrong").addClass("d-none");
+          $("#correct")
+            .removeClass("d-none")
+            .parent()
+            .addClass("animated tada")
+            .one(
+              "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+              function () {
+                $(this).removeClass("animated tada");
+              }
+            );
         }
       } else {
         $("#correct").addClass("d-none");
@@ -79,9 +80,18 @@ $(function () {
               $(this).removeClass("animated tada");
             }
           );
+
+        setTimeout(function () {
+          reset();
+        }, 2500);
       }
     },
   });
+
+  function reset() {
+    $("#wrong").addClass("d-none");
+    $("#correct").addClass("d-none");
+  }
 
   // end of try out
 });
