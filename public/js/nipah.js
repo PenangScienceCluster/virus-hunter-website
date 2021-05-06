@@ -2,7 +2,7 @@ var currentDragId = "";
 var correctCount = 0;
 
 $(function () {
-  store("nipah", "star");
+  store("nipah");
 
   // spotlight
   $(".spotlight-btn").click(function () {
