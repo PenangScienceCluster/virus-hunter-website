@@ -4,13 +4,13 @@
 </style>
 
 <?= view('layouts/progressbar', [
-  'title' => 'covid-19'
+  'title' => lang('App.covid.title')
 ]) ?>
 <?= view('layouts/bottom-nav', [
   'nextLink' => '/vaccines',
-  'nextLinkName' => 'vaccines',
+  'nextLinkName' => lang('App.vaccines.title'),
   'backLink' => '/nipah',
-  'backLinkName' => 'nipah virus'
+  'backLinkName' => lang('App.nipah.title')
 ]) ?>
 
 <!-- Modal -->
@@ -114,8 +114,6 @@
 <div class="pandemic h-100">
 
   <div class="man"></div>
-
-
   <div class="spotlight-btn">
     <?= lang('App.covid.spotlight.btn') ?>
     <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>

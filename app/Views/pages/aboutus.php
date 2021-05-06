@@ -21,7 +21,7 @@
       <div class="position-absolute ilyas w-20 animated fadeInRight delay-2s"><img src="/img/characters/ilyas-1.png"
           class="img-fluid" /></div>
       <div class="row align-items-center mx-auto h-100">
-        <div class="col-10 mx-auto text-center ">
+        <div class="col-8 mx-auto text-center ">
           <h1 class="tenbyfive">
             <?= lang('App.aboutus.title') ?>
           </h1>

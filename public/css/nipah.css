@@ -171,6 +171,9 @@ body {
   left: 6.594vw;
 }
 
+.progressbar .worldtitle {
+  top: 19%;
+}
 @keyframes play {
   100% {
     background-position: -262.5vw;

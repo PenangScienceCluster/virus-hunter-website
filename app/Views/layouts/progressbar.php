@@ -1,5 +1,5 @@
 <div class="progressbar w-60">
-  <h2 class="worldtitle tenbyfive text-uppercase text-right">
+  <h2 class="worldtitle tenbyfive text-uppercase text-right w-20">
     <?= $title ?>
   </h2>
   <div class="d-flex flex-row">

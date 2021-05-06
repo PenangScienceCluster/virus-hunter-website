@@ -18,13 +18,13 @@ foreach ($steps as $i => $v) {
 
 ?>
 <?= view('layouts/progressbar', [
-  'title' => 'vaccines'
+  'title' => lang('App.vaccines.title')
 ]) ?>
 <?= view('layouts/bottom-nav', [
   'nextLink' => '/toolsandtechniques',
-  'nextLinkName' => 'tools & techniques',
+  'nextLinkName' => lang('App.toolsandtechniques.title'),
   'backLink' => '/covid',
-  'backLinkName' => 'covid-19'
+  'backLinkName' => lang('App.covid.title')
 ]) ?>
 
 <!-- Modal -->

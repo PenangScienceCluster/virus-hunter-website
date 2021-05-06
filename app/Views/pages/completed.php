@@ -59,13 +59,13 @@
   <div class="bubble bubble-left animated bounceInLeft delay-3s">
     <div class="owl-carousel owl-theme photos">
       <div class="item small align-middle">
-        <?= lang('App.completed.dialog.0', ['https://www.cdc.gov/']) ?>
+        <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
       </div>
       <div class="item small">
-        <?= lang('App.completed.dialog.1') ?>
+        <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>
       </div>
       <div class="item small">
-        <?= lang('App.completed.dialog.2') ?>
+        <?= lang('App.completed.dialog.2', ['https://www.usaid.gov/']) ?>
       </div>
     </div>
 

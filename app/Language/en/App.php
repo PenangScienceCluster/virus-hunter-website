@@ -11,6 +11,9 @@ return [
   'correct'=> 'correct',
   'try_again'=> 'try again',
   'btn_share' => 'Share',
+  'next' => 'next',
+  'back' => 'back',
+  'done' => 'done',
 
   'nav' => [
     'home' => 'Home',
@@ -68,6 +71,7 @@ return [
   'transmission' => 'Transmission',
 
   'pandemics' => [
+    'title'=> 'pandemics',
     'dialog' => [
       'girl' => 'In early 2020, my classmates and I had to suddenly attend school from home. It is the same for you too, isn’t it, Ilyas?',
       'boy' => 'Yes! My mother told me that there was a pandemic and we had to take care of each other by staying at home.'
@@ -85,6 +89,7 @@ return [
   ],
 
   'zoonotic' => [
+    'title'=> 'ZOONOTIC DISEASES',
     'dialog' => [
       'girl' => 'That is true! I try to bring a hand sanitizer with me when I have to go outside. Did you know that COVID-19 is a zoonotic disease?',
       'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
@@ -126,6 +131,7 @@ return [
   ],
 
   'nipah' => [
+    'title'=> 'NIPAH VIRUS',
     'dialog' => [
       'girl' => 'My elder brother mentioned another disease outbreak that happened here in Malaysia before we were born. Did you hear about it as well?',
       'boy' => 'Yes! My mother told me about the Nipah Virus outbreak in Peninsular Malaysia.'
@@ -163,6 +169,7 @@ return [
   ],
 
   'covid' => [
+    'title'=> 'COVID-19',
     'dialog' => [
       'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
       'boy' => 'During the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
@@ -180,6 +187,7 @@ return [
   ],
 
   'vaccines' => [
+    'title'=> 'vaccines',
     'dialog' => [
       'girl' => 'As vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
       'boy' => 'Yes! We must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
@@ -226,6 +234,7 @@ return [
   ],
 
   'toolsandtechniques' => [
+    'title' => 'TOOLS & TECHNIQUES',
     'dialog' => [
       'girl' => 'Me too! This is the result of years of training, research and preparation long before the pandemic happened.',
       'boy' => 'I admire our health workers and experts for repsonding so quickly to the outbreak and taking care of us to the best of their ability.'

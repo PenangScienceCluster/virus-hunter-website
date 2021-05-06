@@ -30,15 +30,15 @@ foreach ($steps as $i => $v) {
 ?>
 
 <?= view('layouts/progressbar', [
-  'title' => 'nipah virus'
+  'title' => lang('App.nipah.title')
 ]) ?>
 
 
 <?= view('layouts/bottom-nav', [
   'nextLink' => '/covid',
-  'nextLinkName' => 'covid-19',
+  'nextLinkName' => lang('App.covid.title'),
   'backLink' => '/zoonotic',
-  'backLinkName' => 'zoonotic diseases'
+  'backLinkName' => str_replace('<br>', ' ', lang('App.zoonotic.title'))
 ]) ?>
 
 

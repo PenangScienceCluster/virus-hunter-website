@@ -11,6 +11,9 @@ return [
   'correct'=> 'betul',
   'try_again'=> 'cuba lagi',
   'btn_share' => 'Kongsi',
+  'next' => 'Seterusnya',
+  'back' => 'Kembali',
+  'done' => 'tamat',
 
   'nav' => [
     'home' => 'Halaman Utama',
@@ -68,6 +71,7 @@ return [
   'transmission' => 'Penularan',
 
   'pandemics' => [
+    'title'=> 'Pandemik',
     'dialog' => [
       'girl' => 'Pada awal tahun 2020, saya dan rakan sekelas saya tiba-tiba perlu bersekolah dari rumah. Awak menghadapi situasi yang sama juga, Ilyas?',
       'boy' => 'Ya! Ibu saya memberitahu ada wabak penyakit dan kita perlu saling jaga diri kita dengan duduk di rumah.'
@@ -85,6 +89,7 @@ return [
   ],
 
   'zoonotic' => [
+    'title'=> 'Penyakit<br>Zoonotik',
     'dialog' => [
       'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah kamu bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
       'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan elak pergi ke tempat yang sesak.'
@@ -126,6 +131,7 @@ return [
   ],
 
   'nipah' => [
+    'title'=> 'Virus Nipah',
     'dialog' => [
       'girl' => 'Abang saya ada beritahu saya bahawa Malaysia pernah menghadapi wabak penyakit sebelum ini, sebelum kita lahir lagi. Awak pernah dengar tentang itu?',
       'boy' => 'Ya! Ibu saya pernah beritahu saya tentang wabak Virus Nipah yang merebak di semenanjung Malaysia.'
@@ -163,6 +169,7 @@ return [
   ],
 
   'covid' => [
+    'title'=> 'COVID-19',
     'dialog' => [
       'girl' => 'Kita perlu memakai pelitup muka kerana COVID-19 ini merebak melalui titisan pernafasan. Hal ini sangat penting kerana ramai pesakit COVID-19 tidak menunjukkan sebarang simptom pun!',
       'boy' => 'Sewaktu pandemik, kita mesti memakai pelitup muka apabila kita berada di luar dan ketika bertemu dengan orang. Kenapa memakai pelitup muka ini sangat penting,Gina?'
@@ -180,6 +187,7 @@ return [
   ],
 
   'vaccines' => [
+    'title' => 'Vaksin',
     'dialog' => [
       'girl' => 'Oleh kerana vaksin kini diedarkan ke seluruh dunia, masih ada harapan untuk kita menghentikan wabak ini kerana kita sudah mendapat kekebalan terhadap virus tersebut.',
       'boy' => 'Ya! Kita haruslah tetap memakai pelitup muka, kerap membasuh tangan dan mempraktikkan penjarakan social untuk memperlahankan penyebaran wabak COVID-19 sehinggalah seluruh masyarakat kita divaksin.'
@@ -226,6 +234,7 @@ return [
   ],
 
   'toolsandtechniques' => [
+    'title' => 'Peralatan & Teknik',
     'dialog' => [
       'girl' => 'Saya pun! Ini adalah hasil setelah beberapa tahun latihan, kajian dan persediaan sebelum pandemik ini berlaku.',
       'boy' => 'Saya mengagumi petugas kesihatan dan pakar kesihatan kita kerana bertindak balas dengan cepat terhadap wabak penyakit dan merawat kita dengan sebaik mungkin.'
