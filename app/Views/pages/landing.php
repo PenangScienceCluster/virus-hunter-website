@@ -13,21 +13,25 @@
   <a href="/en" <?= $classen ?>>EN</a> | <a href="/bm" <?= $classbm ?>>BM</a>
 </div>
 <div class="container h-100">
-  <div class="row align-items-center h-100">
-    <div class="col-7 col-sm-7 col-lg-9 mx-auto">
-      <div class="position-relative w-100 header mx-auto d-none">
-        <div class="virus"></div>
-        <div class="bat"></div>
-        <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
-      </div>
-      <div class="position-relative main mx-auto  animated fadeIn delay-1s">
-        <img src="/img/landing/main.png" class="img-fluid" />
-      </div>
-      <a href="<?= urlWithLocale('/overview') ?>">
-        <div class="position-relative btn-theme w-50 mx-auto btn-ready  animated fadeIn delay-1s">
-          <?= lang('App.home.imready') ?>
+  <div class="row h-100">
+    <div class="col-10 mx-auto">
+      <div class="row align-items-center h-100">
+        <div class="col-12">
+          <div class="position-relative w-100 header mx-auto d-none">
+            <div class="virus"></div>
+            <div class="bat"></div>
+            <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
+          </div>
+          <div class="position-relative main mx-auto  animated fadeIn delay-1s">
+            <img src="/img/landing/main.png" class="img-fluid" />
+          </div>
+          <a href="<?= urlWithLocale('/overview') ?>">
+            <div class="position-relative btn-theme w-50 mx-auto btn-ready  animated fadeIn delay-1s">
+              <?= lang('App.home.imready') ?>
+            </div>
+          </a>
         </div>
-      </a>
+      </div>
     </div>
   </div>
 </div>
