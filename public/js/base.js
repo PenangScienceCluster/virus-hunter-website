@@ -64,8 +64,8 @@ $(function () {
   }
 
   //set body height
-  setBodyHeight();
-  $(window).on("resize", setBodyHeight);
+  // setBodyHeight();
+  // $(window).on("resize", setBodyHeight);
 });
 function setBodyHeight() {
   $(".wrapper").height($("body").height());
