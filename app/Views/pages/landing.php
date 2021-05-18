@@ -14,15 +14,15 @@
 </div>
 <div class="container h-100">
   <div class="row h-100">
-    <div class="col-8 mx-auto">
+    <div class="col-8 mx-auto  b-red">
       <div class="row align-items-center h-100">
-        <div class="col-12">
-          <div class="position-relative w-90 header mx-auto d-none">
+        <div class="col-12 b-red">
+          <div class="position-relative w-85 header mx-auto d-none">
             <div class="virus"></div>
             <div class="bat"></div>
             <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
           </div>
-          <div class="position-relative main mx-auto  animated fadeIn delay-1s">
+          <div class="position-relative main w-50 mx-auto  animated fadeIn delay-1s">
             <img src="/img/landing/main.png" class="img-fluid" />
           </div>
           <a href="<?= urlWithLocale('/overview') ?>">

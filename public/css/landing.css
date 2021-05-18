@@ -22,7 +22,7 @@
 
 .virus {
   position: absolute;
-  bottom: 1vw;
+  bottom: 0vw;
   right: 0vw;
   width: 5vw;
   height: 5vw;
@@ -35,7 +35,7 @@
 
 .bat {
   position: absolute;
-  top: -2vw;
+  top: -1vw;
   right: -1vw;
   width: 7vw;
   height: 5vw;
@@ -51,7 +51,6 @@
 }
 
 .main {
-  width: 60%;
   margin-top: -8%;
 }
 
