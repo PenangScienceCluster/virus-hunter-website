@@ -14,7 +14,7 @@
 </div>
 <div class="container h-100">
   <div class="row h-100">
-    <div class="col-10 mx-auto">
+    <div class="col-8 mx-auto">
       <div class="row align-items-center h-100">
         <div class="col-12">
           <div class="position-relative w-100 header mx-auto d-none">
