@@ -78,7 +78,8 @@ html {
 .try-title {
   font-size: 1.6667vw;
   font-weight: 600;
-  padding: 0 10.4167vw;
+  /* padding: 0 10.4167vw; */
+  margin-top: 5%;
 }
 
 .try-body {
@@ -100,6 +101,8 @@ html {
   flex-direction: column;
   justify-content: center;
   min-height: 7.8125vw;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .answer-title {
@@ -114,7 +117,7 @@ html {
 
 .questions {
   position: relative;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .questions img {
@@ -157,7 +160,8 @@ html {
 }
 
 #q2 {
-  top: -1.3542vw;
+  /* top: -1.3542vw; */
+  top: -3.3542vw;
   right: 1.0938vw;
 }
 

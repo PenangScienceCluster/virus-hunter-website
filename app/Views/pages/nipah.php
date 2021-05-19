@@ -55,17 +55,17 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="mx-auto mt-4 drag-area">
+          <div class="mx-auto drag-area">
             <h4 class="try-title text-center">
               <?= lang('App.nipah.popup.try_out.title') ?>
             </h4>
             <div class="try-body selectable-case d-flex">
-              <div class="answers d-flex mt-4">
+              <div class="answers d-flex">
                 <?= $drag ?>
               </div>
               <div class="questions d-flex ">
 
-                <img src="/img/nipah/nipah-try-virus.png" class="img-fluid" />
+                <img src="/img/nipah/nipah-try-virus.png" class="w-45" />
                 <?= $drop ?>
               </div>
             </div>
