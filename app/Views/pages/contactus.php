@@ -20,17 +20,23 @@
           <div class="logo-base w-60 mx-auto animated fadeIn delay-1s">
             <div class="row">
               <div class="col-4">
-                <img src="/img/contactus/icon-website-off.png" class="img-fluid" />
-                <br>
-                <a href="https://www.pscpen.com" target="_blank">www.pscpen.com</a>
+                <a href="https://www.pscpen.com" target="_blank">
+                  <img src="/img/contactus/icon-website-off.png" class="img-fluid" />
+                  <br>
+                  www.pscpen.com
+                </a>
               </div>
               <div class="col-4">
-                <img src="/img/contactus/icon-fb-off.png" class="img-fluid" />
-                <a href="https://www.facebook.com/PenangScienceCluster" target="_blank">@PenangScienceCluster</a>
+                <a href="https://www.facebook.com/PenangScienceCluster" target="_blank">
+                  <img src="/img/contactus/icon-fb-off.png" class="img-fluid" />
+                  @PenangScienceCluster
+                </a>
               </div>
               <div class="col-4">
-                <img src="/img/contactus/icon-instagram-off.png" class="img-fluid" />
-                <a href="https://www.instagram.com/pscpen" target="_blank">@pscpen</a>
+                <a href="https://www.instagram.com/pscpen" target="_blank">
+                  <img src="/img/contactus/icon-instagram-off.png" class="img-fluid" />
+                  @pscpen
+                </a>
               </div>
             </div>
           </div><br>
