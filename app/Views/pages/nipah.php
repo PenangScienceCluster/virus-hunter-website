@@ -63,8 +63,8 @@ foreach ($steps as $i => $v) {
               <div class="answers d-flex">
                 <?= $drag ?>
               </div>
-              <div class="questions d-flex ">
-                <img src="/img/nipah/nipah-try-virus.png"= />
+              <div class="questions text-center">
+                <img src="/img/nipah/nipah-try-virus.png" />
                 <?= $drop ?>
               </div>
             </div>

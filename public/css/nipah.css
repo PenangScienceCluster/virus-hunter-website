@@ -79,7 +79,7 @@ html {
   font-size: 1.6667vw;
   font-weight: 600;
   /* padding: 0 10.4167vw; */
-  margin-top: 5%;
+  margin-top: 4vw;
 }
 
 .try-body {
@@ -123,9 +123,9 @@ html {
 .questions img {
   margin: 0 auto;
   /* max-width: 25vw !important; */
-  width: 25%;
-  height: 25%;
-  border: 1px solid red;
+  width: 20rem !important;
+
+  border: 0px solid red;
 }
 
 .question {
@@ -169,7 +169,7 @@ html {
 }
 
 #q1 {
-  bottom: 1.3021vw;
+  bottom: -1.6979vw;
   right: 1.0938vw;
 }
 
