@@ -51,6 +51,7 @@
 <body>
 
   <?= view('pages/bestview') ?>
+
   <div class="page">
     <div class="page-holder">
       <div class="container-fluid wrapper position-relative p-0">
