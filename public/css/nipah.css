@@ -124,6 +124,7 @@ html {
   margin: 0 auto;
   /* max-width: 25vw !important; */
   width: 25%;
+  height: 25%;
   border: 1px solid red;
 }
 
