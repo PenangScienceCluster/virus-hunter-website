@@ -1,6 +1,17 @@
-body {
+/* body {
   background: url(../../img/vaccines/bg.jpg) 0 0 no-repeat;
   background-size: 100% 100%;
+} */
+
+body,
+html {
+  background: url(/img/vaccines/bg-body.jpg) 0 0 repeat-y;
+}
+
+.page-holder {
+  background: url(/img/vaccines/bg.jpg) 0 0 no-repeat !important;
+  background-size: 100% 100% !important;
+  border: 0px solid red;
 }
 
 .gina {
@@ -140,7 +151,7 @@ body {
   background: url(../img/vaccines/moving-boy.png) 0px 0px;
   background-size: 14vw;
   animation: play 3s steps(2) infinite;
-  bottom: 20vh;
+  bottom: 20%;
   right: 14vw;
   border: 0px solid red;
 }
@@ -158,7 +169,7 @@ body {
   background: url(../img/vaccines/moving-doctor-boy.png) 0px 0px;
   background-size: 160vw;
   animation: play-doctor 4s steps(4) infinite;
-  bottom: 16vh;
+  bottom: 18%;
   left: 0;
   border: 0px solid red;
 }

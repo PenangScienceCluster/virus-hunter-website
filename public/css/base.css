@@ -234,6 +234,7 @@ button:active {
   background-repeat: no-repeat;
   background-size: 100% auto;
   transition: all 0.3s ease;
+  z-index: 10;
 }
 .custom-modal .modal-header .close:hover {
   opacity: 1;

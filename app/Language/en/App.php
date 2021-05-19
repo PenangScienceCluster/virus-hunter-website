@@ -2,8 +2,9 @@
 
 // override core en language system validation or define your own en language validation message
 return [
+  'share_caption' => 'Do you have what it takes to become a Virus hunter?',
   'share_title' => 'Virus Hunter',
-  'share_description' => 'Do you have what it takes to become a Virus hunter?',
+  'share_description' => 'Join Gina and Ilyas in their quest to become Virus Hunter! Pick up quick facts while learning about real-world viruses, pandemics and vaccines.',
   'share_image' => '/img/logo500x500.jpg',
 
   'done'=> 'Done',

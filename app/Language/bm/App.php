@@ -2,10 +2,10 @@
 
 // override core en language system validation or define your own en language validation message
 return [
-  'share_desc' => '',
-  'share_title' => '',
-  'share_description' => '',
-  'share_image' => '',
+  'share_caption' => 'Adakah anda mempunyai apa yang diperlukan untuk menjadi seorang Virus Hunter?',
+  'share_title' => 'Virus Hunter',
+  'share_description' => 'Sertai Gina dan Ilyas dalam usaha meraka untuk menjadi seorang Virush Hunter! Dapatkan fakta pantas sambil belajar mengenai virus, pandemik dan vaksin di dénia sebenar.',
+  'share_image' => '/img/logo500x500.jpg',
 
   'done'=> 'Selesai',
   'correct'=> 'betul',

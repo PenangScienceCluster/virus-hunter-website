@@ -14,7 +14,7 @@ $(function () {
 
   eraseCookie();
 
-  $("#fb").hover(
+  $("#fb img").hover(
     function () {
       $(this).attr("src", "/img/completed/btn-share-fb-on.png");
     },
@@ -23,7 +23,7 @@ $(function () {
     }
   );
 
-  $("#wa").hover(
+  $("#wa img").hover(
     function () {
       $(this).attr("src", "/img/completed/btn-share-whatsapp-on.png");
     },

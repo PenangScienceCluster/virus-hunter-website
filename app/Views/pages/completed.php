@@ -1,6 +1,10 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
-
+<style>
+.custom-modal .modal-content {
+  min-height: 40vw;
+}
+</style>
 
 <div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
@@ -10,16 +14,17 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body h-100 align-items-center">
-        <div class="row" style="height:90vh">
+        <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
 
             <h4 class="mb-4">Share on:</h4>
 
-            <a href="#" class="mr-4">
-              <img src="/img/completed/btn-share-fb-off.png" class="icon" id="fb" style="width:8vw" />
+            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+              data-url="<?= base_url() ?>">
+              <img src="/img/completed/btn-share-fb-off.png" style="width:8vw" />
             </a>
-            <a href="#">
-              <img src="/img/completed/btn-share-whatsapp-off.png" class="icon" id="wa" style="width:8vw" />
+            <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+              <img src="/img/completed/btn-share-whatsapp-off.png" style="width:8vw" />
             </a>
 
           </div>
@@ -33,7 +38,7 @@
   <div class="row">
     <div class="col-10 mx-auto">
       <div class="board">
-        <div class="medal w-20 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
+        <div class="medal w-25 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
         <div class="stars w-100 mx-auto text-center">
           <img src="/img/moving-star.gif" class="img-fluid" />
           <img src="/img/moving-star.gif" class="img-fluid" />
@@ -51,7 +56,7 @@
           <?= lang('App.btn_share') ?>
         </div>
       </div>
-      <div class="row mt-2">
+      <div class="row mt-4">
         <div class="contact mx-auto col-7 text-center">
           <div class="mt-4 title">
             <?= lang('App.completed.join') ?>

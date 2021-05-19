@@ -1,6 +1,17 @@
-body {
+/* body {
   background: url(../../img/nipah/bg.jpg) 0 0 no-repeat;
   background-size: 100% 100%;
+} */
+
+body,
+html {
+  background: url(/img/nipah/bg-body.jpg) 0 0 repeat-y;
+}
+
+.page-holder {
+  background: url(/img/nipah/bg.jpg) 0 0 no-repeat !important;
+  background-size: 100% 100% !important;
+  border: 0px solid red;
 }
 
 .gina {
