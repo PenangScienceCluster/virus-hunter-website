@@ -65,6 +65,11 @@ $(function () {
     );
   }
 
+  if ($(".btm-nav").length) {
+    $(".btm-nav").click(function () {
+      location.href = $(this).data("href");
+    });
+  }
   //set body height
   // setBodyHeight();
   // $(window).on("resize", setBodyHeight);

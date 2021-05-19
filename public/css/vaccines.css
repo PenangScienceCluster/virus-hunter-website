@@ -107,7 +107,7 @@ html {
 .question-box {
   position: relative;
   border: 2px dotted #339966;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .question img {

@@ -14,7 +14,7 @@ $(function () {
       );
   });
 
-  $(".close").click(function () {
+  $(".spotlight-pop .close").click(function () {
     $(".spotlight-pop")
       .addClass("animated fadeOutLeft")
       .one(

@@ -15,14 +15,14 @@
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.pocket_fact') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="exampleModalLabel1"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
@@ -119,7 +119,7 @@
         <?= lang('App.pandemics.spotlight.title') ?>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close"></button>
 
         <div class="outbreak-modal-content">
           <div class="tab-content">

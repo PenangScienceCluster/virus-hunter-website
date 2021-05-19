@@ -16,7 +16,7 @@ $(function () {
       );
   });
 
-  $(".close").click(function () {
+  $(".spotlight-pop .close").click(function () {
     $(".spotlight-pop")
       .addClass("animated fadeOutLeft")
       .one(
@@ -27,7 +27,6 @@ $(function () {
       );
   });
   // end of spotlight
-
 
   $(".answer").draggable({
     containment: ".drag-area",
@@ -55,18 +54,17 @@ $(function () {
         if (correctCount == 3) {
           store("toolsandtechniques", "star");
 
-          
-        $("#wrong").addClass("d-none");
-        $("#correct")
-          .removeClass("d-none")
-          .parent()
-          .addClass("animated tada")
-          .one(
-            "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
-            function () {
-              $(this).removeClass("animated tada");
-            }
-          );
+          $("#wrong").addClass("d-none");
+          $("#correct")
+            .removeClass("d-none")
+            .parent()
+            .addClass("animated tada")
+            .one(
+              "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+              function () {
+                $(this).removeClass("animated tada");
+              }
+            );
         }
       } else {
         $("#correct").addClass("d-none");
@@ -80,7 +78,6 @@ $(function () {
               $(this).removeClass("animated tada");
             }
           );
-
 
         setTimeout(function () {
           reset();

@@ -73,12 +73,13 @@ html {
 /* tryout */
 #try_pop .selectable {
   border: 4px solid #fff;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: 5px;
+  height: 100%;
 }
 
 #try_pop .selectable.selected {
-  border: 4px solid #258c6f;
+  border: 2px solid #258c6f;
 }
 
 #try_pop .selectable img {
