@@ -17,6 +17,8 @@ var preloadImg = [
   "/img/completed/btn-website-on.png",
   "/img/completed/btn-fb-on.png",
   "/img/completed/btn-instagram-on.png",
+  "/img/completed/btn-share-whatsapp-on.png",
+  "/img/completed/btn-share-fb-on.png.png",
 ];
 
 $(function () {

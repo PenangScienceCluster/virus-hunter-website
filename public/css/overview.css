@@ -6,7 +6,7 @@
 }
 
 .content {
-  width: 50%;
+  width: 38vw;
   margin-top: 2rem;
 }
 
@@ -24,7 +24,7 @@
 .overview-bubble {
   background: url(../../img/overview/bubble-talk.png) center top no-repeat;
   background-size: 100% 100%;
-  padding: 1rem 1.5rem 3.5rem 1.5rem;
+  padding: 1rem 1.5rem 3rem 1.5rem;
   text-align: center;
   position: absolute;
   /* top: -4.5rem;
@@ -32,8 +32,8 @@
   font-weight: bold;
   top: -9vh;
   right: -2vw;
-  min-height: 13vh;
-  min-width: 10vh;
+
+  width: 15vw;
 }
 .ladybird {
   position: absolute;

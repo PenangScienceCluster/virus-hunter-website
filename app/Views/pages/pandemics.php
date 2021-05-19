@@ -3,12 +3,12 @@
 
 
 <?= view('layouts/progressbar', [
-  'title' => 'PANDEMICS'
+  'title' => lang('App.pandemics.title')
 ]) ?>
 
 <?= view('layouts/bottom-nav', [
   'nextLink' => '/zoonotic',
-  'nextLinkName' => 'zoonotic diseases',
+  'nextLinkName' => str_replace('<br>', ' ', lang('App.zoonotic.title')),
   'backLink' => '/overview',
   'backLinkName' => 'overview'
 ]) ?>
@@ -46,9 +46,7 @@
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.us_anecdotes') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
@@ -131,11 +129,15 @@
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
-                    <div class="outbreak-item-value disease">Black Death</div>
+                    <div class="outbreak-item-value disease">
+                      <?= lang('App.pandemics.pop.black_death') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item highlight">
                     <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:</div>
-                    <div class="outbreak-item-value pathogen">Yersinia pestis</div>
+                    <div class="outbreak-item-value pathogen">
+                      <?= lang('App.pandemics.pop.yersinia_pestis') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
@@ -143,17 +145,23 @@
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-rat.png" />
-                        <div class="transmission-value">Rodents <br><small>(rats)</small></div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.rodents') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-fleas.png" />
-                        <div class="transmission-value">Fleas</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.fleas') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-human.png" />
-                        <div class="transmission-value">Humans</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.humans') ?>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -166,29 +174,40 @@
                 <div class="outbreak-body">
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
-                    <div class="outbreak-item-value disease">Nipah Virus</div>
+                    <div class="outbreak-item-value disease">
+                      <?= lang('App.pandemics.pop.virus_nipah') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item highlight">
                     <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:</div>
-                    <div class="outbreak-item-value pathogen">Nipah virus</div>
+                    <div class="outbreak-item-value pathogen">
+                      <?= lang('App.pandemics.pop.virus_nipah') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
+                    <div class="outbreak-item-label">
+                      <?= lang('App.transmission') ?>:
                     </div>
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
-                        <div class="transmission-value">Bats </div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.bats') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-pigs.png" />
-                        <div class="transmission-value">Pigs</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.pigs') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-human.png" />
-                        <div class="transmission-value">Humans</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.humans') ?>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -213,17 +232,23 @@
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
-                        <div class="transmission-value">Bats </div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.bats') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-civetcat.png" />
-                        <div class="transmission-value">Civet cats</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.civet_cats') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-human.png" />
-                        <div class="transmission-value">Humans</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.humans') ?>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -235,12 +260,18 @@
                 <div class="outbreak-header">2015</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
-                    <div class="outbreak-item-value disease">Zika Fever</div>
+                    <div class="outbreak-item-label"><?= lang('App.disease') ?>:
+                    </div>
+                    <div class="outbreak-item-value disease">
+                      <?= lang('App.pandemics.pop.zika_fever') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item highlight">
-                    <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:</div>
-                    <div class="outbreak-item-value pathogen">Zika virus</div>
+                    <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:
+                    </div>
+                    <div class="outbreak-item-value pathogen">
+                      <?= lang('App.pandemics.pop.zika_virus') ?>
+                    </div>
                   </div>
                   <div class="outbreak-item">
                     <div class="outbreak-item-label"><?= lang('App.transmission') ?>:
@@ -248,12 +279,16 @@
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-mosquito.png" />
-                        <div class="transmission-value">Mosquito </div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.mosquito') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-human.png" />
-                        <div class="transmission-value">Humans</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.humans') ?>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -265,11 +300,13 @@
                 <div class="outbreak-header">2019</div>
                 <div class="outbreak-body">
                   <div class="outbreak-item">
-                    <div class="outbreak-item-label"><?= lang('App.disease') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.disease') ?>:
+                    </div>
                     <div class="outbreak-item-value disease">COVID-19</div>
                   </div>
                   <div class="outbreak-item highlight">
-                    <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:</div>
+                    <div class="outbreak-item-label"><?= lang('App.pathogen') ?>:
+                    </div>
                     <div class="outbreak-item-value pathogen">SARS-CoV-2</div>
                   </div>
                   <div class="outbreak-item">
@@ -278,17 +315,23 @@
                     <div class="outbreak-item-value">
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-bats.png" />
-                        <div class="transmission-value">Bats </div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.bats') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-wildlife.png" />
-                        <div class="transmission-value">Wildlife</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.wildlife') ?>
+                        </div>
                       </div>
                       <img class="transmission-arrow" src="/img/pandemics/pandemics-spotlight-icon-down-arrow.png" />
                       <div class="transmission">
                         <img src="/img/pandemics/pandemics-spotlight-icon-human.png" />
-                        <div class="transmission-value">Humans</div>
+                        <div class="transmission-value">
+                          <?= lang('App.pandemics.pop.humans') ?>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -301,7 +344,9 @@
               <a class="nav-link active" data-toggle="tab" href="#outbreak-1" role="tab">
                 <div class="outbreak-nav-title">
                   <div class="outbreak-nav-title-year">1347</div>
-                  <div class="outbreak-nav-title-name">Black Death</div>
+                  <div class="outbreak-nav-title-name">
+                    <?= lang('App.pandemics.pop.black_death') ?>
+                  </div>
                 </div>
               </a>
             </li>
@@ -309,7 +354,9 @@
               <a class="nav-link" data-toggle="tab" href="#outbreak-2" role="tab">
                 <div class="outbreak-nav-title">
                   <div class="outbreak-nav-title-year">1998</div>
-                  <div class="outbreak-nav-title-name">Nipah virus</div>
+                  <div class="outbreak-nav-title-name">
+                    <?= lang('App.pandemics.pop.virus_nipah') ?>
+                  </div>
                 </div>
               </a>
             </li>
@@ -325,7 +372,9 @@
               <a class="nav-link" data-toggle="tab" href="#outbreak-4" role="tab">
                 <div class="outbreak-nav-title">
                   <div class="outbreak-nav-title-year">2015</div>
-                  <div class="outbreak-nav-title-name">Zika Fever</div>
+                  <div class="outbreak-nav-title-name text-capitalize">
+                    <?= lang('App.pandemics.pop.zika_virus') ?>
+                  </div>
                 </div>
               </a>
             </li>

@@ -23,7 +23,7 @@ body {
   bottom: -2.1354vw;
   left: 5vw;
   z-index: 3;
-  width: 20vw;
+  width: 17vw;
 }
 
 .ilyas img {
@@ -34,15 +34,15 @@ body {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: -8.25vw;
-  left: 11.1875vw;
+  top: 0vw;
+  left: 15vw;
   min-width: 30.4375vw;
 }
 
 .gina {
-  width: 25vw;
-  bottom: -3vw;
-  right: 11vw;
+  width: 20vw;
+  bottom: 2vw;
+  right: 16vw;
   z-index: 3;
 }
 
@@ -54,8 +54,8 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: 19.8438vw;
-  left: -22.7917vw;
+  top: 17vw;
+  left: -20vw;
 }
 /* characters */
 

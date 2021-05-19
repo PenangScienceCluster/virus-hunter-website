@@ -5,7 +5,6 @@
 
 <?php
 $steps = lang('App.zoonotic.popup.try_out.items');
-
 $selects = '';
 
 foreach ($steps as $i => $v) {
@@ -15,14 +14,14 @@ foreach ($steps as $i => $v) {
 ?>
 
 <?= view('layouts/progressbar', [
-  'title' => 'zoonotic <br>diseases'
+  'title' => lang('App.zoonotic.title')
 ]) ?>
 
 <?= view('layouts/bottom-nav', [
   'nextLink' => '/nipah',
-  'nextLinkName' => 'nipah virus',
+  'nextLinkName' => lang('App.nipah.title'),
   'backLink' => '/pandemics',
-  'backLinkName' => 'pandemics'
+  'backLinkName' => lang('App.pandemics.title')
 ]) ?>
 
 

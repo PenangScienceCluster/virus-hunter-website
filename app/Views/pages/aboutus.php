@@ -13,7 +13,7 @@
 </style>
 
 
-<div class="container h-100">
+<div class="content-wrap h-100 b-red">
   <div class="row align-items-center h-100">
     <div class="col-lg-12 col-10 mx-auto bg animated fadeIn">
       <div class="position-absolute gina w-25 animated fadeInLeft delay-2s"><img src="/img/characters/gina-1.png"

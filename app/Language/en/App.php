@@ -85,6 +85,21 @@ return [
     'spotlight' => [
       'btn' => 'Discover Outbreaks',
       'title' => 'Discover Outbreaks<br>in History',
+    ],
+    'pop'=>[
+      'black_death' => 'Black Death',
+      'yersinia_pestis' => 'Yersinia pestis',
+      'rodents' => 'Rodents <br><small>(rats)</small>',
+      'fleas' => 'Fleas',
+      'humans' => 'Humans',
+      'virus_nipah'=> 'Nipah Virus',
+      'bats' => 'Bats',
+      'pigs' => 'Pigs',
+      'civet_cats' => 'Civet Cats',
+      'zika_fever' => 'Zika Fever',
+      'zika_virus' => 'Zika virus',
+      'mosquito' => 'Mosquito',
+      'wildlife' => 'Wildlife'
     ]
   ],
 

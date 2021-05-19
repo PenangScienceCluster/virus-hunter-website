@@ -1,7 +1,35 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
 
-<div class="container h-100 overview animated fadeIn">
+
+<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body h-100 align-items-center">
+        <div class="row" style="height:90vh">
+          <div class="col-sm-12 my-auto text-center">
+
+            <h4 class="mb-4">Share on:</h4>
+
+            <a href="#">
+              <img src="/img/completed/btn-share-fb-off.png" class="icon" id="fb" style="width:8vw" />
+            </a>
+            <a href="#">
+              <img src="/img/completed/btn-share-whatsapp-off.png" class="icon" id="wa" style="width:8vw" />
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-wrap h-100 overview animated fadeIn">
   <div class="row">
     <div class="col-10 mx-auto">
       <div class="board">
@@ -12,13 +40,14 @@
           <img src="/img/moving-star.gif" class="img-fluid" />
           <img src="/img/moving-star.gif" class="img-fluid" />
         </div>
-        <h2 class="text-white text-center tenbyfive">
+        <h3 class="text-white text-center tenbyfive">
           <?=lang('App.completed.title') ?>
-        </h2>
+        </h3>
         <h4 class="text-center font-weight-bold">
           <?=lang('App.completed.desc') ?>
         </h4>
-        <div class="position-relative btn-theme w-40 mx-auto btn-share mt-4">
+        <div class="position-relative btn-theme w-40 mx-auto btn-share mt-4" data-toggle="modal"
+          data-target="#share_pop">
           <?= lang('App.btn_share') ?>
         </div>
       </div>

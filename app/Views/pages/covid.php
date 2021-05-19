@@ -89,15 +89,15 @@
     <div class="col-9">
       <h5 class="title mx-auto">
         <?= lang('App.covid.spotlight.title') ?>
-        <div class="modal-desc"><?= lang('App.covid.spotlight.desc') ?>
+        <div class="modal-desc  mt-3">
+          <?= lang('App.covid.spotlight.desc') ?>
         </div>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-
         <div class="spotlight-modal-content">
           <div class="spotlight-video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0ZabxXmH4Y"
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sLXzw6j9JVw"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
@@ -121,7 +121,7 @@
 
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-center-left"><?= lang('App.covid.dialog.girl') ?>
+    <div class="bubble bubble-bottom-left"><?= lang('App.covid.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight">

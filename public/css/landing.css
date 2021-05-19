@@ -1,3 +1,9 @@
+.content {
+  width: 60vw;
+  border: 0px solid red;
+  margin: auto;
+}
+
 .lang {
   position: absolute;
   right: 7vw;
@@ -51,7 +57,7 @@
 }
 
 .main {
-  margin-top: -8%;
+  margin-top: -7%;
 }
 
 .btn-ready {

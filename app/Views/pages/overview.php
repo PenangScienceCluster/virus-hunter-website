@@ -6,9 +6,10 @@
   background-size: 180vw;
 }
 </style>
-<div class="container h-100 overview">
+<div class="content-wrap h-100 overview">
+
   <div class="row align-items-center h-100 animated fadeIn slow">
-    <div class="col-lg-12 col-10 mx-auto bg text-center">
+    <div class="col-12 mx-auto bg text-center b-red">
       <div class="content mx-auto">
         <h1 class="tenbyfive">
           <?= lang('App.overview.joingina') ?>
@@ -19,7 +20,7 @@
       </div>
       <div class="position-relative bar mx-auto">
         <div class="ladybird"></div>
-        <div class="overview-bubble w-20 line-height animated bounceInDown delay-1s">
+        <div class="overview-bubble line-height animated bounceInDown delay-1s">
           <?= lang('App.overview.bubble_instruction') ?>
         </div>
         <img src="/img/overview/progress.png" class="img-fluid" />
@@ -33,11 +34,9 @@
         <span id="text-continue" class="d-none"><?= lang('App.overview.continue') ?></span>
       </div>
 
-
     </div>
   </div>
 </div>
-
 
 <?= $this->endSection()  ?>
 <!-- end 1 -->

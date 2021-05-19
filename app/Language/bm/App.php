@@ -34,7 +34,7 @@ return [
     'imready' => 'saya dah sedia',
     'aprojectby' => 'Sebuah projek oleh',
     'supportedby' => 'Disokong oleh',
-    'title'=> '/img/landing/header_en.png'
+    'title'=> '/img/landing/header_bm.png'
   ],
   'overview' => [
     'letsbegin' => 'Mula',
@@ -85,6 +85,21 @@ return [
     'spotlight' => [
       'btn' => 'Ketahui Wabak',
       'title' => 'Wabak Penyakit<br>Dalam Sejarah',
+    ],
+    'pop'=>[
+      'black_death' => 'Wabak Bubonik',
+      'yersinia_pestis' => 'Yersinia pestis',
+      'rodents' => 'Tikus',
+      'fleas' => 'Kutu',
+      'humans' => 'Manusia',
+      'virus_nipah'=> 'Virus Nipah',
+      'bats' => 'Kelawar',
+      'pigs' => 'Khinzir',
+      'civet_cats' => 'Musang Tenggalung',
+      'zika_fever' => 'Demam Zika',
+      'zika_virus' => 'Zika virus',
+      'mosquito' => 'Nyamuk',
+      'wildlife' => 'Hidupan Liar'
     ]
   ],
 

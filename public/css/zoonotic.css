@@ -10,7 +10,7 @@ body {
   bottom: 2.8646vw;
   left: 14.0625vw;
   z-index: 3;
-  width: 23.3333vw;
+  width: 20vw;
 }
 
 .gina img {
@@ -21,12 +21,12 @@ body {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -7.25vw;
-  left: 16.1875vw;
+  top: -2.25vw;
+  left: 15.1875vw;
 }
 
 .ilyas {
-  width: 19.2188vw;
+  width: 17vw;
   bottom: 0;
   right: 19.792vw;
   z-index: 3;

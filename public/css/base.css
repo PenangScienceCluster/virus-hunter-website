@@ -42,6 +42,12 @@ body {
   /* overflow: hidden; */
 }
 
+.content-wrap {
+  width: 80vw;
+  border: 0px solid red;
+  margin: auto;
+}
+
 a {
   color: #000;
 }
@@ -86,6 +92,9 @@ h1 {
 }
 h2 {
   font-size: 3vw;
+}
+h3 {
+  font-size: 2.2vw;
 }
 h4 {
   font-size: 1.5vw;
@@ -343,7 +352,7 @@ button:active {
 .bubble {
   position: relative;
   font-family: sans-serif;
-  font-size: 1.28vw;
+  font-size: 1.15vw;
   min-width: 25.781vw;
   max-width: 26.042vw;
   line-height: 1;

@@ -49,6 +49,7 @@ foreach ($steps as $i => $v) {
     </div>
   </div>
 </div>
+
 <div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -135,7 +136,7 @@ foreach ($steps as $i => $v) {
 <div class="spotlight-pop d-none" id="spotlight_pop">
   <div class="row h-100 justify-content-center align-items-center content">
     <div class="col-9">
-      <h5 class="title mx-auto">
+      <h5 class="title mx-auto" style="margin-top:10%">
         <?= lang('App.toolsandtechniques.spotlight.title') ?>
       </h5>
       <div class="w-80 mx-auto mt-4 position-relative">
@@ -163,7 +164,7 @@ foreach ($steps as $i => $v) {
   </div>
   <div class="position-absolute ilyas animated fadeInLeft">
     <img src="/img/characters/ilyas-2.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-middle">
+    <div class="bubble bubble-bottom-left">
       <?= lang('App.toolsandtechniques.dialog.boy') ?>
     </div>
   </div>

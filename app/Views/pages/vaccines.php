@@ -146,7 +146,7 @@ foreach ($steps as $i => $v) {
 
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-center-left"><?= lang('App.vaccines.dialog.girl') ?>
+    <div class="bubble bubble-bottom-left"><?= lang('App.vaccines.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight">
