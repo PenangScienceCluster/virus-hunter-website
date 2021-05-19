@@ -15,7 +15,7 @@
 
             <h4 class="mb-4">Share on:</h4>
 
-            <a href="#">
+            <a href="#" class="mr-4">
               <img src="/img/completed/btn-share-fb-off.png" class="icon" id="fb" style="width:8vw" />
             </a>
             <a href="#">
@@ -33,7 +33,7 @@
   <div class="row">
     <div class="col-10 mx-auto">
       <div class="board">
-        <div class="medal w-25 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
+        <div class="medal w-20 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
         <div class="stars w-100 mx-auto text-center">
           <img src="/img/moving-star.gif" class="img-fluid" />
           <img src="/img/moving-star.gif" class="img-fluid" />
@@ -51,11 +51,11 @@
           <?= lang('App.btn_share') ?>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-2">
         <div class="contact mx-auto col-7 text-center">
-          <h4 class="mt-4">
+          <div class="mt-4 title">
             <?= lang('App.completed.join') ?>
-          </h4>
+          </div>
           <div class="row social">
             <div class="col-4">
               <a href="https://www.pscpen.com" target="_blank" class="small">

@@ -2,10 +2,9 @@
 
 // override core en language system validation or define your own en language validation message
 return [
-  'share_desc' => '',
-  'share_title' => '',
-  'share_description' => '',
-  'share_image' => '',
+  'share_title' => 'Virus Hunter',
+  'share_description' => 'Do you have what it takes to become a Virus hunter?',
+  'share_image' => '/img/logo500x500.jpg',
 
   'done'=> 'Done',
   'correct'=> 'correct',

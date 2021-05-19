@@ -51,12 +51,14 @@
 <body>
 
   <?= view('pages/bestview') ?>
-
-  <div class="container-fluid wrapper position-relative p-0">
-    <?= view('layouts/navigation') ?>
-    <?= $this->renderSection('content') ?>
+  <div class="page">
+    <div class="page-holder">
+      <div class="container-fluid wrapper position-relative p-0">
+        <?= view('layouts/navigation') ?>
+        <?= $this->renderSection('content') ?>
+      </div>
+    </div>
   </div>
-
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

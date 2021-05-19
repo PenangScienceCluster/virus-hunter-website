@@ -25,4 +25,9 @@ $(document).ready(function () {
       );
   });
   // end of spotlight
+
+  // console.log($("body").height());
+  // console.log($(".page-holder").height());
+
+  // $(".spotlight-pop .bg").height($(".page-holder").height());
 });
