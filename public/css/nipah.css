@@ -122,7 +122,8 @@ html {
 
 .questions img {
   margin: 0 auto;
-  max-width: 25vw !important;
+  /* max-width: 25vw !important; */
+  width: 25vw;
 }
 
 .question {
