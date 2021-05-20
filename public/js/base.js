@@ -1,3 +1,14 @@
+var nav = [
+  "pandemics",
+  "zoonotic",
+  "nipah",
+  "covid",
+  "vaccines",
+  "toolsandtechniques",
+];
+
+var navStar = ["zoonotic", "nipah", "vaccines", "toolsandtechniques"];
+
 var preloadImg = [
   "/img/btn-burger-on.png",
   "/img/btn-bg-on.png",
@@ -74,21 +85,14 @@ $(function () {
   // setBodyHeight();
   // $(window).on("resize", setBodyHeight);
 });
-function setBodyHeight() {
-  $(".wrapper").height($("body").height());
-}
+// function setBodyHeight() {
+//   $(".wrapper").height($("body").height());
+// }
 
 function markNav(currentSection) {
   var section = getCookie();
   var sections = section.split("|");
-  var nav = [
-    "pandemics",
-    "zoonotic",
-    "nipah",
-    "covid",
-    "vaccines",
-    "toolsandtechniques",
-  ];
+
   var i;
 
   for (i = 0; i < nav.length; i++) {
@@ -119,6 +123,59 @@ $.fn.preload = function () {
 };
 $(preloadImg).preload();
 
+function getSection() {
+  var nameEQ = "vhs=";
+  var ca = document.cookie.split(";");
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == " ") c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+function storeSection(value) {
+  var idx = nav.indexOf(value) + 1;
+
+  for (var i = 1; i < idx; i++) {
+    $("#p" + i).attr("src", "/img/progressbar/" + i + "-on.png");
+  }
+
+  setCookieSection(idx);
+}
+function storeStar(value) {
+  var idx = navStar.indexOf(value) + 1;
+
+  for (var i = 0; i < nav; i++) {
+    // $("#p" + i).attr("src", "/img/progressbar/" + i + "-on.png");
+  }
+
+  $("#p" + i).attr("src", "/img/progressbar/" + i + "-on-s.png");
+
+  setCookieStar(idx);
+}
+
+function setCookieSection(value) {
+  var date = new Date();
+  date.setTime(date.getTime() + 1 * 24 * 60 * 60 * 1000);
+  var expires = "; expires=" + date.toUTCString();
+
+  document.cookie = "vhs=" + (value || "") + expires + "; path=/";
+}
+function setCookieStar(value) {
+  var date = new Date();
+  date.setTime(date.getTime() + 1 * 24 * 60 * 60 * 1000);
+  var expires = "; expires=" + date.toUTCString();
+
+  document.cookie = "vhst=" + (value || "") + expires + "; path=/";
+}
+function eraseCookieSection() {
+  document.cookie = "vhs=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+}
+function eraseCookieStar() {
+  document.cookie = "vhst=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+}
+
+// old
 function store(value, category) {
   var existingValue = getCookie();
   var cookiesValues = "";
