@@ -1,7 +1,7 @@
 var currentDragId = "";
 var correctCount = 0;
 $(function () {
-  store("toolsandtechniques");
+  storeSection("toolsandtechniques");
 
   // spotlight
   $(".spotlight-btn").click(function () {
@@ -52,7 +52,8 @@ $(function () {
         correctCount++;
 
         if (correctCount == 3) {
-          store("toolsandtechniques", "star");
+          storeStar("toolsandtechniques");
+          // store("toolsandtechniques", "star");
 
           $("#wrong").addClass("d-none");
           $("#correct")

@@ -1,5 +1,6 @@
 $(function () {
-  var currentCookies = getCookie();
+  var currentCookies = getCookieValue("vhs");
+  var currentCookiesStar = getCookieValue("vhst");
 
   if (currentCookies != null) {
     $("#text-continue").removeClass("d-none");
@@ -9,20 +10,28 @@ $(function () {
 
   $(".btn-begin").click(function () {
     var lang = $(this).data("lang");
-    var currentCookies = getCookie();
     var lastSection = "pandemics";
 
-    if (currentCookies != null && currentCookies != "") {
-      var sections = currentCookies.split("|");
-      lastSection = sections[sections.length - 1];
-
-      if (lastSection.indexOf("-s") != -1) {
-        lastSection = sections[sections.length - 2];
-      }
+    if (
+      currentCookies != null &&
+      currentCookies != "" &&
+      currentCookies != undefined
+    ) {
+      lastSection = nav[currentCookies];
     }
-    console.log("[currentCookies]", currentCookies);
-    console.log("[lastSection]", lastSection);
-    // console.log("/" + lang + "/" + lastSection);
     location.href = "/" + lang + "/" + lastSection;
   });
+
+  if (
+    currentCookiesStar != null &&
+    currentCookiesStar != "" &&
+    currentCookiesStar != undefined
+  ) {
+    var lang = $("#progress").data("lang");
+    var stars = currentCookiesStar.split("|");
+    $("#progress").attr(
+      "src",
+      "/img/overview/progress-" + lang + "-" + stars.length + ".png"
+    );
+  }
 });

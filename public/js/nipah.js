@@ -2,7 +2,8 @@ var currentDragId = "";
 var correctCount = 0;
 
 $(function () {
-  store("nipah");
+  // store("nipah");
+  storeSection("nipah");
 
   // spotlight
   $(".spotlight-btn").click(function () {
@@ -54,7 +55,8 @@ $(function () {
         correctCount++;
 
         if (correctCount == 3) {
-          store("nipah", "star");
+          // store("nipah", "star");
+          storeStar("nipah");
 
           $("#wrong").addClass("d-none");
           $("#correct")

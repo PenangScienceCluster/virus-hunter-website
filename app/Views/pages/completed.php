@@ -40,10 +40,10 @@
       <div class="board">
         <div class="medal w-25 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
         <div class="stars w-100 mx-auto text-center">
-          <img src="/img/moving-star.gif" class="img-fluid" />
-          <img src="/img/moving-star.gif" class="img-fluid" />
-          <img src="/img/moving-star.gif" class="img-fluid" />
-          <img src="/img/moving-star.gif" class="img-fluid" />
+          <img src="/img/completed/star-off.png" class="img-fluid" id="star1" />
+          <img src="/img/completed/star-off.png" class="img-fluid" id="star2" />
+          <img src="/img/completed/star-off.png" class="img-fluid" id="star3" />
+          <img src="/img/completed/star-off.png" class="img-fluid" id="star4" />
         </div>
         <h3 class="text-white text-center tenbyfive">
           <?=lang('App.completed.title') ?>

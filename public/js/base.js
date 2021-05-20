@@ -123,8 +123,56 @@ $.fn.preload = function () {
 };
 $(preloadImg).preload();
 
-function getSection() {
-  var nameEQ = "vhs=";
+function storeSection(value) {
+  var existingStar = getCookieValue("vhst");
+  var idx = nav.indexOf(value);
+
+  for (var i = 0; i <= idx; i++) {
+    var id = i + 1;
+    var starExt = "";
+    if (existingStar != undefined) {
+      if (existingStar.indexOf(i) > -1) {
+        starExt = "-s";
+      }
+    }
+    $("#p" + id).attr(
+      "src",
+      "/img/progressbar/" + id + "-on" + starExt + ".png"
+    );
+  }
+  // console.log("existingStar", existingStar);
+  setCookieSection(idx);
+}
+function storeStar(value) {
+  // mark current star
+  var navIdx = nav.indexOf(value);
+  var id = navIdx + 1;
+  $("#p" + id).attr("src", "/img/progressbar/" + id + "-on-s.png");
+
+  // keep track star
+  var existingStar = getCookieValue("vhst");
+  var cookiesValuesStar = "";
+  if (existingStar != undefined) {
+    var idx = existingStar.indexOf(navIdx);
+
+    if (idx == -1) {
+      cookiesValuesStar = existingStar + "|" + navIdx;
+    }
+  } else {
+    cookiesValuesStar = navIdx;
+  }
+
+  // setCookieStar(idx);
+
+  // console.log("navIdx", navIdx);
+  // console.log("existingStar", existingStar);
+  // console.log("cookiesValuesStar", cookiesValuesStar);
+
+  setCookieStar(cookiesValuesStar);
+}
+
+function getCookieValue(name) {
+  var nameEQ = name + "=";
   var ca = document.cookie.split(";");
   for (var i = 0; i < ca.length; i++) {
     var c = ca[i];
@@ -133,27 +181,6 @@ function getSection() {
   }
   return null;
 }
-function storeSection(value) {
-  var idx = nav.indexOf(value) + 1;
-
-  for (var i = 1; i < idx; i++) {
-    $("#p" + i).attr("src", "/img/progressbar/" + i + "-on.png");
-  }
-
-  setCookieSection(idx);
-}
-function storeStar(value) {
-  var idx = navStar.indexOf(value) + 1;
-
-  for (var i = 0; i < nav; i++) {
-    // $("#p" + i).attr("src", "/img/progressbar/" + i + "-on.png");
-  }
-
-  $("#p" + i).attr("src", "/img/progressbar/" + i + "-on-s.png");
-
-  setCookieStar(idx);
-}
-
 function setCookieSection(value) {
   var date = new Date();
   date.setTime(date.getTime() + 1 * 24 * 60 * 60 * 1000);

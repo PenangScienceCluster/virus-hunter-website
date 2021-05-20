@@ -23,7 +23,8 @@
         <div class="overview-bubble line-height animated bounceInDown delay-1s">
           <?= lang('App.overview.bubble_instruction') ?>
         </div>
-        <img src="/img/overview/progress.png" class="img-fluid" />
+        <img src="/img/overview/progress-<?= locale() ?>-0.png" class="img-fluid" data-lang="<?= locale() ?>"
+          id="progress" />
       </div>
 
       <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp delay-1s"

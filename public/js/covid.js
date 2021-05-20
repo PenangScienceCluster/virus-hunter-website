@@ -1,7 +1,5 @@
 $(function () {
-  store("covid");
-  // storeSection("covid", "star");
-  // eraseCookie();
+  storeSection("covid");
 
   // spotlight
   $(".spotlight-btn").click(function () {

@@ -1,5 +1,10 @@
 $(function () {
-  store("zoonotic");
+  // store("zoonotic");
+
+  storeSection("zoonotic");
+
+  // eraseCookieSection();
+  // eraseCookieStar();
 
   // spotlight
   $(".spotlight-btn").click(function () {
@@ -54,7 +59,8 @@ $(function () {
           }
         );
 
-      store("zoonotic", "star");
+      // store("zoonotic", "star");
+      storeStar("zoonotic");
     } else {
       $("#correct").addClass("d-none");
       $("#wrong")

@@ -71,4 +71,16 @@ $(function () {
 
     popup(social);
   });
+
+  var currentCookiesStar = getCookieValue("vhst");
+  if (
+    currentCookiesStar != null &&
+    currentCookiesStar != "" &&
+    currentCookiesStar != undefined
+  ) {
+    var stars = currentCookiesStar.split("|");
+    for (var i = 0; i < stars.length; i++) {
+      $("#star" + (i + 1)).attr("src", "/img/completed/star-on.png");
+    }
+  }
 });

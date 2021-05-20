@@ -2,7 +2,7 @@ var currentDragId = "";
 var correctCount = 0;
 
 $(function () {
-  store("vaccines");
+  storeSection("vaccines");
 
   // spotlight
   $(".spotlight-btn").click(function () {
@@ -54,7 +54,8 @@ $(function () {
         correctCount++;
 
         if (correctCount == 5) {
-          store("vaccines", "star");
+          storeStar("vaccines");
+          // store("vaccines", "star");
 
           $("#wrong").addClass("d-none");
           $("#correct")
