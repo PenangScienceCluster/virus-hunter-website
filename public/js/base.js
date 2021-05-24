@@ -84,11 +84,35 @@ $(function () {
   //set body height
   // setBodyHeight();
   // $(window).on("resize", setBodyHeight);
+
+  runSideButton();
 });
 // function setBodyHeight() {
 //   $(".wrapper").height($("body").height());
 // }
-
+function runSideButton() {
+  if ($(".btn-side").length) {
+    $(".btn-side").each(function (index) {
+      var ele = $(this);
+      setTimeout(function () {
+        ele
+          .removeClass("d-none")
+          .addClass("animated fadeInLeft")
+          .one(
+            "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+            function () {
+              $(this).removeClass("animated fadeInLeft");
+              $(this)
+                .find(".badge")
+                .removeClass("d-none")
+                .hide()
+                .fadeIn("slow");
+            }
+          );
+      }, 500 * index);
+    });
+  }
+}
 function markNav(currentSection) {
   var section = getCookie();
   var sections = section.split("|");

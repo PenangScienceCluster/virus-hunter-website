@@ -1,3 +1,32 @@
+<style>
+.btn-side {
+  position: relative;
+  background: transparent;
+}
+
+.btn-side .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  z-index: 1;
+  display: none;
+}
+
+.btn-side img {
+  position: relative;
+  z-index: 0;
+}
+
+.badge:empty {
+  display: block;
+}
+</style>
+
 <?php if ($showLogo): ?>
 <div class="nav-top">
   <div class="logo-top">
@@ -7,7 +36,8 @@
   <div class="informations w-25 pl-3">
     <?php
     foreach ($navSide as $i=>$v) {
-        echo '<button class="btn btn-link btn-block p-0 m-0 btn-side" id="'.$v.'" data-img="btn-side-'.$v.'" data-toggle="modal" data-target="#'.$v.'_pop">
+        echo '<button class="btn p-0 m-0 btn-side d-none" id="'.$v.'" data-img="btn-side-'.$v.'" data-toggle="modal" data-target="#'.$v.'_pop">
+              <span class="badge d-none"></span>
               <img src="/img/btn-side-'.$v.'-off.png" class="img-fluid" />
             </button>';
     }
