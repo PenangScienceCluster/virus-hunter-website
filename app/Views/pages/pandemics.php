@@ -44,15 +44,19 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.us_anecdotes') ?>
+        <h5 class="modal-title" id="exampleModalLabel">
+          <?= lang('App.subnav.us_anecdotes') ?>
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="w-60 mx-auto my-4"><img src="/img/pandemics/moving-pandemics-us-anecdotes.gif" /></div>
+          <div class="popup-tex mt-1 w-100">
+            <?= lang('App.pandemics.popup.didyouknow.0') ?>
+          </div>
+          <div class="w-60 mx-auto mt-4"><img src="/img/didyouknow/pandamics.png" class="img-fluid" /></div>
           <div class="popup-tex mt-4">
-            <?= lang('App.pandemics.popup.us_anecdotes') ?>
+            <?= lang('App.pandemics.popup.didyouknow.1') ?>
           </div>
         </div>
       </div>

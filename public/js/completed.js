@@ -1,3 +1,5 @@
+var starCount = 0;
+
 $(function () {
   $(".photos").owlCarousel({
     autoplay: false,
@@ -45,7 +47,7 @@ $(function () {
         height: 300,
         url:
           "https://www.facebook.com/sharer/sharer.php?u=" +
-          encodeURI(url) +
+          encodeURI(url + "?s=" + starCount + "&" + Math.random()) +
           "&quote=" +
           encodeURI(desc),
       },
@@ -79,8 +81,12 @@ $(function () {
     currentCookiesStar != undefined
   ) {
     var stars = currentCookiesStar.split("|");
+    starCount = stars.length;
     for (var i = 0; i < stars.length; i++) {
       $("#star" + (i + 1)).attr("src", "/img/completed/star-on.png");
     }
   }
+
+  eraseCookieSection();
+  eraseCookieStar();
 });

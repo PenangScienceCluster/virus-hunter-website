@@ -62,11 +62,15 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="w-50"><img src="/img/toolsandtechniques/moving-tools-us-anecdotes.gif" class="img-fluid" />
+
+          <div class="popup-tex mt-1 w-100">
+            <?= lang('App.toolsandtechniques.popup.didyouknow.0') ?>
           </div>
-          <div class="popup-text">
-            <?= lang('App.toolsandtechniques.popup.us_anecdotes') ?>
+          <div class="w-60 mx-auto mt-4"><img src="/img/didyouknow/tools.png" class="img-fluid" /></div>
+          <div class="popup-tex mt-4">
+            <?= lang('App.toolsandtechniques.popup.didyouknow.1') ?>
           </div>
+
         </div>
       </div>
     </div>

@@ -29,7 +29,8 @@ html {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -1.25vw;
+  /* top: -1.25vw; */
+  bottom: 3.75vw;
   left: 15vw;
   min-width: 34.781vw;
   font-size: 1.28vw;
@@ -50,8 +51,10 @@ html {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 18.8438vw;
-  left: -24.7917vw;
+  /* top: 18.8438vw; */
+  /* left: -24.7917vw; */
+  top: -3.1562vw;
+  left: -28.7917vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }

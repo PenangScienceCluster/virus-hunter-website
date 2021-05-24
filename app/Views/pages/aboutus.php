@@ -16,10 +16,12 @@
 <div class="content-wrap h-100">
   <div class="row align-items-center h-100">
     <div class="col-lg-12 col-10 mx-auto bg animated fadeIn">
+
       <div class="position-absolute gina w-25 animated fadeInLeft delay-2s"><img src="/img/characters/gina-1.png"
           class="img-fluid" /></div>
       <div class="position-absolute ilyas w-20 animated fadeInRight delay-2s"><img src="/img/characters/ilyas-1.png"
           class="img-fluid" /></div>
+
       <div class="row align-items-center mx-auto h-100">
         <div class="col-8 mx-auto text-center ">
           <h1 class="tenbyfive">

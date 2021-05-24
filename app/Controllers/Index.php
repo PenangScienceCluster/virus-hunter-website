@@ -71,7 +71,7 @@ class Index extends BaseController
               '/lib/touch/jquery-ui.min.css',
               '/css/zoonotic.css'
             ];
-            $navSide = ['fact', 'try', 'career'];
+            $navSide = ['fact', 'try', 'career','us'];
             break;
           case "nipah":
             $navSide = ['fact', 'virushunter', 'career', 'try'];
@@ -86,7 +86,7 @@ class Index extends BaseController
             $js = ['/js/covid.js'];
             break;
           case "vaccines":
-            $navSide = ['fact', 'virushunter', 'try'];
+            $navSide = ['fact', 'virushunter', 'try','us'];
             $js = [
               '/lib/touch/jquery-ui.min.js',
               '/lib/touch/jquery.ui.touch-punch.min.js',

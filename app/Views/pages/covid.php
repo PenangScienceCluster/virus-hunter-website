@@ -47,11 +47,15 @@
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="w-60 mx-auto my-4">
-            <img src="/img/covid/moving-covid19-us-anecdotes.gif" class="img-fluid" />
+
+          <div class=" mt-1 w-100">
+            <?= lang('App.covid.popup.didyouknow.0') ?>
           </div>
-          <div class="popup-text mt-4">
-            <?= lang('App.covid.popup.us_anecdotes') ?>
+          <div class="w-60 mx-auto mt-4">
+            <img src="/img/didyouknow/covid.png" class="img-fluid" />
+          </div>
+          <div class=" mt-4">
+            <?= lang('App.covid.popup.didyouknow.1') ?>
           </div>
         </div>
       </div>
@@ -121,12 +125,12 @@
 
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
-    <div class="bubble bubble-bottom-left"><?= lang('App.covid.dialog.girl') ?>
+    <div class="bubble bubble-top-left"><?= lang('App.covid.dialog.girl') ?>
     </div>
   </div>
   <div class="position-absolute ilyas animated fadeInRight">
     <img src="/img/characters/ilyas-1.png" class="img-fluid" />
-    <div class="bubble bubble-top-right"><?= lang('App.covid.dialog.boy') ?>
+    <div class="bubble bubble-bottom-right"><?= lang('App.covid.dialog.boy') ?>
     </div>
   </div>
 

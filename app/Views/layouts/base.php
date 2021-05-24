@@ -1,3 +1,7 @@
+<?php
+  $stars = isset($_GET['s']) ? $_GET['s'] : 0;
+  $sharedImg = base_url(lang('App.share_image', [$stars]));
+?>
 <!DOCTYPE html>
 <html lang="en-MY">
 
@@ -12,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= lang('App.share_title') ?>">
   <meta property="og:description" content="<?= lang('App.share_description') ?>">
-  <meta property="og:image" content="<?= lang('App.share_image') ?>">
+  <meta property="og:image" content="<?= $sharedImg  ?>">
   <meta property="og:url" content="">
 
   <!-- Twitter -->
@@ -20,12 +24,12 @@
   <meta property="twitter:url" content="">
   <meta property="twitter:title" content="<?= lang('App.share_title') ?>">
   <meta property="twitter:description" content="<?= lang('App.share_description') ?>">
-  <meta property="twitter:image" content="<?= lang('App.share_image') ?>">
+  <meta property="twitter:image" content="<?= $sharedImg  ?>">
 
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="<?= lang('App.share_title') ?>">
   <meta itemprop="description" content="<?= lang('App.share_description') ?>">
-  <meta itemprop="image" content="<?= lang('App.share_image') ?>">
+  <meta itemprop="image" content="<?= $sharedImg  ?>">
 
   <!-- prefix -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"

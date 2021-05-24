@@ -120,6 +120,31 @@ foreach ($steps as $i => $v) {
   <div class="bg"></div>
 </div>
 
+<div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          <?= lang('App.subnav.us_anecdotes') ?>
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="popup-content">
+          <div class="popup-tex mt-1 w-100">
+            <?= lang('App.zoonotic.popup.didyouknow.0') ?>
+          </div>
+          <div class="w-60 mx-auto mt-4"><img src="/img/didyouknow/zoonotic.png" class="img-fluid" /></div>
+          <div class="popup-tex mt-4">
+            <?= lang('App.zoonotic.popup.didyouknow.1') ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="pandemic h-100">
 
