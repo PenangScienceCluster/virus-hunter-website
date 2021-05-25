@@ -41,24 +41,28 @@ $(function () {
     var url = $(this).data("url");
     var desc = $(this).data("desc");
 
+    var param = "?s=" + starCount + "&" + Math.random();
     var social = {
       fb: {
         width: 600,
         height: 300,
         url:
           "https://www.facebook.com/sharer/sharer.php?u=" +
-          encodeURI(url + "?s=" + starCount + "&" + Math.random()) +
+          encodeURI(url + param) +
           "&quote=" +
           encodeURI(desc),
       },
       tw: {
         width: 600,
         height: 254,
-        url: "https://twitter.com/share?url=" + encodeURI(desc + " " + url),
+        url:
+          "https://twitter.com/share?url=" +
+          encodeURI(desc + " " + url + param),
       },
       wa: {
         url:
-          "https://api.whatsapp.com/send?text=" + encodeURI(desc + " " + url),
+          "https://api.whatsapp.com/send?text=" +
+          encodeURI(desc + " " + url + param),
       },
     };
 

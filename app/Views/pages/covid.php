@@ -48,13 +48,13 @@
       <div class="modal-body">
         <div class="popup-content">
 
-          <div class=" mt-1 w-100">
+          <div class=" mt-1 w-100 text-center">
             <?= lang('App.covid.popup.didyouknow.0') ?>
           </div>
           <div class="w-60 mx-auto mt-4">
             <img src="/img/didyouknow/covid.png" class="img-fluid" />
           </div>
-          <div class=" mt-4">
+          <div class="w-90 mt-4">
             <?= lang('App.covid.popup.didyouknow.1') ?>
           </div>
         </div>

@@ -26,7 +26,7 @@ return [
     'pocket_fact' => 'Pocket Fact',
     'virus_hunter' => 'Virus Hunter Icon',
     'career_pathway' => 'Career Pathway',
-    'us_anecdotes' => 'Did you know?',
+    'us_anecdotes' => 'Did You Know?',
     'try_out' => 'Try This'
   ],
 

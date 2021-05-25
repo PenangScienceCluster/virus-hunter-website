@@ -531,6 +531,10 @@ button:active {
   margin-bottom: 0.5208vw;
 }
 
+#us_pop h4 {
+  font-weight: 900;
+}
+
 @media only screen and (orientation: portrait) {
   .page {
     display: none;
