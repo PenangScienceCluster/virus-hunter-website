@@ -41,7 +41,7 @@ return [
     'continue' => 'continue',
     'joingina' => 'Join Gina and Ilyas in their quest to become <span class="text-white">Virus Hunter</span><span>!</span>',
     'pickupfacts' => 'Pick up quick facts while learning about real-world viruses, pandemics and vaccines.',
-    'bubble_instruction' => 'Complete activities to collect starts and earn the Virus Hunter medal!'
+    'bubble_instruction' => 'Complete activities to collect stars and earn the Virus Hunter medal!'
   ],
 
   'aboutus' => [
