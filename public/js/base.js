@@ -82,14 +82,14 @@ $(function () {
     });
   }
   //set body height
-  // setBodyHeight();
-  // $(window).on("resize", setBodyHeight);
+  setBodyHeight();
+  $(window).on("resize", setBodyHeight);
 
   runSideButton();
 });
-// function setBodyHeight() {
-//   $(".wrapper").height($("body").height());
-// }
+function setBodyHeight() {
+  $(".wrapper").height($("body").height());
+}
 function runSideButton() {
   if ($(".btn-side").length) {
     $(".btn-side").each(function (index) {
