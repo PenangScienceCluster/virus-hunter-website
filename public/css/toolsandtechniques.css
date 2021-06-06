@@ -32,7 +32,8 @@ html {
   bottom: -2.1354vw;
   left: 5vw;
   z-index: 3;
-  width: 17vw;
+  /* width: 17vw; */
+  width: 33vh;
 }
 
 .ilyas img {
@@ -49,7 +50,8 @@ html {
 }
 
 .gina {
-  width: 20vw;
+  /* width: 20vw; */
+  width: 40vh;
   bottom: 2vw;
   right: 16vw;
   z-index: 3;

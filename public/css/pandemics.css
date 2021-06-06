@@ -31,7 +31,8 @@ html {
 }
 
 .ilyas {
-  width: 19.2188vw;
+  /* width: 19.2188vw; */
+  width: 33vh;
   bottom: 0;
   right: 19.792vw;
   z-index: 3;
