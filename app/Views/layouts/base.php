@@ -16,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= lang('App.share_title') ?>">
   <meta property="og:description" content="<?= lang('App.share_description') ?>">
-  <meta property="og:image" content="<?= $sharedImg  ?>">
+  <meta property="og:image" content="<?= $sharedImg ?>">
   <meta property="og:url" content="">
 
   <!-- Twitter -->
@@ -24,12 +24,12 @@
   <meta property="twitter:url" content="">
   <meta property="twitter:title" content="<?= lang('App.share_title') ?>">
   <meta property="twitter:description" content="<?= lang('App.share_description') ?>">
-  <meta property="twitter:image" content="<?= $sharedImg  ?>">
+  <meta property="twitter:image" content="<?= $sharedImg ?>">
 
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="<?= lang('App.share_title') ?>">
   <meta itemprop="description" content="<?= lang('App.share_description') ?>">
-  <meta itemprop="image" content="<?= $sharedImg  ?>">
+  <meta itemprop="image" content="<?= $sharedImg ?>">
 
   <!-- prefix -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -56,14 +56,11 @@
 
   <?= view('pages/bestview') ?>
 
-  <div class="page">
-    <div class="page-holder">
-      <div class="container-fluid wrapper position-relative p-0">
-        <?= view('layouts/navigation') ?>
-        <?= $this->renderSection('content') ?>
-      </div>
-    </div>
+  <div class="container-fluid wrapper position-relative p-0">
+    <?= view('layouts/navigation') ?>
+    <?= $this->renderSection('content') ?>
   </div>
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
