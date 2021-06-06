@@ -1,6 +1,11 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
 
+<?php
+$now = date('Y-m-d H:i:s');
+ $liveDate = date('2021-10-01 10:00:00');
+?>
+
 <div class="container h-100 gallery">
   <div class="row align-items-center h-100">
     <div class="col-lg-12 col-10 mx-auto  text-center">
@@ -20,55 +25,38 @@
             <?= lang('App.gallery.tabs.1') ?>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads"
-            aria-selected="false">
-            <?= lang('App.gallery.tabs.2') ?>
-          </a>
-        </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade active show" id="photos" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+            <?php
+              $studentFiles = 7;
+              for ($i=1; $i <= $studentFiles; $i++) {
+                  echo '<div class="col-3 mb-4"><img src="/img/gallery/s_thumb'.$i.'.jpg" class="img-fluid" /><a href="/download/Panel'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">Download</div></a></div>';
+              }
 
-          <div class="owl-carousel owl-theme w-60 mx-auto photos">
-            <div class="item">
-              <img src="/img/gallery/1.png" class="img-fluid" />
-            </div>
-            <div class="item">
-              <img src="/img/gallery/2.png" class="img-fluid" />
-            </div>
+            ?>
           </div>
         </div>
-        <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="profile-tab">
-
-          <div class="owl-carousel owl-theme videos w-70 mx-auto">
-            <div class="item-video" data-merge="1">
-              <div class="maxh">
-                <a class="owl-video" href="https://www.youtube.com/watch?v=i0ZabxXmH4Y"></a>
-              </div>
-            </div>
-            <div class="item-video" data-merge="2">
-              <div class="maxh">
-                <a class="owl-video" href="https://www.youtube.com/watch?v=i0ZabxXmH4Y"></a>
-              </div>
+        <div class="tab-pane fade h-100" id="videos" role="tabpanel" aria-labelledby="profile-tab">
+          <?php if ($now < $liveDate) { ?>
+          <div class="row align-items-center h-100">
+            <div class="col-12 mx-auto tenbyfive">
+              <h3>Available October 2021 Onwards.</h3>
+              <h2 class="text-green">Stay Tuned!</h2>
             </div>
           </div>
+          <?php } else { ?>
+          <div class="row w-80 mx-auto mt-4">
+            <?php
+              $teacherFiles = 2;
+              for ($i=1; $i <= $teacherFiles; $i++) {
+                  echo '<div class="col-6"><img src="/img/gallery/t_thumb'.$i.'.jpg" class="imgw" /><a href="/download/t'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">Download</div></a></div>';
+              }
 
-        </div>
-        <div class="tab-pane fade" id="downloads" role="tabpanel" aria-labelledby="contact-tab">
-
-          <div class="d-flex flex-row odd-color row-odd">
-            <div class="icon-pdf p-2"><i class="far fa-file-pdf"></i></div>
-            <div class="icon-pdf p-2">lorum.pdf</div>
-            <div class="icon-pdf p-2 ml-auto"><i class="fas fa-download"></i></div>
+            ?>
           </div>
-
-          <div class="d-flex flex-row odd-color row-even">
-            <div class="icon-pdf p-2"><i class="far fa-file-pdf"></i></div>
-            <div class="icon-pdf p-2">lorum.pdf</div>
-            <div class="icon-pdf p-2 ml-auto"><i class="fas fa-download"></i></div>
-          </div>
-
+          <?php } ?>
         </div>
       </div>
     </div>

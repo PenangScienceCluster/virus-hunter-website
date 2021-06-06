@@ -72,7 +72,7 @@ html {
 
 .spotlight-pop .title {
   position: relative;
-  margin-top: 8%;
+  /* margin-top: 8%; */
 }
 
 .spotlight-title-img {
@@ -96,7 +96,7 @@ html {
 }
 
 .spotlight-pop .content {
-  margin-top: 2.6042vw;
+  /* margin-top: 2.6042vw; */
 }
 
 .outbreak-modal-content {

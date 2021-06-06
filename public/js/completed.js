@@ -78,7 +78,8 @@ $(function () {
     popup(social);
   });
 
-  var currentCookiesStar = getCookieValue("vhst");
+  // var currentCookiesStar = getCookieValue("vhst");
+  var currentCookiesStar = "1|2|3|4";
   if (
     currentCookiesStar != null &&
     currentCookiesStar != "" &&
@@ -86,8 +87,17 @@ $(function () {
   ) {
     var stars = currentCookiesStar.split("|");
     starCount = stars.length;
-    for (var i = 0; i < stars.length; i++) {
+
+    for (var i = 0; i < starCount; i++) {
       $("#star" + (i + 1)).attr("src", "/img/completed/star-on.png");
+    }
+
+    if (starCount == 4) {
+      $(".title, .desc").removeClass("d-none");
+    } else {
+      $(".title2, .desc2").removeClass("d-none");
+      $(".medal").addClass("d-none");
+      $(".stars").addClass("less");
     }
   }
 

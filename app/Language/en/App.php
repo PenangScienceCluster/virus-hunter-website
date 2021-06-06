@@ -18,7 +18,7 @@ return [
   'nav' => [
     'home' => 'Home',
     'aboutus' => 'About Us',
-    'gallery' => 'Gallery',
+    'gallery' => 'Additional Resources',
     'contactus' => 'Contact Us',
   ],
 
@@ -58,10 +58,10 @@ return [
   ],
 
   'gallery' => [
-    'title' => 'Gallery',
+    'title' => 'Additional Resources',
     'tabs' => [
-      'View Photos',
-      'Watch Videos',
+      'Students',
+      'Teachers',
       'Downloads'
     ]
   ],
@@ -87,7 +87,9 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Discover Outbreaks',
+      'btn2' => 'View Details',
       'title' => 'Discover Outbreaks<br>in History',
+      'contentImg' => '/img/pandemics/content.png'
     ],
     'pop'=>[
       'black_death' => 'Black Death',
@@ -302,7 +304,9 @@ return [
 
   'completed'=>[
     'title'=> 'Well done on completing the challenges!',
+    'title2'=> 'You did not complete all your challenges!',
     'desc'=> 'Claim your medal of honor, Virus Hunter!',
+    'desc2'=> 'Return to the previous pages to collect all the stars.',
     'join'=>'Join our STEM activities <br>- available both virtually and in-person at:',
     'dialog'=>[
       '<br>Learn more about the Virus Hunter project <a href="{0}">here</a>.',

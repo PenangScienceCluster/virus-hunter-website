@@ -18,7 +18,7 @@ return [
   'nav' => [
     'home' => 'Halaman Utama',
     'aboutus' => 'Tentang Kami',
-    'gallery' => 'Galeri',
+    'gallery' => 'Bahan Bacaan',
     'contactus' => 'Hubungi Kami',
   ],
 
@@ -58,7 +58,7 @@ return [
   ],
 
   'gallery' => [
-    'title' => 'Galeri',
+    'title' => 'Bahan Bacaan',
     'tabs' => [
       'Lihat Foto',
       'Tonton Video',
@@ -284,7 +284,9 @@ return [
 
   'completed'=>[
     'title'=> 'Tahniah kerana anda telah menyelesaikan cabaran!',
-    'desc'=> 'Tuntut pingat kehormatan anda, Virus Hunter!',
+    'title2'=> 'Anda belum melengkapkan semua aktiviti! ',
+    'desc' => 'Tuntut pingat kehormatan anda, Virus Hunter!',
+    'desc2' => 'Pulang semula ke laman sebelumnya untuk mengumpul semua bintang.',
     'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di:',
     'dialog'=>[
       '<br>Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',

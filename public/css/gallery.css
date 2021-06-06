@@ -99,5 +99,12 @@
   font-size: 2vw;
 }
 
+.btn-download {
+  color: #339966;
+  font-weight: bold;
+}
+.text-green {
+  color: #339966;
+}
 @media only screen and (max-height: 480px) {
 }

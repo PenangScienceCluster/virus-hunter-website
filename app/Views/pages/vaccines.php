@@ -166,7 +166,10 @@ foreach ($steps as $i => $v) {
 
   <div class="spotlight-btn">
     <?= lang('App.vaccines.spotlight.btn') ?>
-    <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div>
+    <div class="view-details">
+      <?= lang('App.pandemics.spotlight.btn2') ?>
+    </div>
+    <!-- <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div> -->
   </div>
 
   <div class="position-absolute gina animated fadeInLeft">

@@ -4,6 +4,7 @@
   padding: 0 2rem 2.5rem 2rem;
   margin-top: 10%;
   position: relative;
+  height: 55vh;
 }
 
 .contact {
@@ -21,7 +22,10 @@
 .stars {
   margin-top: -1.5vw;
 }
-
+.stars.less {
+  margin-top: 0 !important;
+  padding-top: 15%;
+}
 .stars img {
   width: 4vw;
 }

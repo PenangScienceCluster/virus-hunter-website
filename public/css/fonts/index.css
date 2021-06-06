@@ -10,6 +10,26 @@
     /* Modern Browsers */ url("./tenby-five/tenby-five.woff2") format("woff2"); /* Modern Browsers */
 }
 
+@font-face {
+  font-family: "sriracha";
+  src: url("./Sriracha-Regular/Sriracha-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./Sriracha-Regular/Sriracha-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./Sriracha-Regular/Sriracha-Regular.otf")
+      format("opentype"),
+    /* Open Type Font */ url("./Sriracha-Regular/Sriracha-Regular.svg")
+      format("svg"),
+    /* Legacy iOS */ url("./Sriracha-Regular/Sriracha-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./Sriracha-Regular/Sriracha-Regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./Sriracha-Regular/Sriracha-Regular.woff2")
+      format("woff2"); /* Modern Browsers */
+}
+
 .tenbyfive {
   font-family: tenbyfive;
+}
+.sriracha {
+  font-family: sriracha;
 }

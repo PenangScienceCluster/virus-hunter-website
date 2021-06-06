@@ -7,7 +7,7 @@ body {
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
   background: url(/img/bg-body.jpg) 0 0 repeat-y;
-  border: 1px solid black;
+  border: 0px solid black;
 
   overflow: hidden;
   background: url(../img/bg.jpg) 0 0 no-repeat;
@@ -36,7 +36,7 @@ body {
 .navbar {
   height: 100%;
   display: block;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .wrapper {
   position: relative;
@@ -49,6 +49,10 @@ body {
   margin: auto;
 }
 
+.imgw {
+  width: 100%;
+  display: block;
+}
 a {
   color: #000;
 }
@@ -354,7 +358,8 @@ button:active {
 
 .bubble {
   position: relative;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: sriracha;
   font-size: 1.15vw;
   min-width: 25.781vw;
   max-width: 26.042vw;
@@ -480,6 +485,10 @@ button:active {
   justify-content: center;
   align-items: center;
   z-index: 4;
+}
+.spotlight-btn .view-details {
+  margin-top: 2vw;
+  font-size: 1.8vw;
 }
 
 .spotlight-btn img {

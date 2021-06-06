@@ -18,7 +18,6 @@
           <div class="col-sm-12 my-auto text-center">
 
             <h4 class="mb-4">Share on:</h4>
-
             <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
               data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-fb-off.png" style="width:8vw" />
@@ -38,7 +37,7 @@
   <div class="row">
     <div class="col-10 mx-auto">
       <div class="board">
-        <div class="medal w-25 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
+        <div class="medal w-20 mx-auto mb-4"><img src="/img/completed/medal.png" class="img-fluid" /></div>
         <div class="stars w-100 mx-auto text-center">
           <img src="/img/completed/star-off.png" class="img-fluid" id="star1" />
           <img src="/img/completed/star-off.png" class="img-fluid" id="star2" />
@@ -46,10 +45,20 @@
           <img src="/img/completed/star-off.png" class="img-fluid" id="star4" />
         </div>
         <h3 class="text-white text-center tenbyfive">
-          <?=lang('App.completed.title') ?>
+          <span class="d-none title">
+            <?=lang('App.completed.title') ?>
+          </span>
+          <span class="d-none title2">
+            <?=lang('App.completed.title2') ?>
+          </span>
         </h3>
         <h4 class="text-center font-weight-bold">
-          <?=lang('App.completed.desc') ?>
+          <span class="d-none desc">
+            <?=lang('App.completed.desc') ?>
+          </span>
+          <span class="d-none desc2">
+            <?=lang('App.completed.desc2') ?>
+          </span>
         </h4>
         <div class="position-relative btn-theme w-40 mx-auto btn-share mt-4" data-toggle="modal"
           data-target="#share_pop">
