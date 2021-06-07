@@ -216,6 +216,8 @@ button:active {
 .custom-modal {
   overflow: hidden;
   border: 1px solid red;
+
+  position: fixed;
 }
 .custom-modal .modal-dialog {
   min-width: 60.938vw;
