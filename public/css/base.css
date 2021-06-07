@@ -200,7 +200,8 @@ button:active {
 
 /* popup */
 .custom-modal .modal-dialog {
-  min-width: 60.938vw;
+  /* min-width: 60.938vw; */
+  min-width: 58vw;
   /* width: 100%; */
   margin: auto;
 }
@@ -251,13 +252,14 @@ button:active {
   color: #000;
   padding: 2.604vw 8.333vw 1.563vw;
   margin: -3.125vw 0 0 -2.604vw;
-  min-width: 30.99vw;
+  /* min-width: 30.99vw; */
+  min-width: 28vw;
   min-height: 7.552vw;
   background-image: url(../img/popup/title-bg.png);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 3.125vw;
+  font-size: 2.8vw;
   font-family: "tenbyfive";
 }
 

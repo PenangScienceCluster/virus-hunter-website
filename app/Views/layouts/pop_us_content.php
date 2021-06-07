@@ -8,7 +8,7 @@
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body"><br>
 
         <div id="slide" class="carousel slide mt-4" data-ride="carousel" data-interval="false">
           <div class="carousel-inner">
