@@ -15,7 +15,7 @@
 <div class="content h-100">
   <div class="row align-items-center h-100">
     <div class="col-12">
-      <div class="position-relative w-85 header mx-auto d-none">
+      <div class="position-relative w-80 header mx-auto d-none">
         <div class="virus"></div>
         <div class="bat"></div>
         <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
@@ -24,7 +24,7 @@
         <img src="/img/landing/main.png" class="img-fluid" />
       </div>
       <a href="<?= urlWithLocale('/overview') ?>">
-        <div class="position-relative btn-theme w-50 mx-auto btn-ready  animated fadeIn delay-1s">
+        <div class="position-relative btn-theme w-40 mx-auto btn-ready  animated fadeIn delay-1s">
           <?= lang('App.home.imready') ?>
         </div>
       </a>
