@@ -94,6 +94,13 @@ a:hover {
   width: 90% !important;
 }
 
+.h-40 {
+  height: 40% !important;
+}
+.h-45 {
+  height: 45% !important;
+}
+
 h1 {
   font-size: 4vw;
 }
