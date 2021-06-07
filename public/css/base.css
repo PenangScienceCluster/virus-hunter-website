@@ -220,15 +220,17 @@ button:active {
 
   /* width: 100%; */
   margin: auto;
-  /* overflow: hidden; */
+
+  /* position: fixed; */
   border: 1px solid red;
+  height: 100%;
 }
 .custom-modal .modal-content {
   background-image: url(/img/popup/bg.png);
   background-size: 100% 100%;
   background-color: unset;
   /* min-height: 46.094vw; */
-  min-height: 85vh;
+  min-height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #000;
@@ -597,7 +599,7 @@ button:active {
   }
 
   .custom-modal .modal-content {
-    height: 20vw;
-    margin-top: 1%;
+    /* height: 20vw;
+    margin-top: 1%; */
   }
 }
