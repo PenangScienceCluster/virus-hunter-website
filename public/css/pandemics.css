@@ -99,10 +99,6 @@ html {
   /* margin-top: 2.6042vw; */
 }
 
-#fact_pop .header-img {
-  width: 30%;
-  border: 1px solid red;
-}
 .outbreak-modal-content {
   display: flex;
   color: #000;
@@ -252,4 +248,8 @@ html {
 }
 
 @media only screen and (max-height: 480px) {
+  #fact_pop .header-img {
+    width: 40%;
+    border: 1px solid red;
+  }
 }
