@@ -86,6 +86,8 @@ $(function () {
   $(window).on("resize", setBodyHeight);
 
   runSideButton();
+
+  alert($("body").width() + "," + $("body").height());
 });
 function setBodyHeight() {
   $(".wrapper").height($("body").height());
