@@ -36,7 +36,7 @@ body {
 .navbar {
   height: 100%;
   display: block;
-  border: 0px solid red;
+  border: 1px solid red;
 }
 .wrapper {
   position: relative;
@@ -44,9 +44,9 @@ body {
 }
 
 .content-wrap {
-  width: 80vw;
+  /* width: 80vw;
   border: 0px solid red;
-  margin: auto;
+  margin: auto; */
 }
 
 .imgw {
