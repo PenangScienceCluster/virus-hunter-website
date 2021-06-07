@@ -247,9 +247,9 @@ html {
   margin: 0.4167vw 0.4167vw 0.4167vw 0.9375vw;
 }
 
-@media only screen and (max-height: 480px) {
+@media only screen and (max-height: 414px) {
   #fact_pop .header-img {
-    width: 40%;
+    width: 36%;
     border: 1px solid red;
   }
 }
