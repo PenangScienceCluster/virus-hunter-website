@@ -4,9 +4,9 @@
   border: 0px solid red;
   height: 85vh;
 }
-.content {
+/* .content {
   width: 75%;
-}
+} */
 .desc {
   margin: 3rem 0;
 }
@@ -36,7 +36,7 @@
 }
 
 .gallery .tab-content {
-  height: 70vh;
+  height: 60vh;
   border: 0px solid red;
   background-color: #e7f3e9 !important;
   padding: 4rem;

@@ -28,7 +28,7 @@ html {
   z-index: 1;
   position: absolute;
   top: 1.25vw;
-  left: 15.1875vw;
+  left: 19vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }
@@ -49,8 +49,8 @@ html {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 15vw;
-  left: -30vw;
+  top: 19vw;
+  left: -28vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }

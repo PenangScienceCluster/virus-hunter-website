@@ -19,4 +19,7 @@
 }
 
 @media only screen and (max-height: 480px) {
+  .desc {
+    font-size: 1.2vw;
+  }
 }
