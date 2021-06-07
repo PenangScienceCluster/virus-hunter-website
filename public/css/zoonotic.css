@@ -67,6 +67,10 @@ html {
   width: 50vw;
   /* margin-top: 5%; */
 }
+.spotlight-pop img {
+  width: 90%;
+  margin: auto;
+}
 
 /* tryout */
 #try_pop .selectable {
