@@ -27,7 +27,7 @@ html {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -7.25vw;
+  top: 1.25vw;
   left: 15.1875vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
@@ -49,8 +49,8 @@ html {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 18.8438vw;
-  left: -24.7917vw;
+  top: 15vw;
+  left: -30vw;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }
@@ -128,6 +128,7 @@ html {
 .feedback {
   font-family: tenbyfive;
   font-size: 2.5vw;
+  min-height: 5vw;
 }
 
 .feedback .star {
@@ -137,10 +138,6 @@ html {
 .try-body {
   max-width: 48.8646vw;
   margin: 0 auto;
-}
-
-.feedback {
-  min-height: 5vw;
 }
 
 .boy {
@@ -184,4 +181,41 @@ html {
 }
 
 @media only screen and (max-height: 480px) {
+  .answer {
+    max-width: 6vw;
+    /* margin: 5px; */
+  }
+  .questions {
+    margin-top: 0 !important;
+  }
+  .question {
+    max-width: 6vw;
+    /* margin: 5px; */
+    position: relative;
+  }
+
+  .question img {
+    opacity: 1;
+    margin-bottom: 0 !important;
+  }
+
+  .question .step {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #278a73;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin-bottom: 5px;
+  }
+
+  .feedback {
+    font-size: 2vw;
+    min-height: 2vw;
+  }
+
+  .feedback .star {
+    width: 5% !important;
+  }
 }
