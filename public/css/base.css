@@ -240,6 +240,7 @@ button:active {
 
 .custom-modal .modal-header {
   border-bottom: 0px solid #000;
+  padding-bottom: 0.5rem;
 }
 
 .custom-modal .modal-header .close {
