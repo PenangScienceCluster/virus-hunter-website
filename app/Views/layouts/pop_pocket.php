@@ -30,7 +30,7 @@
 @media only screen and (max-height: 414px) {
 
   #fact_pop .header-img {
-    width: 30%;
+    width: 40%;
   }
 }
 </style>
