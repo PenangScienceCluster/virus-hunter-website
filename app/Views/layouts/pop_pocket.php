@@ -13,7 +13,7 @@
           <div class="w-45">
             <img src="<?= $img ?>" class="img-fluid" />
           </div>
-          <div class="popup-text">
+          <div class="popup-text mt-4">
             <?= $text ?>
           </div>
         </div>
