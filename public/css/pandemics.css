@@ -99,6 +99,9 @@ html {
   /* margin-top: 2.6042vw; */
 }
 
+#fact_pop img {
+  width: 50%;
+}
 .outbreak-modal-content {
   display: flex;
   color: #000;

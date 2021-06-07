@@ -26,29 +26,14 @@ foreach ($steps as $i => $v) {
 ]) ?>
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="fact_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">
-          <?= lang('App.subnav.pocket_fact') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <div class="w-80 my-4"><img src="/img/toolsandtechniques/moving-tools-pocket-fact.gif" class="img-fluid"
-              style="max-width: 100%;" />
-          </div>
-          <div class="popup-text">
-            <?= lang('App.toolsandtechniques.popup.pocket_fact') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+<!-- pocket fact -->
+<?= view('layouts/pop_pocket', [
+  'img' => '/img/toolsandtechniques/moving-tools-pocket-fact.gif',
+  'text' => lang('App.toolsandtechniques.popup.pocket_fact'),
+]) ?>
+
 
 <div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
