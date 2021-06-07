@@ -6,12 +6,13 @@ body {
   padding: 0;
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(/img/bg-body.jpg) 0 0 repeat-y;
+  /* background: url(/img/bg-body.jpg) 0 0 repeat-y; */
   border: 1px solid black;
 
-  overflow: hidden;
   background: url(../img/bg.jpg) 0 0 no-repeat;
   background-size: 100% 100%;
+
+  overflow: hidden !important;
 }
 /* 
 .page {
@@ -308,7 +309,7 @@ button:active {
 
 .spotlight-pop {
   position: absolute;
-  z-index: 10;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;

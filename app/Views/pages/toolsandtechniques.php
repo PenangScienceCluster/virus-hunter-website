@@ -50,28 +50,6 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">
-          <?= lang('App.subnav.us_anecdotes') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <?= view('layouts/pop_us_content', [
-            'img' => '/img/didyouknow/tools.png',
-            'text1' => lang('App.toolsandtechniques.popup.didyouknow.0'),
-            'text2' => lang('App.toolsandtechniques.popup.didyouknow.1'),
-          ]) ?>
-
-
-      </div>
-    </div>
-  </div>
-</div>
 <div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -111,42 +89,17 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-
-<div class="modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Virus hunter</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="spotlight-pop d-none" id="spotlight_pop">
-  <div class="row h-100 justify-content-center align-items-center content">
-    <div class="col-9">
-      <h5 class="title mx-auto" style="margin-top:10%">
-        <?= lang('App.toolsandtechniques.spotlight.title') ?>
-      </h5>
-      <div class="w-80 mx-auto mt-4 position-relative">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-        <img src="<?= lang('App.toolsandtechniques.spotlight.contentImg') ?>" class="img-fluid" />
-      </div>
-    </div>
-  </div>
-  <div class="bg"></div>
-</div>
+<!-- did you know -->
+<?= view('layouts/pop_us_content', [
+  'img' => '/img/didyouknow/tools.png',
+  'text1' => lang('App.toolsandtechniques.popup.didyouknow.0'),
+  'text2' => lang('App.toolsandtechniques.popup.didyouknow.1'),
+]) ?>
+<!-- spotlight -->
+<?= view('layouts/pop_spotlight_content', [
+  'title' => lang('App.toolsandtechniques.spotlight.title'),
+  'img' => lang('App.toolsandtechniques.spotlight.contentImg'),
+]) ?>
 
 <div class="toolsandtechniques h-100">
   <div class="lab-furniture"></div>

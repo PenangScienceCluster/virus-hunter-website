@@ -81,7 +81,7 @@ return [
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'didyouknow' =>  [
         '<h4>Malaria/U.S President’s Malaria Initiative</h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.',
-        'Selama lebih daripada 6 tahun, U.S President’s Malaria initiative (PMI) telah berkerjasama dengan 24 negara untuk membantu mereka mencegah dan merawat malaria. PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan kadar kematian turun 60% di negara yang terlibat. Program ini menyumbang pendidikan malaria, kelambu, racung nyamuk, ubat dan juga latihan teknikal.',
+        'Selama lebih daripada 6 tahun, U.S President\'s Malaria initiative (PMI) telah berkerjasama dengan 24 negara untuk membantu mereka mencegah dan merawat malaria. PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan kadar kematian turun 60% di negara yang terlibat. Program ini menyumbang pendidikan malaria, kelambu, racung nyamuk, ubat dan juga latihan teknikal.',
       ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk tereka bentuk dan mencegah wabak di masa hadapan.',
     ],

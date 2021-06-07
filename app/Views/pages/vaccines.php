@@ -117,42 +117,18 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<div class="spotlight-pop d-none" id="spotlight_pop">
-  <div class="row h-100 justify-content-center align-items-center content">
-    <div class="col-9">
-      <h5 class="title mx-auto">
-        <?= lang('App.vaccines.spotlight.title') ?>
-      </h5>
-      <div class=" mx-auto mt-4 position-relative">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-        <img src="<?= lang('App.vaccines.spotlight.contentImg') ?>" class="img-fluid" />
-      </div>
-    </div>
-  </div>
-  <div class="bg"></div>
-</div>
+<!-- spotlight -->
+<?= view('layouts/pop_spotlight_content', [
+  'title' => lang('App.vaccines.spotlight.title'),
+  'img' => lang('App.vaccines.spotlight.contentImg'),
+]) ?>
 
-<div class="custom-modal modal fade" id="us_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.us_anecdotes') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <?= view('layouts/pop_us_content', [
-            'img' => '/img/didyouknow/vaccine.png',
-            'text1' => lang('App.vaccine.popup.didyouknow.0'),
-            'text2' => lang('App.vaccine.popup.didyouknow.1'),
-          ]) ?>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- did you know -->
+<?= view('layouts/pop_us_content', [
+  'img' => '/img/didyouknow/vaccine.png',
+  'text1' => lang('App.vaccines.popup.didyouknow.0'),
+  'text2' => lang('App.vaccines.popup.didyouknow.1'),
+]) ?>
 
 <div class="pandemic h-100">
 

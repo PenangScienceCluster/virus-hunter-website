@@ -157,9 +157,7 @@ foreach ($steps as $i => $v) {
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-        </button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="popup-content">
@@ -174,23 +172,12 @@ foreach ($steps as $i => $v) {
 </div>
 
 
-<div class="spotlight-pop d-none" id="spotlight_pop">
-  <div class="row h-100 justify-content-center align-items-center content">
-    <div class="col-9">
-      <h5 class="title mx-auto" style="margin-top: 10%;">
-        <?= lang('App.nipah.spotlight.title') ?>
-      </h5>
-      <div class="w-80 mx-auto mt-4 position-relative">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+<!-- spotlight -->
+<?= view('layouts/pop_spotlight_content', [
+  'title' => lang('App.nipah.spotlight.title'),
+  'img' => lang('App.nipah.spotlight.contentImg'),
+]) ?>
 
-        <div class="spotlight-modal-content">
-          <img src="<?= lang('App.nipah.spotlight.contentImg') ?>" class="img-fluid" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bg"></div>
-</div>
 
 <div class="pandemic h-100">
 

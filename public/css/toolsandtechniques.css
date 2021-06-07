@@ -26,6 +26,10 @@ html {
   left: 25vw;
   border: 0px solid red;
 }
+.spotlight-pop img {
+  width: 80%;
+  margin: auto;
+}
 
 /* characters */
 .ilyas {

@@ -60,10 +60,6 @@ html {
 
 /* spotlight */
 
-.spotlight-pop {
-  top: 2.3438vw;
-}
-
 .spotlight-pop .title {
   padding: 2.0833vw 5.2083vw 2.0833vw 5.2083vw;
   text-align: center;
