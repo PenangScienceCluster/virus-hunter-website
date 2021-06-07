@@ -214,9 +214,6 @@ button:active {
 
 /* popup */
 .custom-modal {
-  overflow: hidden;
-
-  position: fixed;
 }
 .custom-modal .modal-dialog {
   min-width: 60.938vw;
