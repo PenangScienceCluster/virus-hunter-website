@@ -8,7 +8,7 @@
         </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body"><br>
+      <div class="modal-body">
         <div id="slide" class="carousel slide mt-4" data-ride="carousel" data-interval="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -24,7 +24,7 @@
             <div class="carousel-item">
               <div class="popup-content">
                 <div class="w-90 mx-auto text-center">
-                  <img src="<?= $img ?>" class="w-60" />
+                  <img src="<?= $img ?>" class="w-50" />
                 </div>
                 <div class="popup-tex mt-4 w-70 text-center mx-auto">
                   <?= $text2 ?>

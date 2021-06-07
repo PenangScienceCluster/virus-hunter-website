@@ -217,12 +217,9 @@ button:active {
 }
 .custom-modal .modal-dialog {
   min-width: 60.938vw;
-
   /* width: 100%; */
   margin: auto;
-
-  /* position: fixed; */
-  border: 1px solid red;
+  border: 0px solid red;
   height: 100%;
 }
 .custom-modal .modal-content {
@@ -233,7 +230,7 @@ button:active {
   min-height: 85vh;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid #000;
+  border: 0px solid #000;
   margin-top: 0.5vh;
 }
 
@@ -320,7 +317,7 @@ button:active {
   margin: auto;
 }
 .us-img-big {
-  max-width: 35vw;
+  max-width: 28vw;
 }
 
 .custom-modal .popup-content .popup-text {
@@ -328,7 +325,6 @@ button:active {
   text-align: center;
   padding: 0 2vw;
   font-weight: bold;
-  line-height: 1.2em;
 }
 
 /* pop2 */
@@ -597,6 +593,10 @@ button:active {
 @media only screen and (max-height: 480px) {
   .custom-modal .modal-dialog {
     width: 30vw;
+  }
+
+  .custom-modal .popup-content .popup-text {
+    line-height: 1.2em;
   }
 
   .custom-modal .modal-content {
