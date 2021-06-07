@@ -577,7 +577,8 @@ button:active {
 }
 
 @media only screen and (orientation: portrait) {
-  .page {
+  .page,
+  .custom-modal {
     display: none;
   }
   /* .wrapper {
