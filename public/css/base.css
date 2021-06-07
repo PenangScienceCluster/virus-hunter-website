@@ -215,7 +215,6 @@ button:active {
 /* popup */
 .custom-modal {
   overflow: hidden;
-  border: 1px solid red;
 
   position: fixed;
 }
@@ -224,6 +223,8 @@ button:active {
 
   /* width: 100%; */
   margin: 2vh auto auto auto;
+  overflow: hidden;
+  border: 1px solid red;
 }
 .custom-modal .modal-content {
   background-image: url(/img/popup/bg.png);
