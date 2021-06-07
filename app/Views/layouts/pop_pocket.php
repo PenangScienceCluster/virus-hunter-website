@@ -29,8 +29,8 @@
 
 @media only screen and (max-height: 414px) {
 
-  #fact_pop .header-img {
+  /* #fact_pop .header-img {
     width: 40%;
-  }
+  } */
 }
 </style>
