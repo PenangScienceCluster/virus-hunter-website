@@ -322,7 +322,10 @@ button:active {
   width: 80%;
 }
 .us-img-big {
-  max-width: 28vw;
+  width: 90%;
+}
+#us_pop .popup-tex {
+  font-size: 1.3vw;
 }
 
 .custom-modal .popup-content .popup-text {
@@ -612,5 +615,12 @@ button:active {
   .custom-modal .pop-img {
     margin: auto;
     width: 60%;
+  }
+
+  .us-img-big {
+    width: 60%;
+  }
+  #us_pop .popup-tex {
+    font-size: 1vw;
   }
 }
