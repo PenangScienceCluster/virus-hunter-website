@@ -231,11 +231,11 @@ button:active {
   background-size: 100% 100%;
   background-color: unset;
   /* min-height: 46.094vw; */
-  min-height: 85vh;
+  min-height: 83vh;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #000;
-  margin-top: 1%;
+  margin-top: 0.5vh;
 }
 
 .custom-modal .modal-body {
