@@ -29,9 +29,22 @@ foreach ($steps as $i => $v) {
 
 
 <!-- pocket fact -->
-<?= view('layouts/pop_pocket', [
+<?= view('layouts/pop_content', [
+  'id' => 'fact_pop',
   'img' => '/img/toolsandtechniques/moving-tools-pocket-fact.gif',
   'text' => lang('App.toolsandtechniques.popup.pocket_fact'),
+]) ?>
+<!-- did you know -->
+<?= view('layouts/pop_us_content', [
+  'img' => '/img/didyouknow/tools.png',
+  'text1' => lang('App.toolsandtechniques.popup.didyouknow.0'),
+  'text2' => lang('App.toolsandtechniques.popup.didyouknow.1'),
+]) ?>
+<!-- spotlight -->
+<?= view('layouts/pop_content', [
+  'id' => 'spotlight_pop',
+  'title' => lang('App.toolsandtechniques.spotlight.title'),
+  'img' => lang('App.toolsandtechniques.spotlight.contentImg'),
 ]) ?>
 
 
@@ -74,17 +87,6 @@ foreach ($steps as $i => $v) {
   </div>
 </div>
 
-<!-- did you know -->
-<?= view('layouts/pop_us_content', [
-  'img' => '/img/didyouknow/tools.png',
-  'text1' => lang('App.toolsandtechniques.popup.didyouknow.0'),
-  'text2' => lang('App.toolsandtechniques.popup.didyouknow.1'),
-]) ?>
-<!-- spotlight -->
-<?= view('layouts/pop_spotlight_content', [
-  'title' => lang('App.toolsandtechniques.spotlight.title'),
-  'img' => lang('App.toolsandtechniques.spotlight.contentImg'),
-]) ?>
 
 <div class="toolsandtechniques h-100">
   <div class="lab-furniture"></div>

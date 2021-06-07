@@ -126,6 +126,7 @@ foreach ($steps as $i => $v) {
 ]) ?>
 
 
+
 <div class="pandemic h-100">
 
   <div class="cows"></div>

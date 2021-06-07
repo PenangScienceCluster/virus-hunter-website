@@ -203,7 +203,7 @@ return [
     "popup" => [
       'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
       'didyouknow' =>  [
-        '<h4>Operation Warpspeed</h4>Operation WarSpeed helps to combat Covid-19 and accelerates vaccination plan.',
+        '<h4>Operation Warp Speed</h4>Operation War Speed helps to combat Covid-19 and accelerates vaccination plan.',
         'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. To date, the program has managed to produce and deliver about 50 million vaccine doses—all made in the U.S.—with hundreds of millions more on the way.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',

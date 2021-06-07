@@ -75,36 +75,23 @@ foreach ($steps as $i => $v) {
 
 
 <!-- pocket fact -->
-<?= view('layouts/pop_pocket', [
+<?= view('layouts/pop_content', [
+  'id' => 'fact_pop',
   'img' => '/img/vaccines/moving-vaccines-pocket-fact.gif',
   'text' => lang('App.vaccines.popup.pocket_fact'),
 ]) ?>
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
-  aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.virus_hunter') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <img src="/img/vaccines/moving-vaccines-virus-hunter.gif" />
-          <div class="popup-text">
-            <?= lang('App.vaccines.popup.virus_hunter') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- virus hunter -->
+<?= view('layouts/pop_content', [
+  'id' => 'virushunter_pop',
+  'img' => '/img/vaccines/moving-vaccines-virus-hunter.gif',
+  'text' => lang('App.vaccines.popup.virus_hunter'),
+]) ?>
 
 <!-- spotlight -->
-<?= view('layouts/pop_spotlight_content', [
+<?= view('layouts/pop_content', [
+  'id' => 'spotlight_pop',
   'title' => lang('App.vaccines.spotlight.title'),
   'img' => lang('App.vaccines.spotlight.contentImg'),
 ]) ?>
