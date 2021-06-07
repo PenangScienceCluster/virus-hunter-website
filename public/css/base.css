@@ -302,9 +302,9 @@ button:active {
 }
 
 .custom-modal .popup-content .popup-text {
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   text-align: center;
-  padding: 0 2.6042vw;
+  padding: 0 2vw;
   font-weight: bold;
 }
 

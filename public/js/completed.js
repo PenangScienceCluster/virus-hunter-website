@@ -79,6 +79,7 @@ $(function () {
   });
 
   var currentCookiesStar = getCookieValue("vhst");
+  var notCompleted = true;
 
   if (
     currentCookiesStar != null &&
@@ -94,11 +95,14 @@ $(function () {
 
     if (starCount == 4) {
       $(".title, .desc").removeClass("d-none");
-    } else {
-      $(".title2, .desc2").removeClass("d-none");
-      $(".medal").addClass("d-none");
-      $(".stars").addClass("less");
+      notCompleted = false;
     }
+  }
+
+  if (notCompleted) {
+    $(".title2, .desc2").removeClass("d-none");
+    $(".medal").addClass("d-none");
+    $(".stars").addClass("less");
   }
 
   eraseCookieSection();
