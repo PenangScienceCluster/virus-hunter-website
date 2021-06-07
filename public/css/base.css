@@ -224,6 +224,7 @@ button:active {
   /* position: fixed; */
   border: 1px solid red;
   height: 100%;
+  overflow: hidden;
 }
 .custom-modal .modal-content {
   background-image: url(/img/popup/bg.png);
@@ -234,7 +235,7 @@ button:active {
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid #000;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .custom-modal .modal-body {
