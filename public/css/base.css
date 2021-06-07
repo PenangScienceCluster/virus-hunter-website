@@ -55,6 +55,10 @@ body {
   width: 100%;
   display: block;
 }
+.imgh {
+  height: 100%;
+  display: block;
+}
 a {
   color: #000;
 }
@@ -94,6 +98,9 @@ a:hover {
   width: 90% !important;
 }
 
+.h-30 {
+  height: 30% !important;
+}
 .h-40 {
   height: 40% !important;
 }
@@ -303,9 +310,10 @@ button:active {
 }
 
 .custom-modal .popup-content img {
-  max-width: 31.9271vw;
-  width: 100%;
-  margin-bottom: 0.5208vw;
+  /* max-width: 31.9271vw; */
+  /* width: 100%; */
+  /* margin-bottom: 0.5208vw; */
+  margin: auto;
 }
 .us-img-big {
   max-width: 35vw;

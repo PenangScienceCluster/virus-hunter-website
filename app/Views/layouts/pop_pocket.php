@@ -10,8 +10,8 @@
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="h-40 text-center">
-            <img src="<?= $img ?>" class="img-fluid" />
+          <div class="h-30 text-center">
+            <img src="<?= $img ?>" class="imgh" />
           </div>
           <div class="popup-text mt-4">
             <?= $text ?>
