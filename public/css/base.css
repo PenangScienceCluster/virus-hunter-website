@@ -315,7 +315,11 @@ button:active {
   /* max-width: 31.9271vw; */
   /* width: 100%; */
   /* margin-bottom: 0.5208vw; */
-  margin: auto;
+  /* margin: auto;
+  width: 80%; */
+}
+.custom-modal .pop-img {
+  width: 80%;
 }
 .us-img-big {
   max-width: 28vw;
@@ -603,5 +607,10 @@ button:active {
   .custom-modal .modal-content {
     /* height: 20vw;
     margin-top: 1%; */
+  }
+
+  .custom-modal .pop-img {
+    margin: auto;
+    width: 60%;
   }
 }
