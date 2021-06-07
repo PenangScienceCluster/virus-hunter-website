@@ -222,9 +222,8 @@ button:active {
   min-width: 60.938vw;
 
   /* width: 100%; */
-  margin: 2vh auto auto auto;
+  margin: auto;
   overflow: hidden;
-  border: 1px solid red;
 }
 .custom-modal .modal-content {
   background-image: url(/img/popup/bg.png);
