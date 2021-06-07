@@ -220,7 +220,8 @@ button:active {
 
   /* width: 100%; */
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
+  border: 1px solid red;
 }
 .custom-modal .modal-content {
   background-image: url(/img/popup/bg.png);
