@@ -32,7 +32,7 @@ $now = date('Y-m-d H:i:s');
             <?php
               $studentFiles = 7;
               for ($i=1; $i <= $studentFiles; $i++) {
-                  echo '<div class="col-3 mb-4"><img src="/img/gallery/s_thumb'.$i.'.jpg" class="img-fluid" /><a href="/download/Panel'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">Download</div></a></div>';
+                  echo '<div class="col-3 mb-4"><img src="/img/gallery/s_thumb'.$i.'.jpg" class="img-fluid" /><a href="/download/Panel'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">'.lang('App.download').'</div></a></div>';
               }
 
             ?>
@@ -42,8 +42,7 @@ $now = date('Y-m-d H:i:s');
           <?php if ($now < $liveDate) { ?>
           <div class="row align-items-center h-100">
             <div class="col-12 mx-auto tenbyfive">
-              <h3>Available October 2021 Onwards.</h3>
-              <h2 class="text-green">Stay Tuned!</h2>
+              <?= lang('App.gallery.coming_soon') ?>
             </div>
           </div>
           <?php } else { ?>
@@ -51,7 +50,7 @@ $now = date('Y-m-d H:i:s');
             <?php
               $teacherFiles = 2;
               for ($i=1; $i <= $teacherFiles; $i++) {
-                  echo '<div class="col-6"><img src="/img/gallery/t_thumb'.$i.'.jpg" class="imgw" /><a href="/download/t'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">Download</div></a></div>';
+                  echo '<div class="col-6"><img src="/img/gallery/t_thumb'.$i.'.jpg" class="imgw" /><a href="/download/t'.$i.'.pdf" class="btn-download" target="_blank"><div class="bg-white p-2 text-center">'.lang('App.download').'</div></a></div>';
               }
 
             ?>

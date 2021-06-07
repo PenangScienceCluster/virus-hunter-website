@@ -9,7 +9,6 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body"><br>
-
         <div id="slide" class="carousel slide mt-4" data-ride="carousel" data-interval="false">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -43,6 +42,7 @@
           </a>
 
         </div>
+
       </div>
     </div>
   </div>

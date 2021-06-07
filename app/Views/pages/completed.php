@@ -96,19 +96,46 @@
     </div>
   </div>
 </div>
+<style>
+.bubble .item {
+  height: 10vh;
+  border: 0px solid red;
+  /*display: flex;
+  align-items: center; */
 
+}
+
+/* 
+.bubble .item p {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+} */
+</style>
 <div class="position-absolute gina animated fadeInLeft delay-2s">
   <img src="/img/characters/gina-1.png" class="img-fluid" />
   <div class="bubble bubble-left animated bounceInLeft delay-3s">
     <div class="owl-carousel owl-theme photos">
-      <div class="item small align-middle">
-        <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
+      <div class="item small">
+        <div class="row align-items-center h-100">
+          <div class="col-12 my-auto">
+            <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
+          </div>
+        </div>
       </div>
       <div class="item small">
-        <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>
+        <div class="row align-items-center h-100">
+          <div class="col-12 my-auto">
+            <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>
+          </div>
+        </div>
       </div>
       <div class="item small">
-        <?= lang('App.completed.dialog.2', ['https://www.usaid.gov/']) ?>
+        <div class="row align-items-center h-100">
+          <div class="col-12 my-auto">
+            <?= lang('App.completed.dialog.2', ['https://www.usaid.gov/']) ?>
+          </div>
+        </div>
       </div>
     </div>
 

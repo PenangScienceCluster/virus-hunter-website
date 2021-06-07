@@ -78,8 +78,8 @@ $(function () {
     popup(social);
   });
 
-  // var currentCookiesStar = getCookieValue("vhst");
-  var currentCookiesStar = "1|2|3|4";
+  var currentCookiesStar = getCookieValue("vhst");
+
   if (
     currentCookiesStar != null &&
     currentCookiesStar != "" &&

@@ -14,6 +14,7 @@ return [
   'next' => 'Seterusnya',
   'back' => 'Kembali',
   'done' => 'tamat',
+  'download'=>'Muat Turun',
 
   'nav' => [
     'home' => 'Halaman Utama',
@@ -60,10 +61,10 @@ return [
   'gallery' => [
     'title' => 'Bahan Bacaan',
     'tabs' => [
-      'Lihat Foto',
-      'Tonton Video',
-      'Muat Turun'
-    ]
+      'Pelajar',
+      'Guru',
+    ],
+    'coming_soon' => '<h3>Boleh didapati bermula Oktober 2021.</h3><h2 class="text-green">Nantikan!</h2>',
   ],
 
   'disease' => 'Penyakit',
@@ -87,6 +88,7 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Ketahui Wabak',
+      'btn2' => 'Lihat Selanjutnya',
       'title' => 'Wabak Penyakit<br>Dalam Sejarah',
       'contentImg' => '/img/pandemics/content_bm.png'
     ],
@@ -200,7 +202,7 @@ return [
     "popup" => [
       'pocket_fact' =>  'Simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
       'didyouknow' =>  [
-        '<h4>Operation Warpspeed</h4>Operation Warpspeed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.',
+        '<h4>Operation Warp Speed</h4>Operation Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.',
         'Melalui Operation Warp Speed, kerajaan Amerika Syarikat melaburkan $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin untuk menangani COVID-19. Setakat ini, program ini telah menghasilkan dan mengedarkan lebih kurang 50 juta dos vaksin--semuanya diperbuat di Amerika Syarikat--dengan beratus juta lagi dos akan datang.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, dikenali dalam menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
@@ -307,7 +309,7 @@ return [
     'desc2' => 'Pulang semula ke laman sebelumnya untuk mengumpul semua bintang.',
     'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di:',
     'dialog'=>[
-      '<br>Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
+      'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
       'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
       'Baca lebih lanjut berkenaan bagaimana untuk melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
     ]

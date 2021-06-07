@@ -14,6 +14,7 @@ return [
   'next' => 'next',
   'back' => 'back',
   'done' => 'done',
+  'download'=> 'Download',
 
   'nav' => [
     'home' => 'Home',
@@ -63,7 +64,8 @@ return [
       'Students',
       'Teachers',
       'Downloads'
-    ]
+    ],
+    'coming_soon' => '<h3>Available October 2021 Onwards.</h3><h2 class="text-green">Stay Tuned!</h2>',
   ],
 
   'disease' => 'Disease',
@@ -309,7 +311,7 @@ return [
     'desc2'=> 'Return to the previous pages to collect all the stars.',
     'join'=>'Join our STEM activities <br>- available both virtually and in-person at:',
     'dialog'=>[
-      '<br>Learn more about the Virus Hunter project <a href="{0}">here</a>.',
+      'Learn more about the Virus Hunter project <a href="{0}">here</a>.',
       'Find out about the role of US in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
       'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
     ]
