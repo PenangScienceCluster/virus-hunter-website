@@ -231,7 +231,7 @@ button:active {
   min-height: 85vh;
   background-position: center;
   background-repeat: no-repeat;
-  border: 0px solid #000;
+  border: 1px solid #000;
 }
 
 .custom-modal .modal-body {
