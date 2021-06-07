@@ -20,7 +20,7 @@
         <div class="bat"></div>
         <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
       </div>
-      <div class="position-relative main w-50 mx-auto  animated fadeIn delay-1s">
+      <div class="position-relative main w-45 mx-auto  animated fadeIn delay-1s">
         <img src="/img/landing/main.png" class="img-fluid" />
       </div>
       <a href="<?= urlWithLocale('/overview') ?>">
