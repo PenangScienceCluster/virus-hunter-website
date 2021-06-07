@@ -17,7 +17,7 @@
 <!-- Modal -->
 
 <!-- fact pocket -->
-<?= view('layouts/pop_pocket', [
+<?= view('layouts/pop_content', [
   'id' => 'fact_pop',
   'title' => lang('App.subnav.pocket_fact'),
   'img' => '/img/pandemics/moving-pandemics-pocket-fact.gif',

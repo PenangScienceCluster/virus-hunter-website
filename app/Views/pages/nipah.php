@@ -86,79 +86,41 @@ foreach ($steps as $i => $v) {
 </div>
 
 <!-- pocket fact -->
-<?= view('layouts/pop_pocket', [
+<?= view('layouts/pop_content', [
+  'id' => 'fact_pop',
   'img' => '/img/nipah/moving-nipah-pocket-fact.gif',
   'text' => lang('App.nipah.popup.pocket_fact'),
 ]) ?>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">
-          <?= lang('App.subnav.career_pathway') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <div class="w-60 mx-auto my-4"><img src="/img/nipah/moving-nipah-career.gif" class="img-fluid" /></div>
-          <div class="popup-text">
-            <?= lang('App.nipah.popup.career') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- career -->
+<?= view('layouts/pop_content', [
+  'id' => 'career_pop',
+  'title' => lang('App.subnav.career_pathway'),
+  'img' => '/img/nipah/moving-nipah-career.gif',
+  'text' => lang('App.nipah.popup.career')
+]) ?>
 
-<div class="custom-modal modal fade" id="virushunter_pop" tabindex="-1" role="dialog"
-  aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">
-          <?= lang('App.subnav.virus_hunter') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <div class="w-60 mx-auto my-4"><img src="/img/nipah/moving-nipah-virus-hunter.gif" class="img-fluid" /></div>
-          <div class="popup-text">
-            <?= lang('App.nipah.popup.virus_hunter') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <img src="/img/nipah/moving-nipah-career.gif" />
-          <div class="popup-text">
-            <?= lang('App.nipah.popup.career') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- virushunter -->
+<?= view('layouts/pop_content', [
+  'id' => 'virushunter_pop',
+  'title' => lang('App.subnav.virus_hunter'),
+  'img' => '/img/nipah/moving-nipah-virus-hunter.gif',
+  'text' => lang('App.nipah.popup.virus_hunter')
+]) ?>
 
+
+<!-- career -->
+<?= view('layouts/pop_content', [
+  'id' => 'career_pop',
+  'title' => lang('App.subnav.career_pathway'),
+  'img' => '/img/nipah/moving-nipah-career.gif',
+  'text' => lang('App.nipah.popup.career')
+]) ?>
 
 <!-- spotlight -->
-<?= view('layouts/pop_spotlight_content', [
+<?= view('layouts/pop_content', [
+  'id' => 'spotlight_pop',
   'title' => lang('App.nipah.spotlight.title'),
   'img' => lang('App.nipah.spotlight.contentImg'),
 ]) ?>

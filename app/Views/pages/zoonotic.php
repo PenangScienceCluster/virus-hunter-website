@@ -64,34 +64,25 @@ foreach ($steps as $i => $v) {
 </div>
 
 <!-- pocket fact -->
-<?= view('layouts/pop_pocket', [
+<?= view('layouts/pop_content', [
+  'id' => 'fact_pop',
   'img' => '/img/zoonotic/moving-zoonotic-pocket-fact.gif',
   'text' => lang('App.zoonotic.popup.pocket_fact'),
 ]) ?>
 
-<div class="custom-modal modal fade" id="career_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.career_pathway') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
-          <div class="w-60 mx-auto my-4"><img src="/img/zoonotic/moving-zoonotic-career.gif" /></div>
-          <div class="popup-text mt-4">
-            <?= lang('App.zoonotic.popup.career') ?>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+<!-- career -->
+<?= view('layouts/pop_content', [
+  'id' => 'career_pop',
+  'title' => lang('App.subnav.career_pathway'),
+  'img' => '/img/zoonotic/moving-zoonotic-career.gif',
+  'text' => lang('App.zoonotic.popup.career')
+]) ?>
+
 
 <!-- spotlight -->
-<?= view('layouts/pop_spotlight_content', [
+<?= view('layouts/pop_content', [
+  'id' => 'spotlight_pop',
   'title' => lang('App.zoonotic.spotlight.title'),
   'img' => lang('App.zoonotic.spotlight.contentImg'),
 ]) ?>
