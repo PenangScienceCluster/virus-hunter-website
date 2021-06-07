@@ -15,7 +15,7 @@
 <div class="content h-100">
   <div class="row align-items-center h-100">
     <div class="col-12">
-      <div class="position-relative w-80 header mx-auto d-none">
+      <div class="position-relative w-75 header mx-auto d-none">
         <div class="virus"></div>
         <div class="bat"></div>
         <img src="<?= lang('App.home.title') ?>" class="img-fluid" />
