@@ -285,11 +285,11 @@ button:active {
 }
 
 .custom-modal .popup-content {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column; */
   height: 100%;
-  flex-direction: column;
 }
 
 .custom-modal .popup-content img {
