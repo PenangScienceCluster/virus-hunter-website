@@ -90,8 +90,7 @@ foreach ($steps as $i => $v) {
 ]) ?>
 
 <!-- spotlight -->
-<?= view('layouts/pop_content', [
-  'id' => 'spotlight_pop',
+<?= view('layouts/pop_spotlight_content', [
   'title' => lang('App.vaccines.spotlight.title'),
   'img' => lang('App.vaccines.spotlight.contentImg'),
 ]) ?>

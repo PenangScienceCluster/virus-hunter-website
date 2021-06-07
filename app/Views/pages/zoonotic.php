@@ -81,8 +81,7 @@ foreach ($steps as $i => $v) {
 
 
 <!-- spotlight -->
-<?= view('layouts/pop_content', [
-  'id' => 'spotlight_pop',
+<?= view('layouts/pop_spotlight_content', [
   'title' => lang('App.zoonotic.spotlight.title'),
   'img' => lang('App.zoonotic.spotlight.contentImg'),
 ]) ?>

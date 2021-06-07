@@ -41,7 +41,7 @@ foreach ($steps as $i => $v) {
   'text2' => lang('App.toolsandtechniques.popup.didyouknow.1'),
 ]) ?>
 <!-- spotlight -->
-<?= view('layouts/pop_content', [
+<?= view('layouts/pop_spotlight_content', [
   'id' => 'spotlight_pop',
   'title' => lang('App.toolsandtechniques.spotlight.title'),
   'img' => lang('App.toolsandtechniques.spotlight.contentImg'),

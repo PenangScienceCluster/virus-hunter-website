@@ -119,7 +119,7 @@ foreach ($steps as $i => $v) {
 ]) ?>
 
 <!-- spotlight -->
-<?= view('layouts/pop_content', [
+<?= view('layouts/pop_spotlight_content', [
   'id' => 'spotlight_pop',
   'title' => lang('App.nipah.spotlight.title'),
   'img' => lang('App.nipah.spotlight.contentImg'),
