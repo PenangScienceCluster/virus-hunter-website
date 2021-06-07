@@ -124,4 +124,29 @@ html {
 }
 
 @media only screen and (max-height: 480px) {
+  .man {
+    position: absolute;
+    width: 14vw;
+    height: 23vw;
+    background: url(../img/covid/moving-shopping-man.png) 0px 0px;
+    background-size: 56vw;
+    animation: play 2s steps(4) infinite;
+    bottom: 18vh;
+    right: 31vw;
+    border: 0px solid red;
+  }
+
+  @keyframes play {
+    0% {
+      background-position: 0;
+    }
+
+    30% {
+      background-position: -56vw;
+    }
+
+    100% {
+      background-position: -56vw;
+    }
+  }
 }

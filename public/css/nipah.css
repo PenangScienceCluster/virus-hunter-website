@@ -204,7 +204,7 @@ html {
 @media only screen and (max-height: 480px) {
   .drag-area {
     height: 60vh;
-    border: 1px solid red;
+    border: 0px solid red;
   }
   .answer {
     width: 17vw;
