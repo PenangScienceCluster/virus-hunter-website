@@ -10,7 +10,7 @@
       </div>
       <div class="modal-body">
         <div class="popup-content">
-          <div class="w-40 text-center mx-auto">
+          <div class="header-img text-center mx-auto">
             <img src="<?= $img ?>" class="img-fluid" />
           </div>
           <div class="popup-text mt-4">
@@ -21,3 +21,16 @@
     </div>
   </div>
 </div>
+
+<style>
+#fact_pop .header-img {
+  width: 50%;
+}
+
+@media only screen and (max-height: 414px) {
+
+  #fact_pop .header-img {
+    width: 30%;
+  }
+}
+</style>
