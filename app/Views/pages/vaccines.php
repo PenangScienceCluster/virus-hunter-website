@@ -143,16 +143,11 @@ foreach ($steps as $i => $v) {
       </div>
       <div class="modal-body">
         <div class="popup-content">
-
-          <div class="mt-1 w-100 text-center">
-            <?= lang('App.vaccines.popup.didyouknow.0') ?>
-          </div>
-          <div class="w-60 mx-auto mt-4">
-            <img src="/img/didyouknow/vaccine.png" class="img-fluid" />
-          </div>
-          <div class="w-90 mt-4">
-            <?= lang('App.vaccines.popup.didyouknow.1') ?>
-          </div>
+          <?= view('layouts/pop_us_content', [
+            'img' => '/img/didyouknow/vaccine.png',
+            'text1' => lang('App.vaccine.popup.didyouknow.0'),
+            'text2' => lang('App.vaccine.popup.didyouknow.1'),
+          ]) ?>
         </div>
       </div>
     </div>

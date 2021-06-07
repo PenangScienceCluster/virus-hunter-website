@@ -81,7 +81,7 @@ return [
       'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
       'didyouknow' =>  [
         '<h4>Malaria/U.S. President\'s Malaria Initiative</h4>U.S President\'s Malaria Initiative benefits 570 million people.',
-        'For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria.  PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries.   The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
+        'For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria. PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries. The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
       ],
       'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
     ],
@@ -119,7 +119,7 @@ return [
       'career' =>  'As animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreak.',
       'didyouknow' =>  [
         '<h4>Project PREDICT prevents spread of diseases</h4>The United States plays a key leadership role in working to prevent the spread of disease.',
-        'Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.  In Malaysia, PREDICT scientists traveled to remote orang asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate.  The U.S.  also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
+        'Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries. In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate. The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
       ],
       'try_out' => [
         'title'=> 'Select ALL factors that contribute to emergence of zoonotic diseases.',
@@ -202,7 +202,7 @@ return [
       'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
       'didyouknow' =>  [
         '<h4>Operation Warpspeed</h4>Operation WarSpeed helps to combat Covid-19 and accelerates vaccination plan.',
-        'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19.  To date, the program has managed to produce and deliver about 50 million vaccine doses—all made in the U.S.—with hundreds of millions more on the way.'
+        'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. To date, the program has managed to produce and deliver about 50 million vaccine doses—all made in the U.S.—with hundreds of millions more on the way.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',
     ],
@@ -254,7 +254,7 @@ return [
       ],
       'didyouknow' => [
         '<h4> U.S. Government’s Global TB Strategy/TB</h4>The U.S is one of the largest donors to curb Tuberculosis.',
-        'Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.  The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 Million for 2021.  In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000. '
+        'Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019. The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 Million for 2021. In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.'
       ]
 
     ],

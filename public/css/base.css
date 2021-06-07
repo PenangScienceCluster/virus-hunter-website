@@ -292,6 +292,9 @@ button:active {
   width: 100%;
   margin-bottom: 0.5208vw;
 }
+.us-img-big {
+  max-width: 35vw;
+}
 
 .custom-modal .popup-content .popup-text {
   font-size: 1.7vw;
@@ -541,6 +544,11 @@ button:active {
 
 #us_pop h4 {
   font-weight: 900;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
 }
 
 @media only screen and (orientation: portrait) {

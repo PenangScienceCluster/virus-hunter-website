@@ -26,7 +26,7 @@ return [
     'pocket_fact' => 'Fakta Poket',
     'virus_hunter' => 'Ikon Virus Hunter',
     'career_pathway' => 'Laluan Kerjaya',
-    'us_anecdotes' => 'Anekdot US',
+    'us_anecdotes' => 'Adakah Anda Tahu?',
     'try_out' => 'Cuba Ini'
   ],
 
@@ -79,12 +79,16 @@ return [
     "popup" => [
       'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
-      'us_anecdotes' =>  '...',
+      'didyouknow' =>  [
+        '<h4>Malaria/U.S President’s Malaria Initiative</h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.',
+        'Selama lebih daripada 6 tahun, U.S President’s Malaria initiative (PMI) telah berkerjasama dengan 24 negara untuk membantu mereka mencegah dan merawat malaria. PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan kadar kematian turun 60% di negara yang terlibat. Program ini menyumbang pendidikan malaria, kelambu, racung nyamuk, ubat dan juga latihan teknikal.',
+      ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk tereka bentuk dan mencegah wabak di masa hadapan.',
     ],
     'spotlight' => [
       'btn' => 'Ketahui Wabak',
       'title' => 'Wabak Penyakit<br>Dalam Sejarah',
+      'contentImg' => '/img/pandemics/content_bm.png'
     ],
     'pop'=>[
       'black_death' => 'Wabak Bubonik',
@@ -108,6 +112,10 @@ return [
     'dialog' => [
       'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah kamu bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
       'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan elak pergi ke tempat yang sesak.'
+    ],
+    'didyouknow' =>  [
+      '<h4>Project PREDICT mencegah penularan penyakit</h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.',
+      'Melalui usaha Project PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang saintis di 30 negara. Di Malaysia, saintis PREDICT mengumpul beribu-ribu sampel di perkampungan terpencil Orang Asli untuk membantu mereka memahami risiko pendedahan dan penularan ',
     ],
     "popup" => [
       'pocket_fact' =>  'Penyakit zoonotik ditransmisikan daripada haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
@@ -191,7 +199,10 @@ return [
     ],
     "popup" => [
       'pocket_fact' =>  'Simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
-      'us_anecdotes' =>  'Operasi Warp Speed di Amerika Syarikat berusaha mempercepatkan proses pembangunan, pembuatan dan pengedaran vaksin, terapi dan diagnostik bagi wabak COVID-19.',
+      'didyouknow' =>  [
+        '<h4>Operation Warpspeed</h4>Operation Warpspeed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.',
+        'Melalui Operation Warp Speed, kerajaan Amerika Syarikat melaburkan $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin untuk menangani COVID-19. Setakat ini, program ini telah menghasilkan dan mengedarkan lebih kurang 50 juta dos vaksin--semuanya diperbuat di Amerika Syarikat--dengan beratus juta lagi dos akan datang.'
+      ],
       'virus_hunter' => 'Noor Hisham Abdullah, dikenali dalam menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
     ],
     'spotlight' => [
@@ -239,6 +250,10 @@ return [
             'step' => 'Kelulusan'
           ]
         ]
+      ],
+      'didyouknow' => [
+        '<h4> U.S. Government’s Global TB Strategy/TB</h4>Amerika Syarikat adalah salah satu pemberi dana terbesar untuk mengekang Penyakit Tibi.',
+        'Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia, meragut nyawa 1.4 juta orang pada tahun 2019. Amerika Syarikat merupakan salah satu pemberi dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat melaburkan $332 juta bagi menyokong usaha ini pada tahun 2021. Di 23 negara utama dibantu oleh USAID, kes Tibi menurun 29% dan kematian disebabkan oleh Tibi turun 47% sejak tahun 2000.'
       ]
     ],
     'spotlight' => [
@@ -256,7 +271,10 @@ return [
     ],
     "popup" => [
       'pocket_fact' =>  'RT-PCR kini digunakan secara global untuk mengesan jangkitan COVID-19!',
-      'us_anecdotes' =>  'PREDICT adalah satu program global yang didana oleh USAID untuk mengkaji virus dan penyakit zoonotic yang baru muncul, terutamanya di Afrika dan Asia.',
+      'didyouknow' =>  [
+        '<h4>PEPFAR</h4>PEPFAR telah menyelamatkan 20 juta nyawa.',
+        'U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) adalah komitmen terbesar oleh mana-mana negara untuk menangani satu penyakit utama dalam sejarah. Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
+      ],
       'try_out' => [
         'title'=> 'Seret dan lepas untuk menyusun langkah-langkah ujian COVID-19 berdasarkan urutan yang betul.',
         'items' => [
