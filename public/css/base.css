@@ -604,6 +604,10 @@ button:active {
     min-height: 75vh;
   }
 
+  .custom-modal .pop-img {
+    margin: auto;
+    width: 50%;
+  }
   .bubble {
     font-size: 1.5vw;
   }
@@ -624,7 +628,7 @@ button:active {
 
   .custom-modal .pop-img {
     margin: auto;
-    width: 40%;
+    width: 50%;
   }
 
   .us-img-big {
