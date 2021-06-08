@@ -395,7 +395,8 @@ button:active {
   position: relative;
   /* font-family: sans-serif; */
   font-family: sriracha;
-  font-size: 1.15vw;
+  /* font-size: 1.15vw; */
+  font-size: 120%;
   min-width: 25.781vw;
   max-width: 26.042vw;
   line-height: 1;
