@@ -15,5 +15,6 @@
 }
 .sriracha {
   /* font-family: sriracha; */
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Signika Negative";
+  font-weight: 600;
 }
