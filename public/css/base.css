@@ -319,7 +319,7 @@ button:active {
   width: 80%; */
 }
 .custom-modal .pop-img {
-  width: 65%;
+  width: 70%;
 }
 .us-img-big {
   width: 80%;
@@ -601,7 +601,7 @@ button:active {
 
 @media (max-height: 768px) {
   .custom-modal .modal-content {
-    min-height: 70vh;
+    min-height: 75vh;
   }
 
   .bubble {
