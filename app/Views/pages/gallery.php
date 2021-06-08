@@ -28,7 +28,7 @@ $now = date('Y-m-d H:i:s');
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade active show" id="photos" role="tabpanel" aria-labelledby="home-tab">
-          <div class="row">
+          <div class="row w-80 mx-auto">
             <?php
               $studentFiles = 7;
               for ($i=1; $i <= $studentFiles; $i++) {

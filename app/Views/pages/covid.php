@@ -19,6 +19,7 @@
 <!-- pocket fact -->
 <?= view('layouts/pop_content', [
   'id' => 'fact_pop',
+  'title' => lang('App.subnav.pocket_fact'),
   'img' => '/img/covid/moving-covid19-pocket-fact.gif',
   'text' => lang('App.covid.popup.pocket_fact'),
 ]) ?>
@@ -34,6 +35,7 @@
 <!-- virus hunter -->
 <?= view('layouts/pop_content', [
   'id' => 'virushunter_pop',
+  'title' => lang('App.subnav.virus_hunter'),
   'img' => '/img/covid/moving-covid19-virus-hunter.gif',
   'text' => lang('App.covid.popup.virus_hunter'),
 ]) ?>

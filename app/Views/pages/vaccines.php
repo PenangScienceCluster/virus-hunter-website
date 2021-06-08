@@ -77,6 +77,7 @@ foreach ($steps as $i => $v) {
 <!-- pocket fact -->
 <?= view('layouts/pop_content', [
   'id' => 'fact_pop',
+  'title' => lang('App.subnav.pocket_fact'),
   'img' => '/img/vaccines/moving-vaccines-pocket-fact.gif',
   'text' => lang('App.vaccines.popup.pocket_fact'),
 ]) ?>
@@ -85,6 +86,7 @@ foreach ($steps as $i => $v) {
 <!-- virus hunter -->
 <?= view('layouts/pop_content', [
   'id' => 'virushunter_pop',
+  'title' => lang('App.subnav.virus_hunter'),
   'img' => '/img/vaccines/moving-vaccines-virus-hunter.gif',
   'text' => lang('App.vaccines.popup.virus_hunter'),
 ]) ?>

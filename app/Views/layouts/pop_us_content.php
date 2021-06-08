@@ -24,7 +24,7 @@
             <div class="carousel-item">
               <div class="popup-content">
                 <div class="w-90 mx-auto text-center">
-                  <img src="<?= $img ?>" class="w-50" />
+                  <img src="<?= $img ?>" class="w-45" />
                 </div>
                 <div class="popup-tex mt-4 w-70 text-center mx-auto">
                   <?= $text2 ?>

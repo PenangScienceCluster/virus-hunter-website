@@ -322,7 +322,7 @@ button:active {
   width: 80%;
 }
 .us-img-big {
-  width: 90%;
+  width: 80%;
 }
 #us_pop .popup-tex {
   font-size: 1.3vw;
@@ -394,7 +394,7 @@ button:active {
 .bubble {
   position: relative;
   /* font-family: sans-serif; */
-  font-family: sriracha;
+  font-family: signika;
   /* font-size: 1.15vw; */
   font-size: 120%;
   min-width: 25.781vw;
@@ -615,7 +615,7 @@ button:active {
 
   .custom-modal .pop-img {
     margin: auto;
-    width: 60%;
+    width: 50%;
   }
 
   .us-img-big {
@@ -626,9 +626,9 @@ button:active {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (max-height: 768px) {
   .custom-modal .modal-content {
-    min-height: 65vh;
+    min-height: 70vh;
   }
 
   .bubble {

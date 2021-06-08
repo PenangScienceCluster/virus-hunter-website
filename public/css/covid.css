@@ -155,7 +155,7 @@ html {
 }
 
 /* ipad */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* .gina {
     left: 3vw;
   }
