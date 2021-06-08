@@ -150,3 +150,48 @@ html {
     }
   }
 }
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .gina {
+    left: 3vw;
+  }
+  .gina .bubble {
+    left: 26vw;
+  }
+
+  .ilyas {
+    right: 13vw;
+  }
+
+  .ilyas .bubble {
+    top: 0vw;
+    left: -31vw;
+  }
+
+  .man {
+    position: absolute;
+    width: 23vw;
+    height: 37vw;
+    background: url(../img/covid/moving-shopping-man.png) 0px 0px;
+    background-size: 92vw;
+    animation: play 2s steps(4) infinite;
+    bottom: 18vh;
+    right: 31vw;
+    border: 0px solid red;
+  }
+
+  @keyframes play {
+    0% {
+      background-position: 0;
+    }
+
+    30% {
+      background-position: -92vw;
+    }
+
+    100% {
+      background-position: -92vw;
+    }
+  }
+}

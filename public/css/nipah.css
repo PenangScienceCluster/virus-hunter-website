@@ -274,3 +274,21 @@ html {
     left: 8.0938vw;
   }
 }
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .gina {
+    left: 3vw;
+  }
+  .gina .bubble {
+    left: 26vw;
+  }
+
+  .ilyas {
+    right: 13vw;
+  }
+
+  .ilyas .bubble {
+    top: 25vw;
+  }
+}

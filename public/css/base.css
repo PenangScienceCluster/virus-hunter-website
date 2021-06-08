@@ -624,3 +624,13 @@ button:active {
     font-size: 1vw;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .custom-modal .modal-content {
+    min-height: 65vh;
+  }
+
+  .bubble {
+    font-size: 1.5vw;
+  }
+}

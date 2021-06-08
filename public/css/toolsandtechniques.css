@@ -122,3 +122,24 @@ html {
 
 @media only screen and (max-height: 480px) {
 }
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .ilyas {
+    left: 3vw;
+  }
+
+  .ilyas .bubble {
+    /* top: 28vw; */
+    left: 25vw;
+  }
+
+  .gina .bubble {
+    top: 27vw;
+    left: -23vw;
+  }
+
+  .gina {
+    right: 10vw;
+  }
+}

@@ -257,3 +257,15 @@ html {
     border: 0px solid red;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .gina {
+    left: 3vw;
+  }
+  .gina .bubble {
+    left: 24vw;
+  }
+  .ilyas {
+    right: 13vw;
+  }
+}
