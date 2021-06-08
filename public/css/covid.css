@@ -56,7 +56,7 @@ html {
   /* top: 18.8438vw; */
   /* left: -24.7917vw; */
   top: 0;
-  left: -127%;
+  right: 100%;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }

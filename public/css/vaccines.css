@@ -54,7 +54,7 @@ html {
   position: absolute;
   top: 65%;
   /* left: -28vw; */
-  left: -105%;
+  right: 80%;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }
