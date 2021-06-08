@@ -258,10 +258,10 @@ html {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 768px) {
   .gina {
     left: 3vw;
-    border: 1px solid red;
+    border: 0px solid red;
   }
   .gina .bubble {
     left: 24vw;
