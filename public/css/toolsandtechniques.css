@@ -71,9 +71,9 @@ html {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: 63%;
+  top: 50%;
   /* left: -24vw; */
-  left: -23vw;
+  right: 100%;
 }
 /* characters */
 

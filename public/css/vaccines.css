@@ -40,7 +40,7 @@ html {
   width: 33vh;
   bottom: 1.7708vw;
   /* right: 21vw; */
-  right: 13%;
+  right: 16vw;
   z-index: 3;
 }
 
@@ -52,7 +52,7 @@ html {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 65%;
+  top: 60%;
   /* left: -28vw; */
   right: 80%;
   min-width: 31.781vw;
