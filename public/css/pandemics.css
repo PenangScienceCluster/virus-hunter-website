@@ -256,6 +256,12 @@ html {
   width: 50%;
 }
 
+@media (max-height: 768px) {
+  #fact_pop .pop-img {
+    width: 40% !important;
+  }
+}
+
 @media only screen and (max-height: 480px) {
   #fact_pop .pop-img {
     width: 40% !important;
