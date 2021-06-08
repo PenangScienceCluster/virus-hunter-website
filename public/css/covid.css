@@ -14,7 +14,7 @@ html {
 .gina {
   bottom: 2.8646vw;
   /* left: 10vw; */
-  left: 7%;
+  left: 3%;
   z-index: 3;
   /* width: 20vw; */
   width: 40vh;
@@ -29,7 +29,7 @@ html {
   z-index: 1;
   position: absolute;
   /* top: -1.25vw; */
-  bottom: 3.75vw;
+  bottom: 15%;
   /* left: 15vw; */
   left: 90%;
   min-width: 34.781vw;
@@ -41,7 +41,7 @@ html {
   width: 33vh;
   bottom: 0;
   /* right: 19.792vw; */
-  right: 17%;
+  right: 10%;
   z-index: 3;
 }
 
@@ -56,7 +56,7 @@ html {
   /* top: 18.8438vw; */
   /* left: -24.7917vw; */
   top: 0;
-  left: -180%;
+  left: -127%;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }

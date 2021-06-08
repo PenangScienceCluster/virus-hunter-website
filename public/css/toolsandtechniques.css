@@ -59,7 +59,7 @@ html {
   width: 40vh;
   bottom: 2vw;
   /* right: 16vw; */
-  right: 16%;
+  right: 12vw;
   z-index: 3;
 }
 
@@ -71,9 +71,9 @@ html {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: 17vw;
+  top: 63%;
   /* left: -24vw; */
-  left: -110%;
+  left: -23vw;
 }
 /* characters */
 
