@@ -13,7 +13,8 @@ html {
 
 .gina {
   bottom: 0.8646vw;
-  left: 3.0625vw;
+  /* left: 3.0625vw; */
+  left: 3%;
   z-index: 3;
   /* width: 20vw; */
   width: 42vh;
@@ -28,7 +29,8 @@ html {
   z-index: 1;
   position: absolute;
   top: 1.25vw;
-  left: 19vw;
+  /* left: 19vw; */
+  left: 80%;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }
@@ -37,7 +39,8 @@ html {
   /* width: 16vw; */
   width: 33vh;
   bottom: 1.7708vw;
-  right: 21vw;
+  /* right: 21vw; */
+  right: 18%;
   z-index: 3;
 }
 
@@ -50,7 +53,8 @@ html {
   z-index: 1;
   position: absolute;
   top: 19vw;
-  left: -28vw;
+  /* left: -28vw; */
+  left: -155%;
   min-width: 31.781vw;
   font-size: 1.28vw;
 }
@@ -221,7 +225,7 @@ html {
 }
 
 /* ipad */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .gina {
     left: 3vw;
   }
@@ -236,4 +240,4 @@ html {
   .ilyas .bubble {
     top: 28vw;
   }
-}
+} */

@@ -34,7 +34,8 @@ html {
 /* characters */
 .ilyas {
   bottom: -2.1354vw;
-  left: 5vw;
+  /* left: 5vw; */
+  left: 3%;
   z-index: 3;
   /* width: 17vw; */
   width: 33vh;
@@ -49,7 +50,7 @@ html {
   z-index: 1;
   position: absolute;
   top: 0vw;
-  left: 18vw;
+  left: 100%;
   min-width: 30.4375vw;
 }
 
@@ -57,7 +58,8 @@ html {
   /* width: 20vw; */
   width: 40vh;
   bottom: 2vw;
-  right: 16vw;
+  /* right: 16vw; */
+  right: 16%;
   z-index: 3;
 }
 
@@ -70,7 +72,8 @@ html {
   z-index: 1;
   position: absolute;
   top: 17vw;
-  left: -24vw;
+  /* left: -24vw; */
+  left: -110%;
 }
 /* characters */
 
@@ -124,13 +127,12 @@ html {
 }
 
 /* ipad */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .ilyas {
     left: 3vw;
   }
 
   .ilyas .bubble {
-    /* top: 28vw; */
     left: 25vw;
   }
 
@@ -142,4 +144,4 @@ html {
   .gina {
     right: 10vw;
   }
-}
+} */

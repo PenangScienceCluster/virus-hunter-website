@@ -17,7 +17,8 @@ html {
 
 .gina {
   bottom: 2.8646vw;
-  left: 14.0625vw;
+  /* left: 14.0625vw; */
+  left: 4%;
   z-index: 3;
   /* width: 20vw; */
   width: 40vh;
@@ -32,14 +33,16 @@ html {
   z-index: 1;
   position: absolute;
   top: -2.25vw;
-  left: 15.1875vw;
+  /* left: 15.1875vw; */
+  left: 80%;
 }
 
 .ilyas {
   /* width: 17vw; */
   width: 33vh;
   bottom: 0;
-  right: 19.792vw;
+  /* right: 19.792vw; */
+  right: 19%;
   z-index: 3;
 }
 
@@ -51,8 +54,10 @@ html {
 .ilyas .bubble {
   z-index: 1;
   position: absolute;
-  top: 13.4583vw;
-  left: -21.875vw;
+  /* top: 13.4583vw;
+  left: -21.875vw; */
+  top: 55%;
+  left: -120%;
 }
 
 /* spotlight */
@@ -231,7 +236,7 @@ html {
 }
 
 /* ipad */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .gina {
     left: 3vw;
   }
@@ -246,4 +251,4 @@ html {
   .ilyas .bubble {
     top: 25vw;
   }
-}
+} */

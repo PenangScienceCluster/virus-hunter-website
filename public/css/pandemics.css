@@ -12,11 +12,11 @@ html {
 } */
 .gina {
   bottom: 2.8646vw;
-  /* left: 8.8542vw; */
   left: 4%;
   z-index: 3;
-  /* width: 23.3333vw; */
   width: 41vh;
+  /* width: 23.3333vw; */
+  /* left: 8.8542vw; */
 }
 
 .gina img {
