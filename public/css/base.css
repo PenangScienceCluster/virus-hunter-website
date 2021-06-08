@@ -599,6 +599,16 @@ button:active {
   }
 }
 
+@media (max-height: 768px) {
+  .custom-modal .modal-content {
+    min-height: 70vh;
+  }
+
+  .bubble {
+    font-size: 1.5vw;
+  }
+}
+
 @media only screen and (max-height: 480px) {
   .custom-modal .modal-dialog {
     width: 30vw;
@@ -609,8 +619,7 @@ button:active {
   }
 
   .custom-modal .modal-content {
-    /* height: 20vw;
-    margin-top: 1%; */
+    min-height: 85vh;
   }
 
   .custom-modal .pop-img {
@@ -623,15 +632,5 @@ button:active {
   }
   #us_pop .popup-tex {
     font-size: 1vw;
-  }
-}
-
-@media (max-height: 768px) {
-  .custom-modal .modal-content {
-    min-height: 70vh;
-  }
-
-  .bubble {
-    font-size: 1.5vw;
   }
 }
