@@ -66,6 +66,7 @@ foreach ($steps as $i => $v) {
 <!-- pocket fact -->
 <?= view('layouts/pop_content', [
   'id' => 'fact_pop',
+  'title' => lang('App.subnav.pocket_fact'),
   'img' => '/img/zoonotic/moving-zoonotic-pocket-fact.gif',
   'text' => lang('App.zoonotic.popup.pocket_fact'),
 ]) ?>
