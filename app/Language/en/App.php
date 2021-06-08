@@ -34,7 +34,7 @@ return [
   'home' => [
     'imready' => 'i\'m ready',
     'aprojectby' => 'A project by',
-    'supportedby' => 'Supported by',
+    'supportedby' => 'Supported by the',
     'title'=> '/img/landing/header_en.png'
   ],
   'overview' => [
@@ -47,8 +47,8 @@ return [
 
   'aboutus' => [
     'title' => 'About Us',
-    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the US Embassy Kuala Lumpur under the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics about vaccines.<br><br>
-    We also hope to expose students to study and career pathways in life sciences!',
+    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the US Embassy Kuala Lumpur through the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics about vaccines.<br><br>
+    We also hope to help students learn more about STEM study and career pathways in the life sciences!',
     'organizedby' => 'Organized By',
   ],
 
@@ -75,7 +75,7 @@ return [
   'pandemics' => [
     'title'=> 'pandemics',
     'dialog' => [
-      'girl' => 'In early 2020, my classmates and I had to suddenly attend school from home. It is the same for you too, isn’t it, Ilyas?',
+      'girl' => 'In early 2020, my classmates and I suddenly had to attend school from home. Was it the same for you, Ilyas?',
       'boy' => 'Yes! My mother told me that there was a pandemic and we had to take care of each other by staying at home.'
     ],
     "popup" => [
@@ -113,12 +113,12 @@ return [
   'zoonotic' => [
     'title'=> 'ZOONOTIC DISEASES',
     'dialog' => [
-      'girl' => 'That is true! I try to bring a hand sanitizer with me when I have to go outside. Did you know that COVID-19 is a zoonotic disease?',
+      'girl' => 'That\'s true! I try to bring hand sanitizer with me when I have to go outside. Did you know that COVID-19 is a zoonotic disease?',
       'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
     ],
     "popup" => [
       'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food or environment.',
-      'career' =>  'As animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreak.',
+      'career' =>  'Because animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreak.',
       'didyouknow' =>  [
         '<h4>Project PREDICT prevents spread of diseases</h4>The United States plays a key leadership role in working to prevent the spread of disease.',
         'Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries. In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate. The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
@@ -159,12 +159,12 @@ return [
   'nipah' => [
     'title'=> 'NIPAH VIRUS',
     'dialog' => [
-      'girl' => 'My older brother mentioned another disease outbreak that happened here in Malaysia before we were born. Did you hear about it as well?',
+      'girl' => 'Ilyas, my older brother told me that another disease outbreak happened here in Malaysia before we were born. Have you heard about that?',
       'boy' => 'Yes! My mother told me about the Nipah Virus outbreak in Peninsular Malaysia.'
     ],
     "popup" => [
       'pocket_fact' =>  'During the outbreak in 1998, experts led communications on progress of the outbreak to encourage best health practice by health workers as well as the community.',
-      'career' =>  'Biochemists study chemical reactions in living things, including how virus takes over control of infected cells!',
+      'career' =>  'Biochemists study chemical reactions in living things, including how viruses take control of infected cells!',
       'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak',
       'try_out' => [
         'title'=> 'Drag and drop the correct name and function of the virus structure to the label.',
@@ -198,7 +198,7 @@ return [
     'title'=> 'COVID-19',
     'dialog' => [
       'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
-      'boy' => 'During the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
+      'boy' => 'I heard that during the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
     ],
     "popup" => [
       'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
@@ -206,7 +206,7 @@ return [
         '<h4>Operation Warp Speed</h4>Operation War Speed helps to combat Covid-19 and accelerates vaccination plan.',
         'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. To date, the program has managed to produce and deliver about 50 million vaccine doses—all made in the U.S.—with hundreds of millions more on the way.'
       ],
-      'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling COVID-19 pandemic in Malaysia.',
+      'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling the COVID-19 pandemic in Malaysia.',
     ],
     'spotlight' => [
       'btn' => 'Watch<br>Video',
@@ -218,8 +218,8 @@ return [
   'vaccines' => [
     'title'=> 'vaccines',
     'dialog' => [
-      'girl' => 'As vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
-      'boy' => 'Yes! We must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
+      'girl' => 'Because vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
+      'boy' => 'Yes! But we must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
     ],
     "popup" => [
       'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
@@ -312,7 +312,7 @@ return [
     'join'=>'Join our STEM activities <br>- available both virtually and in-person at:',
     'dialog'=>[
       'Learn more about the Virus Hunter project <a href="{0}">here</a>.',
-      'Find out about the role of US in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
+      'Find out about the role of the US in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
       'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
     ]
   ]
