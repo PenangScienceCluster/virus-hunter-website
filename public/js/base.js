@@ -87,7 +87,7 @@ $(function () {
 
   runSideButton();
 
-  // alert($("body").width() + "," + $("body").height());
+  alert($("body").width() + "," + $("body").height());
 });
 function setBodyHeight() {
   $(".wrapper").height($("body").height());
