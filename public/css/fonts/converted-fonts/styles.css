@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SignikaNegative-SemiBold';
+  src: url(./SignikaNegative-SemiBold.eot);
+  src: url(./SignikaNegative-SemiBold.eot?#iefix) format('embedded-opentype'),
+       url(./SignikaNegative-SemiBold.otf) format('otf'),
+       url(./SignikaNegative-SemiBold.svg#SignikaNegative-SemiBold) format('svg'),
+       url(./SignikaNegative-SemiBold.ttf) format('truetype'),
+       url(./SignikaNegative-SemiBold.woff) format('woff'),
+       url(./SignikaNegative-SemiBold.woff2) format('woff2');
+}
