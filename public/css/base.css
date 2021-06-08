@@ -601,7 +601,7 @@ button:active {
 
 @media (max-height: 768px) {
   .custom-modal .modal-content {
-    min-height: 75vh;
+    min-height: 80vh;
   }
 
   .custom-modal .pop-img {
