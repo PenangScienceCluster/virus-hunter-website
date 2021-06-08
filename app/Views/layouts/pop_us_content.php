@@ -15,7 +15,7 @@
               <div class="popup-content">
                 <div class="w-90 mx-auto text-center">
                   <img src="<?= $img ?>" class="us-img-big" />
-                  <div class="popup-tex mt-4 w-100 text-center mx-auto">
+                  <div class="popup-tex mt-4 w-80 text-center mx-auto">
                     <?= $text1 ?>
                   </div>
                 </div>
