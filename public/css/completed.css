@@ -105,4 +105,12 @@
   line-height: 1.2em;
 }
 @media only screen and (max-height: 480px) {
+  /* .social-wrap {
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+  } */
+  .social-wrap .title {
+    font-size: 0.9vw;
+  }
 }

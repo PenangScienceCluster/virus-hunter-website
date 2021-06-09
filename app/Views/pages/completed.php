@@ -65,7 +65,7 @@
           <?= lang('App.btn_share') ?>
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-4 social-wrap">
         <div class="contact mx-auto col-7 text-center">
           <div class="mt-4 title">
             <?= lang('App.completed.join') ?>
