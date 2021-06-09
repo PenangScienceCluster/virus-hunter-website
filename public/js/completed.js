@@ -80,7 +80,7 @@ $(function () {
 
   var currentCookiesStar = getCookieValue("vhst");
   var notCompleted = true;
-  currentCookiesStar = "1|2|2|3";
+  // currentCookiesStar = "1|2|2|3";
   if (
     currentCookiesStar != null &&
     currentCookiesStar != "" &&
