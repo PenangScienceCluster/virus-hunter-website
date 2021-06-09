@@ -205,6 +205,11 @@ html {
   }
 }
 
+#fact_pop .pop-img,
+#virushunter_pop .pop-img {
+  width: 60%;
+}
+
 @media only screen and (max-height: 480px) {
   .drag-area {
     height: 60vh;

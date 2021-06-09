@@ -17,14 +17,14 @@
 .medal {
   margin-top: -5vw;
   border: 0px solid red;
+  visibility: hidden;
 }
 
 .stars {
   margin-top: -1.5vw;
 }
 .stars.less {
-  margin-top: 0 !important;
-  padding-top: 15%;
+  margin-top: -10% !important;
 }
 .stars img {
   width: 4vw;

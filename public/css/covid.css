@@ -103,13 +103,20 @@ html {
 
 .man {
   position: absolute;
-  width: 18.125vw;
-  height: 30.3125vw;
+  width: 32vh;
+  /* height: 30.3125vh; */
+  height: 53%;
   background: url(../img/covid/moving-shopping-man.png) 0px 0px;
-  background-size: 72.5vw;
+  background-size: 128vh;
   animation: play 2s steps(4) infinite;
   bottom: 18vh;
   right: 31.594vw;
+  border: 0px solid red;
+}
+
+#fact_pop .pop-img,
+#virushunter_pop .pop-img {
+  width: 60%;
 }
 
 @keyframes play {
@@ -118,16 +125,16 @@ html {
   }
 
   30% {
-    background-position: -72.5vw;
+    background-position: -128vh;
   }
 
   100% {
-    background-position: -72.5vw;
+    background-position: -128vh;
   }
 }
 
 @media only screen and (max-height: 480px) {
-  .man {
+  /* .man {
     position: absolute;
     width: 14vw;
     height: 23vw;
@@ -151,7 +158,7 @@ html {
     100% {
       background-position: -56vw;
     }
-  }
+  } */
 }
 
 /* ipad */
@@ -172,7 +179,7 @@ html {
     left: -31vw;
   } */
 
-  .man {
+  /* .man {
     position: absolute;
     width: 23vw;
     height: 37vw;
@@ -196,5 +203,5 @@ html {
     100% {
       background-position: -92vw;
     }
-  }
+  } */
 }

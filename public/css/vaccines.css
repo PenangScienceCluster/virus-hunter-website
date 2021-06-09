@@ -156,6 +156,11 @@ html {
   border: 0px solid red;
 }
 
+#fact_pop .pop-img,
+#virushunter_pop .pop-img {
+  width: 60%;
+}
+
 @keyframes play {
   100% {
     background-position: -14vw;

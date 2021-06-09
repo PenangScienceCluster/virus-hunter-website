@@ -1,10 +1,5 @@
 $(function () {
-  // store("zoonotic");
-
   storeSection("zoonotic");
-
-  // eraseCookieSection();
-  // eraseCookieStar();
 
   // spotlight
   $(".spotlight-btn").click(function () {
@@ -58,8 +53,8 @@ $(function () {
             $(this).removeClass("animated tada");
           }
         );
+      $(this).addClass("d-none");
 
-      // store("zoonotic", "star");
       storeStar("zoonotic");
     } else {
       $("#correct").addClass("d-none");

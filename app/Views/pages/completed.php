@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-10 mx-auto">
       <div class="board">
-        <div class="medal w-20 mx-auto mb-4"><img src="/img/completed/medal.png" class="img-fluid" /></div>
+        <div class="medal w-20 mx-auto"><img src="/img/completed/medal.png" class="img-fluid" /></div>
         <div class="stars w-100 mx-auto text-center">
           <img src="/img/completed/star-off.png" class="img-fluid" id="star1" />
           <img src="/img/completed/star-off.png" class="img-fluid" id="star2" />
@@ -60,7 +60,7 @@
             <?=lang('App.completed.desc2') ?>
           </span>
         </h4>
-        <div class="position-relative btn-theme w-40 mx-auto btn-share mt-4" data-toggle="modal"
+        <div class="position-relative btn-theme w-40 mx-auto btn-share mt-2" data-toggle="modal"
           data-target="#share_pop">
           <?= lang('App.btn_share') ?>
         </div>

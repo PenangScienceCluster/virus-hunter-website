@@ -80,7 +80,7 @@ $(function () {
 
   var currentCookiesStar = getCookieValue("vhst");
   var notCompleted = true;
-
+  currentCookiesStar = "1|2|2|3";
   if (
     currentCookiesStar != null &&
     currentCookiesStar != "" &&
@@ -95,13 +95,14 @@ $(function () {
 
     if (starCount == 4) {
       $(".title, .desc").removeClass("d-none");
+      $(".medal").css("visibility", "visible");
       notCompleted = false;
     }
   }
 
   if (notCompleted) {
     $(".title2, .desc2").removeClass("d-none");
-    $(".medal").addClass("d-none");
+
     $(".stars").addClass("less");
   }
 
