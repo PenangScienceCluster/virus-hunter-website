@@ -13,9 +13,9 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="popup-content">
-                <div class="w-90 mx-auto text-center">
+                <div class="w-80 mx-auto text-center">
                   <img src="<?= $img ?>" class="us-img-big" />
-                  <div class="popup-tex mt-4 w-80 text-center mx-auto">
+                  <div class="popup-tex mt-4 w-80 text-center mx-auto lineheight">
                     <?= $text1 ?>
                   </div>
                 </div>

@@ -50,7 +50,9 @@ body {
   border: 0px solid red;
   margin: auto;
 }
-
+.lineheight {
+  line-height: 1.2em;
+}
 .imgw {
   width: 100%;
   display: block;
@@ -227,7 +229,7 @@ button:active {
   background-size: 100% 100%;
   background-color: unset;
   /* min-height: 46.094vw; */
-  min-height: 85vh;
+  min-height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
   border: 0px solid #000;
@@ -599,21 +601,27 @@ button:active {
   }
 }
 
-@media (max-height: 768px) {
-  .custom-modal .modal-content {
-    min-height: 80vh;
+@media only screen and (max-device-height: 768px) {
+  /* .custom-modal .modal-content {
+    min-height: 60vh;
   }
 
   .custom-modal .pop-img {
     margin: auto;
     width: 60%;
-  }
+  } */
   .bubble {
     font-size: 1.5vw;
   }
 }
 
-@media only screen and (max-height: 480px) {
+/* @media only screen and (min-device-width: 1000px) and (min-device-height: 780px) {
+  .custom-modal .modal-content {
+    min-height: 90vh;
+  }
+} */
+
+@media only screen and (max-device-height: 640px) {
   .custom-modal .modal-dialog {
     width: 30vw;
   }
@@ -623,7 +631,7 @@ button:active {
   }
 
   .custom-modal .modal-content {
-    min-height: 85vh;
+    min-height: 90vh;
   }
 
   .custom-modal .pop-img {
