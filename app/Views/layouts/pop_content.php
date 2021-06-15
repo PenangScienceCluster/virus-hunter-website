@@ -84,4 +84,11 @@
 .pop-model-content .popup-content .img-text {
   width: 70%;
 }
+
+@media (max-height: 480px) {
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+    border: 1px solid white;
+  }
+}
 </style>
