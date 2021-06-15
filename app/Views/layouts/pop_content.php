@@ -30,6 +30,7 @@
 <style>
 .modal-dialog {
   border: 1px solid red;
+  overflow: hidden;
 }
 
 .pop-model-content .modal-title {
