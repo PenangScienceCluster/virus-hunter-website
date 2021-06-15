@@ -100,9 +100,9 @@ html {
   top: -8vw;
 }
 
-.spotlight-pop .content {
-  /* margin-top: 2.6042vw; */
-}
+/* .spotlight-pop .content {
+  margin-top: 2.6042vw;
+} */
 
 .outbreak-modal-content {
   display: flex;
@@ -252,20 +252,20 @@ html {
   margin: 0.4167vw 0.4167vw 0.4167vw 0.9375vw;
 }
 
-#fact_pop .pop-img {
+#fact_pop .popup-content .img-text {
   width: 50%;
 }
 
 @media (max-height: 768px) {
   #fact_pop .pop-img {
-    width: 40% !important;
+    /* width: 40% !important; */
   }
 }
 
 @media only screen and (max-height: 480px) {
   #fact_pop .pop-img {
-    width: 40% !important;
-    border: 0px solid red;
+    /* width: 40% !important;
+    border: 0px solid red; */
   }
 }
 

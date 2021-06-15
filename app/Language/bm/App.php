@@ -47,7 +47,7 @@ return [
 
   'aboutus' => [
     'title' => 'Tentang Kami',
-    'desc' => 'Virus Hunter adalah suatu projek anjuran Penang Science Cluster dan disokong oleh US Embassy dan American Tech Corner Penang.<br><br>Misi kami adalah untuk mendidik pelajar tentang virus, pandemik dan vaksin.<br><br>
+    'desc' => 'Virus Hunter adalah suatu projek anjuran Penang Science Cluster dan disokong oleh U.S Embassy dan American Tech Corner Penang.<br><br>Misi kami adalah untuk mendidik pelajar tentang virus, pandemik dan vaksin.<br><br>
     Kami juga berharap untuk mendedahkan pelajar kepada laluan pendidikan dan kerjaya dalam sains hayat!',
     'organizedby' => 'Dianjurkan oleh',
   ],
@@ -310,7 +310,7 @@ return [
     'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di:',
     'dialog'=>[
       'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
-      'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
+      'Mari ketahui dengan lebih lanjut berkenaan peranan A.S dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
       'Baca lebih lanjut berkenaan bagaimana untuk melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
     ]
   ]
