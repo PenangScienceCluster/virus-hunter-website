@@ -29,7 +29,7 @@
 
 <style>
 .modal {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .modal-dialog {
@@ -87,8 +87,8 @@
 
 @media (max-height: 480px) {
   .modal-dialog-centered {
-    min-height: 90vh;
-    border: 1px solid white;
+    /* min-height: 90vh;
+    border: 1px solid white; */
   }
 }
 </style>
