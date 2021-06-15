@@ -28,6 +28,10 @@
 
 
 <style>
+.modal-dialog {
+  border: 1px solid red;
+}
+
 .pop-model-content .modal-title {
   color: #000;
   background: url(/img/popup/title-bg.png) 0 0 no-repeat;
@@ -51,7 +55,8 @@
   border: 0;
   min-height: 20vh;
   width: 100vh;
-  margin: auto
+  margin: auto;
+  border: 1px solid red;
 }
 
 .pop-model-content .popup-text {
