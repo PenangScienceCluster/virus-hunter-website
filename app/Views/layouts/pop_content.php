@@ -87,7 +87,8 @@
 
 @media (max-height: 480px) {
   .modal-dialog-centered {
-    height: 100vh;
+    min-height: 100vh;
+    border: 1px solid red;
   }
 }
 </style>
