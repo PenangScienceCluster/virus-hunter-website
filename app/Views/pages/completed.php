@@ -60,9 +60,13 @@
             <?=lang('App.completed.desc2') ?>
           </span>
         </h4>
-        <div class="position-relative btn-theme w-40 mx-auto btn-share mt-2" data-toggle="modal"
-          data-target="#share_pop">
-          <?= lang('App.btn_share') ?>
+        <div class="d-flex w-60 mx-auto">
+          <div class="position-relative btn-theme w-40 mx-auto btn-back">
+            <?= lang('App.back') ?>
+          </div>
+          <div class="position-relative btn-theme w-40 mx-auto btn-share" data-toggle="modal" data-target="#share_pop">
+            <?= lang('App.btn_share') ?>
+          </div>
         </div>
       </div>
       <div class="row mt-4 social-wrap">
@@ -100,17 +104,7 @@
 .bubble .item {
   height: 10vh;
   border: 0px solid red;
-  /*display: flex;
-  align-items: center; */
-
 }
-
-/* 
-.bubble .item p {
-  display: inline-block;
-  line-height: normal;
-  vertical-align: middle;
-} */
 </style>
 <div class="position-absolute gina animated fadeInLeft delay-2s">
   <img src="/img/characters/gina-1.png" class="img-fluid" />
@@ -143,7 +137,9 @@
 </div>
 
 <?= view('pages/bottom-logo') ?>
-
+<script>
+var lang = '<?= locale() ?>';
+</script>
 
 <?= $this->endSection()  ?>
 <!-- end 1 -->

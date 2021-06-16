@@ -82,7 +82,7 @@ html {
 #try_pop .selectable {
   border: 4px solid #fff;
   border-radius: 10px;
-  margin: 5px;
+  margin: 2px;
   height: 100%;
 }
 
@@ -106,12 +106,13 @@ html {
 .try-title {
   font-size: 1.9792vw;
   font-weight: 600;
-  padding: 0 10.4167vw;
+  /* padding: 0 10.4167vw; */
 }
 
 .try-body {
   justify-content: space-between;
-  padding: 0 3.125vw;
+  /* padding: 0 3.125vw; */
+  padding-left: 1vw;
 }
 
 .bat-1 {
@@ -190,6 +191,9 @@ html {
   top: 10.2083vw;
   right: 19.594vw;
 }
+.feedback {
+  height: 60px;
+}
 
 @keyframes playBat1 {
   100% {
@@ -233,11 +237,14 @@ html {
   }
 }
 
-#fact_pop .pop-img {
-  width: 60%;
-}
-
 @media only screen and (max-height: 480px) {
+  .pop-model-content .modal-content {
+    width: 140vh;
+  }
+
+  .feedback {
+    height: 30px;
+  }
 }
 
 /* ipad */

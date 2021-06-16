@@ -29,5 +29,5 @@ $(document).ready(function () {
   });
   // end of spotlight
 
-  $("#fact_pop").modal("show");
+  $("#us_pop").modal("show");
 });

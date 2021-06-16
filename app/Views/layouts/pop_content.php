@@ -5,7 +5,7 @@
       <div class="modal-body">
 
         <h5 class="modal-title" id="exampleModalLabel">
-          <img src="/img/popup/icn-pocket.jpg" class="icn" /><?= $title ?>
+          <img src="/img/popup/icn_<?= $id ?>.jpg" class="icn" /><?= $title ?>
         </h5>
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -25,70 +25,3 @@
     </div>
   </div>
 </div>
-
-
-<style>
-.modal {
-  overflow: hidden !important;
-}
-
-.modal-dialog {
-  border: 1px solid red;
-
-}
-
-.pop-model-content .modal-title {
-  color: #000;
-  background: url(/img/popup/title-bg.png) 0 0 no-repeat;
-  background-size: 100% 100%;
-  font-size: 2.5vw;
-  font-family: "tenbyfive";
-  display: table;
-  padding: 1.5vw 2vw 0.5vw 2vw;
-  margin: -4% 0 0 -5%;
-
-}
-
-.pop-model-content .modal-title .icn {
-  width: 15%;
-  margin-right: 1vw;
-}
-
-.pop-model-content .modal-content {
-  background: url(/img/popup/bg.png) 0 0 no-repeat;
-  background-size: 100% 100%;
-  border: 0;
-  min-height: 20vh;
-  width: 100vh;
-  margin: auto;
-  border: 1px solid red;
-}
-
-.pop-model-content .popup-text {
-  font-size: 1.5vw;
-  text-align: center;
-  padding: 0 2vw;
-  font-weight: bold;
-  margin-bottom: 2vh;
-}
-
-.pop-model-content .close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 3vw;
-  height: 3vw;
-  opacity: 1;
-}
-
-.pop-model-content .popup-content .img-text {
-  width: 70%;
-}
-
-@media (max-height: 480px) {
-  .modal-dialog-centered {
-    /* min-height: 90vh;
-    border: 1px solid white; */
-  }
-}
-</style>

@@ -67,7 +67,7 @@ html {
 
 /* tryout */
 #try_pop .modal-body {
-  padding: 0px 6.25vw 5.0417vw;
+  padding: 0px 6.25vw;
 }
 #try_pop .modal-content {
   background-image: url(../img/popup/bg-lg.png);
@@ -84,7 +84,7 @@ html {
 .try-title {
   font-size: 1.9792vw;
   font-weight: 600;
-  padding: 0 10.4167vw;
+  /* padding: 0 10.4167vw; */
   margin: 10px 0 0 0;
 }
 
@@ -132,7 +132,7 @@ html {
 .feedback {
   font-family: tenbyfive;
   font-size: 2.5vw;
-  min-height: 5vw;
+  height: 60px;
 }
 
 .feedback .star {
@@ -156,10 +156,10 @@ html {
   border: 0px solid red;
 }
 
-#fact_pop .pop-img,
+/* #fact_pop .pop-img,
 #virushunter_pop .pop-img {
   width: 60%;
-}
+} */
 
 @keyframes play {
   100% {
@@ -221,11 +221,15 @@ html {
 
   .feedback {
     font-size: 2vw;
-    min-height: 2vw;
+    height: 30px;
   }
 
   .feedback .star {
     width: 5% !important;
+  }
+
+  .pop-model-content .modal-content {
+    width: 140vh;
   }
 }
 

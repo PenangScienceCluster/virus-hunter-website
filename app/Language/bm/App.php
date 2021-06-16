@@ -2,7 +2,7 @@
 
 // override core en language system validation or define your own en language validation message
 return [
-  'share_caption' => 'Adakah anda mempunyai apa yang diperlukan untuk menjadi seorang Virus Hunter?',
+  'share_caption' => 'Adakah anda bersedia untuk menjadi seorang Virus Hunter?',
   'share_title' => 'Virus Hunter',
   'share_description' => 'Sertai Gina dan Ilyas dalam usaha meraka untuk menjadi seorang Virush Hunter! Dapatkan fakta pantas sambil belajar mengenai virus, pandemik dan vaksin di dénia sebenar.',
   'share_image' => '/img/logo500x500.jpg',
@@ -27,35 +27,35 @@ return [
     'pocket_fact' => 'Fakta Poket',
     'virus_hunter' => 'Ikon Virus Hunter',
     'career_pathway' => 'Laluan Kerjaya',
-    'us_anecdotes' => 'Adakah Anda Tahu?',
+    'us_anecdotes' => 'Tahukah Anda?',
     'try_out' => 'Cuba Ini'
   ],
 
   'home' => [
-    'imready' => 'saya dah sedia',
-    'aprojectby' => 'Sebuah projek oleh',
+    'imready' => 'saya bersedia',
+    'aprojectby' => 'Dianjurkan oleh',
     'supportedby' => 'Disokong oleh',
     'title'=> '/img/landing/header_bm.png'
   ],
   'overview' => [
-    'letsbegin' => 'Mula',
+    'letsbegin' => 'Mari Mulakan!',
     'continue' => 'teruskan',
-    'joingina' => 'Sertai Gina dan Ilyas dalam usaha mereka untuk menjadi seorang <span class="text-white">Virus Hunter</span><span>!</span>',
-    'pickupfacts' => 'Dapatkan fakta pantas sambil belajar mengenai virus, pandemik dan vaksin di dunia sebenar.',
-    'bubble_instruction' => 'Lengkapkan aktiviti-aktiviti untuk mengumpul bintang dan memperoleh pingat Virus Hunter!'
+    'joingina' => 'Sertai Gina dan Ilyas dalam pengembaraan mereka untuk menjadi seorang <span class="text-white">Virus Hunter</span><span>!</span>',
+    'pickupfacts' => 'Pelajari fakta mudah mengenai virus, pandemik dan vaksin di dunia sebenar.',
+    'bubble_instruction' => 'Lengkapkan aktiviti-aktiviti untuk mengumpul bintang dan memperolehi pingat Virus Hunter!'
   ],
 
   'aboutus' => [
     'title' => 'Tentang Kami',
-    'desc' => 'Virus Hunter adalah suatu projek anjuran Penang Science Cluster dan disokong oleh U.S Embassy dan American Tech Corner Penang.<br><br>Misi kami adalah untuk mendidik pelajar tentang virus, pandemik dan vaksin.<br><br>
+    'desc' => 'Virus Hunter adalah suatu projek anjuran Penang Science Cluster dan disokong oleh Kedutaan Amerika Syarikat dan American Tech Corner Penang.<br><br>Misi kami adalah untuk mendidik pelajar tentang virus, pandemik dan vaksin.<br><br>
     Kami juga berharap untuk mendedahkan pelajar kepada laluan pendidikan dan kerjaya dalam sains hayat!',
     'organizedby' => 'Dianjurkan oleh',
   ],
 
   'contactus' => [
     'title' => 'Hubungi Kami',
-    'desc' => 'Sertai aktiviti STEM di Penang Science Cluster - tersedia secara maya dan bersemuka di:',
-    'visit_enquiry' => 'Kunjungi <a href="{0}" target="_blank">sini</a> untuk maklumat lanjut!'
+    'desc' => 'Sertai aktiviti STEM di Penang Science Cluster - boleh didapati secara maya dan bersemuka.',
+    'visit_enquiry' => 'Kunjungi kami untuk maklumat lanjut!'
   ],
 
   'gallery' => [
@@ -74,17 +74,18 @@ return [
   'pandemics' => [
     'title'=> 'Pandemik',
     'dialog' => [
-      'girl' => 'Pada awal tahun 2020, saya dan rakan sekelas saya tiba-tiba perlu bersekolah dari rumah. Awak menghadapi situasi yang sama juga, Ilyas?',
-      'boy' => 'Ya! Ibu saya memberitahu ada wabak penyakit dan kita perlu saling jaga diri kita dengan duduk di rumah.'
+      'girl' => 'Pada awal tahun 2020, saya dan rakan sekelas saya terpaksa bersekolah dari rumah. Awak menghadapi situasi yang sama juga, Ilyas?',
+      'boy' => 'Ya! Ibu saya memberitahu ada wabak penyakit dan kita perlu saling jaga diri masing-masing dan duduk di rumah.'
     ],
     "popup" => [
       'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'didyouknow' =>  [
-        '<h4>Malaria/U.S President’s Malaria Initiative</h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.',
-        'Selama lebih daripada 6 tahun, U.S President\'s Malaria initiative (PMI) telah berkerjasama dengan 24 negara untuk membantu mereka mencegah dan merawat malaria. PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan kadar kematian turun 60% di negara yang terlibat. Program ini menyumbang pendidikan malaria, kelambu, racung nyamuk, ubat dan juga latihan teknikal.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
       ],
-      'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk tereka bentuk dan mencegah wabak di masa hadapan.',
+      'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk-nyamuk yang direka khusus secara genetik untuk mencegah wabak pada masa hadapan.',
     ],
     'spotlight' => [
       'btn' => 'Ketahui Wabak',
@@ -112,18 +113,19 @@ return [
   'zoonotic' => [
     'title'=> 'Penyakit<br>Zoonotik',
     'dialog' => [
-      'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah kamu bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
-      'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan elak pergi ke tempat yang sesak.'
+      'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah awak bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
+      'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan mengelak dari mengunjung tempat yang sesak.'
     ],
     'didyouknow' =>  [
-      '<h4>Project PREDICT mencegah penularan penyakit</h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.',
-      'Melalui usaha Project PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang saintis di 30 negara. Di Malaysia, saintis PREDICT mengumpul beribu-ribu sampel di perkampungan terpencil Orang Asli untuk membantu mereka memahami risiko pendedahan dan penularan ',
+      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
+      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
+      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
     ],
     "popup" => [
-      'pocket_fact' =>  'Penyakit zoonotik ditransmisikan daripada haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
-      'career' =>  'Memandangkan pemerdagangan haiwan merupakan salah satu faktor yang mendorong kepada kemunculan penyakit zoonotik, ahli biologi pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
+      'pocket_fact' =>  'Penyakit-penyakit zoonotik merebak dari haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
+      'career' =>  'Pemerdagangan haiwan liar merupakan salah satu faktor yang mendorong kemunculan penyakit zoonotik. Oleh itu, ahli pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
       'try_out' => [
-        'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit zoonotik.',
+        'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit-penyakit zoonotik.',
         'items' => [
           [
             'id'=>1,
@@ -158,12 +160,12 @@ return [
   'nipah' => [
     'title'=> 'Virus Nipah',
     'dialog' => [
-      'girl' => 'Abang saya ada beritahu saya bahawa Malaysia pernah menghadapi wabak penyakit sebelum ini, sebelum kita lahir lagi. Awak pernah dengar tentang itu?',
+      'girl' => 'Abang saya ada menceritakan bahawa Malaysia pernah menghadapi wabak penyakit sebelum ini, sebelum kita lahir lagi. Awak tahu tentang wabak itu?',
       'boy' => 'Ya! Ibu saya pernah beritahu saya tentang wabak Virus Nipah yang merebak di semenanjung Malaysia.'
     ],
     "popup" => [
-      'pocket_fact' =>  'Semasa wabak pada tahun 1998, para pakar yang mengetuai komunikasi berkenaan kemajuan wabak tersebut mengalakkan para pekerja kesihatan dan masyarakat untuk mempraktikkan amalan kesihatan yang baik.',
-      'career' =>  'Ahli biokimia mengkaji reaksi kimia pada benda-benda hidup, termasuk bagaimana virus dapat mengambil alih sel yang terjangkiti!',
+      'pocket_fact' =>  'Semasa wabak berterusan pada tahun 1998, para pakar yang mengetuai komunikasi berkenaan perkembangan wabak tersebut mengalakkan para pekerja kesihatan dan masyarakat untuk mempraktikkan amalan kesihatan yang baik.',
+      'career' =>  'Ahli biokimia mengkaji reaksi kimia dalam benda-benda hidup, termasuk cara virus dapat mengambil alih sel yang dijangkiti!',
       'virus_hunter' => 'Kaw Bing Chua merupakan seorang pelajar virologi sewaktu beliau menemui Virus Nipah, dan akhirnya penyebaran wabak tersebut dapat dikawal.',
       'try_out' => [
         'title'=> 'Seret dan lepas nama dan fungsi struktur virus yang betul ke label. ',
@@ -197,34 +199,34 @@ return [
     'title'=> 'COVID-19',
     'dialog' => [
       'girl' => 'Kita perlu memakai pelitup muka kerana COVID-19 ini merebak melalui titisan pernafasan. Hal ini sangat penting kerana ramai pesakit COVID-19 tidak menunjukkan sebarang simptom pun!',
-      'boy' => 'Sewaktu pandemik, kita mesti memakai pelitup muka apabila kita berada di luar dan ketika bertemu dengan orang. Kenapa memakai pelitup muka ini sangat penting,Gina?'
+      'boy' => 'Sewaktu pandemik, kita mesti memakai pelitup muka apabila kita berada di luar dan ketika bertemu dengan orang. Kenapakah memakai pelitup muka ini sangat penting, Gina?'
     ],
     "popup" => [
-      'pocket_fact' =>  'Simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
+      'pocket_fact' =>  'Simptom-simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
       'didyouknow' =>  [
-        '<h4>Operation Warp Speed</h4>Operation Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.',
-        'Melalui Operation Warp Speed, kerajaan Amerika Syarikat melaburkan $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin untuk menangani COVID-19. Setakat ini, program ini telah menghasilkan dan mengedarkan lebih kurang 50 juta dos vaksin--semuanya diperbuat di Amerika Syarikat--dengan beratus juta lagi dos akan datang.'
+        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Melalui Operasi Warp Speed, kerajaan Amerika Syarikat melabur sebanyak $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin dalam menangani COVID-19.',
+        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Setakat ini, program ini telah menghasilkan dan mengedar lebih kurang 50 juta dos vaksin--semuanya diperbuat di Amerika Syarikat--dengan beratus juta lagi dos akan diedarkan.'
       ],
-      'virus_hunter' => 'Noor Hisham Abdullah, dikenali dalam menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
+      'virus_hunter' => 'Noor Hisham Abdullah ditugaskan untuk menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
     ],
     'spotlight' => [
       'btn' => 'Tonton<br>Video',
       'title' => 'Cegah Penyebaran Penyakit',
-      'desc' => 'Sama ada sewaktu pandemik ataupun tiada pandemik, kita mestilah sentiasa melindungi diri kita dan orang di sekeliling kita daripada mendapat penyakit. Tonton video ini dan lihat, bagaimana cara kita dapat menghalang penyebaran penyakit sewaktu kita batuk ataupun bersin!',
+      'desc' => 'Sama ada sewaktu pandemik ataupun tidak, kita mestilah sentiasa melindungi diri kita dan orang di sekeliling kita daripada mendapat penyakit. Tonton video ini dan lihat cara kita dapat menghalang penyebaran penyakit sewaktu kita batuk ataupun bersin!',
     ]
   ],
 
   'vaccines' => [
     'title' => 'Vaksin',
     'dialog' => [
-      'girl' => 'Oleh kerana vaksin kini diedarkan ke seluruh dunia, masih ada harapan untuk kita menghentikan wabak ini kerana kita sudah mendapat kekebalan terhadap virus tersebut.',
-      'boy' => 'Ya! Kita haruslah tetap memakai pelitup muka, kerap membasuh tangan dan mempraktikkan penjarakan social untuk memperlahankan penyebaran wabak COVID-19 sehinggalah seluruh masyarakat kita divaksin.'
+      'girl' => 'Oleh kerana vaksin kini diedarkan ke seluruh dunia, masih ada harapan untuk kita menghentikan wabak ini kerana kita sudah membina ketahanan atau keimunan terhadap virus.',
+      'boy' => 'Ya! Kita haruslah tetap memakai pelitup muka, kerap membasuh tangan dan mempraktikkan penjarakan sosial untuk memperlahankan penyebaran wabak COVID-19 sehinggalah seluruh masyarakat kita divaksin.'
     ],
     "popup" => [
       'pocket_fact' =>  'Vaksin adalah satu bahan yang merangsang tubuh badan untuk menghasilkan keimunan aktif terhadap virus yang aktif dalam memlindungi tubuh badan daripada penyakit yang berkaitan.',
       'virus_hunter' => 'Baruch Blumberg menemui molekul yang bertanggungjawab untuk tindak balas imun bagi penyakit Hepatitis B, membawa kepada kejayaan dalam penghasilan vaksin Hepatitis B.',
       'try_out' => [
-        'title'=> 'Seret dan lepas huraian ke fasa yang betul.',
+        'title'=> 'Proses Pembangunan Vaksin: Suaikan fasa dan penerangan dengan betul.',
         'items' => [
           [
             'id' => 1,
@@ -254,13 +256,14 @@ return [
         ]
       ],
       'didyouknow' => [
-        '<h4> U.S. Government’s Global TB Strategy/TB</h4>Amerika Syarikat adalah salah satu pemberi dana terbesar untuk mengekang Penyakit Tibi.',
-        'Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia, meragut nyawa 1.4 juta orang pada tahun 2019. Amerika Syarikat merupakan salah satu pemberi dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat melaburkan $332 juta bagi menyokong usaha ini pada tahun 2021. Di 23 negara utama dibantu oleh USAID, kes Tibi menurun 29% dan kematian disebabkan oleh Tibi turun 47% sejak tahun 2000.'
+        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia yang meragut 1.4 juta nyawa pada tahun 2019.',
+        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Amerika Syarikat merupakan salah satu penyumbang dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat telah melabur sebanyak $332 juta bagi menyokong usaha ini pada tahun 2021.'
+        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Di 23 buah negara utama yang dibantu oleh USAID, kes Tibi menurun sebanyak 29% dan kematian disebabkan oleh Tibi menurun sebanyak 47% sejak tahun 2000.'
       ]
     ],
     'spotlight' => [
-      'btn' => 'Proses Kemajuan Vaksin',
-      'title' => 'Proses Kemajuan Vaksin',
+      'btn' => 'Proses Pembangunan Vaksin',
+      'title' => 'Proses Pembangunan Vaksin',
       'contentImg' => '/img/vaccines/content.png'
     ],
   ],
@@ -268,17 +271,17 @@ return [
   'toolsandtechniques' => [
     'title' => 'Peralatan & Teknik',
     'dialog' => [
-      'girl' => 'Saya pun! Ini adalah hasil setelah beberapa tahun latihan, kajian dan persediaan sebelum pandemik ini berlaku.',
-      'boy' => 'Saya mengagumi petugas kesihatan dan pakar kesihatan kita kerana bertindak balas dengan cepat terhadap wabak penyakit dan merawat kita dengan sebaik mungkin.'
+      'girl' => 'Saya pun! Ini adalah hasil latihan, kajian dan persediaan jangka panjang sebelum pandemik ini berlaku.',
+      'boy' => 'Saya mengagumi petugas kesihatan dan pakar kesihatan kita kerana bertindak balas dengan cepat terhadap wabak penyakit dan menjaga kita dengan sebaik mungkin.'
     ],
     "popup" => [
       'pocket_fact' =>  'RT-PCR kini digunakan secara global untuk mengesan jangkitan COVID-19!',
       'didyouknow' =>  [
-        '<h4>PEPFAR</h4>PEPFAR telah menyelamatkan 20 juta nyawa.',
-        'U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) adalah komitmen terbesar oleh mana-mana negara untuk menangani satu penyakit utama dalam sejarah. Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
+        '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) adalah komitmen terbesar oleh mana-mana negara untuk menangani satu penyakit dalam sejarah.',
+        '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
       ],
       'try_out' => [
-        'title'=> 'Seret dan lepas untuk menyusun langkah-langkah ujian COVID-19 berdasarkan urutan yang betul.',
+        'title'=> 'Ujian Pengesanan COVID-19: Susun langkah-langkah berikut dengan susunan yang betul.',
         'items' => [
           [
             'id'=>1,
@@ -306,12 +309,12 @@ return [
     'title'=> 'Tahniah kerana anda telah menyelesaikan cabaran!',
     'title2'=> 'Anda belum melengkapkan semua aktiviti! ',
     'desc' => 'Tuntut pingat kehormatan anda, Virus Hunter!',
-    'desc2' => 'Pulang semula ke laman sebelumnya untuk mengumpul semua bintang.',
-    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di:',
+    'desc2' => 'Kembali semula ke laman sebelumnya untuk mengumpul semua bintang.',
+    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di sini',
     'dialog'=>[
       'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
-      'Mari ketahui dengan lebih lanjut berkenaan peranan A.S dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
-      'Baca lebih lanjut berkenaan bagaimana untuk melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
+      'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
+      'Baca lebih banyak berkenaan cara melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
     ]
   ]
 ];

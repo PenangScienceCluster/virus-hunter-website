@@ -14,8 +14,6 @@ $(function () {
     ],
   });
 
-  eraseCookie();
-
   $("#fb img").hover(
     function () {
       $(this).attr("src", "/img/completed/btn-share-fb-on.png");
@@ -78,6 +76,7 @@ $(function () {
     popup(social);
   });
 
+  var url = "/" + lang + "/toolsandtechniques";
   var currentCookiesStar = getCookieValue("vhst");
   var notCompleted = true;
   // currentCookiesStar = "1|2|2|3";
@@ -97,15 +96,20 @@ $(function () {
       $(".title, .desc").removeClass("d-none");
       $(".medal").css("visibility", "visible");
       notCompleted = false;
+      url = "/";
+
+      eraseCookieSection();
+      eraseCookieStar();
     }
   }
 
   if (notCompleted) {
     $(".title2, .desc2").removeClass("d-none");
 
-    $(".stars").addClass("less");
+    // $(".stars").addClass("less");
   }
 
-  eraseCookieSection();
-  eraseCookieStar();
+  $(".btn-back").click(function () {
+    location.href = url;
+  });
 });

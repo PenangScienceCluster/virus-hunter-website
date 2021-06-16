@@ -26,17 +26,23 @@ foreach ($steps as $i => $v) {
 
 
 <!-- Modal -->
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade pop-model-content" id="try_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.try_out') ?>
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
       <div class="modal-body">
-        <div class="popup-content">
+
+        <h5 class="modal-title" id="exampleModalLabel">
+          <img src="/img/popup/icn_try_pop.jpg" class="icn" />
+          <?= lang('App.subnav.try_out') ?>
+        </h5>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/img/popup/btn-popup-close-off.png" class="img-fluid" />
+        </button>
+
+        <div class="popup-content py-4 w-90 mx-auto">
+
           <div class="mx-auto mt-4 drag-area">
             <h4 class="try-title text-center">
               <?= lang('App.zoonotic.popup.try_out.title') ?>
@@ -44,7 +50,7 @@ foreach ($steps as $i => $v) {
             <div class="try-body selectable-case d-flex mt-4">
               <?= $selects ?>
             </div>
-            <div class="btn-theme w-30 mx-auto">
+            <div class="btn-theme w-40 mx-auto">
               <?= lang('App.done') ?>
             </div>
             <div class="try-footer feedback text-center text-uppercase">
@@ -62,6 +68,24 @@ foreach ($steps as $i => $v) {
     </div>
   </div>
 </div>
+<!-- 
+<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><?= lang('App.subnav.try_out') ?>
+</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div class="popup-content">
+
+  </div>
+</div>
+</div>
+</div>
+</div> -->
 
 <!-- pocket fact -->
 <?= view('layouts/pop_content', [

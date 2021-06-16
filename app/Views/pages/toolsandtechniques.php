@@ -49,18 +49,22 @@ foreach ($steps as $i => $v) {
 ]) ?>
 
 
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal fade pop-model-content" id="try_pop" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-body">
+
         <h5 class="modal-title" id="exampleModalLabel">
+          <img src="/img/popup/icn_try_pop.jpg" class="icn" />
           <?= lang('App.subnav.try_out') ?>
         </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="popup-content">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/img/popup/btn-popup-close-off.png" class="img-fluid" />
+        </button>
+
+        <div class="popup-content py-4 w-80 mx-auto mb-4">
           <div class="w-80 mx-auto drag-area">
             <h4 class="try-title text-center">
               <?= lang('App.toolsandtechniques.popup.try_out.title') ?>
@@ -71,7 +75,7 @@ foreach ($steps as $i => $v) {
             <div class="answers d-flex mt-4">
               <?= $drag ?>
             </div>
-            <div class="mt-4 feedback text-center text-uppercase">
+            <div class="my-4 feedback text-center text-uppercase" style="height: 20px;">
 
               <span class="text-success d-none" id="correct">
                 <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />
@@ -82,11 +86,14 @@ foreach ($steps as $i => $v) {
               </span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
 
 
 <div class="toolsandtechniques h-100">
