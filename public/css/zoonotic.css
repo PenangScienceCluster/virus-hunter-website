@@ -32,9 +32,9 @@ html {
 .gina .bubble {
   z-index: 1;
   position: absolute;
-  top: -2.25vw;
+  bottom: 5%;
   /* left: 15.1875vw; */
-  left: 80%;
+  left: 100%;
 }
 
 .ilyas {
@@ -56,8 +56,8 @@ html {
   position: absolute;
   /* top: 13.4583vw;
   left: -21.875vw; */
-  top: 55%;
-  right: 80%;
+  top: 0;
+  right: 110%;
   border: 0px solid red;
 }
 

@@ -16,6 +16,8 @@ return [
   'done' => 'done',
   'download'=> 'Download',
   'return' => 'Return',
+  'overview_bottom_nav' => 'Overview',
+
 
   'nav' => [
     'home' => 'Home',
@@ -318,6 +320,7 @@ return [
       'Learn more about the Virus Hunter project <a href="{0}">here</a>.',
       'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
       'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
-    ]
+    ],
+    'share_on' => 'Share on'
   ]
 ];

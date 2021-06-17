@@ -421,6 +421,19 @@ button:active {
   top: 2.396vw;
 }
 
+.bubble-right:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 0px solid transparent;
+  border-left: 2.604vw solid #fff;
+  border-top: 2.604vw solid transparent;
+  border-bottom: 0px solid #fff;
+  right: -2vw;
+  top: 2.396vw;
+}
+
 .bubble-bottom-left:before {
   content: "";
   width: 0px;

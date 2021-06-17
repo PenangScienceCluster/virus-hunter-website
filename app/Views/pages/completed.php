@@ -17,7 +17,9 @@
         <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
 
-            <h4 class="mb-4">Share on:</h4>
+            <h4 class="mb-4">
+              <?= lang('App.completed.share_on') ?> :
+            </h4>
             <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
               data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-fb-off.png" style="width:8vw" />
@@ -121,7 +123,7 @@
       <div class="item small">
         <div class="row align-items-center h-100">
           <div class="col-12 my-auto">
-            <?= lang('App.completed.dialog.2', ['https://www.usaid.gov/']) ?>
+            <?= lang('App.completed.dialog.2', ['https://www.cdc.gov/']) ?>
           </div>
         </div>
       </div>

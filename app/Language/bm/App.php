@@ -16,6 +16,7 @@ return [
   'done' => 'tamat',
   'download'=>'Muat Turun',
   'return' => 'Kembali',
+  'overview_bottom_nav' => 'Pengenalan',
 
   'nav' => [
     'home' => 'Halaman Utama',
@@ -316,6 +317,7 @@ return [
       'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
       'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
       'Baca lebih banyak berkenaan cara melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
-    ]
+    ],
+    'share_on' => 'Kongsi di'
   ]
 ];

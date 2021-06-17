@@ -100,7 +100,7 @@
 
 .bubble .item {
   height: 8vh;
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 .title {
@@ -117,5 +117,10 @@
   } */
   .social-wrap .title {
     font-size: 0.9vw;
+  }
+
+  .bubble .item {
+    height: 12vh;
+    border: 0px solid red;
   }
 }

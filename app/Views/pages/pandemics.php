@@ -10,7 +10,7 @@
   'nextLink' => '/zoonotic',
   'nextLinkName' => str_replace('<br>', ' ', lang('App.zoonotic.title')),
   'backLink' => '/overview',
-  'backLinkName' => 'overview'
+  'backLinkName' => lang('App.overview_bottom_nav')
 ]) ?>
 
 
