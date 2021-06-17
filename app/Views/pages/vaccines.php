@@ -70,6 +70,7 @@ foreach ($steps as $i => $v) {
                 <?= lang('App.try_again') ?>!
               </span>
             </div>
+            <br><br>
           </div>
 
         </div>
