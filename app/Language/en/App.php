@@ -15,6 +15,7 @@ return [
   'back' => 'back',
   'done' => 'done',
   'download'=> 'Download',
+  'return' => 'Return',
 
   'nav' => [
     'home' => 'Home',

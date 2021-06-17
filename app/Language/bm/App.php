@@ -15,6 +15,7 @@ return [
   'back' => 'Kembali',
   'done' => 'tamat',
   'download'=>'Muat Turun',
+  'return' => 'Kembali',
 
   'nav' => [
     'home' => 'Halaman Utama',

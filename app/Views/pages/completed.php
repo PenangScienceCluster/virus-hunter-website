@@ -62,7 +62,7 @@
         </h4>
         <div class="d-flex w-60 mx-auto">
           <div class="position-relative btn-theme w-40 mx-auto btn-back">
-            <?= lang('App.back') ?>
+            <?= lang('App.return') ?>
           </div>
           <div class="position-relative btn-theme w-40 mx-auto btn-share" data-toggle="modal" data-target="#share_pop">
             <?= lang('App.btn_share') ?>
