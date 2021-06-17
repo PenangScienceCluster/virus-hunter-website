@@ -4,11 +4,11 @@
 return [
   'share_caption' => 'Do you have what it takes to become a Virus hunter?',
   'share_title' => 'Virus Hunter',
-  'share_description' => 'Join Gina and Ilyas in their quest to become Virus Hunter! Pick up quick facts while learning about real-world viruses, pandemics and vaccines.',
+  'share_description' => 'Join Gina and Ilyas in their quest to become Virus Hunters! Pick up quick facts while learning about real-world viruses, pandemics, and vaccines.',
   'share_image' => '/img/shared/fb{0}.jpg',
 
   'done'=> 'Done',
-  'correct'=> 'correct',
+  'correct'=> 'correct!',
   'try_again'=> 'try again',
   'btn_share' => 'Share',
   'next' => 'next',
@@ -36,28 +36,28 @@ return [
 
   'home' => [
     'imready' => 'i\'m ready',
-    'aprojectby' => 'Organized by',
+    'aprojectby' => 'A project by',
     'supportedby' => 'Supported by',
     'title'=> '/img/landing/header_en.png'
   ],
   'overview' => [
     'letsbegin' => 'let\'s begin!',
     'continue' => 'continue',
-    'joingina' => 'Join Gina and Ilyas in their quest to become <span class="text-white">Virus Hunter</span><span>!</span>',
+    'joingina' => 'Join Gina and Ilyas in their quest to become <span class="text-white">Virus Hunters</span><span>!</span>',
     'pickupfacts' => 'Pick up quick facts while learning about real-world viruses, pandemics and vaccines.',
     'bubble_instruction' => 'Complete activities to collect stars and earn the Virus Hunter medal!'
   ],
 
   'aboutus' => [
     'title' => 'About Us',
-    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the U.S. Embassy Kuala Lumpur through the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics and vaccines.<br><br>
+    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the U.S. Embassy Kuala Lumpur through the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics, and vaccines.<br><br>
     We also hope to help students learn more about STEM study and career pathways in the life sciences!',
-    'organizedby' => 'Organized By',
+    'organizedby' => 'A project by',
   ],
 
   'contactus' => [
     'title' => 'Contact Us',
-    'desc' => 'Join STEM activities by Penang Science Cluster <br>- available both virtually and in-person at:',
+    'desc' => 'Join STEM activities by Penang Science Cluster <br>- available both virtually and in-person - here.',
     'visit_enquiry' => 'Visit us to <a href="{0}" target="_blank">find out more</a>!'
   ],
 
@@ -121,7 +121,7 @@ return [
       'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
     ],
     "popup" => [
-      'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food or environment.',
+      'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food, or environment.',
       'career' =>  'Because animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreaks.',
       'didyouknow' =>  [
         '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.',
@@ -170,9 +170,9 @@ return [
     "popup" => [
       'pocket_fact' =>  'During the outbreak in 1998, experts led communications on progress of the outbreak to encourage best health practice by health workers as well as the community.',
       'career' =>  'Biochemists study chemical reactions in living things, including how viruses take control of infected cells!',
-      'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak',
+      'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak.',
       'try_out' => [
-        'title'=> 'Drag and drop the correct name and function of the virus structure to the label.',
+        'title'=> 'Label the virus structure with the correct name and function.',
         'items' => [
           [
             'id' => 1,
@@ -206,16 +206,16 @@ return [
       'boy' => 'I heard that during the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
     ],
     "popup" => [
-      'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath and loss of taste and smell.',
+      'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath, and loss of taste and smell.',
       'didyouknow' =>  [
-        '<h4>Operation Warp Speed helps to combat Covid-19 and accelerates vaccination plan.</h4>Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
-        '<h4>Operation Warp Speed helps to combat Covid-19 and accelerates vaccination plan.</h4>To date, the program has managed to produce and deliver about 50 million vaccine doses—all made in the U.S.—with hundreds of millions more on the way.'
+        '<h4>Operation Warp Speed helps to combat COVID-19 and accelerates vaccination plan.</h4>Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
+        '<h4>Operation Warp Speed helps to combat Covid-19 and accelerates vaccination plan.</h4>To date, the program has managed to produce and deliver about 50 million vaccine doses — all made in the U.S. — with hundreds of millions more on the way.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling the COVID-19 pandemic in Malaysia.',
     ],
     'spotlight' => [
       'btn' => 'Watch<br>Video',
-      'title' => 'Prevent the Spread of Disease',
+      'title' => 'Prevent the Spread of Diseases',
       'desc' => 'With or without a pandemic, we should always do our part to protect ourselves and others around us from getting sick. Watch this video on how to prevent the spread of disease when we cough and sneeze!',
     ]
   ],
@@ -224,13 +224,13 @@ return [
     'title'=> 'vaccines',
     'dialog' => [
       'girl' => 'Because vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
-      'boy' => 'Yes! But we must continue to wear face marks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
+      'boy' => 'Yes! But we must continue to wear face masks, wash our hands and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
     ],
     "popup" => [
       'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
-      'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of hepatitis B vaccine.',
+      'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of a hepatitis B vaccine.',
       'try_out' => [
-        'title'=> 'Vaccine Development Process: Match the description to the correct phase.',
+        'title'=> 'Match the description to the correct phase.',
         'items' => [
           [
             'id' => 1,
@@ -261,7 +261,7 @@ return [
       ],
       'didyouknow' => [
         '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.',
-        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 Million for 2021.',
+        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 million for 2021.',
         '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.',
       ]
 
@@ -276,17 +276,18 @@ return [
   'toolsandtechniques' => [
     'title' => 'TOOLS & TECHNIQUES',
     'dialog' => [
-      'girl' => 'Me too! This is the result of years of training, research and preparation long before the pandemic happened.',
+      'girl' => 'Me too! This is the result of years of training, research, and preparation long before the pandemic happened.',
       'boy' => 'I admire our health workers and experts for responding so quickly to the outbreak and taking care of us to the best of their ability.'
     ],
     "popup" => [
-      'pocket_fact' =>  'RT-PCR is currently used globally to detect COVID-19 infection.',
+      'pocket_fact' =>  'RT-PCR is currently in use globally to detect COVID-19 infection!',
       'didyouknow' =>  [
         '<h4>PEPFAR has saved 20 million lives.</h4>The U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) is the largest commitment by any nation to address a single disease in history.',
         '<h4>PEPFAR has saved 20 million lives.</h4>Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
       ],
       'try_out' => [
-        'title'=> 'COVID-19 Testing: Arrange the steps based on the correct sequence.',
+        'step' => 'Step',
+        'title'=> 'Arrange the steps of COVID-19 testing based on the correct sequence.',
         'items' => [
           [
             'id'=>1,
@@ -315,11 +316,11 @@ return [
     'title2'=> 'You did not complete all your challenges!',
     'desc'=> 'Claim your medal of honor, Virus Hunter!',
     'desc2'=> 'Return to the previous pages to collect all the stars.',
-    'join'=>'Join our STEM activities <br>- available both virtually and in-person at:',
+    'join'=>'Join our STEM activities <br>- available both virtually and in-person here.',
     'dialog'=>[
       'Learn more about the Virus Hunter project <a href="{0}">here</a>.',
-      'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}">here</a>.',
-      'Read more about how to protect yourself and your family and friend from different diseases <a href="{0}">here</a>.'
+      'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}" target="_blank">here</a>.',
+      'Read more about how to protect yourself and your family and friends from different diseases <a href="{0}" target="_blank">here</a>.'
     ],
     'share_on' => 'Share on'
   ]

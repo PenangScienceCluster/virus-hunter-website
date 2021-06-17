@@ -8,8 +8,8 @@ return [
   'share_image' => '/img/logo500x500.jpg',
 
   'done'=> 'Selesai',
-  'correct'=> 'betul',
-  'try_again'=> 'cuba lagi',
+  'correct'=> 'betul!',
+  'try_again'=> 'cuba semula',
   'btn_share' => 'Kongsi',
   'next' => 'Seterusnya',
   'back' => 'Kembali',
@@ -83,9 +83,9 @@ return [
       'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'didyouknow' =>  [
-        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
-        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
-        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
+        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
+        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
+        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
       ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk-nyamuk yang direka khusus secara genetik untuk mencegah wabak pada masa hadapan.',
     ],
@@ -118,44 +118,44 @@ return [
       'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah awak bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
       'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan mengelak dari mengunjung tempat yang sesak.'
     ],
-    'didyouknow' =>  [
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
-    ],
     "popup" => [
       'pocket_fact' =>  'Penyakit-penyakit zoonotik merebak dari haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
       'career' =>  'Pemerdagangan haiwan liar merupakan salah satu faktor yang mendorong kemunculan penyakit zoonotik. Oleh itu, ahli pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
+      'didyouknow' =>  [
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
+      ],
       'try_out' => [
         'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit-penyakit zoonotik.',
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/zoonotic/zoonotic-try-01-en.png',
+            'src'=>'/img/zoonotic/zoonotic-try-01-bm.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/zoonotic/zoonotic-try-02-en.png',
+            'src'=>'/img/zoonotic/zoonotic-try-02-bm.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/zoonotic/zoonotic-try-03-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-03-bm.png'
           ],
           [
             'id' => 4,
-            'src'=>'/img/zoonotic/zoonotic-try-04-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-04-bm.png'
           ],
           [
             'id' => 5,
-            'src'=>'/img/zoonotic/zoonotic-try-05-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-05-bm.png'
           ]
         ]
       ]
     ],
     'spotlight' => [
       'btn' => 'Ketahui Penyebaran Penyakit',
-      'title' => 'Penularan Penyakit dari Haiwan ke Manusia',
-      'contentImg' => '/img/zoonotic/content.png'
+      'title' => 'Penyebaran Penyakit dari Haiwan ke Manusia',
+      'contentImg' => '/img/zoonotic/content_bm.png'
     ]
   ],
 
@@ -170,7 +170,7 @@ return [
       'career' =>  'Ahli biokimia mengkaji reaksi kimia dalam benda-benda hidup, termasuk cara virus dapat mengambil alih sel yang dijangkiti!',
       'virus_hunter' => 'Kaw Bing Chua merupakan seorang pelajar virologi sewaktu beliau menemui Virus Nipah, dan akhirnya penyebaran wabak tersebut dapat dikawal.',
       'try_out' => [
-        'title'=> 'Seret dan lepas nama dan fungsi struktur virus yang betul ke label. ',
+        'title'=> 'Labelkan struktur virus dengan nama dan fungsi yang betul.',
         'items' => [
           [
             'id' => 1,
@@ -191,9 +191,9 @@ return [
       ]
     ],
     'spotlight' => [
-      'btn' => 'Ketahui Struktur virus',
+      'btn' => 'Ketahui Struktur Virus',
       'title' => 'Struktur Virus',
-      'contentImg' => '/img/nipah/content.png'
+      'contentImg' => '/img/nipah/content_bm.png'
     ]
   ],
 
@@ -207,7 +207,7 @@ return [
       'pocket_fact' =>  'Simptom-simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
       'didyouknow' =>  [
         '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Melalui Operasi Warp Speed, kerajaan Amerika Syarikat melabur sebanyak $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin dalam menangani COVID-19.',
-        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Setakat ini, program ini telah menghasilkan dan mengedar lebih kurang 50 juta dos vaksin--semuanya diperbuat di Amerika Syarikat--dengan beratus juta lagi dos akan diedarkan.'
+        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Setakat ini, program ini telah menghasilkan dan mengedar lebih kurang 50 juta dos vaksin - semuanya diperbuat di Amerika Syarikat - dengan beratus juta lagi dos akan diedarkan.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah ditugaskan untuk menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
     ],
@@ -225,34 +225,34 @@ return [
       'boy' => 'Ya! Kita haruslah tetap memakai pelitup muka, kerap membasuh tangan dan mempraktikkan penjarakan sosial untuk memperlahankan penyebaran wabak COVID-19 sehinggalah seluruh masyarakat kita divaksin.'
     ],
     "popup" => [
-      'pocket_fact' =>  'Vaksin adalah satu bahan yang merangsang tubuh badan untuk menghasilkan keimunan aktif terhadap virus yang aktif dalam memlindungi tubuh badan daripada penyakit yang berkaitan.',
-      'virus_hunter' => 'Baruch Blumberg menemui molekul yang bertanggungjawab untuk tindak balas imun bagi penyakit Hepatitis B, membawa kepada kejayaan dalam penghasilan vaksin Hepatitis B.',
+      'pocket_fact' =>  'Vaksin adalah satu bahan yang merangsang tubuh badan untuk menghasilkan keimunan aktif dan melindungi diri daripada virus dan penyakit yang berkaitan.',
+      'virus_hunter' => 'Baruch Blumberg menemui molekul yang bertanggungjawab untuk tindak balas imun bagi penyakit Hepatitis B dan menyumbang kepada penghasilan vaksin Hepatitis B.',
       'try_out' => [
-        'title'=> 'Proses Pembangunan Vaksin: Suaikan fasa dan penerangan dengan betul.',
+        'title'=> 'Suaikan fasa dan penerangan dengan betul.',
         'items' => [
           [
             'id' => 1,
-            'src'=>'/img/vaccines/vaccines-try-step1.png',
+            'src'=>'/img/vaccines/vaccines-try-step1-bm.png',
             'step' => 'Praklinikal'
           ],
           [
             'id' => 2,
-            'src'=>'/img/vaccines/vaccines-try-step2.png',
+            'src'=>'/img/vaccines/vaccines-try-step2-bm.png',
             'step' => 'Fasa I'
           ],
           [
             'id' => 3,
-            'src'=>'/img/vaccines/vaccines-try-step3.png',
+            'src'=>'/img/vaccines/vaccines-try-step3-bm.png',
             'step' => 'Fasa II'
           ],
           [
             'id' => 4,
-            'src'=>'/img/vaccines/vaccines-try-step4.png',
+            'src'=>'/img/vaccines/vaccines-try-step4-bm.png',
             'step' => 'Fasa III'
           ],
           [
             'id' => 5,
-            'src'=>'/img/vaccines/vaccines-try-step5.png',
+            'src'=>'/img/vaccines/vaccines-try-step5-bm.png',
             'step' => 'Kelulusan'
           ]
         ]
@@ -266,7 +266,7 @@ return [
     'spotlight' => [
       'btn' => 'Proses Pembangunan Vaksin',
       'title' => 'Proses Pembangunan Vaksin',
-      'contentImg' => '/img/vaccines/content.png'
+      'contentImg' => '/img/vaccines/content_bm.png'
     ],
   ],
 
@@ -283,19 +283,20 @@ return [
         '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
       ],
       'try_out' => [
+        'step' => 'Langkah',
         'title'=> 'Ujian Pengesanan COVID-19: Susun langkah-langkah berikut dengan susunan yang betul.',
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/toolsandtechniques/step1_en.png',
+            'src'=>'/img/toolsandtechniques/step1_bm.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/toolsandtechniques/step2_en.png',
+            'src'=>'/img/toolsandtechniques/step2_bm.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/toolsandtechniques/step3_en.png'
+            'src'=>'/img/toolsandtechniques/step3_bm.png'
           ]
         ]
       ]
@@ -303,7 +304,7 @@ return [
     'spotlight' => [
       'btn' => 'Ketahui Ujian COVID-19',
       'title' => 'Ujian COVID-19',
-      'contentImg' => '/img/toolsandtechniques/content.png'
+      'contentImg' => '/img/toolsandtechniques/content_bm.png'
     ]
   ],
 
@@ -312,11 +313,11 @@ return [
     'title2'=> 'Anda belum melengkapkan semua aktiviti! ',
     'desc' => 'Tuntut pingat kehormatan anda, Virus Hunter!',
     'desc2' => 'Kembali semula ke laman sebelumnya untuk mengumpul semua bintang.',
-    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di sini',
+    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di sini.',
     'dialog'=>[
       'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
-      'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}">di sini</a>.',
-      'Baca lebih banyak berkenaan cara melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}">di sini</a>.'
+      'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}" target="_blank">di sini</a>.',
+      'Baca lebih banyak berkenaan cara melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}" target="_blank">di sini</a>.'
     ],
     'share_on' => 'Kongsi di'
   ]

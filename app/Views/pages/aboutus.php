@@ -34,7 +34,7 @@
           <div class="logo-base w-60 mx-auto  animated fadeIn delay-1s">
             <div class="row">
               <div class="col-6">
-                <div class="text-left">
+                <div class="text-left font-weight-bold">
                   <?= lang('App.aboutus.organizedby') ?>
                 </div>
                 <a href="https://www.pscpen.com" target="_blank">
@@ -42,7 +42,7 @@
                 </a>
               </div>
               <div class="col-6">
-                <div class="text-left">
+                <div class="text-left font-weight-bold">
                   <?= lang('App.home.supportedby') ?>
                 </div>
                 <div class="row mt-1">

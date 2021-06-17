@@ -21,17 +21,13 @@
 }
 
 .stars {
-  margin-top: -1.5vw;
+  margin-top: -2vw;
 }
 .stars.less {
   margin-top: -10% !important;
 }
 .stars img {
   width: 4vw;
-}
-
-.btn-share {
-  padding: 0.5vw 0 1.3vw 0;
 }
 
 .social {
@@ -104,10 +100,14 @@
 }
 
 .title {
-  font-size: 1.2vw;
+  /* font-size: 1.2vw; */
   width: 70%;
   margin: auto;
   line-height: 1.2em;
+}
+
+.carousel-item {
+  padding-bottom: 2px;
 }
 @media only screen and (max-height: 480px) {
   /* .social-wrap {

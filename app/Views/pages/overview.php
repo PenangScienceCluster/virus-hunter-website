@@ -18,6 +18,7 @@
           <?= lang('App.overview.pickupfacts') ?>
         </h4>
       </div>
+      
       <div class="position-relative bar mx-auto">
         <div class="ladybird"></div>
         <div class="overview-bubble line-height animated bounceInDown delay-1s">
@@ -27,7 +28,7 @@
           id="progress" />
       </div>
 
-      <div class="position-relative btn-theme w-30 mx-auto btn-begin animated fadeInUp delay-1s"
+      <div class="position-relative btn-theme mx-auto btn-begin animated fadeInUp delay-1s"
         data-lang="<?= locale() ?>">
         <span id="text-begin" class="d-none" data-href="<?= urlWithLocale('/pandemics') ?>">
           <?= lang('App.overview.letsbegin') ?>
