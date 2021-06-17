@@ -9,7 +9,7 @@ return [
 
   'done'=> 'Selesai',
   'correct'=> 'betul',
-  'try_again'=> 'cuba semula',
+  'try_again'=> 'cuba lagi',
   'btn_share' => 'Kongsi',
   'next' => 'Seterusnya',
   'back' => 'Kembali',
@@ -83,9 +83,9 @@ return [
       'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'didyouknow' =>  [
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
+        '<h4>U.S President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
       ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk-nyamuk yang direka khusus secara genetik untuk mencegah wabak pada masa hadapan.',
     ],
@@ -154,7 +154,7 @@ return [
     ],
     'spotlight' => [
       'btn' => 'Ketahui Penyebaran Penyakit',
-      'title' => 'Penyebaran Penyakit dari Haiwan ke Manusia',
+      'title' => 'Penularan Penyakit dari Haiwan ke Manusia',
       'contentImg' => '/img/zoonotic/content_bm.png'
     ]
   ],
