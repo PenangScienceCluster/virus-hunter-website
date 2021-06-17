@@ -82,7 +82,7 @@ html {
 }
 
 .try-title {
-  font-size: 1.9792vw;
+  font-size: 1.9vw;
   font-weight: 600;
   /* padding: 0 10.4167vw; */
   margin: 10px 0 0 0;
@@ -195,14 +195,14 @@ html {
 
 @media only screen and (max-height: 480px) {
   .answer {
-    max-width: 6vw;
+    max-width: 8vw;
     /* margin: 5px; */
   }
   .questions {
     margin-top: 0 !important;
   }
   .question {
-    max-width: 6vw;
+    max-width: 8vw;
     /* margin: 5px; */
     position: relative;
   }
@@ -224,12 +224,23 @@ html {
   }
 
   .feedback {
-    font-size: 2vw;
-    height: 30px;
+    font-size: 1.5vw;
+    height: 20px;
+    border: 0px solid red;
   }
 
   .feedback .star {
     width: 5% !important;
+  }
+
+  .try-title {
+    font-size: 1.5vw;
+    font-weight: 600;
+
+    margin: 0;
+  }
+  .try-title2 {
+    font-size: 1.2vw;
   }
 }
 

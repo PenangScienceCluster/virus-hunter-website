@@ -49,7 +49,7 @@ foreach ($steps as $i => $v) {
             <h4 class="try-title text-center">
               <?= lang('App.vaccines.spotlight.title') ?>
             </h4>
-            <h4 class="text-center">
+            <h4 class="try-title2 text-center">
               <?= lang('App.vaccines.popup.try_out.title') ?>
             </h4>
             <div class="try-body">

@@ -2,7 +2,7 @@ var currentDragId = "";
 var correctCount = 0;
 
 $(function () {
-  // $("#try_pop").modal("show");
+  $("#try_pop").modal("show");
 
   storeSection("vaccines");
 
