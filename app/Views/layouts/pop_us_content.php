@@ -14,7 +14,7 @@
         </button>
 
         <div class="popup-content py-4 w-80 mx-auto">
-          <div class="w-70 mx-auto text-center">
+          <div class="w-80 mx-auto text-center">
             <img src="<?= $img ?>" class="us-img-big" />
           </div>
 
