@@ -118,14 +118,14 @@ return [
       'girl' => 'Benar! Saya cuba membawa cecair pembasmi kuman bersama saya setiap kali saya keluar dari rumah. Tahukah awak bahawa COVID-19 ini merupakan satu penyakit zoonotik?',
       'boy' => 'Kita dapat mencegah penyebaran virus COVID-19 dengan amalan membasuh tangan dan mengelak dari mengunjung tempat yang sesak.'
     ],
-    'didyouknow' =>  [
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
-      '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
-    ],
     "popup" => [
       'pocket_fact' =>  'Penyakit-penyakit zoonotik merebak dari haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
       'career' =>  'Pemerdagangan haiwan liar merupakan salah satu faktor yang mendorong kemunculan penyakit zoonotik. Oleh itu, ahli pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
+      'didyouknow' =>  [
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
+        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
+      ],
       'try_out' => [
         'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit-penyakit zoonotik.',
         'items' => [
