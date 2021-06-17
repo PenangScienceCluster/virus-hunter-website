@@ -2,6 +2,8 @@ var currentDragId = "";
 var correctCount = 0;
 
 $(function () {
+  // $("#try_pop").modal("show");
+
   storeSection("vaccines");
 
   // spotlight

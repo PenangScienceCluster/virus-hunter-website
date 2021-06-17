@@ -257,7 +257,7 @@ return [
       ],
       'didyouknow' => [
         '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia yang meragut 1.4 juta nyawa pada tahun 2019.',
-        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Amerika Syarikat merupakan salah satu penyumbang dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat telah melabur sebanyak $332 juta bagi menyokong usaha ini pada tahun 2021.'
+        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Amerika Syarikat merupakan salah satu penyumbang dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat telah melabur sebanyak $332 juta bagi menyokong usaha ini pada tahun 2021.',
         '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Di 23 buah negara utama yang dibantu oleh USAID, kes Tibi menurun sebanyak 29% dan kematian disebabkan oleh Tibi menurun sebanyak 47% sejak tahun 2000.'
       ]
     ],

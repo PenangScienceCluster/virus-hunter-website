@@ -77,25 +77,6 @@ foreach ($steps as $i => $v) {
     </div>
   </div>
 </div>
-<!-- 
-<div class="custom-modal modal fade" id="try_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">
-          <?= lang('App.subnav.try_out') ?>
-</h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-  <div class="popup-content">
-
-  </div>
-</div>
-</div>
-</div>
-</div> -->
 
 
 <!-- pocket fact -->
@@ -124,8 +105,7 @@ foreach ($steps as $i => $v) {
 <!-- did you know -->
 <?= view('layouts/pop_us_content', [
   'img' => '/img/didyouknow/vaccine.png',
-  'text1' => lang('App.vaccines.popup.didyouknow.0'),
-  'text2' => lang('App.vaccines.popup.didyouknow.1'),
+  'text' => lang('App.vaccines.popup.didyouknow'),
 ]) ?>
 
 <div class="pandemic h-100">

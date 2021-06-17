@@ -45,8 +45,7 @@
 <!-- did you know -->
 <?= view('layouts/pop_us_content', [
   'img' => '/img/didyouknow/pandamics.png',
-  'text1' => lang('App.pandemics.popup.didyouknow.0'),
-  'text2' => lang('App.pandemics.popup.didyouknow.1'),
+  'text' => lang('App.pandemics.popup.didyouknow'),
 ]) ?>
 
 

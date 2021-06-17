@@ -67,11 +67,11 @@ html {
 
 /* tryout */
 #try_pop .modal-body {
-  padding: 0px 6.25vw;
+  padding: 0px 0vw;
 }
-#try_pop .modal-content {
+/* #try_pop .modal-content {
   background-image: url(../img/popup/bg-lg.png);
-}
+} */
 
 #try_pop .modal-dialog {
   min-width: 70vw;
@@ -189,6 +189,10 @@ html {
   }
 }
 
+.pop-model-content .modal-content {
+  width: 140vh;
+}
+
 @media only screen and (max-height: 480px) {
   .answer {
     max-width: 6vw;
@@ -226,10 +230,6 @@ html {
 
   .feedback .star {
     width: 5% !important;
-  }
-
-  .pop-model-content .modal-content {
-    width: 140vh;
   }
 }
 

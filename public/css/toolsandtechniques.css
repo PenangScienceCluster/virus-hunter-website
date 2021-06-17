@@ -123,6 +123,10 @@ html {
   }
 }
 
+.pop-model-content .modal-content {
+  width: 120vh;
+}
+
 @media only screen and (max-height: 480px) {
 }
 

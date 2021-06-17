@@ -13,42 +13,32 @@
           <img src="/img/popup/btn-popup-close-off.png" class="img-fluid" />
         </button>
 
-        <div class="popup-content py-4 w-80 mx-auto">
+        <div class="popup-content py-4 w-80 mx-auto" style="height: 55vh; border:0px solid red;">
+          <div class="w-70 mx-auto text-center">
+            <img src="<?= $img ?>" class="us-img-big" />
+          </div>
+
           <div id="slide" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="popup-content">
-                  <div class="w-100 mx-auto text-center">
-                    <img src="<?= $img ?>" class="us-img-big" />
-                    <div class="popup-tex my-4 w-100 text-center mx-auto lineheight">
-                      <?= $text1 ?>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="popup-content">
-                  <div class="w-90 mx-auto text-center">
-                    <img src="<?= $img ?>" class="w-45" />
-                  </div>
-                  <div class="popup-tex my-4 w-70 text-center mx-auto">
-                    <?= $text2 ?>
-                  </div>
-                </div>
-              </div>
+              <?php
+                foreach ($text as $i=>$v) {
+                    $active = $i==0 ? 'active' : '';
+                    echo '<div class="carousel-item '.$active.'"><div class="my-4 w-80 mx-auto text-center lineheight">'.$v.'</div></div>';
+                }
+              ?>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#slide" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#slide" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#slide" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>
