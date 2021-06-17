@@ -6,7 +6,7 @@ $steps = lang('App.toolsandtechniques.popup.try_out.items');
 $drop = $drag ='';
 
 foreach ($steps as $i => $v) {
-    $drop .= '<div class="question mr-1" id="q'.$v['id'].'" data-id="'.$v['id'].'"><img src="'.$v['src'].'" class="img-fluid" /><div class="step">Step '.($i+1).'</div></div>';
+    $drop .= '<div class="question mr-1" id="q'.$v['id'].'" data-id="'.$v['id'].'"><img src="'.$v['src'].'" class="img-fluid" /><div class="step">'.lang('App.toolsandtechniques.popup.try_out.step').' '.($i+1).'</div></div>';
 }
 
 shuffle($steps);

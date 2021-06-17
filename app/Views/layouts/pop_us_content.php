@@ -13,7 +13,7 @@
           <img src="/img/popup/btn-popup-close-off.png" class="img-fluid" />
         </button>
 
-        <div class="popup-content py-4 w-80 mx-auto" style="height: 55vh; border:0px solid red;">
+        <div class="popup-content py-4 w-80 mx-auto">
           <div class="w-70 mx-auto text-center">
             <img src="<?= $img ?>" class="us-img-big" />
           </div>
@@ -43,3 +43,7 @@
     </div>
   </div>
 </div>
+
+<style>
+
+</style>

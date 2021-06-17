@@ -286,6 +286,7 @@ return [
         '<h4>PEPFAR has saved 20 million lives.</h4>Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
       ],
       'try_out' => [
+        'step' => 'Step',
         'title'=> 'COVID-19 Testing: Arrange the steps based on the correct sequence.',
         'items' => [
           [

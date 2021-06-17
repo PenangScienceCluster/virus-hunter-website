@@ -131,23 +131,23 @@ return [
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/zoonotic/zoonotic-try-01-en.png',
+            'src'=>'/img/zoonotic/zoonotic-try-01-bm.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/zoonotic/zoonotic-try-02-en.png',
+            'src'=>'/img/zoonotic/zoonotic-try-02-bm.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/zoonotic/zoonotic-try-03-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-03-bm.png'
           ],
           [
             'id' => 4,
-            'src'=>'/img/zoonotic/zoonotic-try-04-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-04-bm.png'
           ],
           [
             'id' => 5,
-            'src'=>'/img/zoonotic/zoonotic-try-05-en.png'
+            'src'=>'/img/zoonotic/zoonotic-try-05-bm.png'
           ]
         ]
       ]
@@ -155,7 +155,7 @@ return [
     'spotlight' => [
       'btn' => 'Ketahui Penyebaran Penyakit',
       'title' => 'Penularan Penyakit dari Haiwan ke Manusia',
-      'contentImg' => '/img/zoonotic/content.png'
+      'contentImg' => '/img/zoonotic/content_bm.png'
     ]
   ],
 
@@ -193,7 +193,7 @@ return [
     'spotlight' => [
       'btn' => 'Ketahui Struktur virus',
       'title' => 'Struktur Virus',
-      'contentImg' => '/img/nipah/content.png'
+      'contentImg' => '/img/nipah/content_bm.png'
     ]
   ],
 
@@ -232,27 +232,27 @@ return [
         'items' => [
           [
             'id' => 1,
-            'src'=>'/img/vaccines/vaccines-try-step1.png',
+            'src'=>'/img/vaccines/vaccines-try-step1-bm.png',
             'step' => 'Praklinikal'
           ],
           [
             'id' => 2,
-            'src'=>'/img/vaccines/vaccines-try-step2.png',
+            'src'=>'/img/vaccines/vaccines-try-step2-bm.png',
             'step' => 'Fasa I'
           ],
           [
             'id' => 3,
-            'src'=>'/img/vaccines/vaccines-try-step3.png',
+            'src'=>'/img/vaccines/vaccines-try-step3-bm.png',
             'step' => 'Fasa II'
           ],
           [
             'id' => 4,
-            'src'=>'/img/vaccines/vaccines-try-step4.png',
+            'src'=>'/img/vaccines/vaccines-try-step4-bm.png',
             'step' => 'Fasa III'
           ],
           [
             'id' => 5,
-            'src'=>'/img/vaccines/vaccines-try-step5.png',
+            'src'=>'/img/vaccines/vaccines-try-step5-bm.png',
             'step' => 'Kelulusan'
           ]
         ]
@@ -266,7 +266,7 @@ return [
     'spotlight' => [
       'btn' => 'Proses Pembangunan Vaksin',
       'title' => 'Proses Pembangunan Vaksin',
-      'contentImg' => '/img/vaccines/content.png'
+      'contentImg' => '/img/vaccines/content_bm.png'
     ],
   ],
 
@@ -283,19 +283,20 @@ return [
         '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
       ],
       'try_out' => [
+        'step' => 'Langkah',
         'title'=> 'Ujian Pengesanan COVID-19: Susun langkah-langkah berikut dengan susunan yang betul.',
         'items' => [
           [
             'id'=>1,
-            'src'=>'/img/toolsandtechniques/step1_en.png',
+            'src'=>'/img/toolsandtechniques/step1_bm.png',
           ],
           [
             'id'=> 2,
-            'src'=>'/img/toolsandtechniques/step2_en.png',
+            'src'=>'/img/toolsandtechniques/step2_bm.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/toolsandtechniques/step3_en.png'
+            'src'=>'/img/toolsandtechniques/step3_bm.png'
           ]
         ]
       ]
@@ -303,7 +304,7 @@ return [
     'spotlight' => [
       'btn' => 'Ketahui Ujian COVID-19',
       'title' => 'Ujian COVID-19',
-      'contentImg' => '/img/toolsandtechniques/content.png'
+      'contentImg' => '/img/toolsandtechniques/content_bm.png'
     ]
   ],
 
