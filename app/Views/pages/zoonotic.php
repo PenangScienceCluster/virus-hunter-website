@@ -96,8 +96,7 @@ foreach ($steps as $i => $v) {
 <!-- did you know -->
 <?= view('layouts/pop_us_content', [
   'img' => '/img/didyouknow/zoonotic.png',
-  'text' => []
-  // 'text' => lang('App.zoonotic.didyouknow'),
+  'text' => lang('App.zoonotic.popup.didyouknow'),
 ]) ?>
 
 
