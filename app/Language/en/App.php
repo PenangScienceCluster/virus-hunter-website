@@ -50,7 +50,7 @@ return [
 
   'aboutus' => [
     'title' => 'About Us',
-    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the U.S. Embassy Kuala Lumpur through the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics about vaccines.<br><br>
+    'desc' => 'Virus Hunter is a public health campaign organized by Penang Science Cluster and supported by the U.S. Embassy Kuala Lumpur through the American Tech Corner Penang partnership.<br><br>Our goal is to educate students about viruses, pandemics and vaccines.<br><br>
     We also hope to help students learn more about STEM study and career pathways in the life sciences!',
     'organizedby' => 'Organized By',
   ],

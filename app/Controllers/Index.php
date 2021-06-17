@@ -48,12 +48,12 @@ class Index extends BaseController
             break;
           case  'completed':
             $js = [
-              '/lib/owl-carousel/owl.carousel.min.js',
+              // '/lib/owl-carousel/owl.carousel.min.js',
               '/js/completed.js'
             ];
             $css = [
-              '/lib/owl-carousel/assets/owl.carousel.min.css',
-              '/lib/owl-carousel/assets/owl.theme.default.css',
+              // '/lib/owl-carousel/assets/owl.carousel.min.css',
+              // '/lib/owl-carousel/assets/owl.theme.default.css',
               '/css/completed.css'
             ];
             break;

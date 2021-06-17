@@ -105,32 +105,46 @@
 <div class="position-absolute gina animated fadeInLeft delay-2s">
   <img src="/img/characters/gina-1.png" class="img-fluid" />
   <div class="bubble bubble-left animated bounceInLeft delay-3s">
-    <div class="owl-carousel owl-theme photos">
-      <div class="item small">
-        <div class="row align-items-center h-100">
-          <div class="col-12 my-auto">
-            <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
-          </div>
+
+    <div id="slide" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
+        </div>
+        <div class="carousel-item">
+          <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>
+        </div>
+        <div class="carousel-item">
+          <?= lang('App.completed.dialog.2', ['https://www.cdc.gov/']) ?>
         </div>
       </div>
-      <div class="item small">
-        <div class="row align-items-center h-100">
-          <div class="col-12 my-auto">
-            <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>
-          </div>
-        </div>
-      </div>
-      <div class="item small">
-        <div class="row align-items-center h-100">
-          <div class="col-12 my-auto">
-            <?= lang('App.completed.dialog.2', ['https://www.cdc.gov/']) ?>
-          </div>
-        </div>
-      </div>
+
+      <a class="carousel-control-prev" href="#slide" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slide" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
     </div>
+
+
 
   </div>
 </div>
+<style>
+.carousel-item {
+  font-size: 1vw;
+}
+
+.carousel-control-prev {
+  left: -2vw;
+}
+
+.carousel-control-next {
+  right: -2vw;
+}
+</style>
 
 <?= view('pages/bottom-logo') ?>
 <script>
