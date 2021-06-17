@@ -712,3 +712,9 @@ button:active {
     font-size: 1vw;
   }
 }
+
+@media only screen and (max-device-height: 480px) {
+  .bubble {
+    font-size: 1.2vw;
+  }
+}
