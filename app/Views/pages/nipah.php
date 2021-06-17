@@ -72,6 +72,7 @@ foreach ($steps as $i => $v) {
                 <?= $drop ?>
               </div>
             </div>
+            <br>
             <div class="try-footer feedback text-center text-uppercase">
               <span class="text-success d-none" id="correct">
                 <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />

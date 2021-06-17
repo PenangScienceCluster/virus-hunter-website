@@ -100,12 +100,6 @@
     </div>
   </div>
 </div>
-<style>
-.bubble .item {
-  height: 10vh;
-  border: 0px solid red;
-}
-</style>
 <div class="position-absolute gina animated fadeInLeft delay-2s">
   <img src="/img/characters/gina-1.png" class="img-fluid" />
   <div class="bubble bubble-left animated bounceInLeft delay-3s">

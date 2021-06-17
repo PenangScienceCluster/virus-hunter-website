@@ -98,6 +98,11 @@
   padding: 1.5vw 2.5vw;
 }
 
+.bubble .item {
+  height: 8vh;
+  border: 0px solid red;
+}
+
 .title {
   font-size: 1.2vw;
   width: 70%;

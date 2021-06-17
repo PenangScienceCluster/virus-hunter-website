@@ -291,6 +291,13 @@ html {
 
   .try-footer {
     font-size: 1.8vw;
+    position: absolute;
+    bottom: 1.5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0px solid red;
+    height: 30px;
   }
 }
 
