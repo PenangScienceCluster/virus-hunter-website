@@ -106,7 +106,8 @@ foreach ($steps as $i => $v) {
 <!-- did you know -->
 <?= view('layouts/pop_us_content', [
   'img' => '/img/didyouknow/vaccine.png',
-  'text' => lang('App.vaccines.popup.didyouknow'),
+  'title' => lang('App.vaccines.popup.didyouknow.title'),
+  'text' => lang('App.vaccines.popup.didyouknow.content'),
 ]) ?>
 
 <div class="pandemic h-100">

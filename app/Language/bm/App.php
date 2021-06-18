@@ -83,14 +83,17 @@ return [
       'pocket_fact' =>  'Pandemik adalah wabak penyakit yang berlaku secara tiba-tiba serta merebak kepada manusia dalam jumlah yang besar di pelbagai negara.',
       'career' =>  'Ahli epidemiologi menyiasat wabak penyakit dan potensi ancaman termasuk punca dan penyebarannya.',
       'didyouknow' =>  [
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
-        '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
+        'title' => '<h4>U.S. President\'s Malaria Initiative memanfaatkan 570 juta orang.</h4>',
+        'content' => [
+          'Selama lebih daripada 16 tahun, U.S. President’s Malaria initiative (PMI) telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
+          'PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
+          'Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
+        ]
       ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk-nyamuk yang direka khusus secara genetik untuk mencegah wabak pada masa hadapan.',
     ],
     'spotlight' => [
-      'btn' => 'Ketahui Wabak',
+      'btn' => 'Ketahui Wabak Penyakit',
       'btn2' => 'Lihat Selanjutnya',
       'title' => 'Wabak Penyakit<br>Dalam Sejarah',
       'contentImg' => '/img/pandemics/content_bm.png'
@@ -122,9 +125,12 @@ return [
       'pocket_fact' =>  'Penyakit-penyakit zoonotik merebak dari haiwan kepada manusia sama ada secara langsung atau secara tidak langsung melalui air, makanan atau persekitaran.',
       'career' =>  'Pemerdagangan haiwan liar merupakan salah satu faktor yang mendorong kemunculan penyakit zoonotik. Oleh itu, ahli pemuliharaan memainkan peranan penting dalam mencegah wabak penyakit pada masa akan datang.',
       'didyouknow' =>  [
-        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
-        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
-        '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
+        'title' => '<h4>Amerika Syarikat memainkan peranan penting dalam memimpin usaha pencegahan penularan penyakit.</h4>',
+        'content' => [
+          'Melalui Projek PREDICT sepanjang dekad lepas, Amerika Syarikat telah membelanjakan lebih $200 juta untuk melatih lebih daripada 6,000 orang ahli sains di 30 buah negara.',
+          'Di Malaysia, ahli-ahli sains PREDICT mengumpul ribuan sampel dari perkampungan terpencil Orang Asli dalam membantu mereka memahami risiko pendedahan dan penularan penyakit.',
+          'Baru-baru ini, Amerika Syarikat juga telah melancarkan STOP Spillover, suatu projek bernilai $100 juta untuk menangani ancaman penyakit-penyakit yang boleh menjangkiti manusia melalui haiwan.',
+        ]
       ],
       'try_out' => [
         'title'=> 'Pilih SEMUA faktor yang menyumbang kepada kemunculan penyakit-penyakit zoonotik.',
@@ -163,7 +169,7 @@ return [
     'title'=> 'Virus Nipah',
     'dialog' => [
       'girl' => 'Abang saya ada menceritakan bahawa Malaysia pernah menghadapi wabak penyakit sebelum ini, sebelum kita lahir lagi. Awak tahu tentang wabak itu?',
-      'boy' => 'Ya! Ibu saya pernah beritahu saya tentang wabak Virus Nipah yang merebak di semenanjung Malaysia.'
+      'boy' => 'Ya! Ibu saya pernah beritahu saya tentang wabak Virus Nipah yang merebak di Semenanjung Malaysia.'
     ],
     "popup" => [
       'pocket_fact' =>  'Semasa wabak berterusan pada tahun 1998, para pakar yang mengetuai komunikasi berkenaan perkembangan wabak tersebut mengalakkan para pekerja kesihatan dan masyarakat untuk mempraktikkan amalan kesihatan yang baik.',
@@ -206,8 +212,11 @@ return [
     "popup" => [
       'pocket_fact' =>  'Simptom-simptom COVID-19 termasuklah demam, sesak nafas dan kehilangan deria rasa dan bau.',
       'didyouknow' =>  [
-        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Melalui Operasi Warp Speed, kerajaan Amerika Syarikat melabur sebanyak $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin dalam menangani COVID-19.',
-        '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>Setakat ini, program ini telah menghasilkan dan mengedar lebih kurang 50 juta dos vaksin - semuanya diperbuat di Amerika Syarikat - dengan beratus juta lagi dos akan diedarkan.'
+        'title' => '<h4>Operasi Warp Speed membantu menangani COVID-19 dan mempercepat pelan vaksinasi.</h4>',
+        'content' => [
+          'Melalui Operasi Warp Speed, kerajaan Amerika Syarikat melabur sebanyak $18 juta untuk mempercepat proses pembangunan dan pengedaran vaksin dalam menangani COVID-19.',
+          'Setakat ini, program ini telah menghasilkan dan mengedar lebih kurang 50 juta dos vaksin - semuanya diperbuat di Amerika Syarikat - dengan beratus juta lagi dos akan diedarkan.'
+        ]
       ],
       'virus_hunter' => 'Noor Hisham Abdullah ditugaskan untuk menguruskan pasukan yang menangani wabak COVID-19 di Malaysia.',
     ],
@@ -258,9 +267,12 @@ return [
         ]
       ],
       'didyouknow' => [
-        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia yang meragut 1.4 juta nyawa pada tahun 2019.',
-        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Amerika Syarikat merupakan salah satu penyumbang dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat telah melabur sebanyak $332 juta bagi menyokong usaha ini pada tahun 2021.',
-        '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>Di 23 buah negara utama yang dibantu oleh USAID, kes Tibi menurun sebanyak 29% dan kematian disebabkan oleh Tibi menurun sebanyak 47% sejak tahun 2000.'
+        'title' => '<h4>Amerika Syarikat adalah salah satu penyumbang dana terbesar untuk mengekang Penyakit Tibi.</h4>',
+        'content' => [
+          'Penyakit Tibi adalah pembunuh utama penyakit berjangkit di dunia yang meragut 1.4 juta nyawa pada tahun 2019.',
+          'Amerika Syarikat merupakan salah satu penyumbang dana terbesar kepada usaha global pengawalan Tibi; Amerika Syarikat telah melabur sebanyak $332 juta bagi menyokong usaha ini pada tahun 2021.',
+          'Di 23 buah negara utama yang dibantu oleh USAID, kes Tibi menurun sebanyak 29% dan kematian disebabkan oleh Tibi menurun sebanyak 47% sejak tahun 2000.'
+        ]
       ]
     ],
     'spotlight' => [
@@ -279,8 +291,11 @@ return [
     "popup" => [
       'pocket_fact' =>  'RT-PCR kini digunakan secara global untuk mengesan jangkitan COVID-19!',
       'didyouknow' =>  [
-        '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) adalah komitmen terbesar oleh mana-mana negara untuk menangani satu penyakit dalam sejarah.',
-        '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
+        'title' => '<h4>PEPFAR telah menyelamatkan 20 juta nyawa.</h4>',
+        'content' => [
+          'U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) adalah komitmen terbesar oleh mana-mana negara untuk menangani satu penyakit dalam sejarah.',
+          'Melalui PEPFAR, kerajaan Amerika Syarikat telah melaburkan lebih $85 juta untuk menangani HIV/AIDS dan menyelamatkan 20 juta nyawa.',
+        ]
       ],
       'try_out' => [
         'step' => 'Langkah',
@@ -313,7 +328,7 @@ return [
     'title2'=> 'Anda belum melengkapkan semua aktiviti! ',
     'desc' => 'Tuntut pingat kehormatan anda, Virus Hunter!',
     'desc2' => 'Kembali semula ke laman sebelumnya untuk mengumpul semua bintang.',
-    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka di sini.',
+    'join'=>'Sertai aktiviti berkaitan STEM – secara atas talian atau bersemuka - di sini.',
     'dialog'=>[
       'Pelajari lebih banyak berkenaan projek Virus Hunter <a href="{0}">di sini</a>.',
       'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}" target="_blank">di sini</a>.',

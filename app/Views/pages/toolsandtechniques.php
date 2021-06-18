@@ -38,7 +38,8 @@ foreach ($steps as $i => $v) {
 <!-- did you know -->
 <?= view('layouts/pop_us_content', [
   'img' => '/img/didyouknow/tools.png',
-  'text' => lang('App.toolsandtechniques.popup.didyouknow'),
+  'title' => lang('App.toolsandtechniques.popup.didyouknow.title'),
+  'text' => lang('App.toolsandtechniques.popup.didyouknow.content'),
 ]) ?>
 <!-- spotlight -->
 <?= view('layouts/pop_spotlight_content', [

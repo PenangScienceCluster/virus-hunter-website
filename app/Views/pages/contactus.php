@@ -56,31 +56,7 @@
   </div>
 </div>
 
-
-<div class="footer w-30 animated fadeInUp slow delay-2s">
-  <div class="row">
-    <div class="col-6">
-      <div>
-        <?= lang('App.home.aprojectby') ?>
-      </div>
-      <img src="/img/landing/logo-psc.png" class="img-fluid mt-2" />
-    </div>
-    <div class="col-6">
-      <div>
-        <?= lang('App.home.supportedby') ?>
-      </div>
-      <div class="row mt-1">
-        <div class="col-6 p-0 text-center">
-          <img src="/img/landing/logo-usekl.png" class="w-70" />
-        </div>
-        <div class="col-6 p-0">
-          <img src="/img/landing/logo-atp.png" class="w-70" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+<?= view('pages/bottom-logo') ?>
 
 <?= $this->endSection()  ?>
 <!-- end 1 -->
