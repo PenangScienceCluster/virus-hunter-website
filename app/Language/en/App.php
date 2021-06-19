@@ -2,7 +2,7 @@
 
 // override core en language system validation or define your own en language validation message
 return [
-  'share_caption' => 'Do you have what it takes to become a Virus hunter?',
+  'share_caption' => 'Do you have what it takes to become a Virus Hunter?',
   'share_title' => 'Virus Hunter',
   'share_description' => 'Join Gina and Ilyas in their quest to become Virus Hunters! Pick up quick facts while learning about real-world viruses, pandemics, and vaccines.',
   'share_image' => '/img/shared/fb{0}.jpg',
@@ -85,18 +85,15 @@ return [
       'pocket_fact' =>  'Pandemics are sudden disease outbreaks that spread to a large number of people across multiple countries.',
       'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
       'didyouknow' =>  [
-        'title' => '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>',
-        'content' => [
-          'For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria.',
-          'PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries.',
-          'The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
-        ]
+        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria.',
+        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries.',
+        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
       ],
       'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
     ],
     'spotlight' => [
-      'btn' => 'Discover Disease Outbreaks',
-      'btn2' => 'View Details',
+      'btn' => 'Disease Outbreaks',
+      'btn2' => 'Let\'s Discover!',
       'title' => 'Disease Outbreaks<br>in History',
       'contentImg' => '/img/pandemics/content.png'
     ],
@@ -127,12 +124,9 @@ return [
       'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food, or environment.',
       'career' =>  'Because animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreaks.',
       'didyouknow' =>  [
-        'title' => '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>',
-        'content' => [
-          'Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.',
-          'In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate.',
-          'The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
-        ]
+        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.',
+        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate.',
+        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
       ],
       'try_out' => [
         'title'=> 'Select ALL factors that contribute to <br>emergence of zoonotic diseases.',
@@ -161,7 +155,7 @@ return [
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover Transmission of Disease',
+      'btn' => 'Disease Transmission',
       'title' => 'Transmission of Disease from Animals to Humans',
       'contentImg' => '/img/zoonotic/content.png'
     ]
@@ -199,7 +193,7 @@ return [
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover Virus Structure',
+      'btn' => 'Virus Structure',
       'title' => 'Virus Structure',
       'contentImg' => '/img/nipah/content.png'
     ]
@@ -214,16 +208,13 @@ return [
     "popup" => [
       'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath, and loss of taste and smell.',
       'didyouknow' =>  [
-        'title' => '<h4>Operation Warp Speed helps to combat COVID-19 and accelerates vaccination plan.</h4>',
-        'content' => [
-          'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
-          'To date, the program has managed to produce and deliver about 50 million vaccine doses — all made in the U.S. — with hundreds of millions more on the way.'
-        ]
+        '<h4>Operation Warp Speed helps to combat COVID-19 and accelerates vaccination plan.</h4>Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
+        '<h4>Operation Warp Speed helps to combat Covid-19 and accelerates vaccination plan.</h4>To date, the program has managed to produce and deliver about 50 million vaccine doses — all made in the U.S. — with hundreds of millions more on the way.'
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling the COVID-19 pandemic in Malaysia.',
     ],
     'spotlight' => [
-      'btn' => 'Watch<br>Video',
+      'btn' => 'Stop the Spread',
       'title' => 'Prevent the Spread of Diseases',
       'desc' => 'With or without a pandemic, we should always do our part to protect ourselves and others around us from getting sick. Watch this video on how to prevent the spread of disease when we cough and sneeze!',
     ]
@@ -269,12 +260,9 @@ return [
         ]
       ],
       'didyouknow' => [
-        'title'=> '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>',
-        'content' => [
-          'Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.',
-          'The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 million for 2021.',
-          'In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.',
-        ]
+        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.',
+        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 million for 2021.',
+        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.',
       ]
 
     ],
@@ -294,11 +282,8 @@ return [
     "popup" => [
       'pocket_fact' =>  'RT-PCR is currently in use globally to detect COVID-19 infection!',
       'didyouknow' =>  [
-        'title' => '<h4>PEPFAR has saved 20 million lives.</h4>',
-        'content' => [
-          'The U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) is the largest commitment by any nation to address a single disease in history.',
-          'Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
-        ]
+        '<h4>PEPFAR has saved 20 million lives.</h4>The U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) is the largest commitment by any nation to address a single disease in history.',
+        '<h4>PEPFAR has saved 20 million lives.</h4>Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
       ],
       'try_out' => [
         'step' => 'Step',
@@ -320,7 +305,7 @@ return [
       ]
     ],
     'spotlight' => [
-      'btn' => 'Discover COVID-19 Testing',
+      'btn' => 'COVID-19 Test',
       'title' => 'COVID-19 Testing',
       'contentImg' => '/img/toolsandtechniques/content.png'
     ]
