@@ -75,7 +75,8 @@ foreach ($steps as $i => $v) {
             <br>
             <div class="try-footer feedback text-center text-uppercase">
               <span class="text-success d-none" id="correct">
-                <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />
+                <?= lang('App.correct') ?> <img
+                  src="/img/moving-star.gif" class="star" />
               </span>
 
               <span class="text-danger d-none" id="wrong">
@@ -138,13 +139,10 @@ foreach ($steps as $i => $v) {
 
   <div class="cows"></div>
 
-  <div class="spotlight-btn">
-    <?= lang('App.nipah.spotlight.btn') ?>
-    <div class="view-details">
-      <?= lang('App.pandemics.spotlight.btn2') ?>
-    </div>
-    <!-- <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div> -->
-  </div>
+  <?= view('layouts/spotlight_btn', [
+    'title' => lang('App.nipah.spotlight.btn')
+  ]) ?>
+
 
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />

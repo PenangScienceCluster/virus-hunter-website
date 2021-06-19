@@ -1,9 +1,23 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
 <style>
-.custom-modal .modal-content {
-  min-height: 40vw;
-}
+  .custom-modal .modal-content {
+    min-height: 40vw;
+  }
+
+  #share_pop .gina {
+    width: 23%;
+    position: absolute;
+    left: 7%;
+    bottom: 20%;
+  }
+
+  #share_pop .ilynas {
+    width: 18%;
+    position: absolute;
+    right: 7%;
+    bottom: 20%;
+  }
 </style>
 
 <div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -14,18 +28,25 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body h-100 align-items-center">
+        <div class="gina"><img src="/img/characters/gina-1.png" class="img-fluid" /></div>
+        <div class="ilynas"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
         <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
-
-            <h4 class="mb-4">
-              <?= lang('App.completed.share_on') ?> :
+            <h4>
+              <?= lang('App.completed.pop_title') ?>
             </h4>
-            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+            <h4 class="mb-4">
+              <?= lang('App.completed.share_on') ?>
+            </h4>
+            <a href="#" class="mr-4 icon" class="icon" id="fb"
+              data-desc="<?= lang('App.share_caption') ?>"
               data-url="<?= base_url() ?>">
-              <img src="/img/completed/btn-share-fb-off.png" style="width:8vw" />
+              <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
             </a>
-            <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
-              <img src="/img/completed/btn-share-whatsapp-off.png" style="width:8vw" />
+            <a href="#" class="icon" id="wa"
+              data-desc="<?= lang('App.share_caption') ?>"
+              data-url="<?= base_url() ?>">
+              <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
             </a>
 
           </div>
@@ -133,22 +154,22 @@
   </div>
 </div>
 <style>
-.carousel-item {
-  font-size: 1vw;
-}
+  .carousel-item {
+    font-size: 1vw;
+  }
 
-.carousel-control-prev {
-  left: -2vw;
-}
+  .carousel-control-prev {
+    left: -2vw;
+  }
 
-.carousel-control-next {
-  right: -2vw;
-}
+  .carousel-control-next {
+    right: -2vw;
+  }
 </style>
 
 <?= view('pages/bottom-logo') ?>
 <script>
-var lang = '<?= locale() ?>';
+  var lang = '<?= locale() ?>';
 </script>
 
 <?= $this->endSection()  ?>

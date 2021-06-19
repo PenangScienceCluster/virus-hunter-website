@@ -43,7 +43,7 @@ return [
   'overview' => [
     'letsbegin' => 'let\'s begin!',
     'continue' => 'continue',
-    'joingina' => 'Join Gina and Ilyas in their quest to become <span class="text-white">Virus Hunters</span><span>!</span>',
+    'joingina' => 'Join Gina and Ilyas in their quest to become <br><span class="text-white">Virus Hunters</span><span>!</span>',
     'pickupfacts' => 'Pick up quick facts while learning about real-world viruses, pandemics, and vaccines.',
     'bubble_instruction' => 'Complete activities to collect stars and earn the Virus Hunter medal!'
   ],
@@ -85,9 +85,12 @@ return [
       'pocket_fact' =>  'Pandemics are sudden disease outbreaks that spread to a large number of people across multiple countries.',
       'career' =>  'Epidemiologists investigate disease outbreaks and potential threats, including their causes and transmission.',
       'didyouknow' =>  [
-        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria.',
-        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries.',
-        '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
+        'title' => '<h4>U.S. President\'s Malaria Initiative benefits 570 million people.</h4>',
+        'content' => [
+          'For over 16 years, the U.S. President\'s Malaria Initiative (PMI) has worked closely with 24 partner countries to help them prevent and treat malaria.',
+          'PMI benefits 570 million people and has supported a 27% drop in Malaria cases and 60% decline in deaths in partner countries.',
+          'The program provides malaria education, mosquito nets, mosquito spray, medicines, and technical training.',
+        ]
       ],
       'virus_hunter' =>  'Bill Gates heads a global plan to eradicate Malaria using engineered mosquitoes and prevent future outbreaks.',
     ],
@@ -124,9 +127,12 @@ return [
       'pocket_fact' =>  'Zoonotic diseases are transmitted from animals to humans either directly or indirectly through water, food, or environment.',
       'career' =>  'Because animal trafficking is one of the factors driving the emergence of zoonotic disease, conservation biologists play an important role in preventing future outbreaks.',
       'didyouknow' =>  [
-        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.',
-        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate.',
-        '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
+        'title' => '<h4>The United States plays a key leadership role in working to prevent the spread of disease.</h4>',
+        'content' => [
+          'Through the decade-long Project PREDICT, the United States spent over $200 million to train over 6,000 scientists in 30 countries.',
+          'In Malaysia, PREDICT scientists traveled to remote Orang Asli villages to take thousands of samples that helped them better understand exposure risks and how diseases circulate.',
+          'The U.S. also recently launched STOP Spillover, a $100 million project to address threats from diseases that can jump from animals to humans.',
+        ]
       ],
       'try_out' => [
         'title'=> 'Select ALL factors that contribute to <br>emergence of zoonotic diseases.',
@@ -208,8 +214,11 @@ return [
     "popup" => [
       'pocket_fact' =>  'Symptoms of COVID-19 include fever, shortness of breath, and loss of taste and smell.',
       'didyouknow' =>  [
-        '<h4>Operation Warp Speed helps to combat COVID-19 and accelerates vaccination plan.</h4>Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
-        '<h4>Operation Warp Speed helps to combat Covid-19 and accelerates vaccination plan.</h4>To date, the program has managed to produce and deliver about 50 million vaccine doses — all made in the U.S. — with hundreds of millions more on the way.'
+        'title' => '<h4>Operation Warp Speed helps to combat COVID-19 and accelerates vaccination plan.</h4>',
+        'content' => [
+          'Through Operation Warp Speed, the U.S. government invested $18 billion to accelerate development and distribution of vaccines to combat COVID-19. ',
+          'To date, the program has managed to produce and deliver about 50 million vaccine doses — all made in the U.S. — with hundreds of millions more on the way.'
+        ]
       ],
       'virus_hunter' => 'Noor Hisham Abdullah, is recognized for managing the team handling the COVID-19 pandemic in Malaysia.',
     ],
@@ -260,9 +269,12 @@ return [
         ]
       ],
       'didyouknow' => [
-        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.',
-        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 million for 2021.',
-        '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.',
+        'title' => '<h4>The U.S. is one of the largest donors to curb Tuberculosis.</h4>',
+        'content' => [
+          'Tuberculosis is the world\'s leading infectious disease killer, taking the lives of 1.4 million in 2019.',
+          'The U.S. is one of the largest donors to global TB control, U.S. funding for TB efforts was $332 million for 2021.',
+          'In 23 priority countries where USAID conducts programs, incidents of TB have dropped 29% and deaths due to TB have dropped 47% since 2000.',
+        ]
       ]
 
     ],
@@ -282,8 +294,11 @@ return [
     "popup" => [
       'pocket_fact' =>  'RT-PCR is currently in use globally to detect COVID-19 infection!',
       'didyouknow' =>  [
-        '<h4>PEPFAR has saved 20 million lives.</h4>The U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) is the largest commitment by any nation to address a single disease in history.',
-        '<h4>PEPFAR has saved 20 million lives.</h4>Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
+        'title' => '<h4>PEPFAR has saved 20 million lives.</h4>',
+        'content' => [
+          'The U.S. President\'s Emergency Plan for AIDS Relief (PEPFAR) is the largest commitment by any nation to address a single disease in history.',
+          'Through PEPFAR, the U.S. government has invested over $85 billion to fight HIV/AIDS and has saved 20 million lives.',
+        ]
       ],
       'try_out' => [
         'step' => 'Step',
@@ -322,6 +337,7 @@ return [
       'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}" target="_blank">here</a>.',
       'Read more about how to protect yourself and your family and friends from different diseases <a href="{0}" target="_blank">here</a>.'
     ],
+    'pop_title' => 'Let\'s learn with family and friends, <br>and become Virus Hunters together!',
     'share_on' => 'Share on'
   ]
 ];

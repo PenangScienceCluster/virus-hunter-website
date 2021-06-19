@@ -64,7 +64,9 @@
       </h5>
       <div class="w-90 mx-auto mt-4 position-relative">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-        <img src="<?= lang('App.pandemics.spotlight.contentImg') ?>" class="img-fluid" />
+        <img
+          src="<?= lang('App.pandemics.spotlight.contentImg') ?>"
+          class="img-fluid" />
       </div>
     </div>
   </div>
@@ -76,13 +78,10 @@
 
   <div class="tv"></div>
 
-  <div class="spotlight-btn">
-    <?= lang('App.pandemics.spotlight.btn') ?>
-    <div class="view-details">
-      <?= lang('App.pandemics.spotlight.btn2') ?>
-    </div>
-    <!-- <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div> -->
-  </div>
+  <?= view('layouts/spotlight_btn', [
+    'title' => lang('App.pandemics.spotlight.btn')
+  ]) ?>
+
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />
     <div class="bubble bubble-bottom-left"><?= lang('App.pandemics.dialog.girl') ?>

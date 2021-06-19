@@ -78,7 +78,8 @@ foreach ($steps as $i => $v) {
             <div class="my-4 feedback text-center text-uppercase" style="height: 20px;">
 
               <span class="text-success d-none" id="correct">
-                <?= lang('App.correct') ?> <img src="/img/moving-star.gif" class="star" />
+                <?= lang('App.correct') ?> <img
+                  src="/img/moving-star.gif" class="star" />
               </span>
 
               <span class="text-danger d-none" id="wrong">
@@ -99,13 +100,10 @@ foreach ($steps as $i => $v) {
 <div class="toolsandtechniques h-100">
   <div class="lab-furniture"></div>
 
-  <div class="spotlight-btn">
-    <?= lang('App.toolsandtechniques.spotlight.btn') ?>
-    <div class="view-details">
-      <?= lang('App.pandemics.spotlight.btn2') ?>
-    </div>
-    <!-- <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div> -->
-  </div>
+
+  <?= view('layouts/spotlight_btn', [
+    'title' => lang('App.toolsandtechniques.spotlight.btn')
+  ]) ?>
 
   <div class="position-absolute gina animated fadeInRight">
     <img src="/img/characters/gina-2.png" class="img-fluid" />

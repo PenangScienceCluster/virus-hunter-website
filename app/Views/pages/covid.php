@@ -71,13 +71,10 @@
 <div class="pandemic h-100">
 
   <div class="man"></div>
-  <div class="spotlight-btn">
-    <?= lang('App.covid.spotlight.btn') ?>
-    <div class="view-details">
-      <?= lang('App.pandemics.spotlight.btn2') ?>
-    </div>
-    <!-- <div class="w-70 mt-4"><img src="/img/arrow.png" class="img-fluid" /></div> -->
-  </div>
+
+  <?= view('layouts/spotlight_btn', [
+    'title' => lang('App.covid.spotlight.btn')
+  ]) ?>
 
   <div class="position-absolute gina animated fadeInLeft">
     <img src="/img/characters/gina-1.png" class="img-fluid" />

@@ -42,7 +42,7 @@ return [
   'overview' => [
     'letsbegin' => 'Mari Mulakan!',
     'continue' => 'teruskan',
-    'joingina' => 'Sertai Gina dan Ilyas dalam pengembaraan mereka untuk menjadi seorang <span class="text-white"><i>Virus Hunter</i></span><span>!</span>',
+    'joingina' => 'Sertai Gina dan Ilyas dalam pengembaraan mereka untuk menjadi seorang <br><span class="text-white"><i>Virus Hunter</i></span><span>!</span>',
     'pickupfacts' => 'Pelajari fakta mudah mengenai virus, pandemik dan vaksin di dunia sebenar.',
     'bubble_instruction' => 'Lengkapkan aktiviti-aktiviti untuk mengumpul bintang dan memperolehi pingat <i>Virus Hunter</i>!'
   ],

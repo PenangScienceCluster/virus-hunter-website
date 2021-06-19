@@ -1,34 +1,23 @@
 var starCount = 0;
 
 $(function () {
-  // $(".photos").owlCarousel({
-  //   autoplay: false,
-  //   loop: false,
-  //   dots: false,
-  //   margin: 0,
-  //   nav: true,
-  //   items: 1,
-  //   navText: [
-  //     "<div class='owl-prev'><i class='fas fa-chevron-left'></i></div>",
-  //     "<div class='owl-next'><i class='fas fa-chevron-right'></i></div>",
-  //   ],
-  // });
+  // $("#share_pop").modal("show");
 
   $("#fb img").hover(
     function () {
-      $(this).attr("src", "/img/completed/btn-share-fb-on.png");
+      $(this).attr("src", "/img/completed/btn-share-fb-off.png");
     },
     function () {
-      $(this).attr("src", "/img/completed/btn-share-fb-off.png");
+      $(this).attr("src", "/img/completed/btn-share-fb-on.png");
     }
   );
 
   $("#wa img").hover(
     function () {
-      $(this).attr("src", "/img/completed/btn-share-whatsapp-on.png");
+      $(this).attr("src", "/img/completed/btn-share-whatsapp-off.png");
     },
     function () {
-      $(this).attr("src", "/img/completed/btn-share-whatsapp-off.png");
+      $(this).attr("src", "/img/completed/btn-share-whatsapp-on.png");
     }
   );
 
