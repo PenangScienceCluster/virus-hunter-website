@@ -33,6 +33,8 @@ var preloadImg = [
 ];
 
 $(function () {
+  // eraseCookieStar();
+
   $(".btn-back").on("click", function () {
     $(".navbar-collapse").collapse("hide");
   });
@@ -177,12 +179,17 @@ function storeStar(value) {
 
   // keep track star
   var existingStar = getCookieValue("vhst");
+
+  // console.log("existingStar", existingStar);
+
   var cookiesValuesStar = "";
   if (existingStar != undefined) {
     var idx = existingStar.indexOf(navIdx);
 
+    // console.log("idx", idx);
     if (idx == -1) {
-      cookiesValuesStar = existingStar + "|" + navIdx;
+      if (existingStar != "") existingStar += "|";
+      cookiesValuesStar = existingStar + navIdx;
     }
   } else {
     cookiesValuesStar = navIdx;
@@ -193,8 +200,10 @@ function storeStar(value) {
   // console.log("navIdx", navIdx);
   // console.log("existingStar", existingStar);
   // console.log("cookiesValuesStar", cookiesValuesStar);
-
-  setCookieStar(cookiesValuesStar);
+  if (cookiesValuesStar != "") {
+    // console.log("cookiesValuesStar last", cookiesValuesStar);
+    setCookieStar(cookiesValuesStar);
+  }
 }
 
 function getCookieValue(name) {
