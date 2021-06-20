@@ -6,14 +6,14 @@
   }
 
   #share_pop .gina {
-    width: 23%;
+    width: 21%;
     position: absolute;
     left: 7%;
     bottom: 20%;
   }
 
   #share_pop .ilynas {
-    width: 18%;
+    width: 16%;
     position: absolute;
     right: 7%;
     bottom: 20%;
