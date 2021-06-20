@@ -3,23 +3,23 @@ var starCount = 0;
 $(function () {
   // $("#share_pop").modal("show");
 
-  $("#fb img").hover(
-    function () {
-      $(this).attr("src", "/img/completed/btn-share-fb-off.png");
-    },
-    function () {
-      $(this).attr("src", "/img/completed/btn-share-fb-on.png");
-    }
-  );
+  // $("#fb img").hover(
+  //   function () {
+  //     $(this).attr("src", "/img/completed/btn-share-fb-off.png");
+  //   },
+  //   function () {
+  //     $(this).attr("src", "/img/completed/btn-share-fb-on.png");
+  //   }
+  // );
 
-  $("#wa img").hover(
-    function () {
-      $(this).attr("src", "/img/completed/btn-share-whatsapp-off.png");
-    },
-    function () {
-      $(this).attr("src", "/img/completed/btn-share-whatsapp-on.png");
-    }
-  );
+  // $("#wa img").hover(
+  //   function () {
+  //     $(this).attr("src", "/img/completed/btn-share-whatsapp-off.png");
+  //   },
+  //   function () {
+  //     $(this).attr("src", "/img/completed/btn-share-whatsapp-on.png");
+  //   }
+  // );
 
   $(".icon").click(function (e) {
     e.preventDefault();
@@ -98,7 +98,7 @@ $(function () {
     // $(".stars").addClass("less");
   }
 
-  $(".btn-back").click(function () {
+  $(".btn-return").click(function () {
     location.href = url;
   });
 });
