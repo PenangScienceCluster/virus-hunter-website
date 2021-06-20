@@ -319,6 +319,7 @@ return [
       'Mari ketahui dengan lebih lanjut berkenaan peranan AS dalam memperkasakan penjagaan kesihatan awam secara global <a href="{0}" target="_blank">di sini</a>.',
       'Baca lebih banyak berkenaan cara melindungi diri anda, keluarga dan rakan-rakan anda daripada pelbagai penyakit <a href="{0}" target="_blank">di sini</a>.'
     ],
+    'pop_title' => 'Jom belajar bersama keluarga dan kawan-kawan, dan menjadi <i>Virus Hunter</i> bersama-sama!',
     'share_on' => 'Kongsi melalui'
   ]
 ];

@@ -337,7 +337,7 @@ return [
       'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}" target="_blank">here</a>.',
       'Read more about how to protect yourself and your family and friends from different diseases <a href="{0}" target="_blank">here</a>.'
     ],
-    'pop_title' => 'Let\'s learn with family and friends, <br>and become Virus Hunters together!',
+    'pop_title' => 'Let\'s learn with family and friends, <br>and become <i>Virus Hunters</i> together!',
     'share_on' => 'Share on'
   ]
 ];

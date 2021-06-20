@@ -36,7 +36,7 @@
               <?= lang('App.completed.pop_title') ?>
             </h4>
             <h4 class="mb-4">
-              <?= lang('App.completed.share_on') ?>
+              <?= lang('App.completed.share_on') ?>:
             </h4>
             <a href="#" class="mr-4 icon" class="icon" id="fb"
               data-desc="<?= lang('App.share_caption') ?>"
