@@ -15,21 +15,28 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="<?= lang('App.share_title') ?>">
-  <meta property="og:description" content="<?= lang('App.share_description') ?>">
+  <meta property="og:title"
+    content="<?= lang('App.share_title') ?>">
+  <meta property="og:description"
+    content="<?= lang('App.share_description') ?>">
   <meta property="og:image" content="<?= $sharedImg ?>">
   <meta property="og:url" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="<?= lang('App.share_title') ?>">
+  <meta property="twitter:card"
+    content="<?= lang('App.share_title') ?>">
   <meta property="twitter:url" content="">
-  <meta property="twitter:title" content="<?= lang('App.share_title') ?>">
-  <meta property="twitter:description" content="<?= lang('App.share_description') ?>">
+  <meta property="twitter:title"
+    content="<?= lang('App.share_title') ?>">
+  <meta property="twitter:description"
+    content="<?= lang('App.share_description') ?>">
   <meta property="twitter:image" content="<?= $sharedImg ?>">
 
   <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="<?= lang('App.share_title') ?>">
-  <meta itemprop="description" content="<?= lang('App.share_description') ?>">
+  <meta itemprop="name"
+    content="<?= lang('App.share_title') ?>">
+  <meta itemprop="description"
+    content="<?= lang('App.share_description') ?>">
   <meta itemprop="image" content="<?= $sharedImg ?>">
 
   <!-- prefix -->
@@ -85,6 +92,9 @@
   <script src="<?= $v ?>"></script>
   <?php endforeach; ?>
   <?php endif ?>
+
+
+
 </body>
 
 </html>

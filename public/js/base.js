@@ -90,6 +90,25 @@ $(function () {
   runSideButton();
 
   // alert($("body").width() + "," + $("body").height());
+
+  if ($("#slideus").length) {
+    $("#slideus .carousel-control-prev").hide();
+    $("#slideus").on("slid.bs.carousel", "", function () {
+      $(
+        "#slideus .carousel-control-next, #slideus .carousel-control-prev"
+      ).show();
+
+      if (
+        $("#slideus .carousel-inner .carousel-item:first").hasClass("active")
+      ) {
+        $("#slideus .carousel-control-prev").hide();
+      } else if (
+        $("#slideus .carousel-inner .carousel-item:last").hasClass("active")
+      ) {
+        $(".carousel-control-next").hide();
+      }
+    });
+  }
 });
 function setBodyHeight() {
   $(".wrapper").height($("body").height());

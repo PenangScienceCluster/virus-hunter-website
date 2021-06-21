@@ -87,7 +87,7 @@ return [
         'content' => [
           'Selama lebih daripada 16 tahun, <i>U.S. President’s Malaria initiative (PMI)</i> telah bekerjasama dengan 24 buah negara untuk membantu mereka mencegah dan merawat penyakit malaria.',
           'PMI memanfaatkan 570 juta orang dan menyumbang kepada 27% penurunan kes malaria dan 60% penurunan dalam kematian di negara-negara yang terlibat.',
-          'Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring yamuk, semburan antinyamuk, ubat dan latihan teknikal.',
+          'Program ini menyediakan sumbangan seperti pendidikan berkenaan malaria, jaring nyamuk, semburan antinyamuk, ubat dan latihan teknikal.',
         ]
       ],
       'virus_hunter' =>  'Bill Gates mengetuai rancangan global untuk membasmi Malaria dengan menggunakan nyamuk-nyamuk yang direka khusus secara genetik untuk mencegah wabak pada masa hadapan.',

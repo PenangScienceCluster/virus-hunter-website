@@ -135,7 +135,7 @@ return [
         ]
       ],
       'try_out' => [
-        'title'=> 'Select ALL factors that contribute to <br>emergence of zoonotic diseases.',
+        'title'=> 'Select ALL factors that contribute to <br>the emergence of zoonotic diseases.',
         'items' => [
           [
             'id'=>1,

@@ -21,7 +21,7 @@
             <img src="<?= $img ?>" class="us-img-big" />
           </div>
 
-          <div id="slide" class="carousel slide" data-ride="carousel" data-interval="false">
+          <div id="slideus" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
             <div class="carousel-inner">
               <?php
                 foreach ($text as $i=>$v) {
@@ -31,10 +31,10 @@
               ?>
 
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#slide" data-slide="prev">
+              <a class="carousel-control-prev" href="#slideus" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#slide" data-slide="next">
+              <a class="carousel-control-next" href="#slideus" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </a>
 
@@ -48,8 +48,12 @@
 </div>
 
 <style>
-.carousel-item, .carousel-title  {
-  font-size: 1.5vw;
-  
-}
+  .carousel-item,
+  .carousel-title {
+    font-size: 1.5vw;
+
+  }
 </style>
+
+
+<!-- end -->
