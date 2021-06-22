@@ -91,16 +91,6 @@ $(function () {
   //   location.reload();
   // });
 
-  if (window.matchMedia("(orientation: portrait)").matches) {
-    // you're in PORTRAIT mode
-    alert("portrait");
-  }
-
-  if (window.matchMedia("(orientation: landscape)").matches) {
-    // you're in LANDSCAPE mode
-    location.reload();
-  }
-
   runSideButton();
 
   // alert($("body").width() + "," + $("body").height());
