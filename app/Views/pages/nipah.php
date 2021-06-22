@@ -5,6 +5,18 @@
 <!-- this one need start -->
 <input type="hidden" id="section" value="<?= $section ?>" />
 <!-- this one need end -->
+
+<style>
+  .pop_num {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+</style>
 <?php
 $steps = lang('App.nipah.popup.try_out.items');
 
@@ -12,6 +24,7 @@ $drop = $drag = '';
 
 foreach ($steps as $i => $v) {
     $drop .= '<div class="question " id="q' . $v['id'] . '" data-id="' . $v['id'] . '">
+    <div class="pop_num">'.($i+1).'</div>
     <div class="question-box">
       <div class="answer-title">' . $v['title'] . '</div>
       <div class="answer-desc">' . $v['desc'] . '</div>

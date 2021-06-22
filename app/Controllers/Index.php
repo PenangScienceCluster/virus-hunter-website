@@ -13,13 +13,15 @@ class Index extends BaseController
     //------view
     public function index()
     {
-        echo view('/pages/landing', [
-          'showLogo' => false,
-          'css' => ['/css/landing.css?' . time()],
-          'js' =>  [
-            '/js/landing.js'
-          ]
-        ]);
+        echo view('/pages/comingsoon');
+
+        // echo view('/pages/landing', [
+        //   'showLogo' => false,
+        //   'css' => ['/css/landing.css?' . time()],
+        //   'js' =>  [
+        //     '/js/landing.js'
+        //   ]
+        // ]);
     }
     public function section($section = null)
     {
@@ -103,13 +105,15 @@ class Index extends BaseController
             break;
         };
 
-        echo view('/pages/' . $section, [
-          'showLogo' => $showLogo,
-          'navSide' => $navSide,
-          'section' => $section,
-          'js' => $js,
-          'css' => $css,
-          'locale' => $locale
-        ]);
+        echo view('/pages/comingsoon');
+
+        // echo view('/pages/' . $section, [
+        //   'showLogo' => $showLogo,
+        //   'navSide' => $navSide,
+        //   'section' => $section,
+        //   'js' => $js,
+        //   'css' => $css,
+        //   'locale' => $locale
+        // ]);
     }
 }
