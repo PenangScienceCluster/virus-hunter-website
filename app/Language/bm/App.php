@@ -57,7 +57,7 @@ return [
   'contactus' => [
     'title' => 'Hubungi Kami',
     'desc' => 'Sertai aktiviti STEM di Penang Science Cluster - boleh didapati secara maya dan bersemuka.',
-    'visit_enquiry' => 'Kunjungi kami untuk maklumat lanjut!'
+    'visit_enquiry' => 'Kunjungi kami untuk <a href="{0}" target="_blank">maklumat lanjut</a>!'
   ],
 
   'gallery' => [
