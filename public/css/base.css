@@ -654,8 +654,10 @@ button:active {
 
 @media only screen and (orientation: portrait) {
   .page,
+  .modal-backdrop,
+  .modal,
   .custom-modal {
-    display: none;
+    display: none !important;
   }
   /* .wrapper {
     display: none;
