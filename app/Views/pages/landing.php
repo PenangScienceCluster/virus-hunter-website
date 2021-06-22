@@ -9,9 +9,7 @@
   }
 ?>
 <style>
-  .content {
-    border: 1px solid red;
-  }
+
 </style>
 <div class="bg-radar h-100"></div>
 <div class="lang tenbyfive">
