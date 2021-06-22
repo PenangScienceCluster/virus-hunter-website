@@ -85,11 +85,21 @@ $(function () {
   }
   //set body height
   setBodyHeight();
-  // $(window).on("resize", setBodyHeight);
-  $(window).on("resize", function () {
-    // location.reload();
-    setBodyHeight();
-  });
+
+  $(window).on("resize", setBodyHeight);
+  // $(window).on("resize", function () {
+  //   location.reload();
+  // });
+
+  if (window.matchMedia("(orientation: portrait)").matches) {
+    // you're in PORTRAIT mode
+    alert("portrait");
+  }
+
+  if (window.matchMedia("(orientation: landscape)").matches) {
+    // you're in LANDSCAPE mode
+    alert("landscape");
+  }
 
   runSideButton();
 
