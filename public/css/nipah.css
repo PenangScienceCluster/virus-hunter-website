@@ -166,18 +166,18 @@ html {
 
 #q3 {
   top: 5vw;
-  left: -5%;
+  left: -1vw;
 }
 
 #q2 {
   /* top: -1.3542vw; */
   top: 2vw;
-  right: -5%;
+  right: -1vw;
 }
 
 #q1 {
   bottom: 2.1vw;
-  right: -5%;
+  right: -1vw;
 }
 
 .try-footer {
@@ -215,12 +215,28 @@ html {
 #virushunter_pop .pop-img {
   width: 60%;
 } */
-
-.pop-model-content .modal-content {
+#try_pop .modal-dialog {
+  min-width: 70vw;
+}
+#try_pop .modal-content {
   width: 150vh;
 }
 .feedback {
   height: 60px;
+}
+
+.pop_num {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 30%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#q1 .pop_num {
+  top: 40%;
 }
 
 @media only screen and (max-height: 480px) {
@@ -298,6 +314,15 @@ html {
     margin: auto;
     border: 0px solid red;
     height: 30px;
+  }
+
+  .pop_num {
+    font-size: 12px;
+  }
+
+  #q1 .pop_num {
+    top: 20% !important;
+    border: 0px solid red;
   }
 }
 

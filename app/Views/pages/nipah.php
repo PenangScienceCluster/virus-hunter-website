@@ -16,6 +16,10 @@
     font-size: 16px;
     font-weight: bold;
   }
+
+  #q1 .pop_num {
+    top: 40%;
+  }
 </style>
 <?php
 $steps = lang('App.nipah.popup.try_out.items');
@@ -23,8 +27,15 @@ $steps = lang('App.nipah.popup.try_out.items');
 $drop = $drag = '';
 
 foreach ($steps as $i => $v) {
+    $num = 2;
+    if ($v['id'] == 3) {
+        $num = 1;
+    }
+    if ($v['id'] == 1) {
+        $num = 3;
+    }
     $drop .= '<div class="question " id="q' . $v['id'] . '" data-id="' . $v['id'] . '">
-    <div class="pop_num">'.($i+1).'</div>
+    <div class="pop_num">'.$num.'</div>
     <div class="question-box">
       <div class="answer-title">' . $v['title'] . '</div>
       <div class="answer-desc">' . $v['desc'] . '</div>
@@ -32,7 +43,7 @@ foreach ($steps as $i => $v) {
   </div>';
 }
 
-shuffle($steps);
+// shuffle($steps);
 foreach ($steps as $i => $v) {
     $drag .= '<div class="answer " id="a' . $v['id'] . '" data-id="' . $v['id'] . '">
         <div class="answer-title">' . $v['title'] . '</div>
@@ -71,7 +82,7 @@ foreach ($steps as $i => $v) {
           <img src="/img/popup/btn-popup-close-off.png" class="img-fluid" />
         </button>
 
-        <div class="popup-content py-4 w-80 mx-auto">
+        <div class="popup-content  w-80 mx-auto">
           <div class="mx-auto drag-area">
             <h4 class="try-title text-center">
               <?= lang('App.nipah.popup.try_out.title') ?>
