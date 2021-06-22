@@ -87,7 +87,8 @@ $(function () {
   setBodyHeight();
   // $(window).on("resize", setBodyHeight);
   $(window).on("resize", function () {
-    location.reload();
+    // location.reload();
+    setBodyHeight();
   });
 
   runSideButton();
