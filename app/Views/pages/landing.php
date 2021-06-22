@@ -8,9 +8,7 @@
       $classen = '';
   }
 ?>
-<style>
 
-</style>
 <div class="bg-radar h-100"></div>
 <div class="lang tenbyfive">
   <a href="/en" <?= $classen ?>>EN</a> | <a href="/bm" <?= $classbm ?>>BM</a>
