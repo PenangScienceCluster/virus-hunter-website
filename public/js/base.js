@@ -84,17 +84,17 @@ $(function () {
       location.href = $(this).data("href");
     });
   }
+
+  setViewMode();
   //set body height
-  if ($("body").width() < $("body").height()) {
-    currPos = "portrait";
-  }
+
   // setBodyHeight();
   $(".wrapper").height($("body").height());
   $(window).on("resize", setBodyHeight);
 
-  runSideButton();
-
   // alert($("body").width() + "," + $("body").height());
+
+  runSideButton();
 
   if ($("#slideus").length) {
     $("#slideus .carousel-control-prev").hide();
@@ -123,6 +123,16 @@ function setBodyHeight() {
       location.reload();
     }, 500);
   }
+
+  setViewMode();
+}
+function setViewMode() {
+  if ($("body").width() < $("body").height()) {
+    currPos = "portrait";
+  } else {
+    currPos = "landscape";
+  }
+  console.log("[currPos]", currPos);
 }
 function runSideButton() {
   if ($(".btn-side").length) {
