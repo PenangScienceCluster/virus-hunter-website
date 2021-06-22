@@ -88,8 +88,8 @@ $(function () {
   if ($("body").width() < $("body").height()) {
     currPos = "portrait";
   }
-  setBodyHeight();
-
+  // setBodyHeight();
+  $(".wrapper").height($("body").height());
   $(window).on("resize", setBodyHeight);
 
   runSideButton();
