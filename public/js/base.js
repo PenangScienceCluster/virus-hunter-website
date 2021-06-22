@@ -31,6 +31,7 @@ var preloadImg = [
   "/img/completed/btn-share-whatsapp-on.png",
   "/img/completed/btn-share-fb-on.png.png",
 ];
+var currPos = "landscape";
 
 $(function () {
   // eraseCookieStar();
@@ -84,12 +85,12 @@ $(function () {
     });
   }
   //set body height
+  if ($("body").width() < $("body").height()) {
+    currPos = "portrait";
+  }
   setBodyHeight();
 
   $(window).on("resize", setBodyHeight);
-  // $(window).on("resize", function () {
-  //   location.reload();
-  // });
 
   runSideButton();
 
@@ -116,6 +117,10 @@ $(function () {
 });
 function setBodyHeight() {
   $(".wrapper").height($("body").height());
+
+  if (currPos == "portrait") {
+    location.reload();
+  }
 }
 function runSideButton() {
   if ($(".btn-side").length) {
