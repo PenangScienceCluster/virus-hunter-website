@@ -54,6 +54,7 @@ $(function () {
         ele.find(".question-box").animate({ opacity: 1 }, 1000);
         $("#a" + id).css("visibility", "hidden");
 
+        ele.find(".pop_num").hide();
         correctCount++;
 
         if (correctCount == 3) {

@@ -185,7 +185,7 @@ html {
   bottom: 10%;
   left: 0;
   right: 0; */
-  margin: auto;
+  margin: -2% auto 0 auto;
   /* margin-top: -0.5208vw;
   min-height: 6vw; */
 }
@@ -308,7 +308,7 @@ html {
   .try-footer {
     font-size: 1.8vw;
     position: absolute;
-    bottom: 8.5%;
+    bottom: 11.5%;
     left: 0;
     right: 0;
     margin: auto;

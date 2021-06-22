@@ -6,21 +6,6 @@
 <input type="hidden" id="section" value="<?= $section ?>" />
 <!-- this one need end -->
 
-<style>
-  .pop_num {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 30%;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  #q1 .pop_num {
-    top: 40%;
-  }
-</style>
 <?php
 $steps = lang('App.nipah.popup.try_out.items');
 
@@ -96,7 +81,7 @@ foreach ($steps as $i => $v) {
                 <?= $drop ?>
               </div>
             </div>
-            <br>
+
             <div class="try-footer feedback text-center text-uppercase">
               <span class="text-success d-none" id="correct">
                 <?= lang('App.correct') ?> <img
@@ -108,6 +93,7 @@ foreach ($steps as $i => $v) {
               </span>
 
             </div>
+            <br>
           </div>
         </div>
       </div>
