@@ -43,6 +43,7 @@ body {
 .wrapper {
   position: relative;
   /* overflow: hidden; */
+  border: 1px solid black;
 }
 
 .content-wrap {
