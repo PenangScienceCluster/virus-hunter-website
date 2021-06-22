@@ -56,7 +56,7 @@
 
   <link href="/css/fonts/index.css" rel="stylesheet" />
   <link href="/css/base.css" rel="stylesheet" />
-  <link href="/css/navigation.css" rel="stylesheet" />
+
 
   <?php if (! empty($css) && is_array($css)) : ?>
   <?php foreach ($css as $v): ?>
@@ -67,10 +67,10 @@
 
 <body>
 
-  <?= view('pages/bestview') ?>
+
 
   <div class="container-fluid wrapper position-relative p-0">
-    <?= view('layouts/navigation') ?>
+
     <?= $this->renderSection('content') ?>
   </div>
 
