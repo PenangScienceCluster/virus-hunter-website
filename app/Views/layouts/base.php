@@ -93,7 +93,18 @@
   <?php endforeach; ?>
   <?php endif ?>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-68F33T0FX6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-68F33T0FX6');
+  </script>
 
 </body>
 
