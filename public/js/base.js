@@ -119,7 +119,7 @@ function setBodyHeight() {
   $(".wrapper").height($("body").height());
 
   if (currPos == "portrait") {
-    settimeout(function () {
+    setTimeout(function () {
       location.reload();
     }, 500);
   }
