@@ -121,7 +121,7 @@ function setBodyHeight() {
   if (currPos == "portrait") {
     setTimeout(function () {
       location.reload();
-    }, 500);
+    }, 200);
   }
 
   setViewMode();
