@@ -5,8 +5,8 @@ $(function () {
     .one(
       "animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
       function () {
-        $(".virus").delay(800).animate({ opacity: 1 }, 1000);
-        $(".bat").delay(1000).animate({ opacity: 1 }, 1000);
+        $(".moving-virus").delay(800).animate({ opacity: 1 }, 1000);
+        $(".moving-bat").delay(1000).animate({ opacity: 1 }, 1000);
       }
     );
 });

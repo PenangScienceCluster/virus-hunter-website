@@ -26,6 +26,22 @@
   width: 60%;
 }
 
+.moving-bat {
+  width: 6vw;
+  position: absolute;
+  right: -1vw;
+  top: -1vw;
+  opacity: 0;
+}
+
+.moving-virus {
+  width: 4vw;
+  position: absolute;
+  right: 0;
+  bottom: 1vw;
+  opacity: 0;
+}
+
 .virus {
   position: absolute;
   bottom: 0vw;
