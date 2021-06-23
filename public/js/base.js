@@ -30,6 +30,8 @@ var preloadImg = [
   "/img/completed/btn-instagram-on.png",
   "/img/completed/btn-share-whatsapp-on.png",
   "/img/completed/btn-share-fb-on.png.png",
+  "/img/characters/ilyas-2.png",
+  "/img/characters/gina-2.png",
 ];
 var currPos = "landscape";
 
