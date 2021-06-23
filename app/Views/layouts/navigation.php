@@ -1,3 +1,32 @@
+<style>
+  .btn-side {
+    position: relative;
+    background: transparent;
+  }
+
+  .btn-side .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    z-index: 1;
+    display: none;
+  }
+
+  .btn-side img {
+    position: relative;
+    z-index: 0;
+  }
+
+  .badge:empty {
+    display: block;
+  }
+</style>
+
 <?php if ($showLogo): ?>
 <div class="nav-top">
   <div class="logo-top">
