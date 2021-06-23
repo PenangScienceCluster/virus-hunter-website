@@ -7,6 +7,10 @@
 
 <head>
   <title>Virus Hunter</title>
+  <meta name="Description"
+    content="<?= lang('App.share_description') ?>">
+  <meta name="google-site-verification" content="nQ97sDgNLGUD5OrJxgqBYRbbJw8zDlyVVy-jrogtMIs" />
+
   <!-- prefix -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
