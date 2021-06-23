@@ -1,36 +1,8 @@
-<style>
-.btn-side {
-  position: relative;
-  background: transparent;
-}
-
-.btn-side .badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 1vw;
-  height: 1vw;
-  border-radius: 50%;
-  background: red;
-  color: white;
-  z-index: 1;
-  display: none;
-}
-
-.btn-side img {
-  position: relative;
-  z-index: 0;
-}
-
-.badge:empty {
-  display: block;
-}
-</style>
-
 <?php if ($showLogo): ?>
 <div class="nav-top">
   <div class="logo-top">
-    <a href="<?= urlWithLocale('/'); ?>"><img src="/img/logo-top.png" class="img-fluid" /></a>
+    <a href="<?= urlWithLocale('/'); ?>"><img
+        src="/img/logo-top.png" class="img-fluid" /></a>
   </div>
   <?php if (!empty($navSide)): ?>
   <div class="informations w-25 pl-3">
@@ -57,25 +29,29 @@
   <button class="btn-back"><img src="/img/btn-popup-close-off.png" class="img-fluid" /></button>
   <ul class="navbar-nav mx-auto text-center">
     <li class="nav-item">
-      <a class="nav-link" href="<?= urlWithLocale('/') ?>">
+      <a class="nav-link"
+        href="<?= urlWithLocale('/') ?>">
         <?= lang('App.nav.home') ?>
       </a>
       <div class="nav-line"></div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="<?= urlWithLocale('/aboutus') ?>">
+      <a class="nav-link"
+        href="<?= urlWithLocale('/aboutus') ?>">
         <?= lang('App.nav.aboutus') ?>
       </a>
       <div class="nav-line"></div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="<?= urlWithLocale('/gallery') ?>">
+      <a class="nav-link"
+        href="<?= urlWithLocale('/gallery') ?>">
         <?= lang('App.nav.gallery') ?>
       </a>
       <div class="nav-line"></div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="<?= urlWithLocale('/contactus') ?>">
+      <a class="nav-link"
+        href="<?= urlWithLocale('/contactus') ?>">
         <?= lang('App.nav.contactus') ?>
       </a>
     </li>
