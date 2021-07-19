@@ -33,7 +33,7 @@
 
     <div class="board">
       <div class="reward-title"> <?= lang('App.reward.title') ?></div>
-      <div class="reward-steps " id="step-1">
+      <div class="reward-steps active" id="step-1">
         <div class="reward-subtitle"> <?= lang('App.reward.subtitle') ?></div>
 
         <div class="frame-select">
@@ -87,7 +87,7 @@
           </div>
         </div>
       </div>
-      <div class="reward-steps active" id="step-3">
+      <div class="reward-steps " id="step-3">
         <div class="final-case">
           <div class="final-left">
             <div class="final-img">
