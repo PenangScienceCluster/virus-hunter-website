@@ -33,6 +33,9 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+$routes->post('/merge-image', 'Merge::index');
+$routes->post('/delete-image', 'Merge::delete');
+
 
 $routes->get('/{locale}/(:any)', 'Index::section/$1');
 $routes->get('/', 'Index::index');

@@ -7,16 +7,17 @@ return [
   'share_description' => 'Join Gina and Ilyas in their quest to become Virus Hunters! Pick up quick facts while learning about real-world viruses, pandemics, and vaccines.',
   'share_image' => '/img/shared/fb{0}.jpg',
 
-  'done'=> 'Done',
-  'correct'=> 'correct!',
-  'try_again'=> 'try again',
+  'done' => 'Done',
+  'correct' => 'correct!',
+  'try_again' => 'try again',
   'btn_share' => 'Share',
   'next' => 'next',
   'back' => 'back',
   'done' => 'done',
-  'download'=> 'Download',
+  'download' => 'Download',
   'return' => 'Return',
   'overview_bottom_nav' => 'Overview',
+  'btn_bonus_reward' => 'Bonus Reward',
 
 
   'nav' => [
@@ -38,7 +39,7 @@ return [
     'imready' => 'i\'m ready',
     'aprojectby' => 'A project by',
     'supportedby' => 'Supported by',
-    'title'=> '/img/landing/header_en.png'
+    'title' => '/img/landing/header_en.png'
   ],
   'overview' => [
     'letsbegin' => 'let\'s begin!',
@@ -76,7 +77,7 @@ return [
   'transmission' => 'Transmission',
 
   'pandemics' => [
-    'title'=> 'pandemics',
+    'title' => 'pandemics',
     'dialog' => [
       'girl' => 'In early 2020, my classmates and I suddenly had to attend school from home. Was it the same for you, Ilyas?',
       'boy' => 'Yes! My mother told me that there was a "pandemic" and we had to take care of each other by staying at home.'
@@ -100,13 +101,13 @@ return [
       'title' => 'Disease Outbreaks<br>in History',
       'contentImg' => '/img/pandemics/content.png'
     ],
-    'pop'=>[
+    'pop' => [
       'black_death' => 'Black Death',
       'yersinia_pestis' => 'Yersinia pestis',
       'rodents' => 'Rodents <br><small>(rats)</small>',
       'fleas' => 'Fleas',
       'humans' => 'Humans',
-      'virus_nipah'=> 'Nipah Virus',
+      'virus_nipah' => 'Nipah Virus',
       'bats' => 'Bats',
       'pigs' => 'Pigs',
       'civet_cats' => 'Civet Cats',
@@ -118,7 +119,7 @@ return [
   ],
 
   'zoonotic' => [
-    'title'=> 'ZOONOTIC DISEASES',
+    'title' => 'ZOONOTIC DISEASES',
     'dialog' => [
       'girl' => 'That\'s true! I try to bring hand sanitizer with me when I have to go out. Did you know that COVID-19 is a zoonotic disease?',
       'boy' => 'We can prevent the spread of COVID-19 by washing our hands and avoiding crowded places.'
@@ -135,27 +136,27 @@ return [
         ]
       ],
       'try_out' => [
-        'title'=> 'Select ALL factors that contribute to <br>the emergence of zoonotic diseases.',
+        'title' => 'Select ALL factors that contribute to <br>the emergence of zoonotic diseases.',
         'items' => [
           [
-            'id'=>1,
-            'src'=>'/img/zoonotic/zoonotic-try-01-en.png',
+            'id' => 1,
+            'src' => '/img/zoonotic/zoonotic-try-01-en.png',
           ],
           [
-            'id'=> 2,
-            'src'=>'/img/zoonotic/zoonotic-try-02-en.png',
+            'id' => 2,
+            'src' => '/img/zoonotic/zoonotic-try-02-en.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/zoonotic/zoonotic-try-03-en.png'
+            'src' => '/img/zoonotic/zoonotic-try-03-en.png'
           ],
           [
             'id' => 4,
-            'src'=>'/img/zoonotic/zoonotic-try-04-en.png'
+            'src' => '/img/zoonotic/zoonotic-try-04-en.png'
           ],
           [
             'id' => 5,
-            'src'=>'/img/zoonotic/zoonotic-try-05-en.png'
+            'src' => '/img/zoonotic/zoonotic-try-05-en.png'
           ]
         ]
       ]
@@ -168,7 +169,7 @@ return [
   ],
 
   'nipah' => [
-    'title'=> 'NIPAH VIRUS',
+    'title' => 'NIPAH VIRUS',
     'dialog' => [
       'girl' => 'Ilyas, my older brother told me that another disease outbreak happened here in Malaysia before we were born. Have you heard about that?',
       'boy' => 'Yes! My mother told me about the Nipah Virus outbreak in Peninsular Malaysia.'
@@ -178,7 +179,7 @@ return [
       'career' =>  'Biochemists study chemical reactions in living things, including how viruses take control of infected cells!',
       'virus_hunter' => 'Kaw Bing Chua was a virology student when he discovered Nipah virus, leading to the eventual control of the outbreak.',
       'try_out' => [
-        'title'=> 'Label the virus structure with the correct name and function.',
+        'title' => 'Label the virus structure with the correct name and function.',
         'items' => [
           [
             'id' => 1,
@@ -206,7 +207,7 @@ return [
   ],
 
   'covid' => [
-    'title'=> 'COVID-19',
+    'title' => 'COVID-19',
     'dialog' => [
       'girl' => 'We have to wear face masks because COVID-19 is spread through respiratory droplets. This is especially important because many COVID-19 patients do not show any symptoms!',
       'boy' => 'I heard that during the pandemic, we have to wear face masks when we are outside and meeting other people. Why is it so important for us to wear face masks, Gina?'
@@ -230,7 +231,7 @@ return [
   ],
 
   'vaccines' => [
-    'title'=> 'vaccines',
+    'title' => 'vaccines',
     'dialog' => [
       'girl' => 'Because vaccines are now being distributed all over the world, there is hope that we can put an end to the pandemic as we gain immunity to the virus.',
       'boy' => 'Yes! But we must continue to wear face masks, wash our hands, and practice social distancing to slow down the spread of COVID-19 until our whole community is vaccinated.'
@@ -239,31 +240,31 @@ return [
       'pocket_fact' =>  'A vaccine is a substance that stimulates the body to build active immunity against a virus, effectively protecting the body from the disease it causes.',
       'virus_hunter' => 'Baruch Blumberg discovered the molecule responsible for hepatitis B immune response, leading to the successful production of a hepatitis B vaccine.',
       'try_out' => [
-        'title'=> 'Match the description to the correct phase.',
+        'title' => 'Match the description to the correct phase.',
         'items' => [
           [
             'id' => 1,
-            'src'=>'/img/vaccines/vaccines-try-step1.png',
+            'src' => '/img/vaccines/vaccines-try-step1.png',
             'step' => 'Preclinical'
           ],
           [
             'id' => 2,
-            'src'=>'/img/vaccines/vaccines-try-step2.png',
+            'src' => '/img/vaccines/vaccines-try-step2.png',
             'step' => 'Phase I'
           ],
           [
             'id' => 3,
-            'src'=>'/img/vaccines/vaccines-try-step3.png',
+            'src' => '/img/vaccines/vaccines-try-step3.png',
             'step' => 'Phase II'
           ],
           [
             'id' => 4,
-            'src'=>'/img/vaccines/vaccines-try-step4.png',
+            'src' => '/img/vaccines/vaccines-try-step4.png',
             'step' => 'Phase III'
           ],
           [
             'id' => 5,
-            'src'=>'/img/vaccines/vaccines-try-step5.png',
+            'src' => '/img/vaccines/vaccines-try-step5.png',
             'step' => 'Approval'
           ]
         ]
@@ -302,19 +303,19 @@ return [
       ],
       'try_out' => [
         'step' => 'Step',
-        'title'=> 'Arrange the steps of COVID-19 testing based on the correct sequence.',
+        'title' => 'Arrange the steps of COVID-19 testing based on the correct sequence.',
         'items' => [
           [
-            'id'=>1,
-            'src'=>'/img/toolsandtechniques/step1_en.png',
+            'id' => 1,
+            'src' => '/img/toolsandtechniques/step1_en.png',
           ],
           [
-            'id'=> 2,
-            'src'=>'/img/toolsandtechniques/step2_en.png',
+            'id' => 2,
+            'src' => '/img/toolsandtechniques/step2_en.png',
           ],
           [
             'id' => 3,
-            'src'=>'/img/toolsandtechniques/step3_en.png'
+            'src' => '/img/toolsandtechniques/step3_en.png'
           ]
         ]
       ]
@@ -326,18 +327,29 @@ return [
     ]
   ],
 
-  'completed'=>[
-    'title'=> 'Well done on completing the challenges!',
-    'title2'=> 'You did not complete all your challenges!',
-    'desc'=> 'Claim your medal of honor, Virus Hunter!',
-    'desc2'=> 'Return to the previous pages to collect all the stars.',
-    'join'=>'Join our STEM activities <br>- available both virtually and in-person - here.',
-    'dialog'=>[
+  'completed' => [
+    'title' => 'Well done on completing the challenges!',
+    'title2' => 'You did not complete all your challenges!',
+    'desc' => 'Claim your medal of honor, Virus Hunter!',
+    'desc2' => 'Return to the previous pages to collect all the stars.',
+    'join' => 'Join our STEM activities <br>- available both virtually and in-person - here.',
+    'dialog' => [
       'Learn more about the Virus Hunter project <a href="{0}">here</a>.',
       'Find out about the role of the U.S. in accelerating growth in public healthcare globally <a href="{0}" target="_blank">here</a>.',
       'Read more about how to protect yourself and your family and friends from different diseases <a href="{0}" target="_blank">here</a>.'
     ],
     'pop_title' => 'Let\'s learn with family and friends, <br>and become Virus Hunters together!',
     'share_on' => 'Share on'
+  ],
+
+  'reward' => [
+    'title' => 'Bonus Reward',
+    'subtitle' => 'Take a picture of yourself to complete your journey as a Virus Hunter.<br>Select a photo frame from the options below.',
+    'proceed_photo' => 'proceed to take photo',
+    'share_it' => 'Share it on social media and tag us @pscpen #VirusHunterMalaysia to be featured on our pages!',
+    'redo' => 'Redo',
+    'retake' => 'Retake',
+    'start' => 'Start',
+    'use_photo' => 'Use Photo',
   ]
 ];

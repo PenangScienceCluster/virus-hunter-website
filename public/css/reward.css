@@ -1,0 +1,277 @@
+.board {
+  background: url(../../img/completed/board.png) center  no-repeat;
+  background-size: 90% 90%;
+  padding: 6rem 2rem 0 2rem;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.btn-theme {
+  transition: all ease-in-out 0.2s;
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.btn-theme.btn-disabled {
+  opacity: 0.8;
+  filter: grayscale(1);
+  cursor: no-drop;
+}
+
+.btn-theme.btn-disabled:hover {
+  background: url(../../img/btn-bg-off.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
+.frame-select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 45px 15px;
+}
+
+.frame-option {
+  width: 100%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.frame {
+  background: #fff;
+  border: 4px solid #6b9d1f;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.frame img {
+  display: block;
+}
+
+.frame-checkbox {
+  margin: -10px auto 0;
+  border: 4px solid #6b9d1f;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.frame-checkbox.checked::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+  content: "\f00c";
+  color: #ee2314;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#screenshot {
+  background-color: #000;
+  border-radius: 5px;
+}
+.videostream {
+  display: block;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.videostream video {
+  width: 100%;
+  display: block;
+}
+
+#screenshot-img {
+  display: none;
+  width: 100%;
+}
+
+.photo-case {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.photo-left {
+  flex: 2;
+}
+
+.photo-right {
+  flex: 1;
+}
+
+.screenshot-case {
+
+  background-color: #729e31;
+  border-radius: 5px 0 5px 5px;
+  flex: 2;
+  padding: 5px;
+}
+
+.guide-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: url(../../img/guide.png) 0 0 no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+.final-case {
+  display: flex;
+  flex-direction: row;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.final-left {
+  flex: 2;
+  background-color: #729e31;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.final-right {
+  flex: 1;
+}
+
+.final-img {
+  padding: 15px;
+  background: #fff;
+}
+
+.btn-theme.btn-sm {
+  font-size: 1.8vw;
+}
+
+.btn-camera-case {
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
+
+.btn-camera-case.active {
+  display: inline-block;
+}
+
+
+.btn-theme-camera {
+  font-family: tenbyfive;
+  color: #fff;
+  text-align: center;
+  font-size: 2.5vw;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  background: #ED2616;
+  border-radius: 50%;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px #84190F,2px 2px #84190F,3px 3px #84190F,4px 4px #84190F;
+}
+
+#start-button {
+  display: none;
+}
+
+#start-button.active{
+  display: block;
+}
+
+
+.btn-theme-camera:active {
+  margin: 4px 0 0 4px;
+  box-shadow: none;
+}
+
+
+@media all and (max-width: 768px) {
+  .btn-theme-camera {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.reward-center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+.reward-steps {
+  display: none;
+}
+
+.reward-steps.active {
+  display: block;
+}
+
+.reward-title {
+  text-align: center;
+  font-size: 3.5vw;
+  color :#fff;
+  font-family: tenbyfive;
+}
+
+.reward-subtitle {
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: tenbyfive;
+}
+
+.photo-action-case {
+  background: #6b9d1f;
+  padding: 20px 10px;
+  border-radius:  0 5px 5px 0;
+  text-align: center;
+}
+
+.photo-sub-action-case {
+  padding: 10px;
+  text-align: center;
+}
+
+.photo-action-case .btn-theme {
+  width: 100%;
+}
+
+.photo-sub-action-case .btn-theme {
+  width: 100%;
+}
+
+.ilynas-main {
+  position: absolute;
+  max-width: 15vw;
+  z-index: 1;
+  right: -6vw;
+  bottom: 20vh;
+}
+
+.gina-main {
+  position: absolute;
+  max-width: 19vw;
+  z-index: 1;
+  left: -10vw;
+  bottom: 20vh;
+}
+
+.share-desc {
+  padding: 10px;
+  font-size: 1.8vw;
+  font-family: tenbyfive;
+}

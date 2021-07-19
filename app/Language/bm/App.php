@@ -17,6 +17,7 @@ return [
   'download'=>'Muat Turun',
   'return' => 'Kembali',
   'overview_bottom_nav' => 'Pengenalan',
+  'btn_bonus_reward' => 'Bonus Reward',
 
   'nav' => [
     'home' => 'Halaman Utama',
