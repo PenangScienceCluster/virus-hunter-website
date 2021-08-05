@@ -1,6 +1,11 @@
 <?php
   $stars = isset($_GET['s']) ? $_GET['s'] : 0;
+  $image = isset($_GET['image']) ? $_GET['image'] : null;
   $sharedImg = base_url(lang('App.share_image', [$stars]));
+
+  if($image) {
+  $sharedImg = base_url('uploads/merge/'.$image);
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en-MY">

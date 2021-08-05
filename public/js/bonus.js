@@ -188,7 +188,7 @@ $(function () {
     var url = $(this).data("url");
     var desc = $(this).data("desc");
 
-    var param = "?s=" + starCount + "&" + Math.random();
+    var param = "?image=" + filename + "&" + Math.random();
     var social = {
       fb: {
         width: 600,
