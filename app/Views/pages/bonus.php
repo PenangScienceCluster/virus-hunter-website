@@ -64,7 +64,7 @@
             <?= lang('App.reward.take_photo') ?>
           </div>
         </div>
-        <input id="iptFile" type="file" name="upload" class="upload" style="display:none" accept="image/*"/>
+        <input id="iptFile" type="file" name="upload" class="upload" style="display:none" accept="image/*" />
       </div>
 
     </div>
@@ -113,8 +113,10 @@
 
         <div class="final-case">
           <div class="final-left">
-            <div class="final-img">
-              <img src="" class="img-fluid" />
+            <div class="final-left-inner">
+              <div class="final-img">
+                <img src="" class="img-fluid" />
+              </div>
             </div>
           </div>
           <div class="final-right">

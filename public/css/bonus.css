@@ -1,9 +1,8 @@
 .board {
-  background: url(../../img/completed/board.png) center  no-repeat;
+  background: url(../../img/reward/board.png) center  no-repeat;
   background-size: 90% 90%;
-  padding: 6rem 2rem 0 2rem;
+  padding: 6rem 2rem 8rem 2rem;
   position: relative;
-  height: 60vh;
   width: 100%;
 }
 
@@ -29,7 +28,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0 45px 15px;
+  margin: 0px 7vw 15px;
 }
 
 .frame-option {
@@ -141,6 +140,10 @@
 
 .final-left {
   flex: 2;
+} 
+
+
+.final-left-inner {
   background-color: #729e31;
   border-radius: 5px;
   padding: 5px;
@@ -276,7 +279,7 @@
   max-width: 15vw;
   z-index: 1;
   right: -6vw;
-  bottom: 20vh;
+  bottom: 12vh;
 }
 
 .gina-main {
@@ -284,7 +287,7 @@
   max-width: 19vw;
   z-index: 1;
   left: -10vw;
-  bottom: 20vh;
+  bottom: 12vh;
 }
 
 .share-desc {
@@ -309,4 +312,8 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.final-right .btn-theme{
+  font-size: 2vw;
 }
