@@ -57,12 +57,12 @@ class Index extends BaseController
           '/css/completed.css'
         ];
         break;
-      case  'reward':
+      case  'bonus':
         $js = [
-          '/js/reward.js'
+          '/js/bonus.js'
         ];
         $css = [
-          '/css/reward.css'
+          '/css/bonus.css'
         ];
         break;
       case "pandemics":

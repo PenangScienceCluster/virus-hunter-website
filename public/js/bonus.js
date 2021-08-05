@@ -1,10 +1,9 @@
 var startTime = Date.now();
 var timeThreshold = 1000;
 var frameId = 1;
-var imgBase64 = '';
-var filename = '';
+var imgBase64 = "";
+var filename = "";
 var starCount = 0;
-
 
 $(function () {
   $(".frame-option").click(function () {
@@ -14,6 +13,7 @@ $(function () {
     $(this).find(".frame-checkbox").addClass("checked");
 
     $(".btn-proceed").removeClass("btn-disabled");
+    $(".btn-upload").removeClass("btn-disabled");
   });
 });
 $(function () {
@@ -48,13 +48,16 @@ $(function () {
     canvas.getContext("2d").drawImage(video, 0, 0);
     // Other browsers will fall back to image/png
     img.src = canvas.toDataURL("image/webp");
-    imgBase64 =  canvas.toDataURL("image/webp").split(';base64,')[1];
+    imgBase64 = canvas.toDataURL("image/webp").split(";base64,")[1];
 
     btnUse.classList.remove("btn-disabled");
     btnRetake.classList.remove("btn-disabled");
 
     $("#screenshot-img").show();
     $(".videostream").hide();
+
+    $(".photo-action-case").hide();
+    $(".photo-sub-action-case").show();
   };
 
   btnRetake.onclick = function () {
@@ -62,6 +65,9 @@ $(function () {
     $("#screenshot-img").hide();
     btnUse.classList.add("btn-disabled");
     btnRetake.classList.add("btn-disabled");
+
+    $(".photo-action-case").show();
+    $(".photo-sub-action-case").hide();
   };
 
   function handleSuccess(stream) {
@@ -69,8 +75,8 @@ $(function () {
     screenshotButton.disabled = false;
     video.srcObject = stream;
 
-    $(".btn-camera-case").addClass("active")
-    $("#start-button ").removeClass("active")
+    $(".btn-camera-case").addClass("active");
+    $("#start-button").removeClass("active");
   }
 
   function handleError(error) {
@@ -88,6 +94,40 @@ $(function () {
     }
   }
 
+  var input = document.querySelector("input[type=file]");
+
+  // You will receive the Base64 value every time a user selects a file from his device
+  // As an example I selected a one-pixel red dot GIF file from my computer
+  input.onchange = function () {
+    var file = input.files[0],
+      reader = new FileReader();
+
+    reader.onloadend = function () {
+      // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
+      var b64 = reader.result.replace(/^data:.+;base64,/, "");
+
+      var formData = {
+        frameId: frameId,
+        image: b64,
+      };
+
+      $.post(BASE_URL + "/merge-image", formData, function (data) {
+        var jdata = JSON.parse(data);
+        filename = jdata.filename;
+
+        $(".final-img img").attr(
+          "src",
+          BASE_URL + "/writable/uploads/merge/" + jdata.filename
+        );
+      });
+
+      // next with frameId
+      goToStep(3);
+    };
+
+    reader.readAsDataURL(file);
+  };
+
   $("#use-button").click(function () {
     if (!$("#use-button").hasClass("btn-disabled")) {
       var formData = {
@@ -99,38 +139,46 @@ $(function () {
         var jdata = JSON.parse(data);
         filename = jdata.filename;
 
-        $(".final-img img").attr("src", BASE_URL+"/writable/uploads/merge/"+jdata.filename)
-
+        $(".final-img img").attr(
+          "src",
+          BASE_URL + "/writable/uploads/merge/" + jdata.filename
+        );
       });
 
       // next with frameId
-      goToStep(3)
+      goToStep(3);
     }
   });
 
-  $("#redo-button").click(function() {
+  $(".back-button").click(function () {
+    goToStep(1);
+  });
+
+  $("#redo-button").click(function () {
     var formData = {
-      filename: filename
-    }
+      filename: filename,
+    };
 
-    $.post(BASE_URL + "/delete-image", formData, function (data) {
+    $.post(BASE_URL + "/delete-image", formData, function (data) {});
+    goToStep(1);
+  });
 
-    });
-    goToStep(1)
-  })
-
-  $(".btn-proceed").click(function() {
+  $(".btn-proceed").click(function () {
     if (!$(".btn-proceed").hasClass("btn-disabled")) {
-      goToStep(2)
+      goToStep(2);
     }
-  })
+  });
+
+  $(".btn-upload").click(function () {
+    if (!$(".btn-upload").hasClass("btn-disabled")) {
+      $(".upload").click();
+    }
+  });
 
   function goToStep(num) {
-    $(".reward-steps").removeClass("active")
-    $("#step-"+num).addClass("active")
+    $(".reward-steps").removeClass("active");
+    $("#step-" + num).addClass("active");
   }
-
-
 
   // ------
   $(".icon").click(function (e) {
@@ -176,4 +224,19 @@ $(function () {
 
     popup(social);
   });
+
+  function encodeImgtoBase64(element) {
+    var img = element.files[0];
+
+    var reader = new FileReader();
+
+    reader.onloadend = function () {
+      $("#convertImg").attr("href", reader.result);
+
+      $("#convertImg").text(reader.result);
+
+      $("#displayImg").attr("src", reader.result);
+    };
+    reader.readAsDataURL(img);
+  }
 });

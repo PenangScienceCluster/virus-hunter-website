@@ -159,6 +159,25 @@ button:active {
   background-size: 100% 100%;
 }
 
+
+.btn-bonus {
+  background: url(../img/btn-empty-small-purple-off.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  font-family: tenbyfive;
+  color: #fff;
+  padding: 1rem 3rem 2rem 3rem;
+  text-align: center;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  display: table;
+}
+.btn-bonus:hover {
+  background: url(../img/btn-empty-small-purple-on.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+
 .bestview {
   display: none;
 }

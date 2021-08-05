@@ -83,11 +83,15 @@
             <?=lang('App.completed.desc2') ?>
           </span>
         </h4>
-        <div class="d-flex w-60 mx-auto">
+        <div class="d-flex w-80 mx-auto">
           <div class="position-relative btn-theme w-40 mx-auto btn-return">
             <?= lang('App.return') ?>
           </div>
-          <div class="position-relative btn-theme w-40 mx-auto btn-share" data-toggle="modal" data-target="#share_pop">
+          <a href="<?= urlWithLocale('/bonus') ?>" class="position-relative btn-bonus w-40 mx-auto btn-return">
+          <i class="fas fa-camera"></i>
+            <?= lang('App.btn_bonus') ?>
+          </a>
+          <div class="position-relative btn-theme btn w-40 mx-auto btn-share" data-toggle="modal" data-target="#share_pop">
             <?= lang('App.btn_share') ?>
           </div>
         </div>

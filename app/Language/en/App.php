@@ -18,6 +18,7 @@ return [
   'return' => 'Return',
   'overview_bottom_nav' => 'Overview',
   'btn_bonus_reward' => 'Bonus Reward',
+  'btn_bonus' => 'Bonus',
 
 
   'nav' => [
@@ -344,12 +345,17 @@ return [
 
   'reward' => [
     'title' => 'Bonus Reward',
-    'subtitle' => 'Take a picture of yourself to complete your journey as a Virus Hunter.<br>Select a photo frame from the options below.',
+    'booth' => 'Booth',
+    'subtitle' => 'Celebrate your achievement as a Virus Hunter with a photo!<br>Select a frame from the options below.',
     'proceed_photo' => 'proceed to take photo',
     'share_it' => 'Share it on social media and tag us @pscpen #VirusHunterMalaysia to be featured on our pages!',
     'redo' => 'Redo',
     'retake' => 'Retake',
+    'retake_photo' => 'Retake Photo',
+    'share_photo' => 'Share Photo',
     'start' => 'Start',
     'use_photo' => 'Use Photo',
+    'take_photo' => 'Take Photo',
+    'upload_photo' => 'Upload Photo',
   ]
 ];
