@@ -117,7 +117,7 @@ $(function () {
 
         $(".final-img img").attr(
           "src",
-          BASE_URL + "/writable/uploads/merge/" + jdata.filename
+          BASE_URL + "/uploads/merge/" + jdata.filename
         );
       });
 
@@ -141,7 +141,7 @@ $(function () {
 
         $(".final-img img").attr(
           "src",
-          BASE_URL + "/writable/uploads/merge/" + jdata.filename
+          BASE_URL + "/uploads/merge/" + jdata.filename
         );
       });
 

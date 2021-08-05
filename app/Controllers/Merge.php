@@ -83,7 +83,11 @@ class Merge extends BaseController
     $filename = time().'_'.rand(1,10).'.png';
 
     # Save the image to a file
-    imagepng($merged_image, WRITEPATH . '/uploads/merge/'.$filename);
+    if (!is_dir( FCPATH . '/uploads/merge/')) {
+      mkdir(FCPATH . '/uploads/merge/', 0777, TRUE);
+  }
+  
+    imagepng($merged_image, FCPATH . '/uploads/merge/'.$filename);
 
     echo json_encode([
       'filename' => $filename,
@@ -94,6 +98,6 @@ class Merge extends BaseController
   public function delete()
   {
     $filename = $this->request->getPost('filename');
-    unlink(WRITEPATH . '/uploads/merge/'.$filename);
+    unlink(FCPATH . '/uploads/merge/'.$filename);
   }
 }

@@ -154,7 +154,6 @@
 }
 
 .final-img {
-  padding: 15px;
   background: #fff;
 }
 
@@ -316,4 +315,49 @@
 
 .final-right .btn-theme{
   font-size: 2vw;
+}
+
+@media screen and (max-width:896px) {
+  .content-wrap {
+    max-width: 60vw ;
+  }
+
+  .board {
+    padding: 5rem 1rem;
+  }
+
+  .ilynas-main {
+    max-width: 12vw;
+    z-index: 1;
+    right: -5vw;
+    bottom: 6vh;
+  }
+
+  .gina-main {
+    max-width: 16vw;
+    z-index: 1;
+    left: -10vw;
+    bottom: 6vh;
+  }
+
+  .reward-subtitle {
+
+    font-size: 1.5vw;
+  }
+
+  .btn-upload {
+    font-size: 2vw;
+  }
+  .btn-proceed {
+    font-size: 2vw;
+  }
+
+  .share-desc {
+
+    font-size: 1.3vw;
+  }
+
+  .final-right .btn-theme {
+    font-size: 1.5vw;
+  }
 }
