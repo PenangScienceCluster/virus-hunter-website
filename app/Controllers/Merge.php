@@ -32,6 +32,14 @@ class Merge extends BaseController
     $dstY = 0;
 
 
+    if($frameId == 1) {
+      $resizeWidth = 510;
+      $resizeHeight = 630;
+      $dstX = 345;
+      $dstY = 0;
+    }
+
+
     if($frameId == 2) {
       $resizeWidth = 326;
       $resizeHeight = 386;

@@ -80,7 +80,7 @@ $(function () {
   }
 
   function handleError(error) {
-    console.log(error.name);
+    alert('Camera: '+error.name);
     if (
       error.name == "NotAllowedError" ||
       error.name == "PermissionDismissedError"
