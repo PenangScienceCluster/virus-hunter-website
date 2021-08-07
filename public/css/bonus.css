@@ -1,7 +1,21 @@
+.content-bonus-wrap {
+  width: 70vw;
+  border: 0px solid red;
+  margin: auto;
+}
+
+.nav-top {
+  z-index: 103;
+}
+
+.navbar-toggler {
+  z-index: 0;
+}
+
 .board {
   background: url(../../img/reward/board.png) center  no-repeat;
   background-size: 90% 90%;
-  padding: 6rem 2rem 8rem 2rem;
+  padding: 6rem 1rem 8rem 1rem;
   position: relative;
   width: 100%;
 }
@@ -39,21 +53,25 @@
 
 .frame {
   background: #fff;
-  border: 4px solid #6b9d1f;
+  border: 6px solid #6b9d1f;
   border-radius: 6px;
   width: 100%;
 }
 
 .frame img {
   display: block;
+  border-radius: 6px;
+  border: 6px solid #fff;
 }
 
+
+
 .frame-checkbox {
-  margin: -10px auto 0;
-  border: 4px solid #6b9d1f;
+  margin: -15px auto 0;
+  border: 6px solid #6b9d1f;
   background: #fff;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   position: relative;
 }
@@ -61,7 +79,7 @@
 .frame-checkbox.checked::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   content: "\f00c";
   color: #ee2314;
@@ -281,7 +299,7 @@
   z-index: 1;
   right: -6vw;
   top: 0;
-  bottom: 0;
+  bottom: -14vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -294,7 +312,7 @@
   z-index: 1;
   left: -9vw;
   top: 0;
-  bottom: 0;
+  bottom: -17vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -303,8 +321,8 @@
 
 .share-desc {
   padding: 10px;
-  font-size: 1.8vw;
-  font-family: tenbyfive;
+  font-size: 1.5vw;
+  font-weight: 700;
 }
 
 .booth-case {
@@ -315,6 +333,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 102;
 
   background:#333333;
 }
@@ -375,5 +394,21 @@
 
   .final-right .btn-theme {
     font-size: 1.5vw;
+  }
+
+  .frame-checkbox {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #6b9d1f;
+    margin: -10px ​auto 0;
+  }
+
+  .frame {
+    border: 3px solid #6b9d1f;
+
+  }
+
+  .frame-checkbox.checked::before {
+    font-size: 14px;
   }
 }

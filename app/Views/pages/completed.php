@@ -20,8 +20,7 @@
   }
 </style>
 
-<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
+<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -38,14 +37,10 @@
             <h4 class="mb-4">
               <?= lang('App.completed.share_on') ?>:
             </h4>
-            <a href="#" class="mr-4 icon" class="icon" id="fb"
-              data-desc="<?= lang('App.share_caption') ?>"
-              data-url="<?= base_url() ?>">
+            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
             </a>
-            <a href="#" class="icon" id="wa"
-              data-desc="<?= lang('App.share_caption') ?>"
-              data-url="<?= base_url() ?>">
+            <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
             </a>
 
@@ -69,31 +64,38 @@
         </div>
         <h3 class="text-white text-center tenbyfive">
           <span class="d-none title">
-            <?=lang('App.completed.title') ?>
+            <?= lang('App.completed.title') ?>
           </span>
           <span class="d-none title2">
-            <?=lang('App.completed.title2') ?>
+            <?= lang('App.completed.title2') ?>
           </span>
         </h3>
         <h4 class="text-center font-weight-bold">
           <span class="d-none desc">
-            <?=lang('App.completed.desc') ?>
+            <?= lang('App.completed.desc') ?>
           </span>
           <span class="d-none desc2">
-            <?=lang('App.completed.desc2') ?>
+            <?= lang('App.completed.desc2') ?>
           </span>
         </h4>
-        <div class="d-flex w-80 mx-auto">
-          <div class="position-relative btn-theme w-40 mx-auto btn-return">
-            <?= lang('App.return') ?>
+        <div class="d-flex w-80 mx-auto completed-action-btn-case">
+          <div class="completed-action-btn">
+            <div class="position-relative btn-theme  w-100 btn-return">
+              <?= lang('App.return') ?>
+            </div>
           </div>
-          <a href="<?= urlWithLocale('/bonus') ?>" class="position-relative btn-bonus w-40 mx-auto btn-return">
-          <i class="fas fa-camera"></i>
-            <?= lang('App.btn_bonus') ?>
-          </a>
-          <div class="position-relative btn-theme btn w-40 mx-auto btn-share" data-toggle="modal" data-target="#share_pop">
-            <?= lang('App.btn_share') ?>
+          <div class="completed-action-btn">
+            <a href="<?= urlWithLocale('/bonus') ?>" target="_blank" class="position-relative w-100 btn-bonus ">
+              <i class="fas fa-camera"></i>
+              <?= lang('App.reward.booth') ?>
+            </a>
           </div>
+          <div class="completed-action-btn">
+            <div class="position-relative btn-theme  w-100 btn btn-share" data-toggle="modal" data-target="#share_pop">
+              <?= lang('App.btn_share') ?>
+            </div>
+          </div>
+
         </div>
       </div>
       <div class="row mt-4 social-wrap">
@@ -134,7 +136,7 @@
     <div id="slide" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <?= lang('App.completed.dialog.0', ["/".locale().'/gallery']) ?>
+          <?= lang('App.completed.dialog.0', ["/" . locale() . '/gallery']) ?>
         </div>
         <div class="carousel-item">
           <?= lang('App.completed.dialog.1', ['https://www.usaid.gov/']) ?>

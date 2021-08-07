@@ -24,7 +24,7 @@
   }
 </style>
 
-<div class="content-wrap h-100 overview animated fadeIn reward-wrap">
+<div class="content-bonus-wrap h-100 overview animated fadeIn reward-wrap">
 
 
   <div class="reward-steps active" id="step-1">
@@ -35,7 +35,7 @@
 
       <div class="board">
         <div class="reward-title"><i class="fas fa-camera"></i> <?= lang('App.reward.booth') ?></div>
-        <div class="reward-subtitle"> <?= lang('App.reward.subtitle') ?></div>
+        <h4 class="text-center font-weight-bold "><span class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
 
         <div class="frame-select">
           <div class="frame-option" data-frame="1">
@@ -77,7 +77,7 @@
           <div id="screenshot" style="text-align:center;">
             <div class="videostream">
               <video autoplay=""></video>
-              <div class="guide-overlay"></div>
+              <!-- <div class="guide-overlay"></div> -->
             </div>
             <img id="screenshot-img">
           </div>
@@ -148,9 +148,7 @@
         <div class="ilynas"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
         <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
-            <h4>
-              <?= lang('App.completed.pop_title') ?>
-            </h4>
+           
             <h4 class="mb-4">
               <?= lang('App.completed.share_on') ?>:
             </h4>

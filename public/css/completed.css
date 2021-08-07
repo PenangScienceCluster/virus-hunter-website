@@ -109,6 +109,20 @@
 .carousel-item {
   padding-bottom: 2px;
 }
+
+
+.completed-action-btn-case  {
+  justify-content: center;
+  align-items: center;
+}
+
+.completed-action-btn {
+  padding: 0 4px;
+  flex: 1;
+}
+
+
+
 @media only screen and (max-height: 480px) {
   /* .social-wrap {
     border: 1px solid red;

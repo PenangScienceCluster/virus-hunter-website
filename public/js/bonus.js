@@ -4,6 +4,7 @@ var frameId = 1;
 var imgBase64 = "";
 var filename = "";
 var starCount = 0;
+var redo = false;
 
 $(function () {
   $(".frame-option").click(function () {
@@ -14,6 +15,8 @@ $(function () {
 
     $(".btn-proceed").removeClass("btn-disabled");
     $(".btn-upload").removeClass("btn-disabled");
+
+    $("#iptFile").val('')
   });
 });
 $(function () {
@@ -80,7 +83,7 @@ $(function () {
   }
 
   function handleError(error) {
-    alert('Camera: '+error.name);
+    alert("Camera: " + error.name);
     if (
       error.name == "NotAllowedError" ||
       error.name == "PermissionDismissedError"
@@ -99,6 +102,7 @@ $(function () {
   // You will receive the Base64 value every time a user selects a file from his device
   // As an example I selected a one-pixel red dot GIF file from my computer
   input.onchange = function () {
+    console.log("changned");
     var file = input.files[0],
       reader = new FileReader();
 
@@ -159,6 +163,8 @@ $(function () {
       filename: filename,
     };
 
+    redo = true;
+
     $.post(BASE_URL + "/delete-image", formData, function (data) {});
     goToStep(1);
   });
@@ -166,6 +172,16 @@ $(function () {
   $(".btn-proceed").click(function () {
     if (!$(".btn-proceed").hasClass("btn-disabled")) {
       goToStep(2);
+
+      if (redo) {
+        $(".videostream").show();
+        $("#screenshot-img").hide();
+        btnUse.classList.add("btn-disabled");
+        btnRetake.classList.add("btn-disabled");
+
+        $(".photo-action-case").show();
+        $(".photo-sub-action-case").hide();
+      }
     }
   });
 
