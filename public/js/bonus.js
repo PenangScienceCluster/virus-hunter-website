@@ -14,9 +14,10 @@ $(function () {
     $(this).find(".frame-checkbox").addClass("checked");
 
     $(".btn-proceed").removeClass("btn-disabled");
+    $(".btn-proceed-mobile").removeClass("btn-disabled");
     $(".btn-upload").removeClass("btn-disabled");
 
-    $("#iptFile").val('')
+    $("#iptFile").val("");
   });
 });
 $(function () {
@@ -97,18 +98,52 @@ $(function () {
     }
   }
 
-  var input = document.querySelector("input[type=file]");
+  var input = document.querySelector(".upload");
 
   // You will receive the Base64 value every time a user selects a file from his device
   // As an example I selected a one-pixel red dot GIF file from my computer
   input.onchange = function () {
-    console.log("changned");
     var file = input.files[0],
       reader = new FileReader();
 
     reader.onloadend = function () {
       // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
       var b64 = reader.result.replace(/^data:.+;base64,/, "");
+
+      var formData = {
+        frameId: frameId,
+        image: b64,
+      };
+
+      $.post(BASE_URL + "/merge-image", formData, function (data) {
+        var jdata = JSON.parse(data);
+        filename = jdata.filename;
+
+        $(".final-img img").attr(
+          "src",
+          BASE_URL + "/uploads/merge/" + jdata.filename
+        );
+      });
+
+      // next with frameId
+      goToStep(3);
+    };
+
+    reader.readAsDataURL(file);
+  };
+
+  var inputCapture = document.querySelector(".ipt-capture");
+
+  // You will receive the Base64 value every time a user selects a file from his device
+  // As an example I selected a one-pixel red dot GIF file from my computer
+  inputCapture.onchange = function () {
+    var file = inputCapture.files[0],
+      reader = new FileReader();
+
+    reader.onloadend = function () {
+      // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
+      var b64 = reader.result.replace(/^data:.+;base64,/, "");
+      
 
       var formData = {
         frameId: frameId,
@@ -182,6 +217,12 @@ $(function () {
         $(".photo-action-case").show();
         $(".photo-sub-action-case").hide();
       }
+    }
+  });
+
+  $(".btn-proceed-mobile").click(function () {
+    if (!$(".btn-proceed-mobile").hasClass("btn-disabled")) {
+      $("#ipt-capture").click();
     }
   });
 

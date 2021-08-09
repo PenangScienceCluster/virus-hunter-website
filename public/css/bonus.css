@@ -13,7 +13,7 @@
 }
 
 .board {
-  background: url(../../img/reward/board.png) center  no-repeat;
+  background: url(../../img/reward/board.png) center no-repeat;
   background-size: 90% 90%;
   padding: 6rem 1rem 8rem 1rem;
   position: relative;
@@ -63,8 +63,6 @@
   border-radius: 6px;
   border: 6px solid #fff;
 }
-
-
 
 .frame-checkbox {
   margin: -15px auto 0;
@@ -132,7 +130,7 @@
   max-width: 50vw;
   margin: 0 auto;
   height: 100%;
-  
+
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -159,8 +157,7 @@
 
 .final-left {
   flex: 2;
-} 
-
+}
 
 .final-left-inner {
   background-color: #729e31;
@@ -190,7 +187,6 @@
   display: inline-block;
 }
 
-
 .btn-theme-camera {
   font-family: tenbyfive;
   color: #fff;
@@ -198,28 +194,47 @@
   font-size: 2.5vw;
   cursor: pointer;
   transition: all 0.1s ease;
-  background: #ED2616;
+  background: #ed2616;
   border-radius: 50%;
   display: flex;
   width: 60px;
   height: 60px;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px #84190F,2px 2px #84190F,3px 3px #84190F,4px 4px #84190F;
+  box-shadow: 1px 1px #84190f, 2px 2px #84190f, 3px 3px #84190f, 4px 4px #84190f;
 }
 
 #start-button {
   display: none;
 }
 
-#start-button.active{
+#start-button.active {
   display: block;
 }
-
 
 .btn-theme-camera:active {
   margin: 4px 0 0 4px;
   box-shadow: none;
+}
+
+.btn-proceed-mobile-case {
+  display: none;
+}
+
+
+/* Landscape */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: landscape) { 
+    .btn-proceed-mobile-case {
+      display: block;
+    }
+
+    .btn-proceed {
+      display: none;
+    }
+    
+
 }
 
 
@@ -249,7 +264,7 @@
 .reward-title {
   text-align: center;
   font-size: 3.5vw;
-  color :#fff;
+  color: #fff;
   font-family: tenbyfive;
 }
 
@@ -261,8 +276,8 @@
 
 .photo-action-case {
   background: rgba(107, 157, 31, 0.5);
-  padding:  10px;
-  border-radius:  0 5px 5px 0;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -276,10 +291,9 @@
 }
 
 .photo-sub-action-case-inner {
-
   background: rgba(107, 157, 31, 0.5);
-  padding:  10px;
-  border-radius:  0 5px 5px 0;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -335,7 +349,7 @@
   bottom: 0;
   z-index: 102;
 
-  background:#333333;
+  background: #333333;
 }
 
 .booth-top {
@@ -348,13 +362,13 @@
   width: 100%;
 }
 
-.final-right .btn-theme{
+.final-right .btn-theme {
   font-size: 2vw;
 }
 
-@media screen and (max-width:896px) {
+@media screen and (max-width: 896px) {
   .content-wrap {
-    max-width: 60vw ;
+    max-width: 60vw;
   }
 
   .board {
@@ -376,7 +390,6 @@
   }
 
   .reward-subtitle {
-
     font-size: 1.5vw;
   }
 
@@ -387,8 +400,11 @@
     font-size: 2vw;
   }
 
-  .share-desc {
+  .btn-proceed-mobile {
+    font-size: 2vw;
+  }
 
+  .share-desc {
     font-size: 1.3vw;
   }
 
@@ -405,7 +421,6 @@
 
   .frame {
     border: 3px solid #6b9d1f;
-
   }
 
   .frame-checkbox.checked::before {

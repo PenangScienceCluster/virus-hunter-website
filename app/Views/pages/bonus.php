@@ -60,6 +60,12 @@
           <div class="position-relative btn-theme btn-disabled btn-share btn-upload">
             <?= lang('App.reward.upload_photo') ?>
           </div>
+          <div class="btn-proceed-mobile-case">
+            <div class="position-relative btn-theme btn-disabled btn-share btn-proceed-mobile">
+              <?= lang('App.reward.take_photo') ?>
+            </div>
+            <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" capture  style="display:none" >
+          </div>
           <div class="position-relative btn-theme btn-disabled btn-share btn-proceed">
             <?= lang('App.reward.take_photo') ?>
           </div>
@@ -75,6 +81,8 @@
       <div class="booth-top">
         <div class="screenshot-case">
           <div id="screenshot" style="text-align:center;">
+
+
             <div class="videostream">
               <video autoplay=""></video>
               <!-- <div class="guide-overlay"></div> -->
@@ -148,7 +156,7 @@
         <div class="ilynas"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
         <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
-           
+
             <h4 class="mb-4">
               <?= lang('App.completed.share_on') ?>:
             </h4>
