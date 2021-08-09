@@ -230,7 +230,7 @@
       display: block;
     }
 
-    .btn-proceed {
+    .btn-proceed, .btn-upload {
       display: none;
     }
     

@@ -57,14 +57,15 @@
         </div>
 
         <div style="display:flex; flex-direction:row; justify-content:center">
-          <div class="position-relative btn-theme btn-disabled btn-share btn-upload">
-            <?= lang('App.reward.upload_photo') ?>
-          </div>
+          
           <div class="btn-proceed-mobile-case">
             <div class="position-relative btn-theme btn-disabled btn-share btn-proceed-mobile">
-              <?= lang('App.reward.take_photo') ?>
+              <?= lang('App.reward.upload_take_photo') ?>
             </div>
             <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" capture  style="display:none" >
+          </div>
+          <div class="position-relative btn-theme btn-disabled btn-share btn-upload">
+            <?= lang('App.reward.upload_photo') ?>
           </div>
           <div class="position-relative btn-theme btn-disabled btn-share btn-proceed">
             <?= lang('App.reward.take_photo') ?>

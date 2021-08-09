@@ -357,5 +357,6 @@ return [
     'use_photo' => 'Use Photo',
     'take_photo' => 'Take Photo',
     'upload_photo' => 'Upload Photo',
+    'upload_take_photo' => 'Upload/Take Photo',
   ]
 ];
