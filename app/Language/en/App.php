@@ -348,7 +348,7 @@ return [
     'booth' => 'Booth',
     'subtitle' => 'Celebrate your achievement as a Virus Hunter with a photo!<br>Select a frame from the options below.',
     'proceed_photo' => 'proceed to take photo',
-    'share_it' => 'Share it on social media and tag us @pscpen #VirusHunterMalaysia to be featured on our pages!',
+    'share_it' => 'Share it on social media and tag us <b><i>@pscpen #VirusHunterMalaysia</b></i> to be featured on our pages!',
     'redo' => 'Redo',
     'retake' => 'Retake',
     'retake_photo' => 'Retake Photo',

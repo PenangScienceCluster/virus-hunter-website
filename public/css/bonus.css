@@ -224,7 +224,7 @@
 
 /* Landscape */
 @media 
-  (max-device-width: 800px) 
+  (max-device-width: 1000px) 
   and (orientation: landscape) { 
     .btn-proceed-mobile-case {
       display: block;
@@ -336,7 +336,6 @@
 .share-desc {
   padding: 10px;
   font-size: 1.5vw;
-  font-weight: 700;
 }
 
 .booth-case {
