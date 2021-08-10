@@ -2,26 +2,26 @@
 <?= $this->section('content') ?>
 
 <script>
-  var BASE_URL = '<?= base_url() ?>'
+var BASE_URL = '<?= base_url() ?>'
 </script>
 <style>
-  .custom-modal .modal-content {
-    min-height: 40vw;
-  }
+.custom-modal .modal-content {
+  min-height: 40vw;
+}
 
-  #share_pop .gina {
-    width: 21%;
-    position: absolute;
-    left: 7%;
-    bottom: 20%;
-  }
+#share_pop .gina {
+  width: 21%;
+  position: absolute;
+  left: 7%;
+  bottom: 20%;
+}
 
-  #share_pop .ilynas {
-    width: 16%;
-    position: absolute;
-    right: 7%;
-    bottom: 20%;
-  }
+#share_pop .ilynas {
+  width: 16%;
+  position: absolute;
+  right: 7%;
+  bottom: 20%;
+}
 </style>
 
 <div class="content-bonus-wrap h-100 overview animated fadeIn reward-wrap">
@@ -35,7 +35,8 @@
 
       <div class="board">
         <div class="reward-title"><i class="fas fa-camera"></i> <?= lang('App.reward.booth') ?></div>
-        <h4 class="text-center font-weight-bold "><span class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
+        <h4 class="text-center font-weight-bold "><span
+            class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
 
         <div class="frame-select">
           <div class="frame-option" data-frame="1">
@@ -46,23 +47,25 @@
           </div>
           <div class="frame-option" data-frame="2">
             <div class="frame">
-              <img src="/img/reward/frame_2.png" class="img-fluid" /></div>
+              <img src="/img/reward/frame_2.png" class="img-fluid" />
+            </div>
             <div class="frame-checkbox"></div>
           </div>
           <div class="frame-option" data-frame="3">
             <div class="frame">
-              <img src="/img/reward/frame_3.png" class="img-fluid" /></div>
+              <img src="/img/reward/frame_3.png" class="img-fluid" />
+            </div>
             <div class="frame-checkbox"></div>
           </div>
         </div>
 
         <div style="display:flex; flex-direction:row; justify-content:center">
-          
+
           <div class="btn-proceed-mobile-case">
             <div class="position-relative btn-theme btn-disabled btn-share btn-proceed-mobile">
               <?= lang('App.reward.upload_take_photo') ?>
             </div>
-            <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" capture  style="display:none" >
+            <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" style="display:none">
           </div>
           <div class="position-relative btn-theme btn-disabled btn-share btn-upload">
             <?= lang('App.reward.upload_photo') ?>
@@ -94,7 +97,8 @@
       </div>
       <div class="booth-bottom">
         <div class="photo-action-case">
-          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?></div>
+          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?>
+          </div>
           <div class="btn-theme btn-sm active" id="start-button"><?= lang('App.reward.start') ?></div>
           <div class="btn-camera-case">
             <div class="btn-theme-camera btn-sm" id="screenshot-button" disabled=""><i class="fas fa-camera"></i></div>
@@ -102,8 +106,10 @@
         </div>
         <div class="photo-sub-action-case">
           <div class="photo-sub-action-case-inner">
-            <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled=""><i class="fas fa-redo"></i> <?= lang('App.reward.retake') ?></div>
-            <div class="btn-theme btn-sm btn-disabled" id="use-button" disabled=""><?= lang('App.reward.use_photo') ?> <i class="fas fa-chevron-circle-right"></i> </div>
+            <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled=""><i class="fas fa-redo"></i>
+              <?= lang('App.reward.retake') ?></div>
+            <div class="btn-theme btn-sm btn-disabled" id="use-button" disabled=""><?= lang('App.reward.use_photo') ?>
+              <i class="fas fa-chevron-circle-right"></i> </div>
           </div>
         </div>
       </div>
@@ -130,7 +136,8 @@
           </div>
           <div class="final-right">
             <div class="share-desc"><?= lang('App.reward.share_it') ?></div>
-            <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" data-toggle="modal" data-target="#share_pop">
+            <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" data-toggle="modal"
+              data-target="#share_pop">
               <?= lang('App.reward.share_photo') ?>
             </div>
             <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" id="redo-button">
@@ -146,7 +153,8 @@
 </div>
 
 
-<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -161,7 +169,8 @@
             <h4 class="mb-4">
               <?= lang('App.completed.share_on') ?>:
             </h4>
-            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+              data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
             </a>
             <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
@@ -177,7 +186,7 @@
 
 
 <script>
-  var lang = '<?= locale() ?>';
+var lang = '<?= locale() ?>';
 </script>
 
 <?= $this->endSection()  ?>
