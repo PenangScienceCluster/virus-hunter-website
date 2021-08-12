@@ -57,17 +57,17 @@
         </div>
 
         <div style="display:flex; flex-direction:row; justify-content:center">
-          
+
           <div class="btn-proceed-mobile-case">
-            <div class="position-relative btn-theme btn-disabled btn-share btn-proceed-mobile">
+            <div class="position-relative btn-theme btn-disabled btn-proceed-mobile">
               <?= lang('App.reward.upload_take_photo') ?>
             </div>
-            <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" capture  style="display:none" >
+            <input id="ipt-capture" type="file" class="ipt-capture" name="upload" accept="image/*" style="display:none">
           </div>
-          <div class="position-relative btn-theme btn-disabled btn-share btn-upload">
+          <div class="position-relative btn-theme btn-disabled btn-upload">
             <?= lang('App.reward.upload_photo') ?>
           </div>
-          <div class="position-relative btn-theme btn-disabled btn-share btn-proceed">
+          <div class="position-relative btn-theme btn-disabled btn-proceed">
             <?= lang('App.reward.take_photo') ?>
           </div>
         </div>
@@ -95,7 +95,6 @@
       <div class="booth-bottom">
         <div class="photo-action-case">
           <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?></div>
-          <div class="btn-theme btn-sm active" id="start-button"><?= lang('App.reward.start') ?></div>
           <div class="btn-camera-case">
             <div class="btn-theme-camera btn-sm" id="screenshot-button" disabled=""><i class="fas fa-camera"></i></div>
           </div>
@@ -110,7 +109,6 @@
     </div>
   </div>
 
-
   <div class="reward-steps " id="step-3">
     <div class="reward-center">
 
@@ -123,17 +121,23 @@
         <div class="final-case">
           <div class="final-left">
             <div class="final-left-inner">
-              <div class="final-img">
-                <img src="" class="img-fluid" />
+              <div class="final-img-case">
+                <div class="final-img-frame"><img src="/img/reward/frame_1.png" class="img-fluid" />
+                  <div class="final-img frame1 landscape ori-landscape" style="background-image: url('/img/reward/test-selfie.jpg')"></div>
+                </div>
               </div>
             </div>
+            <div class="final-img-action">
+              <div class="btn-theme-camera btn-sm mx-auto" id="rotate-button"><i class="fas fa-undo fa-flip-horizontal "></i></div>
+            </div>
+
           </div>
           <div class="final-right">
             <div class="share-desc"><?= lang('App.reward.share_it') ?></div>
             <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" data-toggle="modal" data-target="#share_pop">
               <?= lang('App.reward.share_photo') ?>
             </div>
-            <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" id="redo-button">
+            <div class="position-relative btn-theme  mx-auto  completed-action-btn" id="redo-button">
               <i class="fas fa-camera"></i> <?= lang('App.reward.retake_photo') ?>
             </div>
           </div>
@@ -158,15 +162,24 @@
         <div class="row" style="height:60vh">
           <div class="col-sm-12 my-auto text-center">
 
-            <h4 class="mb-4">
-              <?= lang('App.completed.share_on') ?>:
-            </h4>
-            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
-              <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
-            </a>
-            <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
-              <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
-            </a>
+            <div class="share-processing">
+              <div class="fa-3x">
+                <i class="fas fa-cog fa-spin"></i>
+              </div>
+              <h4 class="text-center font-weight-bold" style="color: #000">Loading</h4>
+            </div>
+
+            <div class="share-done">
+              <h4 class="mb-4">
+                <?= lang('App.completed.share_on') ?>:
+              </h4>
+              <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+                <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
+              </a>
+              <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+                <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
+              </a>
+            </div>
 
           </div>
         </div>

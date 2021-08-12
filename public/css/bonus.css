@@ -151,7 +151,7 @@
 .final-case {
   display: flex;
   flex-direction: row;
-  max-width: 85%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -167,6 +167,7 @@
 
 .final-right {
   flex: 1;
+  padding: 0 10px
 }
 
 .final-img {
@@ -221,22 +222,149 @@
   display: none;
 }
 
-
-/* Landscape */
-@media 
-  (max-device-width: 1000px) 
-  and (orientation: landscape) { 
-    .btn-proceed-mobile-case {
-      display: block;
-    }
-
-    .btn-proceed, .btn-upload {
-      display: none;
-    }
-    
-
+.final-img-case {
+  position: relative;
+  overflow: hidden;
 }
 
+.final-img-frame {
+  z-index: 2;
+  position: relative;
+  background: #fff;
+}
+
+.final-img-frame img {
+  z-index: 2;
+  position: relative;
+}
+
+.final-img {
+  transition: all ease-in-out 0.2s;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.potrait {
+  background-size: 100% auto;
+}
+
+.landscape {
+  background-size: auto 100%;
+}
+
+.frame1 {
+  max-width: 42.5%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.frame2 {
+  max-width: 27.167%;
+  max-height: 61.269%;
+  left: 0;
+  right: 0;
+  top: 10.63%;
+  margin: 0 auto;
+}
+
+.frame3 {
+  max-width: 52.5%;
+  max-height: 73.015%;
+  /* left: 1.416%;
+  top: 1.416%; */
+  left: 2.4%;
+  top: 2.4%;
+}
+
+.frame1.ori-potrait.landscape {
+  max-width: 52.5%;
+  max-height: 80.5%;
+  top: 9.63%;
+  background-size:  100% auto;
+}
+
+.frame2.ori-potrait.landscape {
+  max-width: 32.167%;
+  max-height: 51.269%;
+  top: 15.63%;
+  background-size:  100% auto;
+}
+
+.frame3.ori-potrait.landscape {
+  max-width: 37.5%;
+  max-height: 100%;
+  background-size: 100% auto;    
+  left: 9.4%;
+  top: -10.6%;
+}
+
+.frame1.ori-landscape.potrait {
+  max-width: 52.5%;
+  max-height: 80.5%;
+  top: 9.63%;
+  background-size:  auto 100%;   
+}
+
+.frame2.ori-landscape.potrait {
+  max-width: 32.167%;
+  max-height: 51.269%;
+  top: 15.63%;
+  background-size:  auto 100%;   
+}
+
+.frame3.ori-landscape.potrait {
+  background-size:  auto 100%;   
+  max-width: 37.5%;
+  max-height: 100%;
+  left: 9.4%;
+  top: -10.6%;
+}
+
+.final-img.ori-landscape.potrait.square {
+  background-size: 100% auto;
+}
+
+.frame3.ori-landscape.landscape.square {
+  background-size: 100% auto;
+}
+.frame3.ori-landscape.potrait.square {
+  background-size: auto 100%;
+}
+
+
+.final-img-action {
+  text-align: center;
+  padding: 10px 0 0;
+  min-height: 85px;
+}
+
+.share-processing {
+  font-size: 20px;
+  color: #8DC540;
+  display: none;
+}
+
+.share-done {
+}
+
+/* Landscape */
+@media (max-device-width: 1000px) and (orientation: landscape) {
+  .btn-proceed-mobile-case {
+    display: block;
+  }
+
+  .btn-proceed,
+  .btn-upload {
+    display: none;
+  }
+}
 
 @media all and (max-width: 768px) {
   .btn-theme-camera {
@@ -309,9 +437,9 @@
 
 .ilynas-main {
   position: absolute;
-  max-width: 15vw;
+  max-width: 14vw;
   z-index: 1;
-  right: -6vw;
+  right: -6.5vw;
   top: 0;
   bottom: -14vw;
   margin: auto;
@@ -324,7 +452,7 @@
   position: absolute;
   max-width: 18vw;
   z-index: 1;
-  left: -9vw;
+  left: -10.5vw;
   top: 0;
   bottom: -17vw;
   margin: auto;
@@ -362,7 +490,7 @@
 }
 
 .final-right .btn-theme {
-  font-size: 2vw;
+  font-size: 1.6vw;
 }
 
 @media screen and (max-width: 896px) {

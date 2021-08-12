@@ -2,9 +2,15 @@ var startTime = Date.now();
 var timeThreshold = 1000;
 var frameId = 1;
 var imgBase64 = "";
+var imgBase64Full = '';
 var filename = "";
 var starCount = 0;
 var redo = false;
+var rotate = 0;
+var rotateData = 0;
+var orientationData = "landscape";
+var imgWidth = 0;
+var imgHeight = 0;
 
 $(function () {
   $(".frame-option").click(function () {
@@ -18,6 +24,13 @@ $(function () {
     $(".btn-upload").removeClass("btn-disabled");
 
     $("#iptFile").val("");
+
+    $(".final-img-frame img").attr(
+      "src",
+      "/img/reward/frame_" + frameId + ".png"
+    );
+    $(".final-img").removeClass("frame1 frame2 frame3");
+    $(".final-img").addClass("frame" + frameId);
   });
 });
 $(function () {
@@ -25,7 +38,7 @@ $(function () {
     video: true,
   };
 
-  const btnStart = document.querySelector("#start-button");
+  const btnRotate = document.querySelector("#rotate-button");
   const btnRetake = document.querySelector("#retake-button");
   const btnUse = document.querySelector("#use-button");
   const screenshotButton = document.querySelector("#screenshot-button");
@@ -34,24 +47,13 @@ $(function () {
 
   const canvas = document.createElement("canvas");
 
-  // navigator.mediaDevices
-  //     .getUserMedia(constraints)
-  //     .then(handleSuccess)
-  //     .catch(handleError);
-
-  btnStart.onclick = function () {
-    navigator.mediaDevices
-      .getUserMedia(constraints)
-      .then(handleSuccess)
-      .catch(handleError);
-  };
-
   screenshotButton.onclick = video.onclick = function () {
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     canvas.getContext("2d").drawImage(video, 0, 0);
     // Other browsers will fall back to image/png
     img.src = canvas.toDataURL("image/webp");
+    imgBase64Full = canvas.toDataURL("image/webp");
     imgBase64 = canvas.toDataURL("image/webp").split(";base64,")[1];
 
     btnUse.classList.remove("btn-disabled");
@@ -103,33 +105,8 @@ $(function () {
   // You will receive the Base64 value every time a user selects a file from his device
   // As an example I selected a one-pixel red dot GIF file from my computer
   input.onchange = function () {
-    var file = input.files[0],
-      reader = new FileReader();
-
-    reader.onloadend = function () {
-      // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
-      var b64 = reader.result.replace(/^data:.+;base64,/, "");
-
-      var formData = {
-        frameId: frameId,
-        image: b64,
-      };
-
-      $.post(BASE_URL + "/merge-image", formData, function (data) {
-        var jdata = JSON.parse(data);
-        filename = jdata.filename;
-
-        $(".final-img img").attr(
-          "src",
-          BASE_URL + "/uploads/merge/" + jdata.filename
-        );
-      });
-
-      // next with frameId
-      goToStep(3);
-    };
-
-    reader.readAsDataURL(file);
+    var file = input.files[0];
+    loadImg(file);
   };
 
   var inputCapture = document.querySelector(".ipt-capture");
@@ -137,52 +114,85 @@ $(function () {
   // You will receive the Base64 value every time a user selects a file from his device
   // As an example I selected a one-pixel red dot GIF file from my computer
   inputCapture.onchange = function () {
-    var file = inputCapture.files[0],
-      reader = new FileReader();
+    var file = inputCapture.files[0];
+    loadImg(file);
+  };
 
-    reader.onloadend = function () {
-      // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
-      var b64 = reader.result.replace(/^data:.+;base64,/, "");
-      
+  $(".btn-share").click(function () {
+    $(".share-processing").show();
+    $(".share-done").hide();
 
-      var formData = {
-        frameId: frameId,
-        image: b64,
-      };
-
-      $.post(BASE_URL + "/merge-image", formData, function (data) {
-        var jdata = JSON.parse(data);
-        filename = jdata.filename;
-
-        $(".final-img img").attr(
-          "src",
-          BASE_URL + "/uploads/merge/" + jdata.filename
-        );
-      });
-
-      // next with frameId
-      goToStep(3);
+    var formData = {
+      frameId: frameId,
+      rotate: rotateData,
+      image: imgBase64,
     };
 
-    reader.readAsDataURL(file);
-  };
+    $.post(BASE_URL + "/merge-image", formData, function (data) {
+      var jdata = JSON.parse(data);
+      filename = jdata.filename;
+
+      $(".share-processing").hide();
+      $(".share-done").show();
+    });
+  });
+
+  $("#rotate-button").click(function () {
+    rotate++;
+    rotateData++;
+    var r = 90 * rotate;
+
+    if (rotateData == 4) {
+      rotateData = 0;
+    }
+
+    $(".final-img").css("transform", "rotate(" + r + "deg)");
+
+    if (imgWidth == imgHeight) {
+      $(".final-img").addClass("square");
+    } else {
+      $(".final-img").removeClass("square");
+    }
+
+    if ($(".final-img").hasClass("landscape")) {
+      $(".final-img").removeClass("landscape");
+      $(".final-img").addClass("potrait");
+    } else {
+      $(".final-img").addClass("landscape");
+      $(".final-img").removeClass("potrait");
+    }
+  });
 
   $("#use-button").click(function () {
     if (!$("#use-button").hasClass("btn-disabled")) {
-      var formData = {
-        frameId: frameId,
-        image: imgBase64,
+      var i = new Image();
+
+      i.onload = function () {
+        imgWidth = i.width;
+        imgHeight = i.height;
+
+        var square = "";
+        if (i.width < i.height) {
+          orientationData = "potrait";
+        } else {
+          orientationData = "landscape";
+        }
+
+        if (i.width == i.height) {
+          square = "square";
+        }
+
+        $(".final-img").removeClass(
+          "landscape potrait ori-potrait ori-landscape"
+        );
+        $(".final-img").addClass(
+          square + " " + orientationData + " ori-" + orientationData
+        );
       };
 
-      $.post(BASE_URL + "/merge-image", formData, function (data) {
-        var jdata = JSON.parse(data);
-        filename = jdata.filename;
+      i.src = imgBase64Full;
 
-        $(".final-img img").attr(
-          "src",
-          BASE_URL + "/uploads/merge/" + jdata.filename
-        );
-      });
+      $(".final-img").css("background-image", "url(" + imgBase64Full + ")");
 
       // next with frameId
       goToStep(3);
@@ -194,18 +204,23 @@ $(function () {
   });
 
   $("#redo-button").click(function () {
-    var formData = {
-      filename: filename,
-    };
-
     redo = true;
 
-    $.post(BASE_URL + "/delete-image", formData, function (data) {});
+    $(".final-img").removeClass(
+      "square landscape potrait ori-potrait ori-landscape"
+    );
+
+    // $.post(BASE_URL + "/delete-image", formData, function (data) {});
     goToStep(1);
   });
 
   $(".btn-proceed").click(function () {
     if (!$(".btn-proceed").hasClass("btn-disabled")) {
+      navigator.mediaDevices
+        .getUserMedia(constraints)
+        .then(handleSuccess)
+        .catch(handleError);
+
       goToStep(2);
 
       if (redo) {
@@ -295,5 +310,49 @@ $(function () {
       $("#displayImg").attr("src", reader.result);
     };
     reader.readAsDataURL(img);
+  }
+
+  function loadImg(file) {
+    var reader = new FileReader();
+
+    reader.onloadend = function () {
+      // Since it contains the Data URI, we should remove the prefix and keep only Base64 string
+      var b64 = reader.result.replace(/^data:.+;base64,/, "");
+      imgBase64 = b64;
+
+      var i = new Image();
+
+      i.onload = function () {
+        imgWidth = i.width;
+        imgHeight = i.height;
+
+        var square = "";
+        if (i.width < i.height) {
+          orientationData = "potrait";
+        } else {
+          orientationData = "landscape";
+        }
+
+        if (i.width == i.height) {
+          square = "square";
+        }
+
+        $(".final-img").removeClass(
+          "landscape potrait ori-potrait ori-landscape"
+        );
+        $(".final-img").addClass(
+          square + " " + orientationData + " ori-" + orientationData
+        );
+      };
+
+      i.src = reader.result;
+
+      $(".final-img").css("background-image", "url(" + reader.result + ")");
+
+      // next with frameId
+      goToStep(3);
+    };
+
+    reader.readAsDataURL(file);
   }
 });
