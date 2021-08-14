@@ -90,6 +90,8 @@ $(function () {
   setViewMode();
   //set body height
 
+
+
   // setBodyHeight();
   $(".wrapper").height($("body").height());
   $(window).on("resize", setBodyHeight);
@@ -120,10 +122,16 @@ $(function () {
 function setBodyHeight() {
   $(".wrapper").height($("body").height());
 
+
   if (currPos == "portrait") {
-    setTimeout(function () {
-      location.reload();
-    }, 200);
+
+  
+    
+    if(!isMobile.any()) {
+      setTimeout(function () {
+        location.reload();
+      }, 200);
+    }
   }
 
   setViewMode();
@@ -134,6 +142,7 @@ function setViewMode() {
   } else {
     currPos = "landscape";
   }
+
   console.log("[currPos]", currPos);
 }
 function runSideButton() {
@@ -323,3 +332,31 @@ function getCookie() {
 function eraseCookie() {
   document.cookie = "vh=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
 }
+
+
+var isMobile = {
+  Android: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function () {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function () {
+    return (
+      isMobile.Android() ||
+      isMobile.BlackBerry() ||
+      isMobile.iOS() ||
+      isMobile.Opera() ||
+      isMobile.Windows()
+    );
+  },
+};

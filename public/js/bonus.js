@@ -208,6 +208,12 @@ $(function () {
   });
 
   $(".back-button").click(function () {
+    videoStream.getTracks().forEach(function (track) {
+      if (track.readyState == "live") {
+        track.stop();
+      }
+    });
+    
     goToStep(1);
   });
 
