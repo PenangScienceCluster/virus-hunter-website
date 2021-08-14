@@ -2,26 +2,26 @@
 <?= $this->section('content') ?>
 
 <script>
-  var BASE_URL = '<?= base_url() ?>'
+var BASE_URL = '<?= base_url() ?>'
 </script>
 <style>
-  .custom-modal .modal-content {
-    min-height: 40vw;
-  }
+.custom-modal .modal-content {
+  min-height: 40vw;
+}
 
-  #share_pop .gina {
-    width: 21%;
-    position: absolute;
-    left: 7%;
-    bottom: 20%;
-  }
+#share_pop .gina {
+  width: 21%;
+  position: absolute;
+  left: 7%;
+  bottom: 20%;
+}
 
-  #share_pop .ilynas {
-    width: 16%;
-    position: absolute;
-    right: 7%;
-    bottom: 20%;
-  }
+#share_pop .ilynas {
+  width: 16%;
+  position: absolute;
+  right: 7%;
+  bottom: 20%;
+}
 </style>
 
 <div class="content-bonus-wrap h-100 overview animated fadeIn reward-wrap">
@@ -37,7 +37,8 @@
 
 
         <div class="reward-title"><i class="fas fa-camera"></i> <?= lang('App.reward.booth') ?></div>
-        <h4 class="text-center font-weight-bold "><span class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
+        <h4 class="text-center font-weight-bold "><span
+            class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
 
         <div class="frame-select">
           <div class="frame-option" data-frame="1">
@@ -98,7 +99,8 @@
       </div>
       <div class="booth-bottom">
         <div class="photo-action-case">
-          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?></div>
+          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?>
+          </div>
           <div class="btn-camera-case">
             <div class="btn-theme-camera btn-sm" id="screenshot-button" disabled=""><i class="fas fa-camera"></i></div>
           </div>
@@ -108,7 +110,8 @@
             <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled=""><i class="fas fa-redo"></i>
               <?= lang('App.reward.retake') ?></div>
             <div class="btn-theme btn-sm btn-disabled" id="use-button" disabled=""><?= lang('App.reward.use_photo') ?>
-              <i class="fas fa-chevron-circle-right"></i> </div>
+              <i class="fas fa-chevron-circle-right"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -129,18 +132,21 @@
             <div class="final-left-inner">
               <div class="final-img-case">
                 <div class="final-img-frame"><img src="/img/reward/frame_1.png" class="img-fluid" />
-                  <div class="final-img frame1 landscape ori-landscape" style="background-image: url('/img/reward/test-selfie.jpg')"></div>
+                  <div class="final-img frame1 landscape ori-landscape"
+                    style="background-image: url('/img/reward/test-selfie.jpg')"></div>
                 </div>
               </div>
             </div>
             <div class="final-img-action">
-              <div class="btn-theme-rotate btn-sm mx-auto" id="rotate-button"><i class="fas fa-undo fa-flip-horizontal "></i></div>
+              <div class="btn-theme-rotate btn-sm mx-auto" id="rotate-button"><i
+                  class="fas fa-undo fa-flip-horizontal "></i></div>
             </div>
 
           </div>
           <div class="final-right">
             <div class="share-desc"><?= lang('App.reward.share_it') ?></div>
-            <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" data-toggle="modal" data-target="#share_pop">
+            <div class="position-relative btn-theme  mx-auto btn-share completed-action-btn" data-toggle="modal"
+              data-target="#share_pop">
               <?= lang('App.reward.share_photo') ?>
             </div>
             <div class="position-relative btn-theme  mx-auto  completed-action-btn" id="redo-button">
@@ -156,7 +162,8 @@
 </div>
 
 
-<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -179,10 +186,12 @@
               <h4 class="mb-4">
                 <?= lang('App.completed.share_on') ?>:
               </h4>
-              <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+              <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+                data-url="<?= base_url() ?>">
                 <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
               </a>
-              <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+              <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>"
+                data-url="<?= base_url() ?>">
                 <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
               </a>
             </div>
@@ -196,7 +205,7 @@
 
 
 <script>
-  var lang = '<?= locale() ?>';
+var lang = '<?= locale() ?>';
 </script>
 
 <?= $this->endSection()  ?>

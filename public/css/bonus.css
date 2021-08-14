@@ -167,7 +167,7 @@
 
 .final-right {
   flex: 1;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 .final-img {
@@ -311,20 +311,20 @@
   max-width: 52.5%;
   max-height: 80.5%;
   top: 9.63%;
-  background-size:  100% auto;
+  background-size: 100% auto;
 }
 
 .frame2.ori-potrait.landscape {
   max-width: 32.167%;
   max-height: 51.269%;
   top: 15.63%;
-  background-size:  100% auto;
+  background-size: 100% auto;
 }
 
 .frame3.ori-potrait.landscape {
   max-width: 37.5%;
   max-height: 100%;
-  background-size: 100% auto;    
+  background-size: 100% auto;
   left: 9.4%;
   top: -10.6%;
 }
@@ -333,18 +333,18 @@
   max-width: 52.5%;
   max-height: 80.5%;
   top: 9.63%;
-  background-size:  auto 100%;   
+  background-size: auto 100%;
 }
 
 .frame2.ori-landscape.potrait {
   max-width: 32.167%;
   max-height: 51.269%;
   top: 15.63%;
-  background-size:  auto 100%;   
+  background-size: auto 100%;
 }
 
 .frame3.ori-landscape.potrait {
-  background-size:  auto 100%;   
+  background-size: auto 100%;
   max-width: 37.5%;
   max-height: 100%;
   left: 9.4%;
@@ -362,7 +362,6 @@
   background-size: auto 100%;
 }
 
-
 .final-img-action {
   text-align: center;
   padding: 10px 0 0;
@@ -371,7 +370,7 @@
 
 .share-processing {
   font-size: 20px;
-  color: #8DC540;
+  color: #8dc540;
   display: none;
 }
 
