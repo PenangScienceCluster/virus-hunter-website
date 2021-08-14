@@ -21,39 +21,41 @@ class Merge extends BaseController
     $image = imagecreatefromstring(base64_decode($imageBase64));
     $frame = imagecreatefromstring(file_get_contents($your_frame_image));
 
-    $mime = getimagesizefromstring(base64_decode($imageBase64))["mime"];
-
+    $imgData = getimagesizefromstring(base64_decode($imageBase64));
+    $mime = $imgData['mime'];
+  
     // check exif
-    if($mime != 'image/webp') {
-      $exif = exif_read_data("data://".$mime.";base64," . $imageBase64);
-
-        if($exif && isset($exif['Orientation'])) {
-          $orientation = $exif['Orientation'];
-          if($orientation != 1){
-            $deg = 0;
-            switch ($orientation) {
-              case 3:
-                $deg = 180;
-                break;
-              case 6:
-                $deg = 270;
-                break;
-              case 8:
-                $deg = 90;
-                break;
-            }
-            if ($deg) {
-              $image = imagerotate($image, $deg, 0);        
-            }
-          } // if there is some rotation necessary
-        } // if have the exif orientation info
-    }
-        // end of check exif
-
+    if ($mime == 'image/jpeg' || $mime == 'image/jpg') {
     
+      $exif = exif_read_data("data://image/jpeg;base64," . $imageBase64);
+    
+      if ($exif && isset($exif['Orientation'])) {
+        $orientation = $exif['Orientation'];
+        if ($orientation != 1) {
+          $deg = 0;
+          switch ($orientation) {
+            case 3:
+              $deg = 180;
+              break;
+            case 6:
+              $deg = 270;
+              break;
+            case 8:
+              $deg = 90;
+              break;
+          }
+          if ($deg) {
+            $image = imagerotate($image, $deg, 0);
+          }
+        } // if there is some rotation necessary
+      } // if have the exif orientation info
+    }
+    // end of check exif
+
+
 
     // do rotate 
-    if($rotate != 0) {
+    if ($rotate != 0) {
       switch ($rotate) {
         case 1:
           $deg = -90;
@@ -66,7 +68,7 @@ class Merge extends BaseController
           break;
       }
       if ($deg) {
-        $image = imagerotate($image, $deg, 0);        
+        $image = imagerotate($image, $deg, 0);
       }
     }
     // end do rotate
@@ -167,9 +169,9 @@ class Merge extends BaseController
 
     // check exif
     $exif = exif_read_data($your_original_image);
-    if($exif && isset($exif['Orientation'])) {
+    if ($exif && isset($exif['Orientation'])) {
       $orientation = $exif['Orientation'];
-      if($orientation != 1){
+      if ($orientation != 1) {
         $deg = 0;
         switch ($orientation) {
           case 3:
@@ -183,14 +185,14 @@ class Merge extends BaseController
             break;
         }
         if ($deg) {
-          $image = imagerotate($image, $deg, 0);        
+          $image = imagerotate($image, $deg, 0);
         }
       } // if there is some rotation necessary
     } // if have the exif orientation info
     // end of check exif
 
     // do rotate 
-    if($rotate != 0) {
+    if ($rotate != 0) {
       switch ($rotate) {
         case 1:
           $deg = -90;
@@ -203,7 +205,7 @@ class Merge extends BaseController
           break;
       }
       if ($deg) {
-        $image = imagerotate($image, $deg, 0);        
+        $image = imagerotate($image, $deg, 0);
       }
     }
     // end do rotate
@@ -250,7 +252,7 @@ class Merge extends BaseController
     imagefill($merged_image, 0, 0, $transparentColor);
     imagesavealpha($merged_image, true);
 
-    
+
 
     //resize 
     $ratio_img = $resizeWidth / $resizeHeight;

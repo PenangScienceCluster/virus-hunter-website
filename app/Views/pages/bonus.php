@@ -30,10 +30,12 @@ var BASE_URL = '<?= base_url() ?>'
   <div class="reward-steps active" id="step-1">
     <div class="reward-center">
 
-      <div class="gina-main"><img src="/img/characters/gina-1.png" class="img-fluid" /></div>
-      <div class="ilynas-main"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
-
       <div class="board">
+
+        <div class="gina-main"><img src="/img/characters/gina-1.png" class="img-fluid" /></div>
+        <div class="ilynas-main"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
+
+
         <div class="reward-title"><i class="fas fa-camera"></i> <?= lang('App.reward.booth') ?></div>
         <h4 class="text-center font-weight-bold "><span
             class="text-center font-weight-bold"><?= lang('App.reward.subtitle') ?></span></h4>
@@ -118,11 +120,11 @@ var BASE_URL = '<?= base_url() ?>'
 
   <div class="reward-steps " id="step-3">
     <div class="reward-center">
-
-      <div class="gina-main"><img src="/img/characters/gina-1.png" class="img-fluid" /></div>
-      <div class="ilynas-main"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
-
       <div class="board">
+
+        <div class="gina-main"><img src="/img/characters/gina-1.png" class="img-fluid" /></div>
+        <div class="ilynas-main"><img src="/img/characters/ilyas-1.png" class="img-fluid" /></div>
+
         <div class="reward-title"><i class="fas fa-camera"></i> <?= lang('App.reward.booth') ?></div>
 
         <div class="final-case">
@@ -136,7 +138,7 @@ var BASE_URL = '<?= base_url() ?>'
               </div>
             </div>
             <div class="final-img-action">
-              <div class="btn-theme-camera btn-sm mx-auto" id="rotate-button"><i
+              <div class="btn-theme-rotate btn-sm mx-auto" id="rotate-button"><i
                   class="fas fa-undo fa-flip-horizontal "></i></div>
             </div>
 

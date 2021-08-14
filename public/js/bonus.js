@@ -2,7 +2,7 @@ var startTime = Date.now();
 var timeThreshold = 1000;
 var frameId = 1;
 var imgBase64 = "";
-var imgBase64Full = '';
+var imgBase64Full = "";
 var filename = "";
 var starCount = 0;
 var redo = false;
@@ -11,6 +11,7 @@ var rotateData = 0;
 var orientationData = "landscape";
 var imgWidth = 0;
 var imgHeight = 0;
+var videoStream = null;
 
 $(function () {
   $(".frame-option").click(function () {
@@ -79,6 +80,7 @@ $(function () {
   function handleSuccess(stream) {
     detectPermissionDialog(true);
     screenshotButton.disabled = false;
+    videoStream  = stream
     video.srcObject = stream;
 
     $(".btn-camera-case").addClass("active");
@@ -165,6 +167,12 @@ $(function () {
 
   $("#use-button").click(function () {
     if (!$("#use-button").hasClass("btn-disabled")) {
+      videoStream.getTracks().forEach(function (track) {
+        if (track.readyState == "live") {
+          track.stop();
+        }
+      });
+
       var i = new Image();
 
       i.onload = function () {

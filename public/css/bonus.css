@@ -205,17 +205,41 @@
   box-shadow: 1px 1px #84190f, 2px 2px #84190f, 3px 3px #84190f, 4px 4px #84190f;
 }
 
+.btn-theme-camera:active {
+  margin: 4px 0 0 4px;
+  box-shadow: none;
+}
+
+.btn-theme-rotate {
+  font-family: tenbyfive;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8vw;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  background: #ed2616;
+  border-radius: 50%;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px #84190f, 2px 2px #84190f, 3px 3px #84190f;
+}
+
+.btn-theme-rotate:active {
+  margin: 3px 0 0 3px;
+  box-shadow: none;
+}
+
+
+
 #start-button {
   display: none;
 }
 
 #start-button.active {
   display: block;
-}
-
-.btn-theme-camera:active {
-  margin: 4px 0 0 4px;
-  box-shadow: none;
 }
 
 .btn-proceed-mobile-case {
@@ -439,9 +463,7 @@
   max-width: 14vw;
   z-index: 1;
   right: -6.5vw;
-  top: 0;
-  bottom: -14vw;
-  margin: auto;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -452,9 +474,7 @@
   max-width: 18vw;
   z-index: 1;
   left: -10.5vw;
-  top: 0;
-  bottom: -17vw;
-  margin: auto;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -502,17 +522,17 @@
   }
 
   .ilynas-main {
-    max-width: 12vw;
+    max-width: 14vw;
     z-index: 1;
     right: -5vw;
-    bottom: 6vh;
+    bottom: 2vw;
   }
 
   .gina-main {
-    max-width: 16vw;
+    max-width: 18vw;
     z-index: 1;
     left: -10vw;
-    bottom: 6vh;
+    bottom: 2vw;
   }
 
   .reward-subtitle {
