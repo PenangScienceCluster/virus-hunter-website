@@ -97,7 +97,8 @@ var BASE_URL = '<?= base_url() ?>'
       </div>
       <div class="booth-bottom">
         <div class="photo-action-case">
-          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?></div>
+          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?>
+          </div>
           <div class="btn-camera-case">
             <div class="btn-theme-camera btn-sm" id="screenshot-button" disabled=""><i class="fas fa-camera"></i></div>
           </div>
@@ -107,7 +108,8 @@ var BASE_URL = '<?= base_url() ?>'
             <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled=""><i class="fas fa-redo"></i>
               <?= lang('App.reward.retake') ?></div>
             <div class="btn-theme btn-sm btn-disabled" id="use-button" disabled=""><?= lang('App.reward.use_photo') ?>
-              <i class="fas fa-chevron-circle-right"></i> </div>
+              <i class="fas fa-chevron-circle-right"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -128,12 +130,14 @@ var BASE_URL = '<?= base_url() ?>'
             <div class="final-left-inner">
               <div class="final-img-case">
                 <div class="final-img-frame"><img src="/img/reward/frame_1.png" class="img-fluid" />
-                  <div class="final-img frame1 landscape ori-landscape" style="background-image: url('/img/reward/test-selfie.jpg')"></div>
+                  <div class="final-img frame1 landscape ori-landscape"
+                    style="background-image: url('/img/reward/test-selfie.jpg')"></div>
                 </div>
               </div>
             </div>
             <div class="final-img-action">
-              <div class="btn-theme-camera btn-sm mx-auto" id="rotate-button"><i class="fas fa-undo fa-flip-horizontal "></i></div>
+              <div class="btn-theme-camera btn-sm mx-auto" id="rotate-button"><i
+                  class="fas fa-undo fa-flip-horizontal "></i></div>
             </div>
 
           </div>
@@ -180,10 +184,12 @@ var BASE_URL = '<?= base_url() ?>'
               <h4 class="mb-4">
                 <?= lang('App.completed.share_on') ?>:
               </h4>
-              <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+              <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+                data-url="<?= base_url() ?>">
                 <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
               </a>
-              <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+              <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>"
+                data-url="<?= base_url() ?>">
                 <img src="/img/completed/btn-share-whatsapp-on.png" style="width:8vw" />
               </a>
             </div>
