@@ -340,7 +340,7 @@ return [
       'Read more about how to protect yourself and your family and friends from different diseases <a href="{0}" target="_blank">here</a>.'
     ],
     'pop_title' => 'Let\'s learn with family and friends, <br>and become Virus Hunters together!',
-    'share_on' => 'Share on'
+    'share_on' => 'Share this website with your friends and family!'
   ],
 
   'reward' => [
@@ -358,5 +358,6 @@ return [
     'take_photo' => 'Take Photo',
     'upload_photo' => 'Upload Photo',
     'upload_take_photo' => 'Upload/Take Photo',
+    'share_on' => 'Share your photo with your friends and family<br>and tag us <b>@pscpen #VirusHunterMalaysia!</b>'
   ]
 ];

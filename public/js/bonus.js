@@ -235,6 +235,8 @@ $(function () {
         .then(handleSuccess)
         .catch(handleError);
 
+        $(".booth-frame img").attr("src", "/img/reward/frame_"+frameId+".png");
+
       goToStep(2);
 
       if (redo) {
