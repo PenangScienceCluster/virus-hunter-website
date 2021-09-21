@@ -1,26 +1,27 @@
 <?= $this->extend('layouts/base') ?>
 <?= $this->section('content') ?>
 <style>
-  .custom-modal .modal-content {
-    min-height: 40vw;
-  }
+.custom-modal .modal-content {
+  min-height: 40vw;
+}
 
-  #share_pop .gina {
-    width: 21%;
-    position: absolute;
-    left: 7%;
-    bottom: 20%;
-  }
+#share_pop .gina {
+  width: 21%;
+  position: absolute;
+  left: 7%;
+  bottom: 20%;
+}
 
-  #share_pop .ilynas {
-    width: 16%;
-    position: absolute;
-    right: 7%;
-    bottom: 20%;
-  }
+#share_pop .ilynas {
+  width: 16%;
+  position: absolute;
+  right: 7%;
+  bottom: 20%;
+}
 </style>
 
-<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="custom-modal modal fade" id="share_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -35,9 +36,10 @@
               <?= lang('App.completed.pop_title') ?>
             </h4>
             <h4 class="mb-4">
-              <?= lang('App.completed.share_on') ?>:
+              <?= lang('App.completed.share_on') ?>
             </h4>
-            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
+            <a href="#" class="mr-4 icon" class="icon" id="fb" data-desc="<?= lang('App.share_caption') ?>"
+              data-url="<?= base_url() ?>">
               <img src="/img/completed/btn-share-fb-on.png" style="width:8vw" />
             </a>
             <a href="#" class="icon" id="wa" data-desc="<?= lang('App.share_caption') ?>" data-url="<?= base_url() ?>">
@@ -160,22 +162,22 @@
   </div>
 </div>
 <style>
-  .carousel-item {
-    font-size: 1vw;
-  }
+.carousel-item {
+  font-size: 1vw;
+}
 
-  .carousel-control-prev {
-    left: -2vw;
-  }
+.carousel-control-prev {
+  left: -2vw;
+}
 
-  .carousel-control-next {
-    right: -2vw;
-  }
+.carousel-control-next {
+  right: -2vw;
+}
 </style>
 
 <?= view('pages/bottom-logo') ?>
 <script>
-  var lang = '<?= locale() ?>';
+var lang = '<?= locale() ?>';
 </script>
 
 <?= $this->endSection()  ?>
