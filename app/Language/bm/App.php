@@ -337,5 +337,25 @@ return [
     ],
     'pop_title' => 'Jom belajar bersama keluarga dan kawan-kawan, <br>dan menjadi <i>Virus Hunter</i> bersama-sama!',
     'share_on' => 'Kongsi melalui'
+  ],
+
+  'reward' => [
+    'title' => 'Bonus Reward',
+    'booth' => 'Booth',
+    'subtitle' => 'Raikan pencapaian anda sebagai Virus Hunter dengan sesi bergambar!<br> Pilih bingkai kegemaran anda dibawah',
+    'proceed_photo' => 'proceed to take photo',
+    'share_it' => 'Kongsikan gambar anda di media sosial dan tag <b><i>@pscpen #VirusHunterMalaysia</b></i> untuk dipaparkan di laman kami!',
+    'redo' => 'Redo',
+    'retake' => 'Ambil Semula',
+    'retake_photo' => 'Ambil Semula',
+    'share_photo' => 'Kongsi gambar',
+    'start' => 'Mula',
+    'use_photo' => 'Seterusnya',
+    'take_photo' => 'Ambil gambar',
+    'upload_photo' => 'Muat naik gambar',
+    'upload_take_photo' => 'Muat naik/Ambil gambar',
+    'share_on' => 'Share your photo with your friends and family<br>and tag us <b>@pscpen #VirusHunterMalaysia!</b>',
+    'btn_rotate' => 'Putar',
+    'loading' => 'Loading'
   ]
 ];

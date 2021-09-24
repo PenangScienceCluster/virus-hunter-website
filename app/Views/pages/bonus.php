@@ -102,7 +102,8 @@ var BASE_URL = '<?= base_url() ?>'
       </div>
       <div class="booth-bottom">
         <div class="photo-action-case">
-          <div class="btn-theme btn-sm back-button"><i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?>
+          <div class="btn-theme btn-sm back-button">
+            <i class="fas fa-chevron-circle-left"></i> <?= lang('App.back') ?>
           </div>
           <div class="btn-camera-case">
             <div class="btn-theme-camera btn-sm" id="screenshot-button" disabled=""><i class="fas fa-camera"></i></div>
@@ -110,8 +111,10 @@ var BASE_URL = '<?= base_url() ?>'
         </div>
         <div class="photo-sub-action-case">
           <div class="photo-sub-action-case-inner">
-            <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled=""><i class="fas fa-redo"></i>
-              <?= lang('App.reward.retake') ?></div>
+            <div class="btn-theme btn-sm btn-disabled" id="retake-button" disabled="">
+              <i class="fas fa-redo"></i>
+              <?= lang('App.reward.retake') ?>
+            </div>
             <div class="btn-theme btn-sm btn-disabled" id="use-button" disabled=""><?= lang('App.reward.use_photo') ?>
               <i class="fas fa-chevron-circle-right"></i>
             </div>
@@ -141,8 +144,9 @@ var BASE_URL = '<?= base_url() ?>'
               </div>
             </div>
             <div class="final-img-action">
-              <div class="btn-theme-rotate btn-sm mx-auto" id="rotate-button"><i
-                  class="fas fa-undo fa-flip-horizontal "></i></div>
+              <div class="btn-theme btn-sm mx-auto" id="rotate-button"><i class="fas fa-undo fa-flip-horizontal "></i>
+                <?= lang('App.reward.btn_rotate') ?>
+              </div>
             </div>
 
           </div>
@@ -182,7 +186,7 @@ var BASE_URL = '<?= base_url() ?>'
               <div class="fa-3x">
                 <i class="fas fa-cog fa-spin"></i>
               </div>
-              <h4 class="text-center font-weight-bold" style="color: #000">Loading</h4>
+              <h4 class="text-center font-weight-bold" style="color: #000"><?= lang('App.reward.loading') ?></h4>
             </div>
 
             <div class="share-done">

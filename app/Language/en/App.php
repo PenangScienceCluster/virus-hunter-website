@@ -358,6 +358,8 @@ return [
     'take_photo' => 'Take Photo',
     'upload_photo' => 'Upload Photo',
     'upload_take_photo' => 'Upload/Take Photo',
-    'share_on' => 'Share your photo with your friends and family<br>and tag us <b>@pscpen #VirusHunterMalaysia!</b>'
+    'share_on' => 'Kongsikan gambar anda bersama rakan-rakan dan keluarga dan tag kami <b>@pscpen #VirusHunterMalaysia</b>!',
+    'btn_rotate' => 'Rotate',
+    'loading' => 'Loading'
   ]
 ];
