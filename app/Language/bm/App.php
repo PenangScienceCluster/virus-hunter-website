@@ -354,7 +354,7 @@ return [
     'take_photo' => 'Ambil gambar',
     'upload_photo' => 'Muat naik gambar',
     'upload_take_photo' => 'Muat naik/Ambil gambar',
-    'share_on' => 'Share your photo with your friends and family<br>and tag us <b>@pscpen #VirusHunterMalaysia!</b>',
+    'share_on' => 'Share your photo with your friends and family<br>and tag us <b>@pscpen #VirusHunterMalaysia</b>!',
     'btn_rotate' => 'Putar',
     'loading' => 'Loading'
   ]
