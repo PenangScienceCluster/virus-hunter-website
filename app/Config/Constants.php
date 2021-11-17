@@ -12,15 +12,6 @@
 // existing namespaces of App\* namespaced-classes.
 //
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
-defined('URL_VALIDATION') || define('URL_VALIDATION', '//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js');
-defined('URL_VALIDATION_METHOD') || define('URL_VALIDATION_METHOD', '//cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js');
-
-// defined('URL_DATATABLES_JS') || define('URL_DATATABLES_JS', 'https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js');
-// defined('URL_DATATABLES_BOOTSTAP_JS') || define('URL_DATATABLES_BOOTSTAP_JS', 'https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js');
-// defined('URL_DATATABLES_CSS') || define('URL_DATATABLES_CSS', 'https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css');
-
-defined('MOMMENT_JS') || define('MOMMENT_JS', '//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js');
-defined('COMMON_JS') || define('COMMON_JS', '/common/js');
 
 /*
 |--------------------------------------------------------------------------

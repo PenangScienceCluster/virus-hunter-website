@@ -342,7 +342,7 @@ return [
   'reward' => [
     'title' => 'Bonus Reward',
     'booth' => 'Booth',
-    'subtitle' => 'Raikan pencapaian anda sebagai Virus Hunter dengan sesi bergambar!<br> Pilih bingkai kegemaran anda dibawah',
+    'subtitle' => 'Raikan pencapaian anda sebagai Virus Hunter dengan sesi bergambar!<br> Pilih bingkai kegemaran anda dibawah.',
     'proceed_photo' => 'proceed to take photo',
     'share_it' => 'Kongsikan gambar anda di media sosial dan tag <b><i>@pscpen #VirusHunterMalaysia</b></i> untuk dipaparkan di laman kami!',
     'redo' => 'Redo',
