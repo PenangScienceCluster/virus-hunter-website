@@ -1,64 +1,64 @@
-# CodeIgniter 4 Application Starter
+# PSC Virus Hunter Website Source Code
+ 
+## Introduction
 
-## What is CodeIgniter?
+Herein contains the sourcecode to deploy your own version of Virus Hunter, or to modify the files within as you desire for your own web project. All trademarks and logos if reused require permission from their respective owners.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+The code was built using CodeIgniter and there were several quirks that need to be worked with for the site to function. The documentation in this README.me file will be updated as we get more question or stumble on other issues.
 
-This repository holds a composer-installable app starter.
-It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Requirements
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+We recommend installing the following packages on an Ubuntu 20.04 server. This is our main server, and so gets the most amount of testing.
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
+### Install packages from official Ubuntu repositories
 
-## Installation & updates
+We first install all the packages from the Ubuntu repositories.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+`sudo apt install php php-intl php-mbstring php-json php-mysqlnd php-xml libcurl php-common php-cli php-curl unzip libapache2-mod-php apache2 mariadb-server`
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### Activate php plugins
 
-## Setup
+These PHP plugins should be enabled, if not they can be enabled with:
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+`phpenmod intl`
+`phpenmod php-json`
+`phpenmod php-mysqlnd`
+`phpenmod php-xml`
 
-## Important Change with index.php
+### Install composer
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Composer is the platform used to deploy CodeIgniter4 and needs to be separately installed using the two lines of code below:
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+`curl -sS https://getcomposer.org/installer -o composer-setup.php`
+`php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'
+; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"`
 
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
+Run the command `composer` to check if the program is installed.
 
-## Repository Management
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## Clone this repository
 
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
+Run `git clone` for this repository.
 
-## Server Requirements
+## Apache config
 
-PHP version 7.2 or higher is required, with the following extensions installed: 
+Copy the default apache config file:
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+`cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/vh.conf`
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Make sure the document root is pointed to the _public_ folder in the project file in the VirtualHost section. For example, if the project folder is located in `/var/www/vh`:
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+`DocumentRoot /var/www/vh/public`
+
+The site can then be activated by disabling the placeholder config, and activating the appropriate config file. In our example:
+
+`sudo a2dissite 000-default.conf`
+`sudo a2ensite vh.conf`
+`sudo systemctl reload apache2`
+
+## Making folders writable
+
+The site as it is constructed now requires two folders to be globally writable to function. We do not recommend doing this unless you know how to mitigate this potential security hole.
+
+`chmod -R 777 writable/`
+`chmod -R 777 public/uploads/`
